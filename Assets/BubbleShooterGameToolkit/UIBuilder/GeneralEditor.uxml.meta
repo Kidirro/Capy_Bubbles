@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 96edd59add68f4d14a5b665285ada65a
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 13804, guid: 0000000000000000e000000000000000, type: 0}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/UIBuilder/GeneralEditor.uxml
+  uploadId: 692633

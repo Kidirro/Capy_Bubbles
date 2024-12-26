@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 78b3684289fdc41e3a2f214c06c40759
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Rewards/Aim.prefab
+  uploadId: 0

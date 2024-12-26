@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 9a47f5192e904596b01c2733e2bfcef8
+timeCreated: 1701799608
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/PlayObjects/Types/Sharp.cs
+  uploadId: 692633

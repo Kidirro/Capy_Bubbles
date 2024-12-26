@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1c479a4314575443dbebcb8ff00e23cd
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Animation/Gameplay/Bees.controller
+  uploadId: 692633

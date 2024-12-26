@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 417adac05521446ba62d9ce36bf3b4c1, type: 3}
+  m_Name: AdsSettings
+  m_EditorClassIdentifier: 
+  adProfiles:
+  - name: yandex  Android
+    enable: 1
+    testInEditor: 1
+    platforms: 0
+    appId: 12287987
+    adsHandler: {fileID: 11400000, guid: 371e174ce75252375b9b0d561b592e5a, type: 2}
+    adElements:
+    - placementId: R-M-12287987-2
+      adReference: {fileID: 11400000, guid: f9303f4b583464bc08f45f673b581f90, type: 2}
+      popup:
+        popup: {fileID: 1190428232776846613, guid: f44d611e5b0d4404ca962caa3c75695a, type: 3}
+        showOnOpen: 1
+        showOnClose: 0
+    - placementId: R-M-12287987-1
+      adReference: {fileID: 11400000, guid: c831bd9c00a134b8db57a0d96d34a238, type: 2}
+      popup:
+        popup: {fileID: 0}
+        showOnOpen: 0
+        showOnClose: 0

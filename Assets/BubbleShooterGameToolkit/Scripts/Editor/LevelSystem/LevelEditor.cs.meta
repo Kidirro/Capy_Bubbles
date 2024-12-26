@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: ffccd14be821463f87adc7ad3234eee0
+timeCreated: 1653197098
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Editor/LevelSystem/LevelEditor.cs
+  uploadId: 692633

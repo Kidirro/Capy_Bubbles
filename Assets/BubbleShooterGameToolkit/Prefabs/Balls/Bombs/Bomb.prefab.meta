@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c0f5670e2fb75a74ca88e705c8b13609
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Balls/Bombs/Bomb.prefab
+  uploadId: 692633

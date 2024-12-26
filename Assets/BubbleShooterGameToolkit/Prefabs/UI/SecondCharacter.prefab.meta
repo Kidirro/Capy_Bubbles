@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 311da9ed1604c1d43ac7092822a19d5a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/UI/SecondCharacter.prefab
+  uploadId: 692633

@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 10f5c431c993411798ae307cff0924f0
+timeCreated: 1677829067
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/FieldObjects/Hole.cs
+  uploadId: 692633

@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 25e1e3143d124519a30a75092cd73e03
+timeCreated: 1654621499
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/PlayObjects/Types/RotatingLevelBall.cs
+  uploadId: 692633

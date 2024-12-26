@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 65593549078f46058196cfd587538b0f
+timeCreated: 1679499301
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/PlayObjects/BallCollectEventArgs.cs
+  uploadId: 692633

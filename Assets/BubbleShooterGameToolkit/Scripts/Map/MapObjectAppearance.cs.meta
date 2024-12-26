@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: d5bd90de4484439591515565664d1469
+timeCreated: 1692163227
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Map/MapObjectAppearance.cs
+  uploadId: 692633

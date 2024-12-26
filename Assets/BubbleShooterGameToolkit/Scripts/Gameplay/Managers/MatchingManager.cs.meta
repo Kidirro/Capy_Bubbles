@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 6cffd26b8e544b7195e3f6bfef8b1fd9
+timeCreated: 1667321014
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/Managers/MatchingManager.cs
+  uploadId: 692633

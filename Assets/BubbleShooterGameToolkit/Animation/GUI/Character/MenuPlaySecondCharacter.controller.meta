@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3d38b43a550cd4f7abb0945dc01bffeb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Animation/GUI/Character/MenuPlaySecondCharacter.controller
+  uploadId: 692633

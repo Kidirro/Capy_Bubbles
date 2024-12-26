@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 599b93f6f14444009139f0b53c1997ae
+timeCreated: 1695659487
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/Targets/BabyAnimatedTargetBase.cs
+  uploadId: 692633

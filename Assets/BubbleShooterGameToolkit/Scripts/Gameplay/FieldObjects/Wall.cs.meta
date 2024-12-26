@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: d86ba4119cde479ebcfeee2f0d27e96f
+timeCreated: 1703880079
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/FieldObjects/Wall.cs
+  uploadId: 692633

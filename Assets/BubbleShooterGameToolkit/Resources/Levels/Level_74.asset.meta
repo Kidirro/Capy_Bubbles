@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 50481df5976ffd64c85f1404cba5d529
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Resources/Levels/Level_74.asset
+  uploadId: 692633

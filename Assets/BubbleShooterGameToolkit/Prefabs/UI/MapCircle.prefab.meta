@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a5d235b79a30449f3933c7de5650daed
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/UI/MapCircle.prefab
+  uploadId: 692633

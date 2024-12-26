@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a4753a33e5fbb430ba8806e9c39613af
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Resources/BillingMode.json
+  uploadId: 692633

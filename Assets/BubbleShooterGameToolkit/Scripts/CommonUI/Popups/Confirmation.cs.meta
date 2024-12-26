@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: f68cb93801394fe6880d7475be93e111
+timeCreated: 1680281108
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/CommonUI/Popups/Confirmation.cs
+  uploadId: 692633

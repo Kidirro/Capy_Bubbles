@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ebadd48ec8b927a419a68d6e952fd682
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 
+  assetPath: Assets/BubbleShooterGameToolkit/Animation/GUI/Character/blink.anim
+  uploadId: 0

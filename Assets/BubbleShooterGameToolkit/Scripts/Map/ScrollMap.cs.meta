@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: d054400622a2485ebbdc438c31c84cfc
+timeCreated: 1708525411
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Map/ScrollMap.cs
+  uploadId: 692633

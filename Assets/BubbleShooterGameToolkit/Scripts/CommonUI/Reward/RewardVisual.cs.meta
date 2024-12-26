@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 119251b6ae834c88a639a83ccec882d7
+timeCreated: 1691995253
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/CommonUI/Reward/RewardVisual.cs
+  uploadId: 692633

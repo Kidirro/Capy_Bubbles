@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b4e145444347c46c4bb06a0362d6a3aa
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Balls/Bombs/DIrectionalBomb3.prefab
+  uploadId: 692633

@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: b1dfae04661f45e89e18daca06a34c39
+timeCreated: 1689757674
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/PlayObjects/BallPlaceholder.cs
+  uploadId: 692633

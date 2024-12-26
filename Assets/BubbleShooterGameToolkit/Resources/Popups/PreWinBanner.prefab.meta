@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 950f6d17b181bfe40a5830b08d2e7084
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 
+  assetPath: Assets/BubbleShooterGameToolkit/Resources/Popups/PreWinBanner.prefab
+  uploadId: 0

@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: bf4e4aa0d9324f6a9dd511e5720f4383
+timeCreated: 1654867543
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Utils/TransformUtils.cs
+  uploadId: 692633

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4eb0374ae4db4994f974586c4ab7f6ea
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/CommonUI/Popups/AudioSettingsUI.cs
+  uploadId: 692633

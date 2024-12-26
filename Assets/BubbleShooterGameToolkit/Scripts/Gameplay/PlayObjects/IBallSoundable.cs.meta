@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 7ff9b4d83ae54ad4a3020c911e1b12e7
+timeCreated: 1707815779
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/PlayObjects/IBallSoundable.cs
+  uploadId: 692633

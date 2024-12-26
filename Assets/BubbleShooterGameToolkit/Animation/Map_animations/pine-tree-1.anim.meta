@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cc9cd4e3dbdd6734bb4504aec717b57d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Animation/Map_animations/pine-tree-1.anim
+  uploadId: 692633

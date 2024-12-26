@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3372b6fd62f2b4e058c6757fe9d4afd3
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Effects/CoinEffect.prefab
+  uploadId: 692633

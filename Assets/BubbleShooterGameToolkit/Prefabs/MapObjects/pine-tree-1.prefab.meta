@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b668ff2c5d299304ea5d775b4c52b5ae
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/MapObjects/pine-tree-1.prefab
+  uploadId: 692633

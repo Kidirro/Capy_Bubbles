@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 1cee1c82a5354085b09b6d3dbe89b314
+timeCreated: 1693382139
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/CommonUI/Editor/BezierCurveInspector.cs
+  uploadId: 692633

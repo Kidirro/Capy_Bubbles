@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e827da6147c37d6498459c04c83b9142
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/TutorialInfo/Readme.asset
+  uploadId: 692633

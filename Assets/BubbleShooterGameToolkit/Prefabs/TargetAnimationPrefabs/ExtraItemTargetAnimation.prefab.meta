@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b680a78940c564ed094a0011b694b7d6
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/TargetAnimationPrefabs/ExtraItemTargetAnimation.prefab
+  uploadId: 0

@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 825348fc15cc48b7b91b0f44f4424226
+timeCreated: 1707898089
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/Animations/WaveEffectProcessor.cs
+  uploadId: 692633

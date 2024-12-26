@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 0dfd4cd8e07b42ccaacf9ecd60bbf4f4
+timeCreated: 1709305821
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/FieldObjects/BottomWalForRotate.cs
+  uploadId: 692633

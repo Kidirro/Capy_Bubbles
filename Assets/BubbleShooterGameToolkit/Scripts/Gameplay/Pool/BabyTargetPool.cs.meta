@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 5570b758d8394300ba0bf522d278f437
+timeCreated: 1697022647
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/Pool/BabyTargetPool.cs
+  uploadId: 692633

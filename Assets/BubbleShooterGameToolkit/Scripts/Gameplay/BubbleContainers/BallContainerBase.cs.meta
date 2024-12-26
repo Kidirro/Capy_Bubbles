@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 6d8303a9995846fb99b6dbae3bcbfd02
+timeCreated: 1650109987
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/BubbleContainers/BallContainerBase.cs
+  uploadId: 692633

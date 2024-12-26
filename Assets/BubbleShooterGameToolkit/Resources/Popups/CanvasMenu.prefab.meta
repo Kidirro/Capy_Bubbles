@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7b45f937fb8dc4a1eb9bd283508cdd5f
+timeCreated: 1485424368
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Resources/Popups/CanvasMenu.prefab
+  uploadId: 692633

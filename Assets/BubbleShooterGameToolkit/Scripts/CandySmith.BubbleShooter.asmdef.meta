@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 346e0be380da64dff8c8666ba132f638
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/CandySmith.BubbleShooter.asmdef
+  uploadId: 692633

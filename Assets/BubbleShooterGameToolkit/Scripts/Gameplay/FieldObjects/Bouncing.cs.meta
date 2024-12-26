@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: d60d7de08ca248708b23bca48360b99e
+timeCreated: 1690466187
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/FieldObjects/Bouncing.cs
+  uploadId: 692633

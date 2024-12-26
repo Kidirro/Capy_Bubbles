@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: e393e17f265f4314be795dcbc434ac2a
+timeCreated: 1709550126
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Editor/GUI/CustomButtonEditor.cs
+  uploadId: 692633

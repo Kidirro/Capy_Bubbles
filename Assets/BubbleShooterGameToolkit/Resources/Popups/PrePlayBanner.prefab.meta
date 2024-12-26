@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7fe2c369224274b4fa2c56853a045782
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 
+  assetPath: Assets/BubbleShooterGameToolkit/Resources/Popups/PrePlayBanner.prefab
+  uploadId: 0

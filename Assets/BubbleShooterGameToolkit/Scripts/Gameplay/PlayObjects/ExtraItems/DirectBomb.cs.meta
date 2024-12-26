@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 533dc7dc393243fc96177b27859af03b
+timeCreated: 1686475271
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/PlayObjects/ExtraItems/DirectBomb.cs
+  uploadId: 692633

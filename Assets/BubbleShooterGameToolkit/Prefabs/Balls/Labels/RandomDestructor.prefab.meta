@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 41629b491c7f546139255c544145af69
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Balls/Labels/RandomDestructor.prefab
+  uploadId: 0

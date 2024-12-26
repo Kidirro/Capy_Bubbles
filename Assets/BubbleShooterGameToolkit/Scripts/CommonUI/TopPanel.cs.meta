@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 16484eb4cd83465496288336af77f03c
+timeCreated: 1693760261
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/CommonUI/TopPanel.cs
+  uploadId: 692633

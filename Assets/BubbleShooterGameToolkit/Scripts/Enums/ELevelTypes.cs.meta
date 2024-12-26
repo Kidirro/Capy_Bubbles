@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: b7e3529ba95c4105a0c40335596eed2b
+timeCreated: 1654510440
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Enums/ELevelTypes.cs
+  uploadId: 692633

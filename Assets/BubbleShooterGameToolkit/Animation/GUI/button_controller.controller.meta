@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: a40c9c2c428a705468855dda352c0a68
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Animation/GUI/button_controller.controller
+  uploadId: 692633

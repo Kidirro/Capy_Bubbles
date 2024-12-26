@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: a2611743e594471a8aa57b7b2a7c9b2b
+timeCreated: 1709215979
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/PlayObjects/Types/Undestroyable.cs
+  uploadId: 692633

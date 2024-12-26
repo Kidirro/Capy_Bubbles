@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: e126adb8f3dc459abb3b1f999a8c54fe
+timeCreated: 1701179231
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/PlayObjects/BallDestructionOptions.cs
+  uploadId: 692633

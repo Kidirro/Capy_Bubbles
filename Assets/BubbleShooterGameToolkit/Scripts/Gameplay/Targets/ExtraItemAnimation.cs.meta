@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 602fd3c85d6a4acc9804a6af388ff665
+timeCreated: 1701019369
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/Targets/ExtraItemAnimation.cs
+  uploadId: 692633

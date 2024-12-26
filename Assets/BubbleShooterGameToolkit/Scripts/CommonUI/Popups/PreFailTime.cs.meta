@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 7eadd5a0c15144b186a1b4e50e51574c
+timeCreated: 1691233266
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/CommonUI/Popups/PreFailTime.cs
+  uploadId: 692633

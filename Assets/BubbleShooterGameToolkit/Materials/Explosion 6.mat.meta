@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 41cfbcaf28fda46e4b14c2bd887d8e81
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Materials/Explosion 6.mat
+  uploadId: 692633

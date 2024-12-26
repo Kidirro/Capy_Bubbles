@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 3b17c1f0e4834a98b0d6ae5af73757c4
+timeCreated: 1690872873
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Editor/CandySmith.Editor.asmdef
+  uploadId: 692633

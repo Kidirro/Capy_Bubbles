@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: b6afb71fe159484b917be22c6399b01b
+timeCreated: 1663087617
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/PlayObjects/ExtraItems/ExplosiveBall.cs
+  uploadId: 692633

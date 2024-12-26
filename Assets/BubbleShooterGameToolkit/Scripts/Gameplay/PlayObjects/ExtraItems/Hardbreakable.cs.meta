@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 3e1b000362ec433d9c6a776d17c5d27f
+timeCreated: 1688289331
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/PlayObjects/ExtraItems/Hardbreakable.cs
+  uploadId: 692633

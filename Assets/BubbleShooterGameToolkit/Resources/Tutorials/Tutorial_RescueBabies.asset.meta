@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9500f71dfcdc14dfca20cf9fd1b442d8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 
+  assetPath: Assets/BubbleShooterGameToolkit/Resources/Tutorials/Tutorial_RescueBabies.asset
+  uploadId: 0

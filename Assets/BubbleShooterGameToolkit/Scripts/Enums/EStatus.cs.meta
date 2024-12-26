@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: cfb4a35c462945aaaaaa9f2b31eb6c45
+timeCreated: 1660302532
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Enums/EStatus.cs
+  uploadId: 692633

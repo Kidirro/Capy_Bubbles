@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 69aa411b2e1d9408a88ea07d480139d7
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Balls/Obstacles/Sharp/SharpItem.prefab
+  uploadId: 692633

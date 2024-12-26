@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b49887df695a098419aa43acaf3576be
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/UI/Score.prefab
+  uploadId: 0

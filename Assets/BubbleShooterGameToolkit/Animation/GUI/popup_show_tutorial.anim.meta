@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 54c248b3e2f66e94e9467ff7885248df
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Animation/GUI/popup_show_tutorial.anim
+  uploadId: 692633

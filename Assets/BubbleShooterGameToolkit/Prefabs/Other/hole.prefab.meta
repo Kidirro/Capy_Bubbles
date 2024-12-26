@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5fd0456cecd4522468464fc22c01f28d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Other/hole.prefab
+  uploadId: 692633

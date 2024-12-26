@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 37c52060d9bbe9946b5ce084b5fc2ffa
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/MapObjects/flower-map-3.prefab
+  uploadId: 692633

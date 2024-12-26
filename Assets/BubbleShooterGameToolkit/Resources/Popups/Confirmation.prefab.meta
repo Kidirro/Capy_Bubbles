@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e649aae047ad84df7bc219ce124e1dbe
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 
+  assetPath: Assets/BubbleShooterGameToolkit/Resources/Popups/Confirmation.prefab
+  uploadId: 0

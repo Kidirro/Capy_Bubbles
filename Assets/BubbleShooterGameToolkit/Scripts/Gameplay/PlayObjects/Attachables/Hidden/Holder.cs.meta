@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 30aedec89d5a433fa860e23219bca3e1
+timeCreated: 1688378586
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/PlayObjects/Attachables/Hidden/Holder.cs
+  uploadId: 692633

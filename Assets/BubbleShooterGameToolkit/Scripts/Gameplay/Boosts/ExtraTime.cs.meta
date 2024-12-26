@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 4f3df0faa16644e38e539598339dc30f
+timeCreated: 1692087646
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/Boosts/ExtraTime.cs
+  uploadId: 692633

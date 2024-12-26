@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5db1233f849d6488399623515df44a3f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Effects/BombExplosion.prefab
+  uploadId: 692633

@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 23dc1869c09148a09bb8b75bcf2219a7
+timeCreated: 1685534760
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/PlayObjects/Types/ColorBall.cs
+  uploadId: 692633

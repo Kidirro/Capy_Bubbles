@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7460b9e8207804e7484152479ea90a44
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Other/bubble_line.prefab
+  uploadId: 692633

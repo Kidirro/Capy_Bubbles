@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 281ce40f27539493cafb2ed5f23d3136
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Effects/FX_leaves.prefab
+  uploadId: 692633

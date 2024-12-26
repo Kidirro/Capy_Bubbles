@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f61631a6ef2996b4d91b4b1cd0b34cce
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 
+  assetPath: Assets/BubbleShooterGameToolkit/Resources/Popups/BoostShop.prefab
+  uploadId: 0

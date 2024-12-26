@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 6072727362f34c11aa2e637133fac7da
+timeCreated: 1691404409
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/CommonUI/LifeRefillTimer.cs
+  uploadId: 692633

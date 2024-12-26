@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 0b0df97211134532b7fcd172dca2b4d6
+timeCreated: 1690183846
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/PlayObjects/EBallFlags.cs
+  uploadId: 692633

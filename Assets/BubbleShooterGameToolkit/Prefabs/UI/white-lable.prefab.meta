@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 285e0ddaccb914320abf650ad464a1cc
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/UI/white-lable.prefab
+  uploadId: 0

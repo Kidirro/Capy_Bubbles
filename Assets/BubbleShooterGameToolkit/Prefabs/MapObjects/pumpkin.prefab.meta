@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1bdad0634c2e1fd449f6a38e915806a9
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/MapObjects/pumpkin.prefab
+  uploadId: 692633

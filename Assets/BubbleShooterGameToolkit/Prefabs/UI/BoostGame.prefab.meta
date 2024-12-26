@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 735d8537ba07b7349bef13f19734044c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/UI/BoostGame.prefab
+  uploadId: 692633

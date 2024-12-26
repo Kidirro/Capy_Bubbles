@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 5c61eac369804a639b51985a5b5835d7
+timeCreated: 1681809225
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/Boosts/PowerFillBoostResource.cs
+  uploadId: 692633

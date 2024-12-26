@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 1ad510a1f50f4dbfa96c7a1835bd2ee2
+timeCreated: 1707813324
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/PlayObjects/BallMovement.cs
+  uploadId: 692633

@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 494a594d84ba4b0fb59128fcfbb940a1
+timeCreated: 1702646723
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/Managers/CheersManager.cs
+  uploadId: 692633

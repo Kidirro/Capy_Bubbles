@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: bc381d47c0e0429a83005ad03e116f0d
+timeCreated: 1660570654
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Editor/LevelSystem/Drawers/TargetListEditorDrawer.cs
+  uploadId: 692633

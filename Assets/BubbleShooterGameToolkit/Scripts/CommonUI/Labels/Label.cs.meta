@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b520d330405a8c2469d986e6097e8c18
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 800
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/CommonUI/Labels/Label.cs
+  uploadId: 692633

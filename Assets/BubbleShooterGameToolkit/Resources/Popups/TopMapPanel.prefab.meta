@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 395aa405674a742f4887b6c057f3aa57
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 
+  assetPath: Assets/BubbleShooterGameToolkit/Resources/Popups/TopMapPanel.prefab
+  uploadId: 0

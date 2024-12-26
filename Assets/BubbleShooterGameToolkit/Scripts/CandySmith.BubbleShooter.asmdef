@@ -1,0 +1,25 @@
+{
+    "name": "BubbleShooterRef",
+    "rootNamespace": "",
+    "references": [
+        "Unity.TextMeshPro",
+        "Unity.Mathematics",
+        "DOTween.Modules",
+        "UnityEngine.Purchasing.Stores",
+        "UnityEngine.Purchasing",
+        "Unity.Services.Core",
+        "Unity.Services.Core.Environments",
+        "CandySmith.Ads",
+        "CandySmith.IAP",
+        "Yandex_ref"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

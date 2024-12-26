@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 34192c5e0d14aee43a0e86cc4823268a
+TextScriptImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Demigiant/DOTween/DOTween.XML
+  uploadId: 692633

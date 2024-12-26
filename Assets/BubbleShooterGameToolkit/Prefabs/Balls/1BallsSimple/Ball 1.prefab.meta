@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 548cb250df3474733b6c85b45fafb4a8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Balls/1BallsSimple/Ball 1.prefab
+  uploadId: 692633

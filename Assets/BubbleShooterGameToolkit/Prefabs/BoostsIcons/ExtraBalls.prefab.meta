@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b8f3f7ff3053ffd40b9f1b9bf5e7068e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/BoostsIcons/ExtraBalls.prefab
+  uploadId: 692633

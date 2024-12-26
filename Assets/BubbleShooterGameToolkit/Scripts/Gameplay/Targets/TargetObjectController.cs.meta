@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 8ae28e254977470290d0cef6ae988f38
+timeCreated: 1679566310
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/Targets/TargetObjectController.cs
+  uploadId: 692633

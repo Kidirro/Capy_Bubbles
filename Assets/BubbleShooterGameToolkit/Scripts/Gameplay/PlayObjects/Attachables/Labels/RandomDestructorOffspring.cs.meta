@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 06fe514299184bc089d539b03b4695bf
+timeCreated: 1702922677
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/PlayObjects/Attachables/Labels/RandomDestructorOffspring.cs
+  uploadId: 0

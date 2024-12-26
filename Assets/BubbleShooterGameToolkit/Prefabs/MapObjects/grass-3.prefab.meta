@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: dbdf186396e56594eb76381021fcfa87
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/MapObjects/grass-3.prefab
+  uploadId: 692633

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a509d725b120a441f9bbf91f2f3050a0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Animation/GUI/SwitchButton.controller
+  uploadId: 692633

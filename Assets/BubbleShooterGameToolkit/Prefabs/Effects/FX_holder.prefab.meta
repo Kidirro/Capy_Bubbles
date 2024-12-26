@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c6549a59784e349febd951c2b0a5dba1
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Effects/FX_holder.prefab
+  uploadId: 692633

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fb05f27cb95a2467d8651d87d0d31e1b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Animation/GUI/startGame.anim
+  uploadId: 692633

@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: bcf1bc61a399474183c4a2a7c96427f6
+timeCreated: 1690979174
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/CommonUI/Tutorials/TutorialSetup.cs
+  uploadId: 692633

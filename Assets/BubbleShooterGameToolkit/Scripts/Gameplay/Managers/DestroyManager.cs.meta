@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: a55ad9de36844ab298cf1288c96dbeea
+timeCreated: 1667061278
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/Managers/DestroyManager.cs
+  uploadId: 692633

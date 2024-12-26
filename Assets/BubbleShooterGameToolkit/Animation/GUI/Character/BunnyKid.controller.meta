@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d9b6f3d2c0f93fb46b9e453bc1faa26d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 
+  assetPath: Assets/BubbleShooterGameToolkit/Animation/GUI/Character/BunnyKid.controller
+  uploadId: 0

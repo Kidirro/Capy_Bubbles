@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3148e7f7577274c069efeaedd4f79009
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Animation/Gameplay/ScorePlay.anim
+  uploadId: 692633

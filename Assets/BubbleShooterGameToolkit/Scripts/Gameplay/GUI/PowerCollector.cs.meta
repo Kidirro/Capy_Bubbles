@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 2f5058eda52544d09c70d8ad5a910b11
+timeCreated: 1681127903
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/GUI/PowerCollector.cs
+  uploadId: 692633

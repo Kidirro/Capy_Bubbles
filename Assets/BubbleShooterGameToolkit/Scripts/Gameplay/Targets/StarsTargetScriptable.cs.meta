@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: abb97b100f284f3db258fa4932562962
+timeCreated: 1705232309
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/Targets/StarsTargetScriptable.cs
+  uploadId: 692633

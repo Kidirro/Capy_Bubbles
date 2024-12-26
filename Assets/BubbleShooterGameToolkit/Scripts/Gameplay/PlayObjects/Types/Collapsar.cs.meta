@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 8910af54e9404782a7192ea055742f60
+timeCreated: 1702887598
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/PlayObjects/Types/Collapsar.cs
+  uploadId: 692633

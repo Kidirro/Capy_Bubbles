@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a50f6bba9a57443ee92bf041c16453b0
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Other/Rocket.prefab
+  uploadId: 692633

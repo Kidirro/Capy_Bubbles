@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 0c5b578e495f4760920d9cf037a2ed2c
+timeCreated: 1704787321
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Map/CloudAnimation.cs
+  uploadId: 692633

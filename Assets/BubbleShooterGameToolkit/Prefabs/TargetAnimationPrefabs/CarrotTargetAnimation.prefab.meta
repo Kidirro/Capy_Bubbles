@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 072a3d092d96d47c58caa6e506ac48fe
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/TargetAnimationPrefabs/CarrotTargetAnimation.prefab
+  uploadId: 0

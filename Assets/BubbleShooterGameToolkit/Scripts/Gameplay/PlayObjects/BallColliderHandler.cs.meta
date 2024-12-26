@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: dec31c6cf32f49b0b71bcf0c2b1a44ab
+timeCreated: 1687540348
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/PlayObjects/BallColliderHandler.cs
+  uploadId: 692633

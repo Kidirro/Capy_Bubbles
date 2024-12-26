@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ccbb9e85c5ee74c8cb9844448ed9ccba
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Effects/Extra-Moves-Time.prefab
+  uploadId: 692633

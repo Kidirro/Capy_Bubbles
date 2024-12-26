@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 65cca48e1fd29dd4195aa6a1509684ec
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Animation/Map_animations/pumpkin.controller
+  uploadId: 692633

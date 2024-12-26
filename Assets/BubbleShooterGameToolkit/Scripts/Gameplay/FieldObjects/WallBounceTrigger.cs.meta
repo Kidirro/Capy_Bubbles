@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 1099f2d26aa14330a8014021d4887c1a
+timeCreated: 1702665744
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/FieldObjects/WallBounceTrigger.cs
+  uploadId: 692633

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9a5ec48a395dcf94eb330f716d3a7849
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/CommonUI/Popups/SoundParticle.cs
+  uploadId: 692633

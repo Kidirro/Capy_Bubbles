@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 4825eef5b0044734b087f85d9b8becc5
+timeCreated: 1701346913
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Settings/EditorIconsSettings.cs
+  uploadId: 692633

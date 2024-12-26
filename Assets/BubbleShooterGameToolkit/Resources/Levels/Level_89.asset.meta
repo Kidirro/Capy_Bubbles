@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: edd7935da1be3c948826db8845db6c33
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Resources/Levels/Level_89.asset
+  uploadId: 692633

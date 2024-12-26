@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 7d1f28c50365db24da623cac51280bfe
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Animation/GUI/button_idle.anim
+  uploadId: 692633

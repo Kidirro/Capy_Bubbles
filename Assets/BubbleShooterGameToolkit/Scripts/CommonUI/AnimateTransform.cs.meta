@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: cadee4a7f70a470daf9c57afd1455652
+timeCreated: 1692895718
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/CommonUI/AnimateTransform.cs
+  uploadId: 692633

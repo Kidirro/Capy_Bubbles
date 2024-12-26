@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 2d78ad1474e34cb684df720de1c5a157
+timeCreated: 1691676681
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Editor/GameObjectRenameWatcher.cs
+  uploadId: 0

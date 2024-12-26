@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7ebd31a7d81f146a8a3089283e90e9ee
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Effects/rain.prefab
+  uploadId: 692633

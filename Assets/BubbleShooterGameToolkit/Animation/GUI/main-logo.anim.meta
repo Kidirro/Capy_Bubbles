@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5f93546bb727b5944bc8175395b5060b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 
+  assetPath: Assets/BubbleShooterGameToolkit/Animation/GUI/main-logo.anim
+  uploadId: 0

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b1d6f2d4e0ef9406eba7f3b3ef2651e7
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Other/rays.prefab
+  uploadId: 692633

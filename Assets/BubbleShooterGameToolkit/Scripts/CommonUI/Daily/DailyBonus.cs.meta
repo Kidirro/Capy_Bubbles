@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: b58c57f7661e437282e19507c9a9757c
+timeCreated: 1692290956
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/CommonUI/Daily/DailyBonus.cs
+  uploadId: 692633

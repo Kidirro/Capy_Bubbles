@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 8d28431513d24508bed75d96f343e797
+timeCreated: 1694366333
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/AnimationBehaviours/RandomWaitTime.cs
+  uploadId: 692633

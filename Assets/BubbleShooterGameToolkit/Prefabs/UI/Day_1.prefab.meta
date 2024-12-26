@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ad54d361ad5ec4498ad06dac96de0bc2
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/UI/Day_1.prefab
+  uploadId: 0

@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 9932226d9c3746b5be1cbd0a05b838ab
+timeCreated: 1654411224
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/PlayObjects/Ball.Gizmo.cs
+  uploadId: 692633

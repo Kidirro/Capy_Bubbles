@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 4ca4a51524e74bae939243a77d31fee4
+timeCreated: 1666612776
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/Managers/LevelManager.Gizmo.cs
+  uploadId: 692633

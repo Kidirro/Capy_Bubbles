@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: f6493357bcd74d81a0ba0da17a2e4815
+timeCreated: 1702493403
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/Targets/AnimatedTarget.cs
+  uploadId: 692633

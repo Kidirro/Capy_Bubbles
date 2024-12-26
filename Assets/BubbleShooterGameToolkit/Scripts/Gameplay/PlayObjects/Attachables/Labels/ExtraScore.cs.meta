@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: d7567211a49b429b9d749494417853aa
+timeCreated: 1689921577
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/PlayObjects/Attachables/Labels/ExtraScore.cs
+  uploadId: 692633

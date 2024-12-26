@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 27876875f3cc4cee989bf5ca62c6f275
+timeCreated: 1701453453
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/PlayObjects/ExtraItems/Rocket.cs
+  uploadId: 692633

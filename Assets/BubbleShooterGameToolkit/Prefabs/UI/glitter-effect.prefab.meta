@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4b4642a38e5eeb94d8034870e2d73d7c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/UI/glitter-effect.prefab
+  uploadId: 692633

@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: daca1c88cbac41948bbd3ca9797e509c
+timeCreated: 1692287743
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/CommonUI/Daily/DayToggle.cs
+  uploadId: 692633

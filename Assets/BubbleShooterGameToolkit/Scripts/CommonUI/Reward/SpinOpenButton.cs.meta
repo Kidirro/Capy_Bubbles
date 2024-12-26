@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: b2dffeea3b8d4ba384015d8920b5f08b
+timeCreated: 1692033837
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/CommonUI/Reward/SpinOpenButton.cs
+  uploadId: 692633

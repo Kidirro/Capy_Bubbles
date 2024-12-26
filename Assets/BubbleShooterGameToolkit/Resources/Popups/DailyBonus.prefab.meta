@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ee8e0879dd310414bb74979f760677d4
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 
+  assetPath: Assets/BubbleShooterGameToolkit/Resources/Popups/DailyBonus.prefab
+  uploadId: 0

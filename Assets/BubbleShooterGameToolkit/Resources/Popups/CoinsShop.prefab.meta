@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7ab81b7a86d777c40a1e7ff4750b78a3
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 
+  assetPath: Assets/BubbleShooterGameToolkit/Resources/Popups/CoinsShop.prefab
+  uploadId: 0

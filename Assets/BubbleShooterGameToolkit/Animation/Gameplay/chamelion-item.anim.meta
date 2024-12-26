@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9a68bcdacd3544c46ae4db65b38c62a3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Animation/Gameplay/chamelion-item.anim
+  uploadId: 692633

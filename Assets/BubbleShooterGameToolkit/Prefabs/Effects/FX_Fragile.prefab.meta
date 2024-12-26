@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 512515f2f33e0455a8ea3375b93122cb
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Effects/FX_Fragile.prefab
+  uploadId: 692633

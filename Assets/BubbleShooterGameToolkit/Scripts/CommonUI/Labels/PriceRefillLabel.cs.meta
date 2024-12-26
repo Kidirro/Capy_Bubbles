@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 453c145be280428ca897a16cd915de67
+timeCreated: 1680253181
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/CommonUI/Labels/PriceRefillLabel.cs
+  uploadId: 692633

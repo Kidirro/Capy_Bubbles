@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: df1c7aa116284e9c9adbcc375a4d5e60
+timeCreated: 1682502094
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/PlayObjects/Attachables/Hidden/Baby.cs
+  uploadId: 692633

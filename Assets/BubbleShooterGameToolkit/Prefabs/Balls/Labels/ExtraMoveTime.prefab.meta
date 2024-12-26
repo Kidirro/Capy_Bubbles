@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 464b99b9053074cccbb16389e86851d1
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Balls/Labels/ExtraMoveTime.prefab
+  uploadId: 692633

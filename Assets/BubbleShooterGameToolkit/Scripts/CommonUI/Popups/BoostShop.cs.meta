@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2eef42dd0743a7048952e3ed0996ddd5
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/CommonUI/Popups/BoostShop.cs
+  uploadId: 0

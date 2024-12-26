@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d1e1e4b1a48ae4ecdb1052383d4fd620
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/UI/TextPopup2.prefab
+  uploadId: 0

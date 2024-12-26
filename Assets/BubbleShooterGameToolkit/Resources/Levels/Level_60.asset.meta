@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7b7c37f211b4f1d46912f79f00e3fa28
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Resources/Levels/Level_60.asset
+  uploadId: 692633

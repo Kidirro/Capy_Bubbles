@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: cfde479733e4421bb650bb61fa10989b
+timeCreated: 1686929308
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/Managers/GroupAnimationManager.cs
+  uploadId: 692633

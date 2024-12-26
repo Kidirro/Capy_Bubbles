@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ed95a2b6681ae9249977d144d2460c05
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Animation/Map_animations/grass.controller
+  uploadId: 692633

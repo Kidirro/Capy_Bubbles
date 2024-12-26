@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f44d611e5b0d4404ca962caa3c75695a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 
+  assetPath: Assets/BubbleShooterGameToolkit/Resources/Popups/PreFail.prefab
+  uploadId: 0

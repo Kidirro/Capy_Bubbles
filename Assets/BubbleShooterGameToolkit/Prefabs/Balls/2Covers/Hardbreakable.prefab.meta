@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b6186ffd35f3640338125e630bb4cca3
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Balls/2Covers/Hardbreakable.prefab
+  uploadId: 692633

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 566d2afc601b55340aadb18669ded41c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Animation/GUI/Character/MainCharacterSad.controller
+  uploadId: 692633

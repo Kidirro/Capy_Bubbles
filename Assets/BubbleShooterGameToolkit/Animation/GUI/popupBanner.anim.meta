@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: ed2684fdcd8423d4ab6f1d3b3b4c417b
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Animation/GUI/popupBanner.anim
+  uploadId: 692633

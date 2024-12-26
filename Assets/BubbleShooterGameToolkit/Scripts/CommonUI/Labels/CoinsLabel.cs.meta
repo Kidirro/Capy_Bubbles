@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: cabd3363ae374221906da3aa757f55cf
+timeCreated: 1678525163
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/CommonUI/Labels/CoinsLabel.cs
+  uploadId: 692633

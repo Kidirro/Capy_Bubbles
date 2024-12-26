@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 17d28922c1ed94cf490461c0f98721ef
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Materials/rain.mat
+  uploadId: 692633

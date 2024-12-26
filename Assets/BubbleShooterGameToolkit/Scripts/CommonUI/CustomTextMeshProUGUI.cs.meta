@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 6aa19cdcefd64bcb9294191740be0ac8
+timeCreated: 1691670508
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/CommonUI/CustomTextMeshProUGUI.cs
+  uploadId: 692633

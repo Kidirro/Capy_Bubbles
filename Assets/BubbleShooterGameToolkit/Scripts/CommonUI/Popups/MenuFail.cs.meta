@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 2ca60e9a79bf46ff87ef828dcdceb1dd
+timeCreated: 1625302621
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/CommonUI/Popups/MenuFail.cs
+  uploadId: 0

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 048c48fa97802eb439022feaa1d2b5ac
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Balls/2Covers/Fragile-item.prefab
+  uploadId: 692633

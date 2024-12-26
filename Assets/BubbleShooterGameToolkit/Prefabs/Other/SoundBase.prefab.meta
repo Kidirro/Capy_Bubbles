@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: c8003baa1f5c64645a6884376b315d2a
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Other/SoundBase.prefab
+  uploadId: 692633

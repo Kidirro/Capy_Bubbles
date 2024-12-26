@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fda33ad9b316f764fab27db89e795a88
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/MapObjects/mushroom-3.prefab
+  uploadId: 692633

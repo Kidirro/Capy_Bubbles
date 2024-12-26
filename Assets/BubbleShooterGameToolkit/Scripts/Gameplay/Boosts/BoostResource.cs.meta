@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: f72ad000daef4e32b16178422d15dc01
+timeCreated: 1678691407
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/Boosts/BoostResource.cs
+  uploadId: 692633

@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: fe923fe79e894a9996dc4549e5ae38dd
+timeCreated: 1686486824
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/FieldObjects/ObjectTrigger.cs
+  uploadId: 692633

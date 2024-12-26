@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: e8febdda05b04da981850c5458cd7f1c
+timeCreated: 1680178203
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/CommonUI/Labels/LevelLabel.cs
+  uploadId: 0

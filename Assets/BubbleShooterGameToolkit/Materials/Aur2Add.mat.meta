@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0c108cd02dc8fb849a4511d79c9dbd32
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Materials/Aur2Add.mat
+  uploadId: 692633

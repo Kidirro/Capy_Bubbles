@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8b9ca593ee9184733a7fc98ded480eca
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Other/HolderPart.prefab
+  uploadId: 692633

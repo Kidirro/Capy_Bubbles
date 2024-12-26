@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 14d0bec3b7634932bb319f1d5a6ce068
+timeCreated: 1689930917
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/Pool/InitialAmountPool.cs
+  uploadId: 692633

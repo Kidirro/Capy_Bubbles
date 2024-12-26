@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7c5e4235678274c8698a33843620de36
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/BoostsIcons/ExtraTime.prefab
+  uploadId: 692633

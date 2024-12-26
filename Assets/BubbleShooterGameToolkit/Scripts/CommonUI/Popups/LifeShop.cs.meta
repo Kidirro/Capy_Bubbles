@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 58c9c409f50b47deb139410676b4dacf
+timeCreated: 1691657682
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/CommonUI/Popups/LifeShop.cs
+  uploadId: 692633

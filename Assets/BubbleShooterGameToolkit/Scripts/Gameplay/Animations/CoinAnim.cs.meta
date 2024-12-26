@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 3efe008d5e8943e38e4d0488250f2be4
+timeCreated: 1693569423
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/Animations/CoinAnim.cs
+  uploadId: 692633

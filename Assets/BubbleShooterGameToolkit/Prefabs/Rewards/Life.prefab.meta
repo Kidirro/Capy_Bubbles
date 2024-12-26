@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 866319e1fabef4f0e881e5ca7c55c470
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Rewards/Life.prefab
+  uploadId: 0

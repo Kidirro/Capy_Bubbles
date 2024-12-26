@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 32998c0cf0a7c41dfa24f1ee0114543d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Materials/item_particles_rocket.mat
+  uploadId: 692633

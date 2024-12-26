@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 6c923594e18342c7ab1e4ccb184c3264
+timeCreated: 1680588197
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/CommonUI/Popups/PrePlayBanner.cs
+  uploadId: 692633

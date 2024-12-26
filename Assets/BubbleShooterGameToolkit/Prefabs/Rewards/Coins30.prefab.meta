@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ecabd298c2f654406815252214f65b51
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Rewards/Coins30.prefab
+  uploadId: 0

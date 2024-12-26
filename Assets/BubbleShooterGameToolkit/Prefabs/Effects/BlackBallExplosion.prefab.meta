@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 08854736ffe4d48c4959e7c14755d355
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Effects/BlackBallExplosion.prefab
+  uploadId: 692633

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b2984c4161790ed439b409ee173c1ba7
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Balls/Bonuses/Chameleon.prefab
+  uploadId: 692633

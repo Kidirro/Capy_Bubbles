@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: b0b28998121a41ccad0958c18cfb5e3e
+timeCreated: 1692794093
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Materials/Shaders/Overlay.shader
+  uploadId: 692633

@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 3f3e123f0f49c7f4796ea1dcafd0638d
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Animation/GUI/Menu.anim
+  uploadId: 692633

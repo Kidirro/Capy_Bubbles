@@ -1,0 +1,340 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fae5d9467efb13abfaf2fbd143d98fd6, type: 3}
+  m_Name: Localize
+  m_EditorClassIdentifier: 
+  localizeTextObjs:
+  - key: Free
+    RussiaValue: "\u0411\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u043E"
+    EnglishValue: Free
+    TjsValue: "\u0420\u043E\u0439\u0433\u043E\u043D"
+  - key: FULL
+    RussiaValue: "\u0417\u0430\u043F\u043E\u043B\u043D\u0435\u043D\u043E"
+    EnglishValue: Full
+    TjsValue: "\u041F\u0443\u0440\u0440\u0430"
+  - key: Day
+    RussiaValue: "\u0414\u0435\u043D\u044C"
+    EnglishValue: Day
+    TjsValue: "\u0420\u04EF\u0437"
+  - key: Multicolor bubble
+    RussiaValue: "\u0420\u0430\u0437\u043D\u043E\u0446\u0432\u0435\u0442\u043D\u044B\u0439
+      \u043F\u0443\u0437\u044B\u0440\u0438\u043A"
+    EnglishValue: Multicolor bubble
+    TjsValue: "\u04B2\u0443\u0431\u043E\u0431\u0447\u0430\u0438 \u0440\u0430\u043D\u0433\u043E\u0440\u0430\u043D\u0433"
+  - key: Matches with any touched color
+    RussiaValue: "\u0412\u0437\u0430\u0438\u043C\u043E\u0434\u0435\u0439\u0441\u0442\u0432\u0443\u0435\u0442
+      \u0441 \u043B\u044E\u0431\u044B\u043C\u0438 \u0446\u0432\u0435\u0442\u043D\u044B\u043C\u0438
+      \u043F\u0443\u0437\u044B\u0440\u0438\u043A\u0430\u043C\u0438"
+    EnglishValue: Matches with any touched color
+    TjsValue: "\u0411\u043E \u04B3\u0430\u043C\u0430 \u0433\u0443\u043D\u0430 \u04B3\u0443\u0431\u043E\u0431\u0447\u0430\u04B3\u043E\u0438
+      \u0440\u0430\u043D\u0433\u0430 \u043E\u043C\u0435\u0437\u0438\u0448 \u043C\u0435\u0451\u0431\u0430\u0434"
+  - key: Super aim
+    RussiaValue: "\u0421\u0443\u043F\u0435\u0440 \u043F\u0440\u0438\u0446\u0435\u043B"
+    EnglishValue: Super aim
+    TjsValue: "\u041D\u0438\u0448\u043E\u043D\u0433\u0438\u0440\u0438\u0438 \u043E\u043B\u04E3"
+  - key: Makes aim line longer
+    RussiaValue: "\u0423\u0434\u043B\u0438\u043D\u044F\u0435\u0442 \u043B\u0438\u043D\u0438\u044E
+      \u043F\u0440\u0438\u0446\u0435\u043B\u0430"
+    EnglishValue: Makes aim line longer
+    TjsValue: "\u041C\u0430\u0441\u043E\u0444\u0430\u0438 \u043D\u0438\u0448\u043E\u043D\u0433\u0438\u0440\u0438\u0440\u043E
+      \u0434\u0430\u0440\u043E\u0437 \u043C\u0435\u043A\u0443\u043D\u0430\u0434"
+  - key: Extra time
+    RussiaValue: "\u0411\u043E\u043B\u044C\u0448\u0435 \u0432\u0440\u0435\u043C\u0435\u043D\u0438"
+    EnglishValue: Extra time
+    TjsValue: "\u0412\u0430\u049B\u0442\u0438 \u0431\u0435\u0448\u0442\u0430\u0440"
+  - key: Gives extra time
+    RussiaValue: "\u0414\u043E\u0431\u0430\u0432\u043B\u044F\u0435\u0442 \u0432\u0440\u0435\u043C\u044F"
+    EnglishValue: Gives extra time
+    TjsValue: "\u0412\u0430\u049B\u0442\u0440\u043E \u0438\u043B\u043E\u0432\u0430
+      \u043C\u0435\u043A\u0443\u043D\u0430\u0434"
+  - key: Coins Shop
+    RussiaValue: "\u041C\u0430\u0433\u0430\u0437\u0438\u043D \u041C\u043E\u043D\u0435\u0442\u043E\u043A"
+    EnglishValue: Coins Shop
+    TjsValue: "\u041C\u0430\u0493\u043E\u0437\u0430\u0438 \u0422\u0430\u043D\u0433\u0430\u04B3\u043E"
+  - key: OFF
+    RussiaValue: "C\u043A\u0438\u0434\u043A\u0430"
+    EnglishValue: OFF
+    TjsValue: "\u0422\u0430\u0445\u0444\u0438\u0444"
+  - key: BEST Deal
+    RussiaValue: "\u041B\u0443\u0447\u0448\u0430\u044F \u0426\u0435\u043D\u0430"
+    EnglishValue: BEST Deal
+    TjsValue: "\u0411\u0435\u04B3\u0442\u0430\u0440\u0438\u043D \u043D\u0430\u0440\u0445"
+  - key: People Choice
+    RussiaValue: "\u0420\u0435\u043A\u043E\u043C\u0435\u043D\u0434\u0443\u0435\u043C"
+    EnglishValue: People Choice
+    TjsValue: "\u0422\u0430\u0432\u0441\u0438\u044F \u043C\u0435\u0434\u0438\u04B3\u0435\u043C"
+  - key: Daily Bonus
+    RussiaValue: "\u0415\u0436\u0435\u0434\u043D\u0435\u0432\u043D\u044B\u0439 \u0431\u043E\u043D\u0443\u0441"
+    EnglishValue: Daily Bonus
+    TjsValue: "\u0411\u043E\u043D\u0443\u0441\u0438 \u04B3\u0430\u0440\u0440\u04EF\u0437\u0430"
+  - key: Come back every day to collect more rewards
+    RussiaValue: "\u0417\u0430\u0445\u043E\u0434\u0438\u0442\u0435 \u043A\u0430\u0436\u0434\u044B\u0439
+      \u0434\u0435\u043D\u044C, \u0447\u0442\u043E\u0431\u044B \u043F\u043E\u043B\u0443\u0447\u0438\u0442\u044C
+      \u0431\u043E\u043B\u044C\u0448\u0435 \u043D\u0430\u0433\u0440\u0430\u0434"
+    EnglishValue: Come back every day to collect more rewards
+    TjsValue: "\u04B2\u0430\u0440 \u0440\u04EF\u0437 \u0432\u043E\u0440\u0438\u0434
+      \u0448\u0443\u0434\u0430, \u043C\u0443\u043A\u043E\u0444\u043E\u0442\u0438
+      \u0431\u0435\u0448\u0442\u0430\u0440 \u0431\u0430 \u0434\u0430\u0441\u0442
+      \u043E\u0440\u0435\u0434"
+  - key: Great
+    RussiaValue: "\u041E\u0442\u043B\u0438\u0447\u043D\u043E"
+    EnglishValue: Great
+    TjsValue: "\u041E\u043B\u04E3"
+  - key: Do you really want to quit the game?
+    RussiaValue: "\u0412\u044B \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043B\u044C\u043D\u043E
+      \u0445\u043E\u0442\u0438\u0442\u0435 \u0432\u044B\u0439\u0442\u0438 \u0438\u0437
+      \u0438\u0433\u0440\u044B?"
+    EnglishValue: Do you really want to quit the game?
+    TjsValue: "\u0428\u0443\u043C\u043E \u0434\u0430\u0440 \u04B3\u0430\u049B\u0438\u049B\u0430\u0442
+      \u0430\u0437 \u0431\u043E\u0437\u04E3 \u0431\u0430\u0440\u043E\u043C\u0430\u0434\u0430\u043D
+      \u043C\u0435\u0445\u043E\u04B3\u0435\u0434?"
+  - key: Life Shop
+    RussiaValue: "\u041C\u0430\u0433\u0430\u0437\u0438\u043D \u0416\u0438\u0437\u043D\u0435\u0439"
+    EnglishValue: Life Shop
+    TjsValue: "\u041C\u0430\u0493\u043E\u0437\u0430\u0438 \u0418\u043C\u0442\u0438\u0451\u0437\u04B3\u043E"
+  - key: Refill all lives
+    RussiaValue: "\u0412\u043E\u0441\u043F\u043E\u043B\u043D\u0438\u0442\u044C \u0432\u0441\u0435
+      \u0436\u0438\u0437\u043D\u0438"
+    EnglishValue: Refill all lives
+    TjsValue: "\u0411\u0430 \u0434\u0430\u0441\u0442 \u043E\u0432\u0430\u0440\u0434\u0430\u043D\u0438
+      \u04B3\u0430\u043C\u0430\u0438 \u0438\u043C\u0442\u0438\u0451\u0437\u04B3\u043E"
+  - key: Watch Ads
+    RussiaValue: "\u0420\u0435\u043A\u043B\u0430\u043C\u0430"
+    EnglishValue: Watch Ads
+    TjsValue: Watch Ads
+  - key: Lucky Spin
+    RussiaValue: "\u041A\u043E\u043B\u0435\u0441\u043E \u0443\u0434\u0430\u0447\u0438"
+    EnglishValue: Lucky Spin
+    TjsValue: "\u0427\u0430\u0440\u0445\u0438 \u043C\u0443\u0432\u0430\u0444\u0444\u0430\u049B\u0438\u044F\u0442"
+  - key: Failed!
+    RussiaValue: "\u041D\u0435\u0443\u0434\u0430\u0447\u0430!"
+    EnglishValue: Failed!
+    TjsValue: "\u041D\u043E\u043A\u043E\u043C\u04E3!"
+  - key: 'Score:'
+    RussiaValue: "\u0421\u0447\u0451\u0442:"
+    EnglishValue: 'Score:'
+    TjsValue: "\u04B2\u0438\u0441\u043E\u0431:"
+  - key: Level
+    RussiaValue: "\u0423\u0440\u043E\u0432\u0435\u043D\u044C"
+    EnglishValue: Level
+    TjsValue: "\u041C\u0430\u0440\u04B3\u0438\u043B\u0430"
+  - key: You WIN!
+    RussiaValue: "\u041F\u041E\u0411\u0415\u0414\u0410!"
+    EnglishValue: You WIN!
+    TjsValue: "\u041F\u0418\u0420\u04EE\u0417\u04E2!"
+  - key: No more bubbles!
+    RussiaValue: "\u041A\u043E\u043D\u0447\u0438\u043B\u0438\u0441\u044C \u043F\u0443\u0437\u044B\u0440\u0438\u043A\u0438!"
+    EnglishValue: No more bubbles!
+    TjsValue: "\u04B2\u0443\u0431\u043E\u0431\u0447\u0430\u04B3\u043E \u0442\u0430\u043C\u043E\u043C
+      \u0448\u0443\u0434\u0430\u043D\u0434!"
+  - key: Continue with +5 extra bubbles?
+    RussiaValue: "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C \u0435\u0449\u0451
+      \u0441 <color=#FFFF70>+5 \u043F\u0443\u0437\u044B\u0440\u0438\u043A\u0430\u043C\u0438</color>?"
+    EnglishValue: Continue with <color=#FFFF70>+5 extra bubbles</color>?
+    TjsValue: "\u0411\u043E <color=#FFFF70>+5 \u04B3\u0443\u0431\u043E\u0431\u0447\u0430\u0438
+      \u0434\u0438\u0433\u0430\u0440</color> \u0434\u0430\u0432\u043E\u043C \u0434\u043E\u0434\u0430
+      \u0448\u0430\u0432\u0430\u0434?"
+  - key: No more Time!
+    RussiaValue: "\u041A\u043E\u043D\u0447\u0438\u043B\u043E\u0441\u044C \u0432\u0440\u0435\u043C\u044F!"
+    EnglishValue: No more Time!
+    TjsValue: "\u0412\u0430\u049B\u0442 \u0431\u0430 \u043F\u043E\u0451\u043D \u0440\u0430\u0441\u0438\u0434!"
+  - key: Continue with +60 seconds extra?
+    RussiaValue: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u0435\u0449\u0451
+      <color=#FFFF70>+60 \u0441\u0435\u043A\u0443\u043D\u0434</color>?"
+    EnglishValue: Continue with <color=#FFFF70>+60 seconds</color> extra?
+    TjsValue: "\u0411\u043E\u0437 <color=#FFFF70>+60 \u0441\u043E\u043D\u0438\u044F\u0438
+      \u0434\u0438\u0433\u0430\u0440</color> \u0438\u043B\u043E\u0432\u0430 \u043A\u0430\u0440\u0434\u0430
+      \u0448\u0430\u0432\u0430\u0434?"
+  - key: +30 s
+    RussiaValue: +30 c
+    EnglishValue: +30 s
+    TjsValue: +30 c
+  - key: 'Collect Items:'
+    RussiaValue: "\u041D\u0443\u0436\u043D\u043E \u0441\u043E\u0431\u0440\u0430\u0442\u044C:"
+    EnglishValue: 'Collect Items:'
+    TjsValue: "\u04B6\u0430\u043C\u044A \u043A\u0430\u0440\u0434\u0430\u043D \u043B\u043E\u0437\u0438\u043C
+      \u0430\u0441\u0442:"
+  - key: GIFT
+    RussiaValue: "\u041F\u041E\u0414\u0410\u0420\u041E\u041A"
+    EnglishValue: GIFT
+    TjsValue: "\u0422\u0423\u04B2\u0424\u0410"
+  - key: Great
+    RussiaValue: "\u041E\u0442\u043B\u0438\u0447\u043D\u043E"
+    EnglishValue: Great
+    TjsValue: "\u041E\u043B\u04E3"
+  - key: Free the animals
+    RussiaValue: "\u041E\u0441\u0432\u043E\u0431\u043E\u0434\u0438 \u0437\u0432\u0435\u0440\u044E\u0448\u0435\u043A"
+    EnglishValue: Free the animals
+    TjsValue: "\u04B2\u0430\u0439\u0432\u043E\u043D\u0447\u0430\u04B3\u043E\u0440\u043E
+      \u043E\u0437\u043E\u0434 \u043A\u0443\u043D"
+  - key: Clear the item from bubbles
+    RussiaValue: "\u0414\u043E\u0441\u0442\u0430\u043D\u044C \u043F\u0440\u0435\u0434\u043C\u0435\u0442
+      \u0438\u0437 \u043F\u0443\u0437\u044B\u0440\u0438\u043A\u043E\u0432"
+    EnglishValue: Clear the item from bubbles
+    TjsValue: "\u0410\u0448\u0451\u0440\u043E \u0430\u0437 \u0434\u043E\u0445\u0438\u043B\u0438
+      \u04B3\u0443\u0431\u043E\u0431\u0447\u0430\u04B3\u043E \u0431\u0435\u0440\u0443\u043D
+      \u0431\u0430\u0440\u043E\u0440"
+  - key: Collect item
+    RussiaValue: "\u0421\u043E\u0431\u0435\u0440\u0438 \u043F\u0440\u0435\u0434\u043C\u0435\u0442"
+    EnglishValue: Collect item
+    TjsValue: "\u0410\u0448\u0451\u04B3\u043E\u0440\u043E \u04B7\u0430\u043C\u044A
+      \u043A\u0443\u043D"
+  - key: Clear the item from bubbles
+    RussiaValue: "\u0414\u043E\u0441\u0442\u0430\u043D\u044C \u043F\u0440\u0435\u0434\u043C\u0435\u0442
+      \u0438\u0437 \u043F\u0443\u0437\u044B\u0440\u0438\u043A\u043E\u0432"
+    EnglishValue: Clear the item from bubbles
+    TjsValue: "\u0410\u0448\u0451\u0440\u043E \u0430\u0437 \u0434\u043E\u0445\u0438\u043B\u0438
+      \u04B3\u0443\u0431\u043E\u0431\u0447\u0430\u04B3\u043E \u0431\u0435\u0440\u0443\u043D
+      \u0431\u0430\u0440\u043E\u0440"
+  - key: Collect stars
+    RussiaValue: "\u0421\u043E\u0431\u0435\u0440\u0438 \u0437\u0432\u0451\u0437\u0434\u044B"
+    EnglishValue: Collect stars
+    TjsValue: "\u0421\u0438\u0442\u043E\u0440\u0430\u04B3\u043E\u0440\u043E \u04B7\u0430\u043C\u044A
+      \u043A\u0443\u043D"
+  - key: Uncover top row
+    RussiaValue: "\u0414\u043E\u0431\u0435\u0440\u0438\u0441\u044C \u0434\u043E \u0432\u0435\u0440\u0445\u043D\u0435\u0433\u043E
+      \u0441\u043B\u043E\u044F"
+    EnglishValue: Uncover top row
+    TjsValue: "\u0411\u0430 \u049B\u0430\u0431\u0430\u0442\u0438 \u0431\u043E\u043B\u043E
+      \u0433\u0443\u0437\u0430\u0440"
+  - key: Tap to get the mandarin
+    RussiaValue: "\u041D\u0430\u0436\u043C\u0438, \u0447\u0442\u043E\u0431\u044B
+      \u0437\u0430\u0431\u0440\u0430\u0442\u044C \u043C\u0430\u043D\u0434\u0430\u0440\u0438\u043D"
+    EnglishValue: Tap to get the mandarin
+    TjsValue: "\u041F\u0430\u0445\u0448 \u043A\u0430\u0440\u0434\u0430, \u043C\u0430\u043D\u0434\u0430\u0440\u0438\u043D
+      \u0433\u0438\u0440"
+  - key: Rescue all the animals to WIN!
+    RussiaValue: "\u0421\u043F\u0430\u0441\u0438 \u0432\u0441\u0435\u0445 \u0437\u0432\u0435\u0440\u044E\u0448\u0435\u043A,
+      \u0447\u0442\u043E\u0431\u044B \u0432\u044B\u0438\u0433\u0440\u0430\u0442\u044C!"
+    EnglishValue: Rescue all the animals to WIN!
+    TjsValue: "\u0411\u0430\u0440\u043E\u0438 \u043F\u0438\u0440\u04EF\u0437 \u0448\u0443\u0434\u0430\u043D
+      \u04B3\u0430\u043C\u0430\u0438 \u04B3\u0430\u0439\u0432\u043E\u043D\u0447\u0430\u04B3\u043E\u0440\u043E
+      \u043D\u0430\u04B7\u043E\u0442 \u0434\u0435\u04B3!"
+  - key: Tap where you want to throw your bubble
+    RussiaValue: "\u041D\u0430\u0436\u043C\u0438 \u043D\u0430 \u043E\u0431\u043B\u0430\u0441\u0442\u044C,
+      \u0447\u0442\u043E\u0431\u044B \u043A\u0438\u043D\u0443\u0442\u044C \u0442\u0443\u0434\u0430
+      \u043F\u0443\u0437\u044B\u0440\u0438\u043A"
+    EnglishValue: Tap where you want to throw your bubble
+    TjsValue: "\u049A\u0438\u0441\u043C\u0438 \u043C\u0443\u0430\u0439\u044F\u043D\u0440\u043E
+      \u043F\u0430\u0445\u0448 \u043D\u0430\u043C\u043E, \u0442\u043E \u043A\u0438
+      \u04B3\u0443\u0431\u043E\u0431\u0447\u0430 \u0431\u0430 \u043E\u043D \u04B7\u043E
+      \u0432\u043E\u0440\u0438\u0434 \u0448\u0430\u0432\u0430\u0434"
+  - key: Destroy the colored bubbles to collect the white star
+    RussiaValue: "\u0420\u0430\u0437\u0440\u0443\u0448\u044C \u0432\u0441\u0435 \u0446\u0432\u0435\u0442\u043D\u044B\u0435
+      \u043F\u0443\u0437\u044B\u0440\u044C\u043A\u0438, \u0447\u0442\u043E\u0431\u044B
+      \u0441\u043E\u0431\u0440\u0430\u0442\u044C \u0437\u0432\u0451\u0437\u0434\u043E\u0447\u043A\u0438"
+    EnglishValue: Destroy the colored bubbles to collect the white star
+    TjsValue: "\u04B2\u0430\u043C\u0430\u0438 \u04B3\u0443\u0431\u043E\u0431\u0447\u0430\u04B3\u043E\u0438
+      \u0440\u0430\u043D\u0433\u0430\u0440\u043E \u0432\u0430\u0439\u0440\u043E\u043D
+      \u043A\u0430\u0440\u0434\u0430, \u0441\u0438\u0442\u043E\u0440\u0430\u04B3\u043E\u0440\u043E
+      \u04B7\u0430\u043C\u044A \u043A\u0443\u043D"
+  - key: Loading
+    RussiaValue: "\u0417\u0430\u0433\u0440\u0443\u0437\u043A\u0430..."
+    EnglishValue: Loading...
+    TjsValue: "\u0411\u043E\u0440\u0433\u0438\u0440\u04E3..."
+  - key: Extra moves
+    RussiaValue: "\u0411\u043E\u043B\u044C\u0448\u0435 \u0448\u0430\u0433\u043E\u0432"
+    EnglishValue: Extra moves
+    TjsValue: "\u0410\u043C\u0430\u043B\u04B3\u043E\u0438 \u0431\u0435\u0448\u0442\u0430\u0440"
+  - key: Gives extra moves
+    RussiaValue: "\u0414\u043E\u0431\u0430\u0432\u043B\u044F\u0435\u0442 \u0431\u043E\u043B\u044C\u0448\u0435
+      \u0448\u0430\u0433\u043E\u0432"
+    EnglishValue: Gives extra moves
+    TjsValue: "\u0410\u043C\u0430\u043B\u04B3\u043E\u0438 \u0431\u0435\u0448\u0442\u0430\u0440\u0440\u043E
+      \u0438\u043B\u043E\u0432\u0430 \u043C\u0435\u043A\u0443\u043D\u0430\u0434"
+  - key: ATTENTION
+    RussiaValue: "\u0412\u041D\u0418\u041C\u0410\u041D\u0418\u0415"
+    EnglishValue: ATTENTION
+    TjsValue: "\u0425\u0425\u0425\u0425_\u041D\u0410\u0414\u041E \u041F\u0415\u0420\u0415\u0412\u0415\u0421\u0422\u0418_\u0425\u0425\u0425"
+  - key: Timeout
+    RussiaValue: "\u0412\u0430\u0448\u0430 \u043F\u043E\u043A\u0443\u043F\u043A\u0430
+      \u0437\u0430\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0435\u0442\u0441\u044F,
+      \u0447\u0443\u0442\u044C \u043F\u043E\u0437\u0436\u0435 \u043C\u043E\u043D\u0435\u0442\u044B
+      \u0431\u0443\u0434\u0443\u0442 \u043D\u0430\u0447\u0438\u0441\u043B\u0435\u043D\u044B"
+    EnglishValue: Your purchase will be worn, and a little later the coins will be
+      credited.
+    TjsValue: " \u0425\u0430\u0440\u0438\u0434\u0438 \u0448\u0443\u043C\u043E \u0431\u0430
+      \u0442\u0430\u044A\u0445\u0438\u0440 \u043C\u0435\u0430\u0444\u0442\u0430\u0434,
+      \u043A\u0430\u043C\u0435 \u0434\u0435\u0440\u0442\u0430\u0440 \u0442\u0430\u043D\u0433\u0430\u04B3\u043E
+      \u043F\u0435\u0448\u043D\u0438\u04B3\u043E\u0434 \u043C\u0435\u0433\u0430\u0440\u0434\u0430\u043D\u0434"
+  - key: NotPayment
+    RussiaValue: "\u041D\u0435 \u0445\u0432\u0430\u0442\u0430\u0435\u0442 \u0434\u0435\u043D\u0435\u0433
+      \u043D\u0430 \u0431\u0430\u043B\u0430\u043D\u0441\u0435. \u041F\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435
+      \u0431\u0430\u043B\u0430\u043D\u0441 \u0438 \u043F\u043E\u043F\u0440\u043E\u0431\u0443\u0439\u0442\u0435
+      \u0441\u043D\u043E\u0432\u0430."
+    EnglishValue: There is not enough money on the balance. Top up your balance and
+      try again.
+    TjsValue: "\u041C\u0430\u0431\u043B\u0430\u0493 \u0434\u0430\u0440 \u0442\u0430\u0432\u043E\u0437\u0443\u043D
+      \u043A\u043E\u0444\u04E3 \u043D\u0435\u0441\u0442. \u0422\u0430\u0432\u043E\u0437\u0443\u043D\u0440\u043E
+      \u043F\u0443\u0440 \u043A\u0430\u0440\u0434\u0430, \u0430\u0437 \u043D\u0430\u0432
+      \u0442\u0430\u043A\u0440\u043E\u0440 \u043D\u0430\u043C\u043E\u0435\u0434."
+  - key: Await
+    RussiaValue: "\u0416\u0434\u0451\u043C \u043E\u0442\u0432\u0435\u0442\u0430 \u043E\u043F\u0435\u0440\u0430\u0442\u043E\u0440\u0430"
+    EnglishValue: We are waiting for the operator's response
+    TjsValue: "\u04B6\u0430\u0432\u043E\u0431\u0438 \u043E\u043F\u0435\u0440\u0430\u0442\u043E\u0440\u0440\u043E
+      \u0438\u043D\u0442\u0438\u0437\u043E\u0440\u0435\u043C."
+  - key: YOU_BUY
+    RussiaValue: "\u0412\u044B \u043F\u043E\u043A\u0443\u043F\u0430\u0435\u0442\u0435"
+    EnglishValue: You buy
+    TjsValue: "\u0428\u0443\u043C\u043E"
+  - key: COINS
+    RussiaValue: "\u043C\u043E\u043D\u0435\u0442"
+    EnglishValue: coins
+    TjsValue: "\u0442\u0430\u043D\u0433\u0430\u0440\u043E"
+  - key: PRICE
+    RussiaValue: "\u0421\u0442\u043E\u0438\u043C\u043E\u0441\u0442\u044C:"
+    EnglishValue: 'Price:'
+    TjsValue: "\u0410\u0440\u0437\u0438\u0448:"
+  - key: purchase
+    RussiaValue: "\u041F\u043E\u043A\u0443\u043F\u043A\u0430"
+    EnglishValue: Purchase
+    TjsValue: "\u0425\u0430\u0440\u0438\u0434"
+  - key: phoneMoney
+    RussiaValue: "\u0414\u0435\u043D\u044C\u0433\u0438 \u0441\u043F\u0438\u0448\u0443\u0442\u0441\u044F
+      \u0441\u043E \u0441\u0447\u0451\u0442\u0430 \u0442\u0435\u043B\u0435\u0444\u043E\u043D\u0430"
+    EnglishValue: The money will be debited from your phone account
+    TjsValue: "\u041C\u0430\u0431\u043B\u0430\u0493 \u0430\u0437 \u04B3\u0438\u0441\u043E\u0431\u0438
+      \u0442\u0435\u043B\u0435\u0444\u043E\u043D \u0433\u0438\u0440\u0438\u0444\u0442\u0430
+      \u043C\u0435\u0448\u0430\u0432\u0430\u0434"
+  - key: BUY
+    RussiaValue: "\u041A\u0443\u043F\u0438\u0442\u044C"
+    EnglishValue: Buy
+    TjsValue: "\u0425\u0430\u0440\u0438\u0434 \u043A\u0430\u0440\u0434\u0430\u043D"
+  - key: RUB
+    RussiaValue: "\u0440\u0443\u0431\u043B\u0435\u0439"
+    EnglishValue: rubles
+    TjsValue: "\u0440\u0443\u0431\u043B\u0435\u0439"
+  - key: ErrorPayment
+    RussiaValue: 
+    EnglishValue: 
+    TjsValue: 
+  localizeImageObjs:
+  - key: Fantastic
+    RussiaValue: {fileID: 21300000, guid: fcf2b6b367b6edf72a3c66a4f748e2c4, type: 3}
+    EnglishValue: {fileID: 21300000, guid: 421ae31984a9d7e80858c8b329ccabee, type: 3}
+    TjsValue: {fileID: 21300000, guid: b2d50c6307881d8c4a1a658a3bca9766, type: 3}
+  - key: Good
+    RussiaValue: {fileID: 21300000, guid: 7c1a2a603a5e4702085350756aaa483b, type: 3}
+    EnglishValue: {fileID: 21300000, guid: 0e769ea8f230428eea939d7bb5daf3f8, type: 3}
+    TjsValue: {fileID: 21300000, guid: da24a73b2aecf5db4b2ada156b404b11, type: 3}
+  - key: Great
+    RussiaValue: {fileID: 21300000, guid: 25c8462566c12b61592c2fb0cabe540a, type: 3}
+    EnglishValue: {fileID: 21300000, guid: b3d082e4aa24dd6869901b8fe66369a8, type: 3}
+    TjsValue: {fileID: 21300000, guid: 8898b30a1d935e72895a6395205e17fc, type: 3}
+  - key: Level Compete
+    RussiaValue: {fileID: 21300000, guid: 0648b86831c95444eaa88952af3d4c1c, type: 3}
+    EnglishValue: {fileID: 21300000, guid: 2d3b9d481f97d78e19626f8972658e3a, type: 3}
+    TjsValue: {fileID: 21300000, guid: ae5e536d66282e055820f9dc1d888024, type: 3}
+  - key: Main
+    RussiaValue: {fileID: 21300000, guid: 7a194f60d9e8865b9ab66ac8e378eaf6, type: 3}
+    EnglishValue: {fileID: 21300000, guid: a2c40ec7396498f4bb43463be4d52a1c, type: 3}
+    TjsValue: {fileID: 21300000, guid: a2c40ec7396498f4bb43463be4d52a1c, type: 3}

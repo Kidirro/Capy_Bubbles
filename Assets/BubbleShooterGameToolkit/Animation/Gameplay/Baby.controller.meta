@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 20d873c37cd164b7799bdec1cd5bf52a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Animation/Gameplay/Baby.controller
+  uploadId: 692633

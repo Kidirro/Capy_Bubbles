@@ -1,0 +1,5 @@
+/home/alexey/Unity/Projects/My project (1)/.utmp/RelWithDebInfo/6b642h4i/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/alexey/Unity/Projects/My project (1)/.utmp/RelWithDebInfo/6b642h4i/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/alexey/Unity/Projects/My project (1)/.utmp/RelWithDebInfo/6b642h4i/armeabi-v7a/FramePacing/CMakeFiles/swappywrapper.dir
+/home/alexey/Unity/Projects/My project (1)/.utmp/RelWithDebInfo/6b642h4i/armeabi-v7a/FramePacing/CMakeFiles/edit_cache.dir
+/home/alexey/Unity/Projects/My project (1)/.utmp/RelWithDebInfo/6b642h4i/armeabi-v7a/FramePacing/CMakeFiles/rebuild_cache.dir

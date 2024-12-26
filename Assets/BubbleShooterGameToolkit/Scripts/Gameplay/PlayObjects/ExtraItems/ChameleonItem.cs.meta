@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 4c67a5a4b0474197b360e32c827b2785
+timeCreated: 1661778615
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/PlayObjects/ExtraItems/ChameleonItem.cs
+  uploadId: 692633

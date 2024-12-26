@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 0c34ede82e894e8b946d1eae10ffd6b2
+timeCreated: 1692283936
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Materials/Shaders/Greyscale.shader
+  uploadId: 692633

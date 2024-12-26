@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 51eeeff9e9eb4814a8a7aa5e89999151
+timeCreated: 1688709834
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/PlayObjects/Attachables/Covers/CoverRandom.cs
+  uploadId: 692633

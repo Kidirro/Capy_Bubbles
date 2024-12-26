@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d0672820330ef43a4a3146bdf010e8b4
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Other/Bouncing.prefab
+  uploadId: 0

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 32bed98bef9cf4a16a50e835a2ee25cb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/CommonUI/Popups/TutorialBanner.cs
+  uploadId: 0

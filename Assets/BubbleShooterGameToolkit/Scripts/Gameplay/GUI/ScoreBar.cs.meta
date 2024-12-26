@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 988334cce9e24e36a52fb577a050d81b
+timeCreated: 1654436104
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/GUI/ScoreBar.cs
+  uploadId: 692633

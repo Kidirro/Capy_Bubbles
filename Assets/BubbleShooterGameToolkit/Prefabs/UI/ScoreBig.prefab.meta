@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: df251f291dd7941b7b4f7160329e7cc8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/UI/ScoreBig.prefab
+  uploadId: 0

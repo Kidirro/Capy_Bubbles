@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9887fccf4a0a74091aa572c3f11d1ecb
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Balls/Hidden/TopPoint.prefab
+  uploadId: 0

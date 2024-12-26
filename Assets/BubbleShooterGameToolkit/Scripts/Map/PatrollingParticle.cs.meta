@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 9c31a021f1604656a464fd484f386385
+timeCreated: 1692196065
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Map/PatrollingParticle.cs
+  uploadId: 692633

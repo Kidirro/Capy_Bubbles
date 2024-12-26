@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 9f89f472e7a140eeb4be176d34a79648
+timeCreated: 1707898396
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/Managers/SeparatingBallManager.cs
+  uploadId: 692633

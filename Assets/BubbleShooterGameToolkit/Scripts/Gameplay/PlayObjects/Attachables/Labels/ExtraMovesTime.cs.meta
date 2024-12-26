@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 251c66fe08a3443496d3af7aa9a040b5
+timeCreated: 1705321962
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/PlayObjects/Attachables/Labels/ExtraMovesTime.cs
+  uploadId: 692633

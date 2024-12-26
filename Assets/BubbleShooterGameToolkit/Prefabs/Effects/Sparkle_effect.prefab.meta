@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: dcf2236e3a68649fc9c9d38b57c60840
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Effects/Sparkle_effect.prefab
+  uploadId: 692633

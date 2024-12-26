@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: f227904d57a9419f8ea858129f9c84e5
+timeCreated: 1688229461
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/PlayObjects/ExtraItems/Multicolor.cs
+  uploadId: 692633

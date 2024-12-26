@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 015a131006019f348bf1d4babe2a539e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/MapObjects/tree-map-2.prefab
+  uploadId: 692633

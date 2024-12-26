@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 76db1a71ef284c028407b4bbe80445d0
+timeCreated: 1709623652
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Utils/DefineSymbolsUtils.cs
+  uploadId: 692633

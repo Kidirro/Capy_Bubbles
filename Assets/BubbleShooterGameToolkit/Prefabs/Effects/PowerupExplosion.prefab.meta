@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 46a03db46f7af4a50b044e0b242d4936
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Effects/PowerupExplosion.prefab
+  uploadId: 692633

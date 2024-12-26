@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: c20ba3464f284bed8370fcefe71e9b5d
+timeCreated: 1694162792
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/AnimationBehaviours/DelayBeforeStart.cs
+  uploadId: 692633

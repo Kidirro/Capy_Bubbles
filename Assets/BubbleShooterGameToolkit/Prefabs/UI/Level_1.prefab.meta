@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cf4fefbe2a9d19a4b95225841e814bfe
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/UI/Level_1.prefab
+  uploadId: 0

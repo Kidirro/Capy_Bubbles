@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 91ece9f24185c5c43bf3590dc767d63e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 
+  assetPath: Assets/BubbleShooterGameToolkit/Resources/Popups/MenuPause.prefab
+  uploadId: 0

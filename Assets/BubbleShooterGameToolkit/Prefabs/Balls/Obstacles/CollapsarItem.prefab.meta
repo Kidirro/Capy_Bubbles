@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 15f5cef96bafd4b768c8914b623a6c53
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Balls/Obstacles/CollapsarItem.prefab
+  uploadId: 692633

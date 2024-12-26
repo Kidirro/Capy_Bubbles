@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: a096c5fc8d4848a4b1160678d8122514
+timeCreated: 1709194561
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/GUI/BackButtonMap.cs
+  uploadId: 692633

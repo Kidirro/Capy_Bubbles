@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 78faf900273d14666b1feb0211e95e4e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/TargetAnimationPrefabs/BunnyKidTargetAnimation.prefab
+  uploadId: 0

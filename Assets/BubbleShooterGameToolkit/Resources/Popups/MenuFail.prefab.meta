@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9d9a1947546212d4791d7dcd5c2852f9
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 
+  assetPath: Assets/BubbleShooterGameToolkit/Resources/Popups/MenuFail.prefab
+  uploadId: 0

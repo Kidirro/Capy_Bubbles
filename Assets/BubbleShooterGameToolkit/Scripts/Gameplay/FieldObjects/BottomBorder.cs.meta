@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 7e8340ee3838461890b9fd0ab5b05a49
+timeCreated: 1679172192
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/FieldObjects/BottomBorder.cs
+  uploadId: 692633

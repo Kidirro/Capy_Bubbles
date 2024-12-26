@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 8bbf2092f0c64d23bbeec2d2fa9dfad2
+timeCreated: 1624865631
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Settings/DebugSettings.cs
+  uploadId: 692633

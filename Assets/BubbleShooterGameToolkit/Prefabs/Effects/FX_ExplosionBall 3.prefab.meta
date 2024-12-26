@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8ae3fd96924314a528478963e69dd6f4
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Effects/FX_ExplosionBall 3.prefab
+  uploadId: 692633

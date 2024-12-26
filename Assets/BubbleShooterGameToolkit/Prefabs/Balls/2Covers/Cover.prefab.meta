@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 889ef4cfc027c4379bb7a9c961dd5ac8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Balls/2Covers/Cover.prefab
+  uploadId: 692633

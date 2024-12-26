@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5fd949fe46418d946a898959d1089ae5
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/GameManager.prefab
+  uploadId: 692633

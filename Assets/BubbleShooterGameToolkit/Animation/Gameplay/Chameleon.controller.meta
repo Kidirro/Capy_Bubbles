@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b1e270080d081a84cbb4792f9c2a7be1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Animation/Gameplay/Chameleon.controller
+  uploadId: 692633

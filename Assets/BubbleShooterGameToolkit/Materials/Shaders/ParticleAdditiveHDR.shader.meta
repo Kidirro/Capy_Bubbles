@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 981293405b8d41bf90056883ae2ddfdf
+timeCreated: 1695362119
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Materials/Shaders/ParticleAdditiveHDR.shader
+  uploadId: 692633

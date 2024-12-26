@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 203b270cd06046e7af866b354568ba4b
+timeCreated: 1706454921
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/PlayObjects/Types/CenterRotationBall.cs
+  uploadId: 692633

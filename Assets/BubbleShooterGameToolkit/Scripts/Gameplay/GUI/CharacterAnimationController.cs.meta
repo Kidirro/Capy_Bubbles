@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 0491eefec30f42a78cbff1bd1abe124e
+timeCreated: 1694436081
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/GUI/CharacterAnimationController.cs
+  uploadId: 692633

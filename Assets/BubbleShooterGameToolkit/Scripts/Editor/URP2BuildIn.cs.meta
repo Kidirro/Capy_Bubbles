@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 6424f7f5374949e8a3e3bceba966e3b4
+timeCreated: 1724313593
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Editor/URP2BuildIn.cs
+  uploadId: 692633

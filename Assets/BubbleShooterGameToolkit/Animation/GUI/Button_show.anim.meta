@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 91f2e7807b706b842a4cc9240e99bb7b
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Animation/GUI/Button_show.anim
+  uploadId: 692633

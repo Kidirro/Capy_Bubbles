@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 0bdb4cd206004ed5bc4e75f65836df6e
+timeCreated: 1706041552
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Editor/LevelSystem/LevelSwitcher.cs
+  uploadId: 692633

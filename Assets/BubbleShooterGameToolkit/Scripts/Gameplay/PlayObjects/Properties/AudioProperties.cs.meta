@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 87cdd147a92347d8b52c0b0208ff8df9
+timeCreated: 1695486908
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/PlayObjects/Properties/AudioProperties.cs
+  uploadId: 692633

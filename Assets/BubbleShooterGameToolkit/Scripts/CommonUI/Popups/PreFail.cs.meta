@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 3486c933f73a4e64b519329692be22ae
+timeCreated: 1625302624
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/CommonUI/Popups/PreFail.cs
+  uploadId: 692633

@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 00dd4a7ac8c24c898083910c81898ecc
+timeCreated: 1709468561
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Ads/CandySmith.Ads.asmdef
+  uploadId: 692633

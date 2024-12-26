@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: c29beaba40634153b4c43eabaa24596a
+timeCreated: 1689655881
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/PlayObjects/Attachables/Labels/Attachable.cs
+  uploadId: 692633

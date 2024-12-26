@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 975b170e03009440db291df95fdc798d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Balls/Hidden/Baby.prefab
+  uploadId: 0

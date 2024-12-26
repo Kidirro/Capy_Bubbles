@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f81b234702f89cd4a8f996d0d7e257b8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/BoostsIcons/ColorfullBoost.prefab
+  uploadId: 692633

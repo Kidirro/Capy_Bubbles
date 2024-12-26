@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: add544e08a5c4b74ba05e7414297692e
+timeCreated: 1634195751
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/CommonUI/Popups/Fader.cs
+  uploadId: 692633

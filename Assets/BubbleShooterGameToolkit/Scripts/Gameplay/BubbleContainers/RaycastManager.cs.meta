@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 56cdd2ea7d964632b72eec3a7f8c43db
+timeCreated: 1698481517
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/BubbleContainers/RaycastManager.cs
+  uploadId: 692633

@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 7f5ce965a03140e9928fcddd528b6c62
+timeCreated: 1650118836
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Utils/VectorUtils.cs
+  uploadId: 692633

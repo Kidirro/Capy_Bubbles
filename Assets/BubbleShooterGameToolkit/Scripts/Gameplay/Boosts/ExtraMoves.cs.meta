@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 0b436a53697a416da66eca7b80adf072
+timeCreated: 1681808250
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/Boosts/ExtraMoves.cs
+  uploadId: 692633

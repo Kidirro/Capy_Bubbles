@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0e8bcc14a41504031be3e5093c65a378
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Effects/Sparkl_small.prefab
+  uploadId: 692633

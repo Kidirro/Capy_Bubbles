@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 948bdbeeb220479ba6e36947c8f043f6
+timeCreated: 1704217383
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Audio/MusicBase.cs
+  uploadId: 692633

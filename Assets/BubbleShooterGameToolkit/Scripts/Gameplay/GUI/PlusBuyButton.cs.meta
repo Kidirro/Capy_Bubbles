@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: d113dc6da36c4165933ef4c5374a3284
+timeCreated: 1708776510
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/GUI/PlusBuyButton.cs
+  uploadId: 692633

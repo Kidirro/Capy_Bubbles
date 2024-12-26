@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 6d0e1cb290584f07aa4c483f5c0c85f9
+timeCreated: 1681808246
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/Boosts/MulticolorBallBoostResource.cs
+  uploadId: 692633

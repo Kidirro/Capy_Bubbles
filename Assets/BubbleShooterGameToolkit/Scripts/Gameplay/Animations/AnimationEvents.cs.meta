@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 61c0ab347ab043489c87839ea8a71976
+timeCreated: 1693556523
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/Animations/AnimationEvents.cs
+  uploadId: 692633

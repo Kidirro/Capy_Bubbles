@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1d280f2d30cacba40a3996b0c58eee80
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Resources/Popups/GDPR.prefab
+  uploadId: 692633

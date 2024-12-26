@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 728a47a36fdc643a8ad5aeed4200602b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Balls/1BallsSimple/_RotatingBall.prefab
+  uploadId: 692633

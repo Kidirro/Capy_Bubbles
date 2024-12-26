@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 93e21b390339435e8efc9c89e879d38f
+timeCreated: 1684741762
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Enums/EBallLayer.cs
+  uploadId: 692633

@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 36c15e1a84104c108c6a3025a7c27ba5
+timeCreated: 1694603156
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/Gameplay/PlayObjects/ExtraItems/BombPowerup.cs
+  uploadId: 692633

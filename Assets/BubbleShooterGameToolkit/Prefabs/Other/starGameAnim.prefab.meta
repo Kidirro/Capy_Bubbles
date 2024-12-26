@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 64eb3c695b615441ab4df8701245ea4c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Other/starGameAnim.prefab
+  uploadId: 692633

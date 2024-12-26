@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 2f88fa56bd8a410384f82c25b53b48b7
+timeCreated: 1685612044
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Scripts/LevelSystem/SpriteStruct.cs
+  uploadId: 692633

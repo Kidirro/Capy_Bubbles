@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8460e356e1e0a4f8cb8ddd063bfb4538
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Demigiant/DOTween/Modules/DOTween.Modules.asmdef
+  uploadId: 692633

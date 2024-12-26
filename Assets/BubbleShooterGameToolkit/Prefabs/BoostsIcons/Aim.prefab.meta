@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 45219f65e9fff8547930615335fca611
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/BoostsIcons/Aim.prefab
+  uploadId: 692633

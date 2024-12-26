@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 38ce9868dc39c9e48b6f1bda28ee99ea
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Effects/ballExplosion.prefab
+  uploadId: 692633

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 76d30f7905e1442a09bbf98c64ba3ea0
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 1.05
+  assetPath: Assets/BubbleShooterGameToolkit/Prefabs/Effects/Extra-Score-item.prefab
+  uploadId: 692633
