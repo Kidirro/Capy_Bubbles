@@ -2,7 +2,9 @@ using System;
 using BubbleShooterGameToolkit.Scripts.Gameplay.GUI;
 using UnityEngine;
 using UnityEngine.UI;
+#if YandexGamesPlatfom_yg
 using YG; 
+#endif
 
 public class LocalizationChanger : MonoBehaviour
 {
@@ -17,7 +19,7 @@ public class LocalizationChanger : MonoBehaviour
 
     void Awake()
     {
-#if UNITY_WEBGL
+#if YandexGamesPlatfom_yg
         language = (Language)YG2.saves.language;
 #else
 
@@ -40,7 +42,7 @@ public class LocalizationChanger : MonoBehaviour
         languageImage.sprite = flags[(int)language];
         languageActions?.Invoke(language);
         
-#if UNITY_WEBGL
+#if YandexGamesPlatfom_yg
         YG2.saves.language = (int)language;
         YG2.SaveProgress();
 #else

@@ -40,24 +40,27 @@ namespace BubbleShooterGameToolkit.Scripts.Data
 
         public void SaveLevel(int levelNumber, int score)
         {
-            Level = levelNumber + 1;
-            var levellast = PlayerPrefs.GetInt("Level", 1);
-            bool needSave = false;
-            if (levellast < Level)
+            if (Model.playerData.levels.Count >= EndGameMap.LAST_LEVEL)
             {
-                PlayerPrefs.SetInt("Level", Math.Max(levellast, Level));
-                needSave = true;
+               Model.playerData.counterLevel++;
             }
-            if (PlayerPrefs.GetInt("LevelScore" + levelNumber, 0) < score)
+            else
             {
-                PlayerPrefs.SetInt("LevelScore" + levelNumber, score);
-                needSave = true;
+                Level = levelNumber + 1;
+                var levellast = PlayerPrefs.GetInt("Level", 1);
+                if (levellast < Level)
+                {
+                    PlayerPrefs.SetInt("Level", Math.Max(levellast, Level));
+                    Model.playerData.levels.Add(score);
+                }
             }
-            if (needSave)
-            {
-                PlayerPrefs.Save();
-                _ = Model.SetSave();
-            }
+            //if (PlayerPrefs.GetInt("LevelScore" + levelNumber, 0) < score)
+            //{
+            //    PlayerPrefs.SetInt("LevelScore" + levelNumber, score);
+            //}
+            GameManager.instance.coins.Add(1);
+            PlayerPrefs.Save();
+
         }
     }
 }

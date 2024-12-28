@@ -5,7 +5,9 @@ using BubbleShooterGameToolkit.Scripts.System;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.UI;
+#if YandexGamesPlatfom_yg
 using YG;
+#endif
 
 public class Model : MonoBehaviour
 {
@@ -65,7 +67,7 @@ public class Model : MonoBehaviour
 
     private static void GetData()
     {
-        playerData = new PlayerData();
+        playerData = new PlayerData(true);
     }
 
     private static async Task UpdateData()
@@ -94,7 +96,7 @@ public class Model : MonoBehaviour
         {
             return JsonConvert.DeserializeObject<CatState>(PlayerPrefs.GetString("CatState"));
         }*/
-#if UNITY_WEBGL
+#if YandexGamesPlatfom_yg
         return YG2.saves.jsonSave == "" ? new PlayerData() : JsonUtility.FromJson<PlayerData>(YG2.saves.jsonSave);
 
 #else
@@ -110,7 +112,7 @@ public class Model : MonoBehaviour
 
             default:
                 Debug.Log("Error: " + request.responseCode + " Message: " + request.downloadHandler.error);
-                return new PlayerData();
+                return new PlayerData(false);
 
         }
 #endif
@@ -182,7 +184,7 @@ public class Model : MonoBehaviour
         }*/
         Debug.Log("SetSave");
         
-#if UNITY_WEBGL
+#if YandexGamesPlatfom_yg
         YG2.saves.jsonSave = JsonUtility.ToJson(new PlayerSendData(playerData));
         YG2.SaveProgress();
 #else
@@ -227,10 +229,12 @@ public class PlayerSendData
     public int hearts = 0;
     public string levels;
     public string boosters;
+    public int counterLevel=0;
     public PlayerSendData(PlayerData data)
     {
         gold = data.gold;
         hearts = data.hearts;
+        counterLevel = data.counterLevel;
         levels = "[";
         foreach (var level in data.levels)
         {
@@ -256,8 +260,9 @@ public class PlayerData
     public int hearts = 0;
     public List<int> levels;
     public int[] boosters = new int[4];
+    public int counterLevel=0;
 
-    public PlayerData()
+    public PlayerData(bool toserver)
     {
         levels = new List<int>();
         for (int i = 0; i < PlayerPrefs.GetInt("Level", 1); i++)
@@ -267,6 +272,7 @@ public class PlayerData
                 levels.Add(value);
         }
         boosters = new int[4];
+        counterLevel = Model.playerData.counterLevel;
         GameManager.instance.coins.LoadPrefs();
         GameManager.instance.life.LoadPrefs();
         for (int i = 0; i < GameManager.instance.boosters.Length; i++)

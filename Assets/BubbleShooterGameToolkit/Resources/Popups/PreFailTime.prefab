@@ -1624,7 +1624,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7b955dac9756d2dab50499296d60541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _localizeKey: Continue with +60 seconds extra?
+  _localizeKey: Continue with +30 seconds extra?
   text: {fileID: 4053132188440396058}
 --- !u!1 &5138662720216561563
 GameObject:

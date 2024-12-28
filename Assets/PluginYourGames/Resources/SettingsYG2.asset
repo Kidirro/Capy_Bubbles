@@ -9,15 +9,53 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: efa747916aa66674d96ea40ca8a480b2, type: 3}
+  m_Script: {fileID: 0}
   m_Name: SettingsYG2
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Yandex_ref:YG:InfoYG
+  Authorization:
+    scopes: 1
+    playerPhotoSize: 1
+    authorized: 1
+    playerName: Player current
+    uniqueID: 000
+    playerPhoto: demo image
+    payingStatus: 0
   InterstitialAdv:
     showFirstAdv: 1
     interAdvInterval: 60
     postponeCallByFail: 0
     postponeCallTimer: 10
     labelAdvSimLabel: 0
+  Payments:
+    testBuyFail: 0
+    purshases:
+    - id: gun
+      title: Gun
+      description: Product - Gun
+      imageURI: demo image
+      price: 5 YAN
+      priceValue: 5
+      priceCurrencyCode: YAN
+      currencyImageURL: https://yastatic.net/s3/games-static/static-data/images/payments/sdk/currency-icon-s@2x.png
+      consumed: 1
+    - id: armor
+      title: Armor
+      description: Product - Armor
+      imageURI: demo image
+      price: 10 YAN
+      priceValue: 10
+      priceCurrencyCode: YAN
+      currencyImageURL: https://yastatic.net/s3/games-static/static-data/images/payments/sdk/currency-icon-s@2x.png
+      consumed: 1
+    - id: grenade
+      title: Grenade
+      description: Product - Grenade
+      imageURI: demo image
+      price: 30 YAN
+      priceValue: 30
+      priceCurrencyCode: YAN
+      currencyImageURL: https://yastatic.net/s3/games-static/static-data/images/payments/sdk/currency-icon-s@2x.png
+      consumed: 1
   RewardedAdv:
     rewardedAfterClosing: 1
     skipInterAdvAfterReward: 0
@@ -28,7 +66,7 @@ MonoBehaviour:
     saveCloudInterval: 0
     flush: 0
   Basic:
-    platform: {fileID: 11400000, guid: c2a303d33a9fd394bae4c4b88b9a1c44, type: 2}
+    platform: {fileID: 0}
     autoApplySettings: 1
     autoPauseGame: 1
     editEventSystem: 1

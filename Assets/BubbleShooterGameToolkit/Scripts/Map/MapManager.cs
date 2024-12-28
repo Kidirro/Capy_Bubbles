@@ -37,8 +37,9 @@ namespace BubbleShooterGameToolkit.Scripts.Map
         public static Action<Vector2> OnLastLevelPosition;
        
 
-        private void Start()
+        public void Open()
         {
+            gameObject.SetActive(true);
             var lvls = FindObjectsOfType<LevelPin>().OrderBy(x => x.number).ToArray();
             var lastLevel = PlayerPrefs.GetInt("Level", 1);
             foreach (var levelPin in lvls)
