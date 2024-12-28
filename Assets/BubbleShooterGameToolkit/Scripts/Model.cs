@@ -191,7 +191,7 @@ public class Model : MonoBehaviour
         
         
         GetData();
-
+        Debug.Log(JsonUtility.ToJson(new PlayerSendData(playerData)));
         var request = UnityWebRequest.Put(backend + "user", JsonUtility.ToJson(new PlayerSendData(playerData)));
         request.SetRequestHeader("accessToken", token);
         request.uploadHandler.contentType = "application/json";
@@ -283,5 +283,9 @@ public class PlayerData
 
         gold = GameManager.instance.coins.GetResource();
         hearts = GameManager.instance.life.GetResource();
+    }
+    public PlayerData()
+    {
+        GameManager.instance.life.LoadPrefs(); 
     }
 }

@@ -1,3 +1,5 @@
+using BubbleShooterGameToolkit.Scripts.CommonUI;
+using BubbleShooterGameToolkit.Scripts.CommonUI.Popups;
 using BubbleShooterGameToolkit.Scripts.System;
 using TMPro;
 using UnityEngine;
@@ -22,6 +24,12 @@ public class EndGameMap : MonoBehaviour
 
     private void PlayRandomLevel()
     {
+        if (!GameManager.instance.life.IsEnough(1))
+            {
+                MenuManager.instance.ShowPopup<LifeShop>();
+                return;
+            }
+        
         int number = 20+(Model.playerData.counterLevel*7%(MAX_LEVEL-20));
         PlayerPrefs.SetInt("OpenLevel", number);
         SceneLoader.instance.StartGameScene();

@@ -53,6 +53,7 @@ namespace BubbleShooterGameToolkit.Scripts.Data
                     PlayerPrefs.SetInt("Level", Math.Max(levellast, Level));
                     Model.playerData.levels.Add(score);
                 }
+                PlayerPrefs.SetInt("LevelScore" + levelNumber, score);
             }
             //if (PlayerPrefs.GetInt("LevelScore" + levelNumber, 0) < score)
             //{
