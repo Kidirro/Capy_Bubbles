@@ -1,0 +1,1687 @@
+fileFormatVersion: 2
+guid: 5758a11c2ad158447b1b14333f72ae65
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1376
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54348548d68765b4ca375c9961767739
+      internalID: -1092299898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1376
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230a4508269f47f40953469c02d2c134
+      internalID: -299441320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1376
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed27e64db6fd464da04db13ad9f4352
+      internalID: 1673783240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_3
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1376
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311093ff13bc0ab4487113a7ee641700
+      internalID: -1658731668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_4
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1376
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188f1e328eb53de43ad5c97a5ba65ef7
+      internalID: -23554513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_5
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1376
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ba98c76fbe7024db1d3787736718d3
+      internalID: 1073464676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_6
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1376
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c97f5c8d5557ba4492d09fefbf80402
+      internalID: -344818457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_7
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1376
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d49cb44a108e084cb916d039ec19e96
+      internalID: -1748774082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1204
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3014adc3db022943a9fb3918ca947ec
+      internalID: -1068532994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_9
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1204
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf63448d090191448d8bf8d3afe3c41
+      internalID: -1420409909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_10
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1204
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3ed285aaeb6f144ae9e71a94e8223f
+      internalID: -1573621066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_11
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1204
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc12f19319a72e14c8412696808c388f
+      internalID: 452028070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_12
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1204
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d60b5a7f82d8e428aeda09223bbaf0
+      internalID: 1345939968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_13
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1204
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8c90fe8c6bef44c824e731a2d70a80
+      internalID: 1087604802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_14
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1204
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131c2d42b61529f4f899a89f7cfaf2d9
+      internalID: -1465589350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_15
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1204
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4791e075d2511c942a1120552c93c1a5
+      internalID: -1717700247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1032
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95132683dde63d54789554baa7e883e8
+      internalID: -443352951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_17
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1032
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6613dbb55864b2f4baaef9f0641571ec
+      internalID: -570456590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_18
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1032
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f4975646874fb4389382750b26c079
+      internalID: 1897091409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_19
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1032
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411eb028fba971246b650aec4cc79845
+      internalID: -1202144527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_20
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1032
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049a7f4c026a50e4ab3dd3419848c0e2
+      internalID: -898169829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_21
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1032
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c298bc7c4b72f434fbe6f8b9d26a277e
+      internalID: -1074634042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_22
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1032
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4936eacb35cfc04ca2ceb786a95a065
+      internalID: -659066969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_23
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1032
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb40ccecd170d542a05e6b43109c41d
+      internalID: 982223073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 860
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11daebb3e0e7fd749b0f7c9624512c85
+      internalID: -1319919628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_25
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 860
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897a252e044bc214a8dc7ac046fb428b
+      internalID: -1989842546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_26
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 860
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8dafeba638ca84dac3727836436e77
+      internalID: 2119283309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_27
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 860
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b40bd30eedb804685306407938ae11
+      internalID: -1987490583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_28
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 860
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c495e2a175e8a074d988e2e155e538fe
+      internalID: -2131759937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_29
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 860
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d164ea56133442541a79f33e019a18ac
+      internalID: 502438245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_30
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 860
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee23d6788856aa4e958ad54fa69c2da
+      internalID: -923250581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_31
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 860
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0f9b525e0616644b77d4728e610802
+      internalID: -1432278247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 688
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ab193c2f33b3441b8b222f281f51e1
+      internalID: 1479145636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_33
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 688
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a152ac3135278e34195ab0232c96e41c
+      internalID: 782247342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_34
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 688
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0638f293aec73a5469902759956be5ec
+      internalID: 1753305181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_35
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 688
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0125f463152e62d42a97ebdacbd2e0ba
+      internalID: -2052734497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_36
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 688
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c370cd9e7cd321488db81ef32403fde
+      internalID: -1039476426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_37
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 688
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d56b0417efbfd74a92e2252fdeb3801
+      internalID: 1161844354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_38
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 688
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4135627104bc243af97144e698aa3c
+      internalID: -1285760736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_39
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 688
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b931923c4f79541b9a0be733be609c
+      internalID: 926137402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 516
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ff747f45efe76429684e6cbd32a2cd
+      internalID: -1801606093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_41
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 516
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde621efbba4e3c4180326ffccd2fa88
+      internalID: 1674669177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_42
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 516
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3635eefd2c79b40b730578a3f6454f
+      internalID: -1009498887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_43
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 516
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a822ed48b64a513489fe0faff1021589
+      internalID: 400600182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_44
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 516
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9969c367d1f4b5e4e831e06400c48af0
+      internalID: -1262621570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_45
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 516
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76575b8a30e3ab4287e1e619a35ca15
+      internalID: -1892780725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_46
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 516
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6829f15da900b4fb26214f396636dd
+      internalID: -1816382292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_47
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 516
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1f16567f88e784c936545ad99ee790
+      internalID: 1288071775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 344
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eddd60e5ff9844498759d647d22117f
+      internalID: 877592085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_49
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 344
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f3f2664429595f4dbbff450dd2be88d
+      internalID: 1040064447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_50
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 344
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db817f9a24761204caf72538d514fb61
+      internalID: -1767484214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_51
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 344
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ef528635840e1469c8ade2a3509e93
+      internalID: 2109904568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_52
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 344
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971718dc0cb1c394e810f3b1156245b1
+      internalID: -711285582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_53
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 344
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0b84f2665ec7d4f8dbf5c6f2045fab
+      internalID: -1881164445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_54
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 344
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22aa105d6b7b2ab41896d59d7205e2c0
+      internalID: -751232290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_55
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 344
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae631ac87ab5c14b9850e9663e9716e
+      internalID: 2022210371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 172
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624233d2e4b61e9489671770815ebbf3
+      internalID: -13228736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_57
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 172
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8641ae8d9afa2894caf733f13d3d8fcd
+      internalID: -1915305442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_58
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 172
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a379e0bffeeb67d44b85a7064de36c2b
+      internalID: 1208040381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_59
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 172
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313d85f400ab6aa47b4069c42bec6225
+      internalID: -109096514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_60
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 172
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c575a0081a632104fbaf56e631032c10
+      internalID: 544719245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_61
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 172
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ee107ca2b60e744938d8e9e57cf68f
+      internalID: 221188435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_62
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 172
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0393694f5f5dc5843869b54282c28501
+      internalID: -2077169934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_63
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 172
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af85647ca60be864c9f2bbd9b44971f5
+      internalID: 934687071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cbf7adf4f317484a83d2c66c7758053
+      internalID: -469168535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_65
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a96be460fcb80846b84234c8297f551
+      internalID: -376971407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_66
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d18cef476c290498ce8f40e89616ae
+      internalID: -869296409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_67
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b6b5e6e86d92e4981778a24b2e4165
+      internalID: -779790808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_68
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590a2c43cb7d3974e9faa11eb83b1224
+      internalID: -1229662240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Fire-sprite_69
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 120
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9d6615a5b23674c9f05afd73412f10
+      internalID: 575994526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LevelMap10-Fire-sprite_0: -1092299898
+      LevelMap10-Fire-sprite_1: -299441320
+      LevelMap10-Fire-sprite_10: -1573621066
+      LevelMap10-Fire-sprite_11: 452028070
+      LevelMap10-Fire-sprite_12: 1345939968
+      LevelMap10-Fire-sprite_13: 1087604802
+      LevelMap10-Fire-sprite_14: -1465589350
+      LevelMap10-Fire-sprite_15: -1717700247
+      LevelMap10-Fire-sprite_16: -443352951
+      LevelMap10-Fire-sprite_17: -570456590
+      LevelMap10-Fire-sprite_18: 1897091409
+      LevelMap10-Fire-sprite_19: -1202144527
+      LevelMap10-Fire-sprite_2: 1673783240
+      LevelMap10-Fire-sprite_20: -898169829
+      LevelMap10-Fire-sprite_21: -1074634042
+      LevelMap10-Fire-sprite_22: -659066969
+      LevelMap10-Fire-sprite_23: 982223073
+      LevelMap10-Fire-sprite_24: -1319919628
+      LevelMap10-Fire-sprite_25: -1989842546
+      LevelMap10-Fire-sprite_26: 2119283309
+      LevelMap10-Fire-sprite_27: -1987490583
+      LevelMap10-Fire-sprite_28: -2131759937
+      LevelMap10-Fire-sprite_29: 502438245
+      LevelMap10-Fire-sprite_3: -1658731668
+      LevelMap10-Fire-sprite_30: -923250581
+      LevelMap10-Fire-sprite_31: -1432278247
+      LevelMap10-Fire-sprite_32: 1479145636
+      LevelMap10-Fire-sprite_33: 782247342
+      LevelMap10-Fire-sprite_34: 1753305181
+      LevelMap10-Fire-sprite_35: -2052734497
+      LevelMap10-Fire-sprite_36: -1039476426
+      LevelMap10-Fire-sprite_37: 1161844354
+      LevelMap10-Fire-sprite_38: -1285760736
+      LevelMap10-Fire-sprite_39: 926137402
+      LevelMap10-Fire-sprite_4: -23554513
+      LevelMap10-Fire-sprite_40: -1801606093
+      LevelMap10-Fire-sprite_41: 1674669177
+      LevelMap10-Fire-sprite_42: -1009498887
+      LevelMap10-Fire-sprite_43: 400600182
+      LevelMap10-Fire-sprite_44: -1262621570
+      LevelMap10-Fire-sprite_45: -1892780725
+      LevelMap10-Fire-sprite_46: -1816382292
+      LevelMap10-Fire-sprite_47: 1288071775
+      LevelMap10-Fire-sprite_48: 877592085
+      LevelMap10-Fire-sprite_49: 1040064447
+      LevelMap10-Fire-sprite_5: 1073464676
+      LevelMap10-Fire-sprite_50: -1767484214
+      LevelMap10-Fire-sprite_51: 2109904568
+      LevelMap10-Fire-sprite_52: -711285582
+      LevelMap10-Fire-sprite_53: -1881164445
+      LevelMap10-Fire-sprite_54: -751232290
+      LevelMap10-Fire-sprite_55: 2022210371
+      LevelMap10-Fire-sprite_56: -13228736
+      LevelMap10-Fire-sprite_57: -1915305442
+      LevelMap10-Fire-sprite_58: 1208040381
+      LevelMap10-Fire-sprite_59: -109096514
+      LevelMap10-Fire-sprite_6: -344818457
+      LevelMap10-Fire-sprite_60: 544719245
+      LevelMap10-Fire-sprite_61: 221188435
+      LevelMap10-Fire-sprite_62: -2077169934
+      LevelMap10-Fire-sprite_63: 934687071
+      LevelMap10-Fire-sprite_64: -469168535
+      LevelMap10-Fire-sprite_65: -376971407
+      LevelMap10-Fire-sprite_66: -869296409
+      LevelMap10-Fire-sprite_67: -779790808
+      LevelMap10-Fire-sprite_68: -1229662240
+      LevelMap10-Fire-sprite_69: 575994526
+      LevelMap10-Fire-sprite_7: -1748774082
+      LevelMap10-Fire-sprite_8: -1068532994
+      LevelMap10-Fire-sprite_9: -1420409909
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303021
+  packageName: Casual Maps - Level Progression
+  packageVersion: 1.0
+  assetPath: Assets/Graphie/Casual game map/Sprites/Animations/LevelMap10-Fire-sprite.png
+  uploadId: 710143

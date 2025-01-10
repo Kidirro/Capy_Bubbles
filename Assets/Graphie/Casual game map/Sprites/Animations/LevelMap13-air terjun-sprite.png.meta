@@ -1,0 +1,1027 @@
+fileFormatVersion: 2
+guid: 3ffa29b8cd75b684dba0d04648744ab9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3924
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44819f1c4c7be84798c838c0e90c29e
+      internalID: -26742079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_1
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 3924
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f43ba1bfc43264e9bcce85b6780341
+      internalID: 1340423053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_2
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 3924
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fcdd991afab9e349a8860bbb0c391f7
+      internalID: -170960792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_3
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 3924
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc562f93741f17049a89d84ff4d65119
+      internalID: -591830351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_4
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 3924
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b433b394c1faa7440be4b4d22e812d17
+      internalID: -805223367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_5
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 3924
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0903f5354d31ea04f8a740e01db8125b
+      internalID: -362545490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_6
+      rect:
+        serializedVersion: 2
+        x: 2712
+        y: 3924
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9afac2c6bdf1e499ab5b6e8033f4ba
+      internalID: -1092278604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_7
+      rect:
+        serializedVersion: 2
+        x: 3164
+        y: 3924
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27099907f147e004097b70d992194284
+      internalID: -699276956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_8
+      rect:
+        serializedVersion: 2
+        x: 3616
+        y: 3924
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe8d214f1f631f499abd898449a338f
+      internalID: 1894104438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_9
+      rect:
+        serializedVersion: 2
+        x: 4068
+        y: 3924
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38f2246070d2d4499097da69a598702
+      internalID: -274553074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2616
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b307fddd011988b46ad8d3345e91e186
+      internalID: -1159676764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_11
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 2616
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37486590375668b4bad143fe87fb9794
+      internalID: -89287541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_12
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 2616
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af02fde49f6e9d941a2ee7175c56d18b
+      internalID: -498435629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_13
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 2616
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7ea7e9e871851499a8d4af6bf00cd4
+      internalID: 974188002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_14
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 2616
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a242bdd04213074ab01a102d62b1cda
+      internalID: -2028708975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_15
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 2616
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c945cffc7ca3796428d13264bec9e9f0
+      internalID: -1044815582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_16
+      rect:
+        serializedVersion: 2
+        x: 2712
+        y: 2616
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f2ebf7c68758a4eb77bab291cf9211
+      internalID: -1010339243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_17
+      rect:
+        serializedVersion: 2
+        x: 3164
+        y: 2616
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddaa325c206c7134eb9c147e02cc62ab
+      internalID: 917657325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_18
+      rect:
+        serializedVersion: 2
+        x: 3616
+        y: 2616
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e29dfda80c050264193733421b045316
+      internalID: -1450159374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_19
+      rect:
+        serializedVersion: 2
+        x: 4068
+        y: 2616
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac550cd78cc589b4daa049f8ada0b78f
+      internalID: 1105936313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1308
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4499cbaa36918ab4a8b5a814989616d0
+      internalID: 1967361444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_21
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1308
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2487291de309249a15ad7826e0cead
+      internalID: -160842016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_22
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1308
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569b418aea3865146bd0818ca53c7d62
+      internalID: -1492302677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_23
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 1308
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f134ac945ccbc7d489b7daa693212f86
+      internalID: -118428745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_24
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 1308
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1cb056821bc364f8af376f3f8f7a90
+      internalID: 643061266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_25
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 1308
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990694794bd56e6479986b12d2af02d9
+      internalID: -1690769649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_26
+      rect:
+        serializedVersion: 2
+        x: 2712
+        y: 1308
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3a7adb852338d44af5c36a9327e597
+      internalID: -92937748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_27
+      rect:
+        serializedVersion: 2
+        x: 3164
+        y: 1308
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d6a7f60c6c73b4db3a97b768ab0de0
+      internalID: -593365786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_28
+      rect:
+        serializedVersion: 2
+        x: 3616
+        y: 1308
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea1caa2f585dfb4da8f00c5e2b56fad
+      internalID: -589363763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_29
+      rect:
+        serializedVersion: 2
+        x: 4068
+        y: 1308
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daba4c2c86760184ca493818c4a9fe55
+      internalID: -1423995583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f90556b487253c49ba850dd8b4a8ed1
+      internalID: -1136346647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_31
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 0
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05e95e196091584aa2a33bf6bf37f3b
+      internalID: -734845100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_32
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 0
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24705e62855b16542b3d22dc65c2971c
+      internalID: 1746666718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_33
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 0
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450bfe5fb20d2524fa79cbc0d80a5d9b
+      internalID: -845891951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_34
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 0
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608347ffd335ff043b984a23cdbe0a43
+      internalID: 737179976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_35
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 0
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae77ce0b06101934da620905015c5009
+      internalID: -1008623269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_36
+      rect:
+        serializedVersion: 2
+        x: 2712
+        y: 0
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e15e5f23abb22a439a46d9d8700d6f9
+      internalID: -898029004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_37
+      rect:
+        serializedVersion: 2
+        x: 3164
+        y: 0
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea4e2ddf0905194d9f96bd190f3ef3a
+      internalID: -1019201873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_38
+      rect:
+        serializedVersion: 2
+        x: 3616
+        y: 0
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f226ca65a92694187317f8455a5809
+      internalID: 1049875168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap13-air terjun-sprite_39
+      rect:
+        serializedVersion: 2
+        x: 4068
+        y: 0
+        width: 452
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86fe08e4847c800428460d1e9491a738
+      internalID: -83842605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LevelMap13-air terjun-sprite_0: -26742079
+      LevelMap13-air terjun-sprite_1: 1340423053
+      LevelMap13-air terjun-sprite_10: -1159676764
+      LevelMap13-air terjun-sprite_11: -89287541
+      LevelMap13-air terjun-sprite_12: -498435629
+      LevelMap13-air terjun-sprite_13: 974188002
+      LevelMap13-air terjun-sprite_14: -2028708975
+      LevelMap13-air terjun-sprite_15: -1044815582
+      LevelMap13-air terjun-sprite_16: -1010339243
+      LevelMap13-air terjun-sprite_17: 917657325
+      LevelMap13-air terjun-sprite_18: -1450159374
+      LevelMap13-air terjun-sprite_19: 1105936313
+      LevelMap13-air terjun-sprite_2: -170960792
+      LevelMap13-air terjun-sprite_20: 1967361444
+      LevelMap13-air terjun-sprite_21: -160842016
+      LevelMap13-air terjun-sprite_22: -1492302677
+      LevelMap13-air terjun-sprite_23: -118428745
+      LevelMap13-air terjun-sprite_24: 643061266
+      LevelMap13-air terjun-sprite_25: -1690769649
+      LevelMap13-air terjun-sprite_26: -92937748
+      LevelMap13-air terjun-sprite_27: -593365786
+      LevelMap13-air terjun-sprite_28: -589363763
+      LevelMap13-air terjun-sprite_29: -1423995583
+      LevelMap13-air terjun-sprite_3: -591830351
+      LevelMap13-air terjun-sprite_30: -1136346647
+      LevelMap13-air terjun-sprite_31: -734845100
+      LevelMap13-air terjun-sprite_32: 1746666718
+      LevelMap13-air terjun-sprite_33: -845891951
+      LevelMap13-air terjun-sprite_34: 737179976
+      LevelMap13-air terjun-sprite_35: -1008623269
+      LevelMap13-air terjun-sprite_36: -898029004
+      LevelMap13-air terjun-sprite_37: -1019201873
+      LevelMap13-air terjun-sprite_38: 1049875168
+      LevelMap13-air terjun-sprite_39: -83842605
+      LevelMap13-air terjun-sprite_4: -805223367
+      LevelMap13-air terjun-sprite_5: -362545490
+      LevelMap13-air terjun-sprite_6: -1092278604
+      LevelMap13-air terjun-sprite_7: -699276956
+      LevelMap13-air terjun-sprite_8: 1894104438
+      LevelMap13-air terjun-sprite_9: -274553074
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303021
+  packageName: Casual Maps - Level Progression
+  packageVersion: 1.0
+  assetPath: Assets/Graphie/Casual game map/Sprites/Animations/LevelMap13-air terjun-sprite.png
+  uploadId: 710143

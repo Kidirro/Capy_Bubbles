@@ -1,0 +1,1797 @@
+fileFormatVersion: 2
+guid: e1e62180ecf1f084bb11b02430e54e24
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3060
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4261f058eeccfbb49bc90094a7da6c66
+      internalID: 1840259893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_1
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 3060
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d20f4ecf2fbcf664b8035d17941c2649
+      internalID: 502969901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_2
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 3060
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce12df611cae5548a9aced096e2f354
+      internalID: 1388209280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_3
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 3060
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd67c196b85969247a85d8f50f1da013
+      internalID: -691561949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_4
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 3060
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa3c64df5e151c41ae69609319a1273
+      internalID: 1011302102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_5
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 3060
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6cdf04b0ffedda4eb4c3d6a1eba35d6
+      internalID: -1937290306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_6
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 3060
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c575a727994d8564b81a61653c2fa43d
+      internalID: -306913103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_7
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 3060
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f1fc49a690de1439b778469e4144c5
+      internalID: 520874364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2720
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a37e327989d6f45abe548a8ebc9d63
+      internalID: -1060643390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_9
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 2720
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f873a8ad2a8ff419e97aa6fdbac1a4
+      internalID: 1780927609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_10
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 2720
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25472bc5509253049ac2b48688c0557e
+      internalID: 103115850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_11
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 2720
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395491510831d30438f221b169e674f8
+      internalID: -794335490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_12
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 2720
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b212fa1bb68a2a4eb846ac3529b9ace
+      internalID: 356487490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_13
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 2720
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88bbe8abf29ae3544b327e0463974f85
+      internalID: -1365896491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_14
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 2720
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d14351f14b6fb545be2fcc28868fb2b
+      internalID: 2009236480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_15
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 2720
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74db022597e36384d995438ef1368113
+      internalID: 252470180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2380
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80a75b8ac2efd846ab79f0bfa3c03c6
+      internalID: 1161714712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_17
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 2380
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffb9f964438d7a40b0e3d7dad6a559d
+      internalID: -316285853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_18
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 2380
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff295e0cbe5d7ab49878a08991602df2
+      internalID: -63184412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_19
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 2380
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c834e50a7e40274e91f660d190921b1
+      internalID: 940191395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_20
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 2380
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a0a68fedb68904d95393a796516129
+      internalID: 117612320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_21
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 2380
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238ceeed8c424eb479863e797fb49626
+      internalID: -794728674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_22
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 2380
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113cbf3e5c5875a47a196c6c1357345e
+      internalID: 164369186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_23
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 2380
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30248e46a6cf295489f622533fc16200
+      internalID: -1813906482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2040
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84890e49f418fa54185f88cbc742efa4
+      internalID: -457217778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_25
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 2040
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb40a6870f6b924abba24ad7acef544
+      internalID: 32671557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_26
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 2040
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83b3253bb610bb46a3e9d21c628be08
+      internalID: 1346506870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_27
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 2040
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f20928bd4351b24fb40609fd77631e0
+      internalID: 754924404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_28
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 2040
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fce7b775e3ea164e95328071af3e4ce
+      internalID: 938595832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_29
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 2040
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c485c6cb2fe7d67438e99c82bea1dd61
+      internalID: 1316253882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_30
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 2040
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f886e59656428584da53e057efc763a6
+      internalID: 1398362521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_31
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 2040
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e61a4d40ab92e45bc66e21e638c050
+      internalID: -1950226170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1700
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d7a95b33f02544d8b94120cd6ec96b
+      internalID: 919136602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_33
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1700
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39562446d202c5d4ca35a29f064b7535
+      internalID: -1863932986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_34
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1700
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6088fdfec31e99c4a87e6484e0e43171
+      internalID: 322195534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_35
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1700
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5101f7b81bbd686479799f1386394a41
+      internalID: 419853091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_36
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1700
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d22f2e1baf7bee4c992996a06eb8755
+      internalID: 208185378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_37
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1700
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4a2e0c227530043a1ccbe1c29af043
+      internalID: -1293457643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_38
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1700
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb0988dad9195d41801df73758af461
+      internalID: -52071423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_39
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 1700
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94439cdcdb413ba46a73f8be70baff83
+      internalID: 1632791537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1360
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed485aee9eaad94387d5e103d45dd34
+      internalID: -2022488516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_41
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1360
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110113bfea72c304bb85057ca7e1a1de
+      internalID: 404165126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_42
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1360
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7878b1c88640e41bd9f8cf003cacb7
+      internalID: -2056317438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_43
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1360
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a644e405cc8a04ab75ba9832ace4f9
+      internalID: -848373620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_44
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1360
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d1533aa3d5e48498f48118b68be80f
+      internalID: 1607527596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_45
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1360
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c00a2d7a829c248aadfea8e6436c41
+      internalID: 329085850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_46
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1360
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e578a6159bd36984daf32a7904b322bd
+      internalID: 227667078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_47
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 1360
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ae668dbd35a284b8f0edbff68c84a1
+      internalID: -2022701060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1020
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0d2b1be61dba747972ceffb31a83ca
+      internalID: -300316006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_49
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1020
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d2c1af5f821184887e5be4282d7713
+      internalID: 1292241245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_50
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1020
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d58e395059f344aaeed6626ee41790
+      internalID: 2078630331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_51
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1020
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8290f67f2e68b9478783d17f6877bb1
+      internalID: -467499056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_52
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1020
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72722cb582e485947966014ab03385ca
+      internalID: -1724994645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_53
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1020
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d79b7e3e2fd98c4a8f6c00a3637723a
+      internalID: 715510597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_54
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1020
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7682ba097f23cd04dac289010ff3d4ef
+      internalID: 1369009869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_55
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 1020
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bad047fef43cf6488bca7371ed794ee
+      internalID: 878079049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 680
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebb6ec145b82574bb97adeb6a530885
+      internalID: 1725144601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_57
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 680
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4515c02ae95ff114dba4c8e554378379
+      internalID: -1370946010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_58
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 680
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380d82cf3bbc8c849a798f80a400608c
+      internalID: 1130921859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_59
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 680
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5c88023e192bd4fa95a71b78d72934
+      internalID: -1532480204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_60
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 680
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308beb0919189da4eacbb86cd402935f
+      internalID: -1661851491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_61
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 680
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbebce98098180145b9e69f70fd6efc8
+      internalID: 92466030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_62
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 680
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa117564ead0fd41a4d45f81e145ea3
+      internalID: 1201937553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_63
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 680
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81672b88b67b1448ae1e4fddfc416cd
+      internalID: 500542294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 340
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc1f7cd1557a0c4c93f9d9b782c151e
+      internalID: -835960895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_65
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 340
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a699785d6dff364ba5480f72459eb31
+      internalID: 1966114014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_66
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 340
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1ebaa9e5824cd459a62263ced07963
+      internalID: -1934222135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_67
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 340
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d03b8a0365a74a41a7f93ee9d8cd18b
+      internalID: 788076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_68
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 340
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e557de81ab239e043a058f1891a8c819
+      internalID: -1002448710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_69
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 340
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d53c1d7e9a422e43b5012a7e47c1fd7
+      internalID: 317583927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_70
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 340
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac37a7b4f982024395095518e91cb62
+      internalID: -1609124234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_71
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 340
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec81b8cdbe1fc54ba5781ffa202b041
+      internalID: 1245786763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205da51b368572842b279145a2d20f01
+      internalID: -763844223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_73
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89b4e6719a12044eb13fb10366868d6
+      internalID: -1210115653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap7-Duck Autumn-sprite_74
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1346f7fddb2d5734180c481b09756622
+      internalID: 1478873309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LevelMap7-Duck Autumn-sprite_0: 1840259893
+      LevelMap7-Duck Autumn-sprite_1: 502969901
+      LevelMap7-Duck Autumn-sprite_10: 103115850
+      LevelMap7-Duck Autumn-sprite_11: -794335490
+      LevelMap7-Duck Autumn-sprite_12: 356487490
+      LevelMap7-Duck Autumn-sprite_13: -1365896491
+      LevelMap7-Duck Autumn-sprite_14: 2009236480
+      LevelMap7-Duck Autumn-sprite_15: 252470180
+      LevelMap7-Duck Autumn-sprite_16: 1161714712
+      LevelMap7-Duck Autumn-sprite_17: -316285853
+      LevelMap7-Duck Autumn-sprite_18: -63184412
+      LevelMap7-Duck Autumn-sprite_19: 940191395
+      LevelMap7-Duck Autumn-sprite_2: 1388209280
+      LevelMap7-Duck Autumn-sprite_20: 117612320
+      LevelMap7-Duck Autumn-sprite_21: -794728674
+      LevelMap7-Duck Autumn-sprite_22: 164369186
+      LevelMap7-Duck Autumn-sprite_23: -1813906482
+      LevelMap7-Duck Autumn-sprite_24: -457217778
+      LevelMap7-Duck Autumn-sprite_25: 32671557
+      LevelMap7-Duck Autumn-sprite_26: 1346506870
+      LevelMap7-Duck Autumn-sprite_27: 754924404
+      LevelMap7-Duck Autumn-sprite_28: 938595832
+      LevelMap7-Duck Autumn-sprite_29: 1316253882
+      LevelMap7-Duck Autumn-sprite_3: -691561949
+      LevelMap7-Duck Autumn-sprite_30: 1398362521
+      LevelMap7-Duck Autumn-sprite_31: -1950226170
+      LevelMap7-Duck Autumn-sprite_32: 919136602
+      LevelMap7-Duck Autumn-sprite_33: -1863932986
+      LevelMap7-Duck Autumn-sprite_34: 322195534
+      LevelMap7-Duck Autumn-sprite_35: 419853091
+      LevelMap7-Duck Autumn-sprite_36: 208185378
+      LevelMap7-Duck Autumn-sprite_37: -1293457643
+      LevelMap7-Duck Autumn-sprite_38: -52071423
+      LevelMap7-Duck Autumn-sprite_39: 1632791537
+      LevelMap7-Duck Autumn-sprite_4: 1011302102
+      LevelMap7-Duck Autumn-sprite_40: -2022488516
+      LevelMap7-Duck Autumn-sprite_41: 404165126
+      LevelMap7-Duck Autumn-sprite_42: -2056317438
+      LevelMap7-Duck Autumn-sprite_43: -848373620
+      LevelMap7-Duck Autumn-sprite_44: 1607527596
+      LevelMap7-Duck Autumn-sprite_45: 329085850
+      LevelMap7-Duck Autumn-sprite_46: 227667078
+      LevelMap7-Duck Autumn-sprite_47: -2022701060
+      LevelMap7-Duck Autumn-sprite_48: -300316006
+      LevelMap7-Duck Autumn-sprite_49: 1292241245
+      LevelMap7-Duck Autumn-sprite_5: -1937290306
+      LevelMap7-Duck Autumn-sprite_50: 2078630331
+      LevelMap7-Duck Autumn-sprite_51: -467499056
+      LevelMap7-Duck Autumn-sprite_52: -1724994645
+      LevelMap7-Duck Autumn-sprite_53: 715510597
+      LevelMap7-Duck Autumn-sprite_54: 1369009869
+      LevelMap7-Duck Autumn-sprite_55: 878079049
+      LevelMap7-Duck Autumn-sprite_56: 1725144601
+      LevelMap7-Duck Autumn-sprite_57: -1370946010
+      LevelMap7-Duck Autumn-sprite_58: 1130921859
+      LevelMap7-Duck Autumn-sprite_59: -1532480204
+      LevelMap7-Duck Autumn-sprite_6: -306913103
+      LevelMap7-Duck Autumn-sprite_60: -1661851491
+      LevelMap7-Duck Autumn-sprite_61: 92466030
+      LevelMap7-Duck Autumn-sprite_62: 1201937553
+      LevelMap7-Duck Autumn-sprite_63: 500542294
+      LevelMap7-Duck Autumn-sprite_64: -835960895
+      LevelMap7-Duck Autumn-sprite_65: 1966114014
+      LevelMap7-Duck Autumn-sprite_66: -1934222135
+      LevelMap7-Duck Autumn-sprite_67: 788076
+      LevelMap7-Duck Autumn-sprite_68: -1002448710
+      LevelMap7-Duck Autumn-sprite_69: 317583927
+      LevelMap7-Duck Autumn-sprite_7: 520874364
+      LevelMap7-Duck Autumn-sprite_70: -1609124234
+      LevelMap7-Duck Autumn-sprite_71: 1245786763
+      LevelMap7-Duck Autumn-sprite_72: -763844223
+      LevelMap7-Duck Autumn-sprite_73: -1210115653
+      LevelMap7-Duck Autumn-sprite_74: 1478873309
+      LevelMap7-Duck Autumn-sprite_8: -1060643390
+      LevelMap7-Duck Autumn-sprite_9: 1780927609
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303021
+  packageName: Casual Maps - Level Progression
+  packageVersion: 1.0
+  assetPath: Assets/Graphie/Casual game map/Sprites/Animations/LevelMap7-Duck Autumn-sprite.png
+  uploadId: 710143

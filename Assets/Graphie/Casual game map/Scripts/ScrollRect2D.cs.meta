@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f99755b0d15db5e4bae08d2cc05e1edd
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303021
+  packageName: Casual Maps - Level Progression
+  packageVersion: 1.0
+  assetPath: Assets/Graphie/Casual game map/Scripts/ScrollRect2D.cs
+  uploadId: 710143

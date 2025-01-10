@@ -1,0 +1,1314 @@
+fileFormatVersion: 2
+guid: d06314f38c9654249895bc3367e64a32
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LevelMap12-sprite_0
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 3291
+        width: 590
+        height: 787
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a006aae453045d48873320c582d3a14
+      internalID: 30800633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_1
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 3907
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e76ca9b8f83294093a863b49fdd4a8
+      internalID: -1774831995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_2
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 3251
+        width: 630
+        height: 742
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00829580932f8049935a7e9faea0519
+      internalID: -1914779356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_3
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 3791
+        width: 68
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585a29401cdaf604fa8e89973fa18dc5
+      internalID: 1096854032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_4
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 3773
+        width: 107
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b476110bc4d0142a039be071ffbc4b
+      internalID: -1925205670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_5
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 3785
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34fd2f3b874ed364e87506e228ac4b97
+      internalID: -902246021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_6
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 3817
+        width: 69
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee993dc154fb42941bfdfc4085e645b8
+      internalID: -1038105322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_7
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 3613
+        width: 128
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bbf005b0fc3eae4a97cdbff022c2683
+      internalID: 676794637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_8
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 3752
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b84a0c4955d804e8f0ded089990a5d
+      internalID: 2067220564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_9
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 3726
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c2dcb9853811c48a33d8846b0ebdd9
+      internalID: -1245547748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_10
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 3613
+        width: 174
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0dd6cc9238efb4bbfcf5ddb146719e
+      internalID: 1697769724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_11
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 3748
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ae7e9cc6efd9a4d86f84a56bc190d3
+      internalID: -613659695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_12
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 3483
+        width: 254
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb70bf47ff2d3d44a1a3076224e0318
+      internalID: 1680889437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_13
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 3245
+        width: 211
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aec7ceb49188004c9bb7cb7ebbae87e
+      internalID: 394600845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_14
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 3632
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77dbc554f8e4c7745878ab48cadb8ec2
+      internalID: -1231542831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_15
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 3255
+        width: 210
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7836d7f49f0b8f044b0b6ea9f9d2bde8
+      internalID: 1288380073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_16
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 3290
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3a2eb1b55574d4baaadaee8c83ee8e
+      internalID: 357755997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_17
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 3237
+        width: 692
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345aa85af7979414a8ac508dff26d913
+      internalID: -207198859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_18
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 3238
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b46b4ee267755849b11f09b98f84e7d
+      internalID: 1838691608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_19
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 3238
+        width: 65
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2852d4b15780dd548a47386675c9c892
+      internalID: -183036584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_21
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 2823
+        width: 264
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0621864335d65bb4cbf8b62a7ac33808
+      internalID: 1956107528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_22
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 2379
+        width: 1104
+        height: 803
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a480c65b9efb7d64ebec504846165888
+      internalID: 1822589497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_23
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 3007
+        width: 72
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21cd1fae27510349a8b39f312ab996d
+      internalID: 2082864838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_24
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 2897
+        width: 262
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc269aed9e0129a4bb52ca682ce81528
+      internalID: -1466181568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_25
+      rect:
+        serializedVersion: 2
+        x: 2089
+        y: 2905
+        width: 196
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134f741edad2a604a856d299abbb8bd8
+      internalID: 188481128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_26
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 2898
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61946bfced4765144a412e1d0b903009
+      internalID: 172140196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_27
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 2890
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdefb70ec08ce8409e6a4ba9326263d
+      internalID: -1370053392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_28
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 2870
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0566783aa1756e4499bfbf38842e02f8
+      internalID: 1424278167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_29
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 2820
+        width: 62
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb24447504157fc47a5c69db966cdc7a
+      internalID: 1138313116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_30
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 2818
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee58e3b6ede0a24f8305d98a840bedc
+      internalID: 1614678972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_31
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 2559
+        width: 262
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26be472f36e12241a3b3bf0529129b6
+      internalID: 458333377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_32
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 2713
+        width: 70
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3df9dc074c04f419efc7ccd13df14d
+      internalID: 1888672774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_33
+      rect:
+        serializedVersion: 2
+        x: 2321
+        y: 2711
+        width: 68
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de42c850df53f545867bacbb24fa15c
+      internalID: 1791376770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_34
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 2605
+        width: 90
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ecb646514dae64aac615c452ceb933
+      internalID: -667756151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_35
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 2661
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201046338fb905144b0f8122248bd804
+      internalID: -1299316684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_36
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 2383
+        width: 112
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56019b6e8786420489b91df6de93385b
+      internalID: 1994065428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_37
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 2261
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4297b82440162d44a9a1c68b9f9ee5ca
+      internalID: -1842334341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_38
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 1989
+        width: 850
+        height: 638
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f78e2020f98b6b40b6f250f308e94f0
+      internalID: 536480217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_39
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1787
+        width: 726
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef72685e97e5be346a6afe8fd095fe50
+      internalID: 597750076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_40
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 2007
+        width: 108
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e03f30ec995ba1489fbbaae0ee6c7be
+      internalID: -1073731461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_41
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 2027
+        width: 72
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb3a211770a9ee4bb324d45118d8d61
+      internalID: 320136232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_42
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 1787
+        width: 646
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbadc5e2fd43584badaf88a0da6efdc
+      internalID: -1989119708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_43
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 1787
+        width: 162
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9618f8f3d0b425146a12deaa4009f50f
+      internalID: -1343264574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_44
+      rect:
+        serializedVersion: 2
+        x: 1997
+        y: 1787
+        width: 124
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ecfe0c746411854eb0ebdd4632321db
+      internalID: -2127675910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_45
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 1811
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa601b0d78e2b548ac20a95a6cbf4b3
+      internalID: 1336354086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_46
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 815
+        width: 746
+        height: 860
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463df30f9a119b745ac9777736970d3e
+      internalID: -1672049937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_47
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 1089
+        width: 406
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042ca1f4310ff2b4490f61d059beae11
+      internalID: 730829010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_48
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 1281
+        width: 198
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b2dad24e0d24d4ea1012fc867891a3
+      internalID: -1013985926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_49
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 1341
+        width: 112
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64341990ea2a4c14e91e9bf3e1e075df
+      internalID: -675173064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_50
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 1221
+        width: 270
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4797bd02b38314cbdd7b951675f8a8
+      internalID: 2100849717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_51
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 1280
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c832b6140bacc439cfa12003ba6add
+      internalID: 1046335326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_52
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 1047
+        width: 90
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1072b92dc5fb1e540b10eff18645310c
+      internalID: -309790175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-sprite_53
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 1093
+        width: 148
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ced769f6ff71c840b77b1e4a0f086c7
+      internalID: 1261213065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LevelMap12-sprite_0: 30800633
+      LevelMap12-sprite_1: -1774831995
+      LevelMap12-sprite_10: 1697769724
+      LevelMap12-sprite_11: -613659695
+      LevelMap12-sprite_12: 1680889437
+      LevelMap12-sprite_13: 394600845
+      LevelMap12-sprite_14: -1231542831
+      LevelMap12-sprite_15: 1288380073
+      LevelMap12-sprite_16: 357755997
+      LevelMap12-sprite_17: -207198859
+      LevelMap12-sprite_18: 1838691608
+      LevelMap12-sprite_19: -183036584
+      LevelMap12-sprite_2: -1914779356
+      LevelMap12-sprite_20: 1811620101
+      LevelMap12-sprite_21: 1956107528
+      LevelMap12-sprite_22: 1822589497
+      LevelMap12-sprite_23: 2082864838
+      LevelMap12-sprite_24: -1466181568
+      LevelMap12-sprite_25: 188481128
+      LevelMap12-sprite_26: 172140196
+      LevelMap12-sprite_27: -1370053392
+      LevelMap12-sprite_28: 1424278167
+      LevelMap12-sprite_29: 1138313116
+      LevelMap12-sprite_3: 1096854032
+      LevelMap12-sprite_30: 1614678972
+      LevelMap12-sprite_31: 458333377
+      LevelMap12-sprite_32: 1888672774
+      LevelMap12-sprite_33: 1791376770
+      LevelMap12-sprite_34: -667756151
+      LevelMap12-sprite_35: -1299316684
+      LevelMap12-sprite_36: 1994065428
+      LevelMap12-sprite_37: -1842334341
+      LevelMap12-sprite_38: 536480217
+      LevelMap12-sprite_39: 597750076
+      LevelMap12-sprite_4: -1925205670
+      LevelMap12-sprite_40: -1073731461
+      LevelMap12-sprite_41: 320136232
+      LevelMap12-sprite_42: -1989119708
+      LevelMap12-sprite_43: -1343264574
+      LevelMap12-sprite_44: -2127675910
+      LevelMap12-sprite_45: 1336354086
+      LevelMap12-sprite_46: -1672049937
+      LevelMap12-sprite_47: 730829010
+      LevelMap12-sprite_48: -1013985926
+      LevelMap12-sprite_49: -675173064
+      LevelMap12-sprite_5: -902246021
+      LevelMap12-sprite_50: 2100849717
+      LevelMap12-sprite_51: 1046335326
+      LevelMap12-sprite_52: -309790175
+      LevelMap12-sprite_53: 1261213065
+      LevelMap12-sprite_6: -1038105322
+      LevelMap12-sprite_7: 676794637
+      LevelMap12-sprite_8: 2067220564
+      LevelMap12-sprite_9: -1245547748
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303021
+  packageName: Casual Maps - Level Progression
+  packageVersion: 1.0
+  assetPath: Assets/Graphie/Casual game map/Sprites/Environments/LevelMap12-sprite.png
+  uploadId: 710143

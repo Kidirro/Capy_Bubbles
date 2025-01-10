@@ -49,7 +49,7 @@ public class Model : MonoBehaviour
 
     public void OpenTelegram()
     {
-        
+
 #if BEELINE
         JavaScriptHandler.OpenURLInSameTab(telegram);
 #endif
@@ -73,10 +73,12 @@ public class Model : MonoBehaviour
     private static async Task UpdateData()
     {
         playerData = await GetSave();
+        if (playerData.endGameFirstMapObjectsOpen.Length == 0)
+            playerData.endGameFirstMapObjectsOpen = new bool[25];
         GameManager.instance.coins.Set(playerData.gold);
         for (int i = 0; i < GameManager.instance.boosters.Length; i++)
         {
-            GameManager.instance.boosters[i].Set(i<playerData.boosters.Length?playerData.boosters[i]:0);
+            GameManager.instance.boosters[i].Set(i < playerData.boosters.Length ? playerData.boosters[i] : 0);
         }
 
         if (PlayerPrefs.GetInt("Level", 1) < playerData.levels.Count + 1)
@@ -183,13 +185,13 @@ public class Model : MonoBehaviour
             return JsonConvert.DeserializeObject<CatState>(PlayerPrefs.GetString("CatState"));
         }*/
         Debug.Log("SetSave");
-        
+
 #if YandexGamesPlatfom_yg
         YG2.saves.jsonSave = JsonUtility.ToJson(new PlayerSendData(playerData));
         YG2.SaveProgress();
 #else
-        
-        
+
+
         GetData();
         Debug.Log(JsonUtility.ToJson(new PlayerSendData(playerData)));
         var request = UnityWebRequest.Put(backend + "user", JsonUtility.ToJson(new PlayerSendData(playerData)));
@@ -229,12 +231,24 @@ public class PlayerSendData
     public int hearts = 0;
     public string levels;
     public string boosters;
-    public int counterLevel=0;
+    public int counterLevel = 0;
+    public string endGameFirstMapObjectsOpen;
     public PlayerSendData(PlayerData data)
     {
         gold = data.gold;
         hearts = data.hearts;
         counterLevel = data.counterLevel;
+
+
+        endGameFirstMapObjectsOpen = "[";
+        foreach (var obj in data.endGameFirstMapObjectsOpen)
+        {
+            endGameFirstMapObjectsOpen += obj.ToString().ToLower() + ",";
+        }
+        endGameFirstMapObjectsOpen = endGameFirstMapObjectsOpen.Remove(endGameFirstMapObjectsOpen.Length - 1);
+        endGameFirstMapObjectsOpen += "]";
+
+
         levels = "[";
         foreach (var level in data.levels)
         {
@@ -260,7 +274,8 @@ public class PlayerData
     public int hearts = 0;
     public List<int> levels;
     public int[] boosters = new int[4];
-    public int counterLevel=0;
+    public int counterLevel = 0;
+    public bool[] endGameFirstMapObjectsOpen = new bool[25];
 
     public PlayerData(bool toserver)
     {
@@ -283,9 +298,10 @@ public class PlayerData
 
         gold = GameManager.instance.coins.GetResource();
         hearts = GameManager.instance.life.GetResource();
+        endGameFirstMapObjectsOpen = Model.playerData.endGameFirstMapObjectsOpen;
     }
     public PlayerData()
     {
-        GameManager.instance.life.LoadPrefs(); 
+        GameManager.instance.life.LoadPrefs();
     }
 }

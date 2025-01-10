@@ -1,0 +1,1798 @@
+fileFormatVersion: 2
+guid: f476fe953f2f17243a6acda30258f04c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2340
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d769c20e4d8c51e4eb1211ce0b4f8e21
+      internalID: -1063877477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_1
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 2340
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6fcd525ddcf2434fb376e89d27e1004
+      internalID: -393344825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_2
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 2340
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da535cb29f35c54d83807eb98fd46a8
+      internalID: -2057537374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_3
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 2340
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24d3f7c856da874f9291fc92a2c7f1e
+      internalID: 91498807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_4
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 2340
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff14b8815545a2488b7b1218681bc70
+      internalID: -1933326022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_5
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 2340
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7bc6c75d3c35e94cab979e1bc213559
+      internalID: -1926519335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_6
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 2340
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec293e8bd0bddd24e8e70478a88b6d86
+      internalID: -840994441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_7
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 2340
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a588e84e72c8c46b324849b834f2bf
+      internalID: -1097280829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2080
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeffd3d96c02bc34c8bb47131fa85fae
+      internalID: 704929437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_9
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 2080
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f83252991eef8f49a66341c1ddebef3
+      internalID: 1202220290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_10
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 2080
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1a162244eac6f48a4a79161c427114
+      internalID: -1667628867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_11
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 2080
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088b2932fd4c82043bfda52664f6535d
+      internalID: 1995694630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_12
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 2080
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c4ff7609e801c4ebae13eecf5e6326
+      internalID: -1011560956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_13
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 2080
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671459244df296f46a345910edccc554
+      internalID: -950813078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_14
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 2080
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a1f518695107e4ba596ff753040bec
+      internalID: 608285846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_15
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 2080
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a69b29600ad964e81204175cae9529
+      internalID: 797233798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1820
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee254dd5e1b24a49bb534c669239b99
+      internalID: -261208088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_17
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1820
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 513c0682bb446844182227cf91d29186
+      internalID: -2047618082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_18
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1820
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9963917cf6587f14fac9c4e4a3538e5a
+      internalID: 1569119379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_19
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1820
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685a3e534b81a2242b25e10593c1e468
+      internalID: -1761972807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_20
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1820
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6491b4a6ac74b574ca18ab1d591f6224
+      internalID: -412021395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_21
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1820
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ebc8711473e4f4fb57be1f4fb4e1db
+      internalID: 226301614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_22
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1820
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ddb14a8193233409e1b3e2c958a3de
+      internalID: 1550270873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_23
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 1820
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01014840c946144085b5c31c290402b
+      internalID: -637265334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1560
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c25a52c877b1a24391a12d067ef852f
+      internalID: 2006697315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_25
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1560
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c7eff26d26b49c47b42af84d56c05c9
+      internalID: -261495764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_26
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1560
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0fd3adf894929c428d34034b8bb41eb
+      internalID: -1615291877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_27
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1560
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e6effe27c078c45a18a34c724a9c1b
+      internalID: -1840375626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_28
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1560
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7321619e793944d47bd5b75f37ebd6d3
+      internalID: -939101652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_29
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1560
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a1e4b6ce8750f46a9604d50a16db79
+      internalID: -246679853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_30
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1560
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c492ca71dac1b45bc262d68bd6387f
+      internalID: 2004291152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_31
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 1560
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d03457b0406d541abfc4c1961153ea
+      internalID: 1270227046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1300
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 899d891eb79d03746890b445390c79f6
+      internalID: 1702420094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_33
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1300
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c3a46b117d6ed488dc506d584615ae
+      internalID: 1441785445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_34
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1300
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230721ca86d208c44b655fe475b9289b
+      internalID: 1635716129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_35
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1300
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a1380da2efa8b40bf87cfa528a78ad
+      internalID: -612834113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_36
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1300
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b66661a574ae84db9e7f22dc2207c7
+      internalID: -2125401113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_37
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1300
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655205fdab815444994bb24aa7d6e542
+      internalID: 1263175251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_38
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1300
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60f232a208bd0f4d83460691405b32c
+      internalID: -1418126034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_39
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 1300
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdde45436d1838849820a10a3dbce115
+      internalID: -744406917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1040
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec52e0c55673774a8aea093627e4251
+      internalID: -703595124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_41
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1040
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ca6deb3d9d2f647be5886316c06dfd
+      internalID: 1640714225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_42
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1040
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008a4d0b5d0548d459e93b5e9617f365
+      internalID: -875156835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_43
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1040
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75d92b865bbac145b843d29223bd64f
+      internalID: -1246502493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_44
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1040
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4285a7e4edea34dacc14406ab0512c
+      internalID: 219562842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_45
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1040
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2860d5d41c0a3848beeee6811c4b38e
+      internalID: -1564100854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_46
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1040
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1109d1f03f6344ab49ca776ddb1e20
+      internalID: -2109321275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_47
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 1040
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0177554d4ba479d488a25fc560de5748
+      internalID: 1641082602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 780
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ad126319e73bd42a0b21de12bf0042
+      internalID: -760840070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_49
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 780
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2fe5c9b5c1481458ecb08f1aa67973
+      internalID: 990275653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_50
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 780
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f2cdea2eaff494fb48532509e26545
+      internalID: 800717631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_51
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 780
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ca7d6922783884dbb28a3b9e3c6a85
+      internalID: 2112777432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_52
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 780
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d20779986fd32e3418a826d7fbcbc01d
+      internalID: 902449205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_53
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 780
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03822b72375f26846b263818f5dd0ca5
+      internalID: -181514750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_54
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 780
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69d3af25561cbf418795c9cb90058bf
+      internalID: -2017250712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_55
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 780
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0774aa26b0e3d445adf4c45bd0f1643
+      internalID: -649758049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 520
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5defcbce8115384cb08c193b560ad73
+      internalID: 1095177014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_57
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 520
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04b1a89b53f98a458eb8cfcdad01b01
+      internalID: 1796655662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_58
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 520
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67eb81804cba51f4c86b5550a7ea5437
+      internalID: 1729086236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_59
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 520
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5263004a4ce82c744aaafd08285c837f
+      internalID: -1818434429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_60
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 520
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686c646c85ee0b944b395b7dc1827024
+      internalID: 755733822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_61
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 520
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c9a9842b013d94dac0c5035f357d40
+      internalID: 2044108097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_62
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 520
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c8eb47a65acfc448aebf54f30e4c57
+      internalID: 804347402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_63
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 520
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: accb6b2a2b51bee4bb1e344182441f78
+      internalID: 585415847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 260
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e40147c26e77364993545e190a1b3b3
+      internalID: -1915234258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_65
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 260
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e2a365974802b4d939a64f42874b4c
+      internalID: -1119185076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_66
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 260
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42662c6a3e4fe324c8f93cecee22bff9
+      internalID: -2009964683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_67
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 260
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960ce1c286402b543aba45109047229f
+      internalID: 271109243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_68
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 260
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84535b0b1374e04698f88120cef6bef
+      internalID: -1248030166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_69
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 260
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea420f7070b63143aa30aa3b735dbac
+      internalID: -508814288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_70
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 260
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451e137b97a480b49b21a13b0779b2b4
+      internalID: -1231360560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_71
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 260
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1a1b6c39768844b866dbf32635c65e
+      internalID: 1216372360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f413f0508cefea419d6331c17aa8677
+      internalID: 482443770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_73
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94850f1fec877524fbb0f993dec3e2ed
+      internalID: 568043373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Sunglasses Duck-sprite_74
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 272
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d4e80bf51dcbb4289c067c95b7d19f
+      internalID: 641939536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LevelMap9-Sunglasses Duck-sprite_0: -1063877477
+      LevelMap9-Sunglasses Duck-sprite_1: -393344825
+      LevelMap9-Sunglasses Duck-sprite_10: -1667628867
+      LevelMap9-Sunglasses Duck-sprite_11: 1995694630
+      LevelMap9-Sunglasses Duck-sprite_12: -1011560956
+      LevelMap9-Sunglasses Duck-sprite_13: -950813078
+      LevelMap9-Sunglasses Duck-sprite_14: 608285846
+      LevelMap9-Sunglasses Duck-sprite_15: 797233798
+      LevelMap9-Sunglasses Duck-sprite_16: -261208088
+      LevelMap9-Sunglasses Duck-sprite_17: -2047618082
+      LevelMap9-Sunglasses Duck-sprite_18: 1569119379
+      LevelMap9-Sunglasses Duck-sprite_19: -1761972807
+      LevelMap9-Sunglasses Duck-sprite_2: -2057537374
+      LevelMap9-Sunglasses Duck-sprite_20: -412021395
+      LevelMap9-Sunglasses Duck-sprite_21: 226301614
+      LevelMap9-Sunglasses Duck-sprite_22: 1550270873
+      LevelMap9-Sunglasses Duck-sprite_23: -637265334
+      LevelMap9-Sunglasses Duck-sprite_24: 2006697315
+      LevelMap9-Sunglasses Duck-sprite_25: -261495764
+      LevelMap9-Sunglasses Duck-sprite_26: -1615291877
+      LevelMap9-Sunglasses Duck-sprite_27: -1840375626
+      LevelMap9-Sunglasses Duck-sprite_28: -939101652
+      LevelMap9-Sunglasses Duck-sprite_29: -246679853
+      LevelMap9-Sunglasses Duck-sprite_3: 91498807
+      LevelMap9-Sunglasses Duck-sprite_30: 2004291152
+      LevelMap9-Sunglasses Duck-sprite_31: 1270227046
+      LevelMap9-Sunglasses Duck-sprite_32: 1702420094
+      LevelMap9-Sunglasses Duck-sprite_33: 1441785445
+      LevelMap9-Sunglasses Duck-sprite_34: 1635716129
+      LevelMap9-Sunglasses Duck-sprite_35: -612834113
+      LevelMap9-Sunglasses Duck-sprite_36: -2125401113
+      LevelMap9-Sunglasses Duck-sprite_37: 1263175251
+      LevelMap9-Sunglasses Duck-sprite_38: -1418126034
+      LevelMap9-Sunglasses Duck-sprite_39: -744406917
+      LevelMap9-Sunglasses Duck-sprite_4: -1933326022
+      LevelMap9-Sunglasses Duck-sprite_40: -703595124
+      LevelMap9-Sunglasses Duck-sprite_41: 1640714225
+      LevelMap9-Sunglasses Duck-sprite_42: -875156835
+      LevelMap9-Sunglasses Duck-sprite_43: -1246502493
+      LevelMap9-Sunglasses Duck-sprite_44: 219562842
+      LevelMap9-Sunglasses Duck-sprite_45: -1564100854
+      LevelMap9-Sunglasses Duck-sprite_46: -2109321275
+      LevelMap9-Sunglasses Duck-sprite_47: 1641082602
+      LevelMap9-Sunglasses Duck-sprite_48: -760840070
+      LevelMap9-Sunglasses Duck-sprite_49: 990275653
+      LevelMap9-Sunglasses Duck-sprite_5: -1926519335
+      LevelMap9-Sunglasses Duck-sprite_50: 800717631
+      LevelMap9-Sunglasses Duck-sprite_51: 2112777432
+      LevelMap9-Sunglasses Duck-sprite_52: 902449205
+      LevelMap9-Sunglasses Duck-sprite_53: -181514750
+      LevelMap9-Sunglasses Duck-sprite_54: -2017250712
+      LevelMap9-Sunglasses Duck-sprite_55: -649758049
+      LevelMap9-Sunglasses Duck-sprite_56: 1095177014
+      LevelMap9-Sunglasses Duck-sprite_57: 1796655662
+      LevelMap9-Sunglasses Duck-sprite_58: 1729086236
+      LevelMap9-Sunglasses Duck-sprite_59: -1818434429
+      LevelMap9-Sunglasses Duck-sprite_6: -840994441
+      LevelMap9-Sunglasses Duck-sprite_60: 755733822
+      LevelMap9-Sunglasses Duck-sprite_61: 2044108097
+      LevelMap9-Sunglasses Duck-sprite_62: 804347402
+      LevelMap9-Sunglasses Duck-sprite_63: 585415847
+      LevelMap9-Sunglasses Duck-sprite_64: -1915234258
+      LevelMap9-Sunglasses Duck-sprite_65: -1119185076
+      LevelMap9-Sunglasses Duck-sprite_66: -2009964683
+      LevelMap9-Sunglasses Duck-sprite_67: 271109243
+      LevelMap9-Sunglasses Duck-sprite_68: -1248030166
+      LevelMap9-Sunglasses Duck-sprite_69: -508814288
+      LevelMap9-Sunglasses Duck-sprite_7: -1097280829
+      LevelMap9-Sunglasses Duck-sprite_70: -1231360560
+      LevelMap9-Sunglasses Duck-sprite_71: 1216372360
+      LevelMap9-Sunglasses Duck-sprite_72: 482443770
+      LevelMap9-Sunglasses Duck-sprite_73: 568043373
+      LevelMap9-Sunglasses Duck-sprite_74: 641939536
+      LevelMap9-Sunglasses Duck-sprite_8: 704929437
+      LevelMap9-Sunglasses Duck-sprite_9: 1202220290
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303021
+  packageName: Casual Maps - Level Progression
+  packageVersion: 1.0
+  assetPath: Assets/Graphie/Casual game map/Sprites/Animations/LevelMap9-Sunglasses
+    Duck-sprite.png
+  uploadId: 710143

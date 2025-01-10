@@ -1,0 +1,1797 @@
+fileFormatVersion: 2
+guid: b15d29f46c1da3e4db7ea1f16c821995
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3060
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf123e4bde1dfb44880e33c02b22346
+      internalID: -1782361457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_1
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 3060
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f354320e81c0884181d844dbd8fed58
+      internalID: -87776086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_2
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 3060
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5a01fd20a0ec94f93a00559affead7
+      internalID: -994945414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_3
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 3060
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f329ed8fd605994196fdae264f54db7
+      internalID: -1604787894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_4
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 3060
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b39ff2ad74d4b44f8adf7d8f51f51ca
+      internalID: -1620190697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_5
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 3060
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093f80b881152624b9613d77b597f5ac
+      internalID: -105471412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_6
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 3060
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b519329e43ff14c9a80269ac73d1e2
+      internalID: 1433577136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_7
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 3060
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70f06cc08e3be44b9ad31decbeb6e46
+      internalID: -1060175007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2720
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94edb7d3c7851fd4590dd9352b08fead
+      internalID: 1397976210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_9
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 2720
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d787dc1f82f534546a2371820455b3e1
+      internalID: 1134965663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_10
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 2720
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442315a4c2c283c44b7677b1c5aed856
+      internalID: -1774673408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_11
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 2720
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a3092fe010cd143bbc227e4d653263
+      internalID: 1277328029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_12
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 2720
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91df426a7b81844baae786439339321
+      internalID: -2077987979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_13
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 2720
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857f1848be4d61f42a93c63f4acec04e
+      internalID: -1552027019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_14
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 2720
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a6e78fd65481a458538043757ec8cc
+      internalID: 1133291844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_15
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 2720
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: badb9cbee361f7c41971a4f69f78702f
+      internalID: 2115688101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2380
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f668b6a2ec522d45a0bf03af8b3e465
+      internalID: 1510438586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_17
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 2380
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5968b2c511da97242b60d5dcfb94f6ef
+      internalID: 618165173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_18
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 2380
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026d146ab1fcd4e42a89359c8a3c5a86
+      internalID: 602994321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_19
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 2380
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19dc59c0cc011f428c370f3ab0dcf34
+      internalID: 190239388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_20
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 2380
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b1ab26dbbe2b642ab4b256a1121658
+      internalID: -1443250916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_21
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 2380
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8d881d39c8f774a9b6c5101c5ef9db
+      internalID: -694093988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_22
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 2380
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b964ac3591d4ea147b41759a78752b41
+      internalID: 1472976098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_23
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 2380
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87340ad80ffce53479052eabe7bd8756
+      internalID: -1753020627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2040
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda13434a51c50143914c2b664574d09
+      internalID: 24379215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_25
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 2040
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b971eb9236d835949bade385556d30e9
+      internalID: 872158180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_26
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 2040
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8334abfe18b6ae045afa3d7562ed13a9
+      internalID: -1284715258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_27
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 2040
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6faca1f6ccf90e43a584614bcf237db
+      internalID: 227963883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_28
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 2040
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b654bf22f5ab9f8448804a609b77c9d9
+      internalID: 173269085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_29
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 2040
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a677f37f19a4de43b863d9d9dd7c44a
+      internalID: -221761003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_30
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 2040
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8462152ff03c04689be20f11e65c93
+      internalID: 1010525905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_31
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 2040
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4d7b76b5d95c948acb3ded4faf812e
+      internalID: -1020822435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1700
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128e3ae57587d4b438b654ae99c5af94
+      internalID: -1502377500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_33
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1700
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e083310dca5cf469ed2f042db9ac9b
+      internalID: 1270298440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_34
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1700
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19495da80571d1042963dec71928fc8d
+      internalID: -1406356242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_35
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1700
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2dc05c601027ca4ebe7becec90b0a0a
+      internalID: 1540735971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_36
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1700
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d600a2e33f58b4ba86243f069acb96
+      internalID: -1114684197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_37
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1700
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b2c136a4854394e8fc1521193c8a89
+      internalID: 840708241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_38
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1700
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5391763e20b10439691e63b531317f
+      internalID: 1071573639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_39
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 1700
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d32ec8506a3dd499bb409ff35656f5
+      internalID: -526356413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1360
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c49d1a13eea5e24db220e72cce17649
+      internalID: -1357839866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_41
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1360
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11402a13a238dd8468532becf77a51f4
+      internalID: 1706245974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_42
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1360
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5fbc458d5329d4982895f0d917a3ff
+      internalID: -1845611790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_43
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1360
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c92dee8334cbe47b96bf32d9a5e4c2
+      internalID: -32802693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_44
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1360
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42aaad2fb59e40149a27b59ae1eaa306
+      internalID: 5241212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_45
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1360
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a9870a4019bde4cba90a193ffa5ca2
+      internalID: 1185333512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_46
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1360
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be287f31c3f0ca5449c2dc2db91267e5
+      internalID: -146466084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_47
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 1360
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49adc223085f1e4d88ae8ac4d42057f
+      internalID: -313688579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1020
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80593a952a5b1cf49a37cb9ab7800fc6
+      internalID: 1969847828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_49
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1020
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b3d33e31c2496469d9c6527fccd3ba
+      internalID: 1478797102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_50
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1020
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce36b639608ca8d4d9516e1a26e17523
+      internalID: 916522113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_51
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1020
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e4060618bbefc459bed9bb5fd542d7
+      internalID: 711353278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_52
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1020
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c79ccde80207574089cf3c71099f4e6
+      internalID: 1930285124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_53
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1020
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4672f4d48c61e6843afcd299b15d21c5
+      internalID: 968063704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_54
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1020
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95887b3c25f47044a9a97a0c0e0fa59
+      internalID: -1709631705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_55
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 1020
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05f74e39923b88478e1729fcf56b9cc
+      internalID: 596227204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 680
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea61d5490988e24c8d2b374ff6408c3
+      internalID: 76932856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_57
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 680
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ba9975392e3ec49920f33e4e781784
+      internalID: -554177811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_58
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 680
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65f9dba36bdfca468b20f30630e1bb3
+      internalID: 1468666786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_59
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 680
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0918025edb0744bb9ae741531de70a
+      internalID: 1392922744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_60
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 680
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a97866b0f7c3684382f317cb1d59e8c
+      internalID: -111616761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_61
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 680
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3a1b95a69ea114da1285495f9aa9e6
+      internalID: 500174177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_62
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 680
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def24a5a186796944a7332f4687b4fa8
+      internalID: 1263472858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_63
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 680
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f022cd0dba2cb4a951fc8705948fe1
+      internalID: -626138705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 340
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d35c684c0da4f24394ccd87b700e88b
+      internalID: -32254946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_65
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 340
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071781df68941ae43a1502fb420a5a1a
+      internalID: -1576608803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_66
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 340
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8c2780dc724394088e679608ae4a34
+      internalID: 1140828523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_67
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 340
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95bf5961378d38498b6403c871d36f2
+      internalID: 810373282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_68
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 340
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6398d40cb1daf044184423176e20c9b0
+      internalID: -1687213562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_69
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 340
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b1fe25882f1be49baee4477fc06d96
+      internalID: -1332550442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_70
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 340
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c7e41b9791fad48b6cdfa6ef138526
+      internalID: -1616581562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_71
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 340
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90f41e200f5a1f49a9f22cb9c3c8372
+      internalID: 1495534863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000a0c3d4f789fd41b38b5702143d8fd
+      internalID: -1710359485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_73
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4ff70de2943c040917e2c9952b6f7f
+      internalID: -1197764572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap8-Spring Duck-sprite_74
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 272
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b103bb9178ed8548932090e1b478a74
+      internalID: 2009839818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LevelMap8-Spring Duck-sprite_0: -1782361457
+      LevelMap8-Spring Duck-sprite_1: -87776086
+      LevelMap8-Spring Duck-sprite_10: -1774673408
+      LevelMap8-Spring Duck-sprite_11: 1277328029
+      LevelMap8-Spring Duck-sprite_12: -2077987979
+      LevelMap8-Spring Duck-sprite_13: -1552027019
+      LevelMap8-Spring Duck-sprite_14: 1133291844
+      LevelMap8-Spring Duck-sprite_15: 2115688101
+      LevelMap8-Spring Duck-sprite_16: 1510438586
+      LevelMap8-Spring Duck-sprite_17: 618165173
+      LevelMap8-Spring Duck-sprite_18: 602994321
+      LevelMap8-Spring Duck-sprite_19: 190239388
+      LevelMap8-Spring Duck-sprite_2: -994945414
+      LevelMap8-Spring Duck-sprite_20: -1443250916
+      LevelMap8-Spring Duck-sprite_21: -694093988
+      LevelMap8-Spring Duck-sprite_22: 1472976098
+      LevelMap8-Spring Duck-sprite_23: -1753020627
+      LevelMap8-Spring Duck-sprite_24: 24379215
+      LevelMap8-Spring Duck-sprite_25: 872158180
+      LevelMap8-Spring Duck-sprite_26: -1284715258
+      LevelMap8-Spring Duck-sprite_27: 227963883
+      LevelMap8-Spring Duck-sprite_28: 173269085
+      LevelMap8-Spring Duck-sprite_29: -221761003
+      LevelMap8-Spring Duck-sprite_3: -1604787894
+      LevelMap8-Spring Duck-sprite_30: 1010525905
+      LevelMap8-Spring Duck-sprite_31: -1020822435
+      LevelMap8-Spring Duck-sprite_32: -1502377500
+      LevelMap8-Spring Duck-sprite_33: 1270298440
+      LevelMap8-Spring Duck-sprite_34: -1406356242
+      LevelMap8-Spring Duck-sprite_35: 1540735971
+      LevelMap8-Spring Duck-sprite_36: -1114684197
+      LevelMap8-Spring Duck-sprite_37: 840708241
+      LevelMap8-Spring Duck-sprite_38: 1071573639
+      LevelMap8-Spring Duck-sprite_39: -526356413
+      LevelMap8-Spring Duck-sprite_4: -1620190697
+      LevelMap8-Spring Duck-sprite_40: -1357839866
+      LevelMap8-Spring Duck-sprite_41: 1706245974
+      LevelMap8-Spring Duck-sprite_42: -1845611790
+      LevelMap8-Spring Duck-sprite_43: -32802693
+      LevelMap8-Spring Duck-sprite_44: 5241212
+      LevelMap8-Spring Duck-sprite_45: 1185333512
+      LevelMap8-Spring Duck-sprite_46: -146466084
+      LevelMap8-Spring Duck-sprite_47: -313688579
+      LevelMap8-Spring Duck-sprite_48: 1969847828
+      LevelMap8-Spring Duck-sprite_49: 1478797102
+      LevelMap8-Spring Duck-sprite_5: -105471412
+      LevelMap8-Spring Duck-sprite_50: 916522113
+      LevelMap8-Spring Duck-sprite_51: 711353278
+      LevelMap8-Spring Duck-sprite_52: 1930285124
+      LevelMap8-Spring Duck-sprite_53: 968063704
+      LevelMap8-Spring Duck-sprite_54: -1709631705
+      LevelMap8-Spring Duck-sprite_55: 596227204
+      LevelMap8-Spring Duck-sprite_56: 76932856
+      LevelMap8-Spring Duck-sprite_57: -554177811
+      LevelMap8-Spring Duck-sprite_58: 1468666786
+      LevelMap8-Spring Duck-sprite_59: 1392922744
+      LevelMap8-Spring Duck-sprite_6: 1433577136
+      LevelMap8-Spring Duck-sprite_60: -111616761
+      LevelMap8-Spring Duck-sprite_61: 500174177
+      LevelMap8-Spring Duck-sprite_62: 1263472858
+      LevelMap8-Spring Duck-sprite_63: -626138705
+      LevelMap8-Spring Duck-sprite_64: -32254946
+      LevelMap8-Spring Duck-sprite_65: -1576608803
+      LevelMap8-Spring Duck-sprite_66: 1140828523
+      LevelMap8-Spring Duck-sprite_67: 810373282
+      LevelMap8-Spring Duck-sprite_68: -1687213562
+      LevelMap8-Spring Duck-sprite_69: -1332550442
+      LevelMap8-Spring Duck-sprite_7: -1060175007
+      LevelMap8-Spring Duck-sprite_70: -1616581562
+      LevelMap8-Spring Duck-sprite_71: 1495534863
+      LevelMap8-Spring Duck-sprite_72: -1710359485
+      LevelMap8-Spring Duck-sprite_73: -1197764572
+      LevelMap8-Spring Duck-sprite_74: 2009839818
+      LevelMap8-Spring Duck-sprite_8: 1397976210
+      LevelMap8-Spring Duck-sprite_9: 1134965663
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303021
+  packageName: Casual Maps - Level Progression
+  packageVersion: 1.0
+  assetPath: Assets/Graphie/Casual game map/Sprites/Animations/LevelMap8-Spring Duck-sprite.png
+  uploadId: 710143

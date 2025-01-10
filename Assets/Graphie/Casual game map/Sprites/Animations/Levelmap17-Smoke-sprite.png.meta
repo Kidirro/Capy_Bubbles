@@ -1,0 +1,1335 @@
+fileFormatVersion: 2
+guid: afd9bbb2e38b6da44b8e12389c311a0f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2016
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47d7e007aa97114f99b8d13da8bf8a6
+      internalID: -996161544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 2016
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af2cbcc759d02b4a8e55978592dd1a9
+      internalID: -613544612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_2
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 2016
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3ff920ac22ed54fba71b9fe6b7a582
+      internalID: 720701396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_3
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 2016
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bffd31a872667645b76f42d32efeddd
+      internalID: -1898147549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_4
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 2016
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a211817f0e6cc4bbe7cea101b76783
+      internalID: -465694737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_5
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 2016
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4d77fb0b0ceb14a81e00803245b43f
+      internalID: -555775997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_6
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 2016
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1dc8ce48f491984f8216ed166ccca2a
+      internalID: 1223708777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_7
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 2016
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50e2f75a49f6934d9da2a6d824e4209
+      internalID: -1583829680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1680
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6315767a4ad6945b0422ec3b557dd9
+      internalID: 1241680508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_9
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1680
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9498f753b49a6b4f88efae40da79871
+      internalID: -2037258244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_10
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1680
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a595d4dda6382b4fa9c001833f3be33
+      internalID: 402876302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_11
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1680
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3df1bf42978cbc4f92934bda19d5da9
+      internalID: -766537910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_12
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1680
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4968fce9489254ba19d91b5ba4d052
+      internalID: -155130279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_13
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1680
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7955d803112873540acc13be06e2e801
+      internalID: 849241930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_14
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1680
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1128f85b7ea6c44bcf3eb84a847ee8
+      internalID: 1256774137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_15
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 1680
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e811ff527bffa4083bbf830df68603
+      internalID: 1104681840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1344
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e95f4586961584aa456aa19df1d8da
+      internalID: -1669685976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_17
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1344
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1e5050d5097d74e874f0b9fb8e98b0
+      internalID: -1696970744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_18
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1344
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0c730b3ab4e49478e832e95b89af48
+      internalID: 1760220117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_19
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1344
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6772c107bd287f4c8ff6a9aa624b4e1
+      internalID: -1324746797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_20
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1344
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6750cde9c6745e445b0fc105ebc81fa9
+      internalID: 353443693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_21
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1344
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb20cb257c551f40ad7ffe2f370b255
+      internalID: -46228388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_22
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1344
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7df830712d38048b90fa5982563277
+      internalID: -1814751927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_23
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 1344
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab83fb2d36067454a99be7662e7afc6c
+      internalID: -1920564103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1008
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a21244b7fd9df94fb50c04badd96bf1
+      internalID: 1039545363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_25
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1008
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec186d8794e0a146996a0ddf78f01fe
+      internalID: -1410681301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_26
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1008
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae5bad69aa660449baab01b5b186c50
+      internalID: -918251401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_27
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1008
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5709ddc9bf29b4dafcf4cf80cf7e03
+      internalID: -1021074841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_28
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1008
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3cd74587f1d8f42bb515da224e94c3
+      internalID: -1354150097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_29
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1008
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed560afd2a6cccc41922dc7cdc9a89af
+      internalID: 1757703180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_30
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1008
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d877fa3dabd221a42893a181524a4b61
+      internalID: -930094124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_31
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 1008
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d94b246aa065914a98490e3f2eaa5ad
+      internalID: -450332604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9536979a14f0da1479d45d6d9c99905b
+      internalID: -1184103474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_33
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 672
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e0bd9668d53fc479ddca0e907220b8
+      internalID: -678273039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_34
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 672
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3d5362519b0684981db6c62441aa58
+      internalID: -251988019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_35
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 672
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851228e3dd529a44e86b60dbd281256b
+      internalID: -1247885042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_36
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 672
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f124081484256429c5fa3ce239c6f4
+      internalID: 137745484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_37
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 672
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b167f88bca08ab04db47d23a1edc89da
+      internalID: -1392565757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_38
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 672
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f160e676f660d5641914af68b3b1b8b6
+      internalID: -1643151230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_39
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 672
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e5ebca75519034289ce749c56ffd8c
+      internalID: 1840088757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee165be134111864086d04bb12eb68d3
+      internalID: 1430008764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_41
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 336
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473db5d68cdb9234e886cb742d46d434
+      internalID: 1910524888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_42
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 336
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367ffdaec3c051749a81d5056ab5f4d2
+      internalID: 1386437112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_43
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 336
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147458de83a54874ca8c46477b35e5d2
+      internalID: 630638478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_44
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 336
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce90a629dc7708d4ea7fc986776ae397
+      internalID: 1882098112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_45
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 336
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af79ad96ec172f4fb2fe42f486f39e3
+      internalID: -465689420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_46
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 336
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1404ec26b5f3d1f45a4d296316933926
+      internalID: -1812174050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_47
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 336
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed9c23379cd5fa4e876e89f5b0a0dd8
+      internalID: -591943974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07312fb0a8a5bf548b30bd97f2388700
+      internalID: 568884717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_49
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 0
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db59bacee8fdc240ad12f08e4c6c678
+      internalID: 1549209832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_50
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 0
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df2b3cf27e4f2646a100cebb71a8901
+      internalID: -1614748676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_51
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 0
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ab27365570034418257e3fbb0abcff
+      internalID: -389097432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_52
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 0
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd9759aef67faa46a348f1a35bb9d9d
+      internalID: 620531578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levelmap17-Smoke-sprite_53
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 0
+        width: 172
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413d9b231746a7349ade72c753bacd78
+      internalID: -1056353331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Levelmap17-Smoke-sprite_0: -996161544
+      Levelmap17-Smoke-sprite_1: -613544612
+      Levelmap17-Smoke-sprite_10: 402876302
+      Levelmap17-Smoke-sprite_11: -766537910
+      Levelmap17-Smoke-sprite_12: -155130279
+      Levelmap17-Smoke-sprite_13: 849241930
+      Levelmap17-Smoke-sprite_14: 1256774137
+      Levelmap17-Smoke-sprite_15: 1104681840
+      Levelmap17-Smoke-sprite_16: -1669685976
+      Levelmap17-Smoke-sprite_17: -1696970744
+      Levelmap17-Smoke-sprite_18: 1760220117
+      Levelmap17-Smoke-sprite_19: -1324746797
+      Levelmap17-Smoke-sprite_2: 720701396
+      Levelmap17-Smoke-sprite_20: 353443693
+      Levelmap17-Smoke-sprite_21: -46228388
+      Levelmap17-Smoke-sprite_22: -1814751927
+      Levelmap17-Smoke-sprite_23: -1920564103
+      Levelmap17-Smoke-sprite_24: 1039545363
+      Levelmap17-Smoke-sprite_25: -1410681301
+      Levelmap17-Smoke-sprite_26: -918251401
+      Levelmap17-Smoke-sprite_27: -1021074841
+      Levelmap17-Smoke-sprite_28: -1354150097
+      Levelmap17-Smoke-sprite_29: 1757703180
+      Levelmap17-Smoke-sprite_3: -1898147549
+      Levelmap17-Smoke-sprite_30: -930094124
+      Levelmap17-Smoke-sprite_31: -450332604
+      Levelmap17-Smoke-sprite_32: -1184103474
+      Levelmap17-Smoke-sprite_33: -678273039
+      Levelmap17-Smoke-sprite_34: -251988019
+      Levelmap17-Smoke-sprite_35: -1247885042
+      Levelmap17-Smoke-sprite_36: 137745484
+      Levelmap17-Smoke-sprite_37: -1392565757
+      Levelmap17-Smoke-sprite_38: -1643151230
+      Levelmap17-Smoke-sprite_39: 1840088757
+      Levelmap17-Smoke-sprite_4: -465694737
+      Levelmap17-Smoke-sprite_40: 1430008764
+      Levelmap17-Smoke-sprite_41: 1910524888
+      Levelmap17-Smoke-sprite_42: 1386437112
+      Levelmap17-Smoke-sprite_43: 630638478
+      Levelmap17-Smoke-sprite_44: 1882098112
+      Levelmap17-Smoke-sprite_45: -465689420
+      Levelmap17-Smoke-sprite_46: -1812174050
+      Levelmap17-Smoke-sprite_47: -591943974
+      Levelmap17-Smoke-sprite_48: 568884717
+      Levelmap17-Smoke-sprite_49: 1549209832
+      Levelmap17-Smoke-sprite_5: -555775997
+      Levelmap17-Smoke-sprite_50: -1614748676
+      Levelmap17-Smoke-sprite_51: -389097432
+      Levelmap17-Smoke-sprite_52: 620531578
+      Levelmap17-Smoke-sprite_53: -1056353331
+      Levelmap17-Smoke-sprite_6: 1223708777
+      Levelmap17-Smoke-sprite_7: -1583829680
+      Levelmap17-Smoke-sprite_8: 1241680508
+      Levelmap17-Smoke-sprite_9: -2037258244
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303021
+  packageName: Casual Maps - Level Progression
+  packageVersion: 1.0
+  assetPath: Assets/Graphie/Casual game map/Sprites/Animations/Levelmap17-Smoke-sprite.png
+  uploadId: 710143

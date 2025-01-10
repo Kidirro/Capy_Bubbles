@@ -1,0 +1,1181 @@
+fileFormatVersion: 2
+guid: c602dc17493d08d47a0f1d658778ba29
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3800
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd2f1f27e381dd49b5cc6bc8a2a9cf1
+      internalID: 661733292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_1
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 3800
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd43b26e56f087b47b6e807ca6714ab4
+      internalID: -2061076193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_2
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 3800
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2208b36c6dfd12e44a1f22ce857f8ec0
+      internalID: 531758752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_3
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 3800
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958e101c066ce8f4a85907ca1c7d50b7
+      internalID: -1184095122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_4
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 3800
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16dba7a96211e946a7e6b8794714fd4
+      internalID: 924601549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_5
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 3800
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf1d3c3a4f61fc4e956593d1bf9702d
+      internalID: -1245106867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_6
+      rect:
+        serializedVersion: 2
+        x: 4560
+        y: 3800
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09c607b7f6bb594e940c676687e202a
+      internalID: -1768469816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_7
+      rect:
+        serializedVersion: 2
+        x: 5320
+        y: 3800
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4c2400cb613d4459cd3a910c287df7
+      internalID: -2108406538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3040
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf69ccc24bb8e74a81d1f98dd89ea0a
+      internalID: 625439665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_9
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 3040
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4dd4afb1cb9ccd4ca09d26c83731015
+      internalID: 1732776503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_10
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 3040
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679ce84e90f751b49a8fe6282d19696b
+      internalID: 732572648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_11
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 3040
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d606e3f63f5d21489dcb24715c5ccd8
+      internalID: -1223134468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_12
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 3040
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ebd18ca37674b64894c3864a463d8e8
+      internalID: -2098448064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_13
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 3040
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e84e65a446fce047b43502438166b9b
+      internalID: -1306210057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_14
+      rect:
+        serializedVersion: 2
+        x: 4560
+        y: 3040
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6bdfd901a5c4de41892925973d5cb76
+      internalID: 882351298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_15
+      rect:
+        serializedVersion: 2
+        x: 5320
+        y: 3040
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455119338d09b024789d61032c2b4ba2
+      internalID: 703479853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2280
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d2c470d9e12d0469069570321bc1cc
+      internalID: -756731581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_17
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 2280
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f3c9577dc2cdd4e94728af86dad7be
+      internalID: -481310346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_18
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 2280
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85e8dcee81aad142acc2d73255856bd
+      internalID: -1355357964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_19
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 2280
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b169cff64eb49f94a83e6db6e91b5a3a
+      internalID: 1238322799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_20
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 2280
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352939f27318a4e4e9b7b6efaa4b86e6
+      internalID: 399839276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_21
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 2280
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c40532160c1b541be467d2339d9c2b
+      internalID: 1168498241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_22
+      rect:
+        serializedVersion: 2
+        x: 4560
+        y: 2280
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f51a7db5c998247ae259ffde29fe55
+      internalID: 441349844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_23
+      rect:
+        serializedVersion: 2
+        x: 5320
+        y: 2280
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0491edd3236feed4a977a7b3757c8cb2
+      internalID: -1539223993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1520
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958baa7ea238d194785e8102f2546421
+      internalID: 2112024123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_25
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1520
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb62860c82e94e4a9545273d3aec66e
+      internalID: 1579489604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_26
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 1520
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d80431eef8a494bb206ae006ef2dae
+      internalID: 82165732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_27
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 1520
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909af9f0357e7c246bfb01813091ebda
+      internalID: -543555845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_28
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 1520
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e662310ba6a9c4d9899941b3bf1ff9
+      internalID: -1984723455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_29
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 1520
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0233e44255a642343872318b3daf05e6
+      internalID: 459038745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_30
+      rect:
+        serializedVersion: 2
+        x: 4560
+        y: 1520
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2638d8dba309df4fb085e5d41614de2
+      internalID: 1997079999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_31
+      rect:
+        serializedVersion: 2
+        x: 5320
+        y: 1520
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d79fddbae1fd8c499f27fcc922cb6ee
+      internalID: 1297493118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 760
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e73e6370bacc994fbb01b7040c2b08e
+      internalID: -902486274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_33
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 760
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fcba64b08396134e82a3fee5f919d24
+      internalID: 403731915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_34
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 760
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619950d47815b7641a1a0a4d38db1fad
+      internalID: 237002263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_35
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 760
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3440c77eda2fed04982cee494d0043eb
+      internalID: -463489637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_36
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 760
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25cfeca7b4c123c41941bd10ba823902
+      internalID: -1944666265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_37
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 760
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e91aa6e5b2b99cd429ea26b3d37e74ff
+      internalID: -665704926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_38
+      rect:
+        serializedVersion: 2
+        x: 4560
+        y: 760
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7faa909fb46eaf045a80ac28ddb99d45
+      internalID: 2086763260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_39
+      rect:
+        serializedVersion: 2
+        x: 5320
+        y: 760
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88aa1f955f341643b14db776f445728
+      internalID: -1143043784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3b324a424d39048bdcddb6f069bd7a
+      internalID: -1910244084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_41
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 0
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645946fdf894137459665d3cf5584081
+      internalID: -2142434969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_42
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 0
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41fc96424d2e2f749985b3f73db8adc7
+      internalID: 1407521830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_43
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 0
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be1c2d1f19cf6742bab12b713dd534c
+      internalID: 232965283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_44
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 0
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752c3af1e2934304680db99a75b7b5eb
+      internalID: -2068855924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_45
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 0
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67cfe4987bc23cb498b346a54bda47e2
+      internalID: 1579532856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap20-rumah-sprite_46
+      rect:
+        serializedVersion: 2
+        x: 4560
+        y: 0
+        width: 760
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38091e7691554c458916826dff7a623
+      internalID: 1825855081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LevelMap20-rumah-sprite_0: 661733292
+      LevelMap20-rumah-sprite_1: -2061076193
+      LevelMap20-rumah-sprite_10: 732572648
+      LevelMap20-rumah-sprite_11: -1223134468
+      LevelMap20-rumah-sprite_12: -2098448064
+      LevelMap20-rumah-sprite_13: -1306210057
+      LevelMap20-rumah-sprite_14: 882351298
+      LevelMap20-rumah-sprite_15: 703479853
+      LevelMap20-rumah-sprite_16: -756731581
+      LevelMap20-rumah-sprite_17: -481310346
+      LevelMap20-rumah-sprite_18: -1355357964
+      LevelMap20-rumah-sprite_19: 1238322799
+      LevelMap20-rumah-sprite_2: 531758752
+      LevelMap20-rumah-sprite_20: 399839276
+      LevelMap20-rumah-sprite_21: 1168498241
+      LevelMap20-rumah-sprite_22: 441349844
+      LevelMap20-rumah-sprite_23: -1539223993
+      LevelMap20-rumah-sprite_24: 2112024123
+      LevelMap20-rumah-sprite_25: 1579489604
+      LevelMap20-rumah-sprite_26: 82165732
+      LevelMap20-rumah-sprite_27: -543555845
+      LevelMap20-rumah-sprite_28: -1984723455
+      LevelMap20-rumah-sprite_29: 459038745
+      LevelMap20-rumah-sprite_3: -1184095122
+      LevelMap20-rumah-sprite_30: 1997079999
+      LevelMap20-rumah-sprite_31: 1297493118
+      LevelMap20-rumah-sprite_32: -902486274
+      LevelMap20-rumah-sprite_33: 403731915
+      LevelMap20-rumah-sprite_34: 237002263
+      LevelMap20-rumah-sprite_35: -463489637
+      LevelMap20-rumah-sprite_36: -1944666265
+      LevelMap20-rumah-sprite_37: -665704926
+      LevelMap20-rumah-sprite_38: 2086763260
+      LevelMap20-rumah-sprite_39: -1143043784
+      LevelMap20-rumah-sprite_4: 924601549
+      LevelMap20-rumah-sprite_40: -1910244084
+      LevelMap20-rumah-sprite_41: -2142434969
+      LevelMap20-rumah-sprite_42: 1407521830
+      LevelMap20-rumah-sprite_43: 232965283
+      LevelMap20-rumah-sprite_44: -2068855924
+      LevelMap20-rumah-sprite_45: 1579532856
+      LevelMap20-rumah-sprite_46: 1825855081
+      LevelMap20-rumah-sprite_5: -1245106867
+      LevelMap20-rumah-sprite_6: -1768469816
+      LevelMap20-rumah-sprite_7: -2108406538
+      LevelMap20-rumah-sprite_8: 625439665
+      LevelMap20-rumah-sprite_9: 1732776503
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303021
+  packageName: Casual Maps - Level Progression
+  packageVersion: 1.0
+  assetPath: Assets/Graphie/Casual game map/Sprites/Animations/LevelMap20-rumah-sprite.png
+  uploadId: 710143

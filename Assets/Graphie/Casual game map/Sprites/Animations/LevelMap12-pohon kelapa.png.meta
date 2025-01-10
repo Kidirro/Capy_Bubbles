@@ -1,0 +1,1027 @@
+fileFormatVersion: 2
+guid: 54229efd1d547a74085d7a361ad17d93
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2680
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1575dd319e92843a5961a184bcb014
+      internalID: 752401421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_1
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 2680
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67543c3c9d59ed84b8d11d0f62e45a39
+      internalID: 308260118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_2
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 2680
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0d71bf9677f1645918cd6b79ba3f08
+      internalID: -88819900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_3
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 2680
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77c21b866eeedf429f543fbc3fcdc21
+      internalID: -1389852074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_4
+      rect:
+        serializedVersion: 2
+        x: 2144
+        y: 2680
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af10581413ecc648809fc083386cc37
+      internalID: -1517204836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_5
+      rect:
+        serializedVersion: 2
+        x: 2680
+        y: 2680
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ad62797224f3b42841defe677f8f9e
+      internalID: 1470011466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_6
+      rect:
+        serializedVersion: 2
+        x: 3216
+        y: 2680
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ad6c5ebb5d67c4b8669961f2202002
+      internalID: 1649489732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2144
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f7f47604ee8aa46aaa5347b8f92466
+      internalID: -896968240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_8
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 2144
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4732a5f2e9d7ddf45adb6389b1a55aa2
+      internalID: 1215598896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_9
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 2144
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971f535c6aa093e41a0a8f0f738c65e3
+      internalID: -84519047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_10
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 2144
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ebf33fe0dfc65a488368c42acf24b78
+      internalID: -2106702616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_11
+      rect:
+        serializedVersion: 2
+        x: 2144
+        y: 2144
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466e0121122bfe643ab852be93d69435
+      internalID: -243639981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_12
+      rect:
+        serializedVersion: 2
+        x: 2680
+        y: 2144
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0a467593032c84f96b4fd9a5eb0ac3
+      internalID: -2055626125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_13
+      rect:
+        serializedVersion: 2
+        x: 3216
+        y: 2144
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9183ef5098f1ea248aacdeea03099ef3
+      internalID: 2144250836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1608
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3df71efbce73f469a8e3ec28f63a6d
+      internalID: 1371309853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_15
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1608
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2e4edad46d03847be5a800100398c3
+      internalID: -1791348018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_16
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 1608
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3c4708e29c16740bd8d48799ef9046
+      internalID: 35472044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_17
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 1608
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889631a20c57a044d99f321042f79ba3
+      internalID: -329237707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_18
+      rect:
+        serializedVersion: 2
+        x: 2144
+        y: 1608
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5225833e59d8ee64b98bd2217896a9d6
+      internalID: 317455092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_19
+      rect:
+        serializedVersion: 2
+        x: 2680
+        y: 1608
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b98c1521cb80424b956d32db748ea25
+      internalID: -1146684609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_20
+      rect:
+        serializedVersion: 2
+        x: 3216
+        y: 1608
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5a3441106bdf947b600d50a9435cf1
+      internalID: -1515151089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1072
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604c9cf223cbceb4ca1d7aee9b07653e
+      internalID: 228882393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_22
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1072
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf344bcb7a3e6745a18439781425d44
+      internalID: 1896746204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_23
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 1072
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ddf85e779e7ee94c891cfa878d45598
+      internalID: 1072847588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_24
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 1072
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0109058dc11bc1d449cc70ec036f12cd
+      internalID: 2044307736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_25
+      rect:
+        serializedVersion: 2
+        x: 2144
+        y: 1072
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048837186e8bd954f9a5d198f02a076b
+      internalID: 1134603698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_26
+      rect:
+        serializedVersion: 2
+        x: 2680
+        y: 1072
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983e2045353769141b86d4c4c42f4355
+      internalID: -716847329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_27
+      rect:
+        serializedVersion: 2
+        x: 3216
+        y: 1072
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb60ab0082c1f944932bd8a1d008831
+      internalID: -1932522812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 536
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6768c1b4ea700e74b98e0dc4bf7e9d85
+      internalID: 1563017588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_29
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 536
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64994c247b305b347a7ca67915429498
+      internalID: 952248715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_30
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 536
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9c27873b02bed4fa7ef77687e154dc
+      internalID: 1351042276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_31
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 536
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5bf2a10a240474082142a21fe3d21e
+      internalID: 1507170695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_32
+      rect:
+        serializedVersion: 2
+        x: 2144
+        y: 536
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89dc9d41f23d7641b8db307c8146718
+      internalID: 1181363513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_33
+      rect:
+        serializedVersion: 2
+        x: 2680
+        y: 536
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64bde3a07a4afe41b675390065d0068
+      internalID: -629468301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_34
+      rect:
+        serializedVersion: 2
+        x: 3216
+        y: 536
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb17542878679954cb771a19f7a77e91
+      internalID: 1815702215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef1bcd1544a49e46a485b1a805864f3
+      internalID: 1121150396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_36
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 0
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489f8a2af3867c54485f4ad28429d0dd
+      internalID: -2133986233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_37
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 0
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24e95d2e87511149a0f94cdacd2201e
+      internalID: 786389517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_38
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 0
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f04e46b069ecc478ec4149bac18d8e
+      internalID: -1583504576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap12-pohon kelapa_39
+      rect:
+        serializedVersion: 2
+        x: 2144
+        y: 0
+        width: 536
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1432190f34e944bb2796b67becf1f1
+      internalID: -1547639309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LevelMap12-pohon kelapa_0: 752401421
+      LevelMap12-pohon kelapa_1: 308260118
+      LevelMap12-pohon kelapa_10: -2106702616
+      LevelMap12-pohon kelapa_11: -243639981
+      LevelMap12-pohon kelapa_12: -2055626125
+      LevelMap12-pohon kelapa_13: 2144250836
+      LevelMap12-pohon kelapa_14: 1371309853
+      LevelMap12-pohon kelapa_15: -1791348018
+      LevelMap12-pohon kelapa_16: 35472044
+      LevelMap12-pohon kelapa_17: -329237707
+      LevelMap12-pohon kelapa_18: 317455092
+      LevelMap12-pohon kelapa_19: -1146684609
+      LevelMap12-pohon kelapa_2: -88819900
+      LevelMap12-pohon kelapa_20: -1515151089
+      LevelMap12-pohon kelapa_21: 228882393
+      LevelMap12-pohon kelapa_22: 1896746204
+      LevelMap12-pohon kelapa_23: 1072847588
+      LevelMap12-pohon kelapa_24: 2044307736
+      LevelMap12-pohon kelapa_25: 1134603698
+      LevelMap12-pohon kelapa_26: -716847329
+      LevelMap12-pohon kelapa_27: -1932522812
+      LevelMap12-pohon kelapa_28: 1563017588
+      LevelMap12-pohon kelapa_29: 952248715
+      LevelMap12-pohon kelapa_3: -1389852074
+      LevelMap12-pohon kelapa_30: 1351042276
+      LevelMap12-pohon kelapa_31: 1507170695
+      LevelMap12-pohon kelapa_32: 1181363513
+      LevelMap12-pohon kelapa_33: -629468301
+      LevelMap12-pohon kelapa_34: 1815702215
+      LevelMap12-pohon kelapa_35: 1121150396
+      LevelMap12-pohon kelapa_36: -2133986233
+      LevelMap12-pohon kelapa_37: 786389517
+      LevelMap12-pohon kelapa_38: -1583504576
+      LevelMap12-pohon kelapa_39: -1547639309
+      LevelMap12-pohon kelapa_4: -1517204836
+      LevelMap12-pohon kelapa_5: 1470011466
+      LevelMap12-pohon kelapa_6: 1649489732
+      LevelMap12-pohon kelapa_7: -896968240
+      LevelMap12-pohon kelapa_8: 1215598896
+      LevelMap12-pohon kelapa_9: -84519047
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303021
+  packageName: Casual Maps - Level Progression
+  packageVersion: 1.0
+  assetPath: Assets/Graphie/Casual game map/Sprites/Animations/LevelMap12-pohon kelapa.png
+  uploadId: 710143

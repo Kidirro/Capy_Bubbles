@@ -1,0 +1,1028 @@
+fileFormatVersion: 2
+guid: f0069b1b951f5bc4fb714791311b30aa
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1850
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb1dafb91704ba4ab25e5fbdec97180
+      internalID: 1497686591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_1
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1850
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d55f890209883b419547dbb6d03a7ae
+      internalID: -616144478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_2
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1850
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee7b3d9e3122a74a960904ac9d9f941
+      internalID: 336120072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_3
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1850
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee08bb6753cb724bace090ba1f272b7
+      internalID: -713505679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_4
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 1850
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e1868cf67150a4b9141af760bc74a9
+      internalID: -1954983934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_5
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 1850
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0392a28f5cac3f4ab490e4543f3db89
+      internalID: -740507757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_6
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 1850
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be60fe3dea3eabf47b34f986884a327a
+      internalID: -538214854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1480
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5395db41c156c949aeda8299837eab0
+      internalID: 1206881834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_8
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1480
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984b2210ed368374f94fd1eefbc0cd28
+      internalID: 231600207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_9
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1480
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2962722d1de81a4d8532180777e2215
+      internalID: -1155586408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_10
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1480
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33d1cf5244104b4bb47b035577ba138
+      internalID: -151548767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_11
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 1480
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4930f8f3bd94f1e468f4e46e83a27f4e
+      internalID: -181255319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_12
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 1480
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e376a7cb0d7074fac19c5c9583e58a
+      internalID: 1777008666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_13
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 1480
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31794b30cd02a24598a274838b65570
+      internalID: 96644348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1110
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6413dd9089b964a91adbddadaebea6
+      internalID: 1087557381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_15
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1110
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd45842f6c4eb214a8e161f680eafe18
+      internalID: -619809728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_16
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1110
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b995e1bfdcb70428dd7ed0d487e141
+      internalID: -1364022980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_17
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1110
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9cd8216e28f7c4aafea055b679a224
+      internalID: 121350309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_18
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 1110
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1af8d544914fe34dbf45918276de692
+      internalID: 684964408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_19
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 1110
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46c380c15b523f4fa708416562df96a
+      internalID: 92440619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_20
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 1110
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9238f42c282fa204a8f396a5a3144dad
+      internalID: 82815511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 740
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d95641ac9054f439804dbf841b2404
+      internalID: 542264821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_22
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 740
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509e12f78ceabf74f9536296d15a909b
+      internalID: -1341179009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_23
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 740
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58f1fd303818e8449c9b5a9c2dd868a
+      internalID: -172333318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_24
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 740
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdcca0b6d6e00dd4e81bbd251851f680
+      internalID: 149176422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_25
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 740
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452443168b631aa4aad0fb5258f3f45f
+      internalID: 1916666027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_26
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 740
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca23f770099a13143b9d6e375ef04976
+      internalID: 1213931046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_27
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 740
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec86580ef51399548b396d908506e876
+      internalID: 600652689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 370
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b51f23a573e1db40acb35c90ddb9009
+      internalID: -235721881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_29
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 370
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8667131fd9e1b7408db623d5303f1ba
+      internalID: 650017107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_30
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 370
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983d41ad733c49c45a17cd130383efdd
+      internalID: 237553219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_31
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 370
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd4741174ee67c488b204f27ad7702e
+      internalID: -938220398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_32
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 370
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d9ce56a2375784bbae29c834c49301
+      internalID: 552901904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_33
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 370
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9134ff2a5ec5cc4ca2532b6bb690108
+      internalID: -1670269740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_34
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 370
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a20e21520db08d4191cda87efa3c01e
+      internalID: 681449434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d47b34aba3476d41b3a54eb821fcefa
+      internalID: -470804849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_36
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 0
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2342f66192bb1974582e8851e683297b
+      internalID: 716937780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_37
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 0
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e0b18deef65d54da6c9a1a3024f8c9
+      internalID: 1991282067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_38
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 0
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ba3a496d5caae479f3e7fb24b78405
+      internalID: 307137721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-gedung 4-sprite_39
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 0
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3e42a95464c9c44b48d23cdea97853
+      internalID: -1141124653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LevelMap15-gedung 4-sprite_0: 1497686591
+      LevelMap15-gedung 4-sprite_1: -616144478
+      LevelMap15-gedung 4-sprite_10: -151548767
+      LevelMap15-gedung 4-sprite_11: -181255319
+      LevelMap15-gedung 4-sprite_12: 1777008666
+      LevelMap15-gedung 4-sprite_13: 96644348
+      LevelMap15-gedung 4-sprite_14: 1087557381
+      LevelMap15-gedung 4-sprite_15: -619809728
+      LevelMap15-gedung 4-sprite_16: -1364022980
+      LevelMap15-gedung 4-sprite_17: 121350309
+      LevelMap15-gedung 4-sprite_18: 684964408
+      LevelMap15-gedung 4-sprite_19: 92440619
+      LevelMap15-gedung 4-sprite_2: 336120072
+      LevelMap15-gedung 4-sprite_20: 82815511
+      LevelMap15-gedung 4-sprite_21: 542264821
+      LevelMap15-gedung 4-sprite_22: -1341179009
+      LevelMap15-gedung 4-sprite_23: -172333318
+      LevelMap15-gedung 4-sprite_24: 149176422
+      LevelMap15-gedung 4-sprite_25: 1916666027
+      LevelMap15-gedung 4-sprite_26: 1213931046
+      LevelMap15-gedung 4-sprite_27: 600652689
+      LevelMap15-gedung 4-sprite_28: -235721881
+      LevelMap15-gedung 4-sprite_29: 650017107
+      LevelMap15-gedung 4-sprite_3: -713505679
+      LevelMap15-gedung 4-sprite_30: 237553219
+      LevelMap15-gedung 4-sprite_31: -938220398
+      LevelMap15-gedung 4-sprite_32: 552901904
+      LevelMap15-gedung 4-sprite_33: -1670269740
+      LevelMap15-gedung 4-sprite_34: 681449434
+      LevelMap15-gedung 4-sprite_35: -470804849
+      LevelMap15-gedung 4-sprite_36: 716937780
+      LevelMap15-gedung 4-sprite_37: 1991282067
+      LevelMap15-gedung 4-sprite_38: 307137721
+      LevelMap15-gedung 4-sprite_39: -1141124653
+      LevelMap15-gedung 4-sprite_4: -1954983934
+      LevelMap15-gedung 4-sprite_5: -740507757
+      LevelMap15-gedung 4-sprite_6: -538214854
+      LevelMap15-gedung 4-sprite_7: 1206881834
+      LevelMap15-gedung 4-sprite_8: 231600207
+      LevelMap15-gedung 4-sprite_9: -1155586408
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303021
+  packageName: Casual Maps - Level Progression
+  packageVersion: 1.0
+  assetPath: Assets/Graphie/Casual game map/Sprites/Animations/LevelMap15-gedung
+    4-sprite.png
+  uploadId: 710143
