@@ -1,4 +1,6 @@
 using BubbleShooterGameToolkit.Scripts.Audio;
+using BubbleShooterGameToolkit.Scripts.CommonUI;
+using BubbleShooterGameToolkit.Scripts.CommonUI.Popups;
 using BubbleShooterGameToolkit.Scripts.System;
 using DG.Tweening;
 using TMPro;
@@ -38,6 +40,7 @@ public class OpenedObject : MonoBehaviour
         {
             if (cost > GameManager.instance.coins.GetResource())
             {
+                MenuManager.instance.ShowPopup<CoinsShop>();
                 return;
             }
             else
