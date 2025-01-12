@@ -22,7 +22,6 @@ public class LocalizationChanger : MonoBehaviour
 #if YandexGamesPlatfom_yg
         language = (Language)YG2.saves.language;
 #else
-
         if (PlayerPrefs.HasKey("Localization"))
             language = (Language)PlayerPrefs.GetInt("Localization");
 #endif

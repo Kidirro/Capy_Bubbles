@@ -11,7 +11,7 @@
         "Unity.Services.Core.Environments",
         "CandySmith.Ads",
         "CandySmith.IAP",
-        "Yandex_ref"
+        "YG_Defenition"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

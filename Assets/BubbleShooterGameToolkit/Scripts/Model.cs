@@ -1,10 +1,12 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using BubbleShooterGameToolkit.Scripts.Data;
 using BubbleShooterGameToolkit.Scripts.System;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.UI;
+using YG;
 #if YandexGamesPlatfom_yg
 using YG;
 #endif
@@ -82,12 +84,19 @@ public class Model : MonoBehaviour
         if (PlayerPrefs.GetInt("Level", 1) < playerData.levels.Count + 1)
             PlayerPrefs.SetInt("Level", playerData.levels.Count + 1);
 
+#if YandexGamesPlatfom_yg
+        for (int i = 1; i < playerData.levels.Count + 1; i++)
+        {
+            GameDataManager.instance.SaveLevel(i, playerData.levels[i], false);
+        } 
+        GameDataManager.instance.SaveLevel(1, playerData.levels[0]);
+#else
         for (int i = 1; i < playerData.levels.Count + 1; i++)
         {
             PlayerPrefs.SetInt("LevelScore" + i, playerData.levels[i - 1]);
         }
         PlayerPrefs.Save();
-
+#endif
     }
 
     private static async Task<PlayerData> GetSave()
@@ -97,7 +106,7 @@ public class Model : MonoBehaviour
             return JsonConvert.DeserializeObject<CatState>(PlayerPrefs.GetString("CatState"));
         }*/
 #if YandexGamesPlatfom_yg
-        return YG2.saves.jsonSave == "" ? new PlayerData() : JsonUtility.FromJson<PlayerData>(YG2.saves.jsonSave);
+        return YG2.saves.playerDataJson == "" ? new PlayerData() : JsonUtility.FromJson<PlayerData>(YG2.saves.playerDataJson);
 
 #else
         var request = UnityWebRequest.Get(backend + "user");
@@ -185,7 +194,7 @@ public class Model : MonoBehaviour
         Debug.Log("SetSave");
         
 #if YandexGamesPlatfom_yg
-        YG2.saves.jsonSave = JsonUtility.ToJson(new PlayerSendData(playerData));
+        YG2.saves.playerDataJson = JsonUtility.ToJson(new PlayerSendData(playerData));
         YG2.SaveProgress();
 #else
         

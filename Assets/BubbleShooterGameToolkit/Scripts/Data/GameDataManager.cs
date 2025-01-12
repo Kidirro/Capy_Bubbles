@@ -11,9 +11,11 @@
 // // THE SOFTWARE.
 
 using System;
+using System.Collections.Generic;
 using BubbleShooterGameToolkit.Scripts.Gameplay.Managers;
 using BubbleShooterGameToolkit.Scripts.System;
 using UnityEngine;
+using YG;
 
 namespace BubbleShooterGameToolkit.Scripts.Data
 {
@@ -21,6 +23,8 @@ namespace BubbleShooterGameToolkit.Scripts.Data
     {
         [HideInInspector]
         public int Level;
+        
+        public Dictionary<int, int> LevelScores = new Dictionary<int, int>();
 
         private void OnEnable()
         {
@@ -38,8 +42,16 @@ namespace BubbleShooterGameToolkit.Scripts.Data
             Level = PlayerPrefs.GetInt("Level", 1);
         }
 
-        public void SaveLevel(int levelNumber, int score)
+        public void SaveLevel(int levelNumber, int score, bool isNeedSave = true)
         {
+#if YandexGamesPlatfom_yg
+            LevelScores[levelNumber] = score;
+            if (isNeedSave)
+            {
+                YG2.saves.levelData = JsonUtility.ToJson(LevelScores);
+                YG2.SaveProgress();
+            }
+#else
             if (Model.playerData.levels.Count >= EndGameMap.LAST_LEVEL)
             {
                Model.playerData.counterLevel++;
@@ -61,7 +73,7 @@ namespace BubbleShooterGameToolkit.Scripts.Data
             //}
             GameManager.instance.coins.Add(1);
             PlayerPrefs.Save();
-
+#endif
         }
     }
 }

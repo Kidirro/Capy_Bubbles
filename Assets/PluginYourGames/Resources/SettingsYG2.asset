@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: efa747916aa66674d96ea40ca8a480b2, type: 3}
   m_Name: SettingsYG2
-  m_EditorClassIdentifier: Yandex_ref:YG:InfoYG
+  m_EditorClassIdentifier: 
   Authorization:
     scopes: 1
     playerPhotoSize: 1
@@ -76,7 +76,6 @@ MonoBehaviour:
     syncInitSDK: 0
     loadSceneIfSDKLate: 0
     loadSceneIndex: 0
-    simulationLoadScene: 0
   Simulation:
     device: 0
     language: ru
@@ -95,9 +94,7 @@ MonoBehaviour:
     customProgressBar: 1
     progressBarSettigs:
       round: 1
-      roundAngle: 10
       width: 30
-      height: 24
       color1: {r: 0.25, g: 0.6392, b: 1, a: 1}
       color2: {r: 1, g: 0.831, b: 0.149, a: 0.7}
     fixedAspectRatio: 0

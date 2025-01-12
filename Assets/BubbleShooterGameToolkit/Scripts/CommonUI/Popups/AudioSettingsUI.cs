@@ -13,6 +13,9 @@
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
+#if YandexGamesPlatfom_yg
+#endif
+using YG; 
 
 namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
 {
@@ -44,13 +47,22 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
 
 		void OnEnable()
 		{
-			UpdateButtonState(musicButton, "Music", musicParameter, enabledColor, disabledColor);
-			UpdateButtonState(soundButton, "Sound", soundParameter, enabledColor, disabledColor);
+			int musicInt = 0;
+			int soundInt = 0;
+#if YandexGamesPlatfom_yg
+			soundInt = YG2.saves.sound;
+			musicInt = YG2.saves.music;
+#else
+			musicInt = PlayerPrefs.GetInt("Music", 1);
+			soundInt = PlayerPrefs.GetInt("Sound", 1);
+#endif
+			UpdateButtonState(musicButton, musicInt != 0f, musicParameter, enabledColor, disabledColor);
+			UpdateButtonState(soundButton, soundInt != 0f, soundParameter, enabledColor, disabledColor);
 		}
 
-		void UpdateButtonState(Button button, string playerPrefKey, string volumeParameter, Color onColor, Color offColor)
+		void UpdateButtonState(Button button, bool isEnable, string volumeParameter, Color onColor, Color offColor)
 		{
-			bool enabledState = PlayerPrefs.GetInt(playerPrefKey, 1) != 0f;
+			bool enabledState = isEnable;
 			float volumeValue = enabledState ? 0 : -80;
 
 			foreach (Image childImage in button.transform.GetChild(0).GetComponentsInChildren<Image>())
@@ -63,15 +75,27 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
 
 		private void ToggleMusic()
 		{
+#if YandexGamesPlatfom_yg
+			int music = YG2.saves.music;
+			YG2.saves.music = music == 0f ? 1 : 0;
+			YG2.SaveProgress();
+#else
 			int music = PlayerPrefs.GetInt("Music", 1);
 			PlayerPrefs.SetInt("Music", music == 0f ? 1 : 0);
+#endif
 			OnEnable();
 		}
 
 		private void ToggleSound()
 		{
+#if YandexGamesPlatfom_yg
+			int sound = YG2.saves.sound;
+			YG2.saves.sound = sound == 0f ? 1 : 0;
+			YG2.SaveProgress();
+#else
 			int sound = PlayerPrefs.GetInt("Sound", 1);
-			PlayerPrefs.SetInt("Sound", sound == 0 ? 1 : 0);
+			PlayerPrefs.SetInt("Sound", sound == 0f ? 1 : 0);
+#endif
 			OnEnable();
 		}
 	}
