@@ -15,6 +15,7 @@ using BubbleShooterGameToolkit.Scripts.Services;
 using BubbleShooterGameToolkit.Scripts.Settings;
 using BubbleShooterGameToolkit.Scripts.System;
 using UnityEngine;
+using YG;
 
 namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
 {
@@ -26,7 +27,10 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
         private async void OnEnable()
         {
             shopSettings = Resources.Load<ShopSettings>("Settings/ShopSettings");
-#if BEELINE
+            
+#if YandexGamesPlatfom_yg
+            YG2.onPurchaseSuccess += PurchaseSucceded;
+#elif BEELINE
             Shop data = await Model.GetShopProduts();
             var prod = data.products;
             for (int i = 0; i < packs.Length; i++)
@@ -59,6 +63,9 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
 
         private void OnDisable()
         {
+#if YandexGamesPlatfom_yg
+            YG2.onPurchaseSuccess -= PurchaseSucceded;
+#endif
             GameManager.instance.purchaseSucceded -= PurchaseSucceded;
         }
 
@@ -66,15 +73,20 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
         {
             topPanel.AnimateCoins(packs.First(i => i.settingsShopItem.coins == count).BuyItemButton.transform.position, "+" + count, null);
         }
+        
+        private void PurchaseSucceded(string id)
+        {
+            PurchaseSucceded(packs.First(x=>x.id==id).settingsShopItem.coins);
+        }
 
         public async void BuyCoins(string id)
         {
-#if UNITY_WEBPLAYER
-            GameManager.instance.PurchaseSucceded(id);
+#if !YandexGamesPlatfom_yg
+            YG2.PurchaseByID(id);
 #elif BEELINE
             awaitPanel.SetActive(true);
             await Model.BuyProduct(id);
-            PurchaseSucceded(packs.First(x=>x.id==id).settingsShopItem.coins);
+            PurchaseSucceded(id);
             awaitPanel.SetActive(false);
 #else
             IAPManager.instance.BuyProduct(id);

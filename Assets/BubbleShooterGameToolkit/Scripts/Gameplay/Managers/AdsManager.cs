@@ -17,6 +17,7 @@ using BubbleShooterGameToolkit.Scripts.CommonUI.Popups;
 using BubbleShooterGameToolkit.Scripts.Settings;
 using BubbleShooterGameToolkit.Scripts.System;
 using UnityEngine;
+using YG;
 
 namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
 {
@@ -29,8 +30,9 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
         public override void Awake()
         {
             base.Awake();
-             if (instance != null && instance != this)
+            if (instance != null && instance != this)
                 return;
+
             platforms = GetPlatform();
             var adElements = Resources.Load<AdsSettings>("Settings/AdsSettings").adProfiles;
             foreach (var t in adElements)
@@ -45,7 +47,11 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
                     adList.Add(t);
                     foreach (var adElement in t.adElements)
                     {
-                        var adUnit = new AdUnit { PlacementId = adElement.placementId, AdReference = adElement.adReference, AdsHandler = t.adsHandler };
+                        var adUnit = new AdUnit
+                        {
+                            PlacementId = adElement.placementId, AdReference = adElement.adReference,
+                            AdsHandler = t.adsHandler
+                        };
                         adUnit.OnInitialized = placementId => adUnit.Load();
                         adUnits.Add(adUnit);
                     }
@@ -69,15 +75,15 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
 
         private EPlatforms GetPlatform()
         {
-            #if UNITY_ANDROID
+#if UNITY_ANDROID
             return EPlatforms.Android;
-            #elif UNITY_IOS
+#elif UNITY_IOS
             return EPlatforms.IOS;
-            #elif UNITY_WEBGL
+#elif UNITY_WEBGL
             return EPlatforms.WebGL;
-            #else
+#else
             return EPlatforms.Windows;
-            #endif
+#endif
         }
 
         private void OnOpenPopup(Popup popup)
@@ -103,11 +109,16 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
                         continue;
                     }
 
-                    if (((open && adElement.popup.showOnOpen) || (!open && adElement.popup.showOnClose)) && popup.GetType() == adElement.popup.popup.GetType())
+                    if (((open && adElement.popup.showOnOpen) || (!open && adElement.popup.showOnClose)) &&
+                        popup.GetType() == adElement.popup.popup.GetType())
                     {
+#if YandexGamesPlatfom_yg
+                        YG2.RewardedAdvShow("", ()=>adUnit.OnShown.Invoke(""));  
+#else
                         adUnit.Show();
                         adUnit.Load();
                         return;
+#endif
                     }
                 }
             }
@@ -115,6 +126,9 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
 
         public void ShowAdByType(AdReference adRef, Action<string> shown)
         {
+#if YandexGamesPlatfom_yg
+            YG2.RewardedAdvShow("", () => shown.Invoke(""));
+#else
             foreach (var adUnit in adUnits)
             {
                 if (adUnit.AdReference == adRef && adUnit.IsAvailable())
@@ -125,10 +139,14 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
                     return;
                 }
             }
+#endif
         }
 
         public bool IsRewardedAvailable(AdReference adRef)
         {
+#if YandexGamesPlatfom_yg
+            return true;
+#else
             foreach (var adUnit in adUnits)
             {
                 if (adUnit.AdReference == adRef)
@@ -138,7 +156,7 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
             }
 
             return false;
+#endif
         }
     }
-
 }
