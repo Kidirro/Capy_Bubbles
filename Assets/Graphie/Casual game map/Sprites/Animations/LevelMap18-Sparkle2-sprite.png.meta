@@ -1,0 +1,719 @@
+fileFormatVersion: 2
+guid: bb4b3a742ce140147bdeba1b8db5ac5e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LevelMap18-Sparkle2-sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1368
+        width: 224
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424f14ff81a073347b1505b7ebfcd989
+      internalID: -187245615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-Sparkle2-sprite_1
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1368
+        width: 224
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4829113b0e9f5fd4db41b52d556b5d40
+      internalID: -937236112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-Sparkle2-sprite_2
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1368
+        width: 224
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9f329792e1dfc4299247adaaa8cbc7
+      internalID: 309753526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-Sparkle2-sprite_3
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1368
+        width: 224
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bccd33e4cf86f3418d18c098667b01a
+      internalID: 562300257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-Sparkle2-sprite_4
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1368
+        width: 224
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8190c50b25f1b0248930ba684845d51a
+      internalID: 1588127030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-Sparkle2-sprite_5
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1368
+        width: 224
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd37df1fe13ccd742a7657affd62b8b0
+      internalID: 2092723600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-Sparkle2-sprite_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1140
+        width: 224
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f519c5de6d738f49a6507dba9d01cd2
+      internalID: -572117697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-Sparkle2-sprite_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1140
+        width: 224
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872df2c51adeb9a4bb860cfb1e5a36ae
+      internalID: -1359252185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-Sparkle2-sprite_8
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1140
+        width: 224
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6295544f7a87a064b990191c96e37ce3
+      internalID: 158757055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-Sparkle2-sprite_9
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1140
+        width: 224
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c380856097360f4eaf782903e80cb22
+      internalID: -934632559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-Sparkle2-sprite_10
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1140
+        width: 224
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08a796810cdd7748bb0aff1506e85bb
+      internalID: 1977922966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-Sparkle2-sprite_11
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1140
+        width: 224
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2dc1a3b2e1933443badf7f7ba489d6d
+      internalID: 213584583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-Sparkle2-sprite_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 912
+        width: 224
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749d8b085f638ba4580f3941488f4d15
+      internalID: 1932789107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-Sparkle2-sprite_13
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 912
+        width: 224
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83667fe37b2441c459716daa093f0e1c
+      internalID: -851472210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-Sparkle2-sprite_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 912
+        width: 224
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d43f504121e18a4891b9ff0b285245a
+      internalID: -1547647932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-Sparkle2-sprite_15
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 901
+        width: 224
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5be018da3da8064a9afd4f8feb77c58
+      internalID: -908028308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-Sparkle2-sprite_16
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 912
+        width: 224
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c782514fb37f3a4ab02bf6c5d4efd51
+      internalID: 169350467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-Sparkle2-sprite_17
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 912
+        width: 224
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73901c9cfcb9d64fa7dfb693aa31712
+      internalID: 2038953055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-Sparkle2-sprite_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 684
+        width: 224
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8321b316e4cd54abc70722752365f6
+      internalID: 182518710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-Sparkle2-sprite_19
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 684
+        width: 224
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb784069a3e60d40871b8ebd91816ab
+      internalID: 1357028168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-Sparkle2-sprite_20
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 684
+        width: 224
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c877b7c18c29d3468f357e41350bc1a
+      internalID: 1919416715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-Sparkle2-sprite_21
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 684
+        width: 224
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16bf6fe86f0fc0542b79e763a2daa8c8
+      internalID: -833498973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-Sparkle2-sprite_22
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 684
+        width: 224
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9174fbd5804770f4f99fc88f9ca43202
+      internalID: -76502217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-Sparkle2-sprite_23
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 684
+        width: 224
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6eb7de5d91f0a45b98b7b59ad9ced4
+      internalID: 1409789620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-Sparkle2-sprite_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 456
+        width: 224
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 412d357329e376a4b95bfdf43755baba
+      internalID: -1705852750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-Sparkle2-sprite_25
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 456
+        width: 224
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c028da12d191cc54db56bb7aabb42920
+      internalID: -766363830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LevelMap18-Sparkle2-sprite_0: -187245615
+      LevelMap18-Sparkle2-sprite_1: -937236112
+      LevelMap18-Sparkle2-sprite_10: 1977922966
+      LevelMap18-Sparkle2-sprite_11: 213584583
+      LevelMap18-Sparkle2-sprite_12: 1932789107
+      LevelMap18-Sparkle2-sprite_13: -851472210
+      LevelMap18-Sparkle2-sprite_14: -1547647932
+      LevelMap18-Sparkle2-sprite_15: -908028308
+      LevelMap18-Sparkle2-sprite_16: 169350467
+      LevelMap18-Sparkle2-sprite_17: 2038953055
+      LevelMap18-Sparkle2-sprite_18: 182518710
+      LevelMap18-Sparkle2-sprite_19: 1357028168
+      LevelMap18-Sparkle2-sprite_2: 309753526
+      LevelMap18-Sparkle2-sprite_20: 1919416715
+      LevelMap18-Sparkle2-sprite_21: -833498973
+      LevelMap18-Sparkle2-sprite_22: -76502217
+      LevelMap18-Sparkle2-sprite_23: 1409789620
+      LevelMap18-Sparkle2-sprite_24: -1705852750
+      LevelMap18-Sparkle2-sprite_25: -766363830
+      LevelMap18-Sparkle2-sprite_3: 562300257
+      LevelMap18-Sparkle2-sprite_4: 1588127030
+      LevelMap18-Sparkle2-sprite_5: 2092723600
+      LevelMap18-Sparkle2-sprite_6: -572117697
+      LevelMap18-Sparkle2-sprite_7: -1359252185
+      LevelMap18-Sparkle2-sprite_8: 158757055
+      LevelMap18-Sparkle2-sprite_9: -934632559
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303021
+  packageName: Casual Maps - Level Progression
+  packageVersion: 1.0
+  assetPath: Assets/Graphie/Casual game map/Sprites/Animations/LevelMap18-Sparkle2-sprite.png
+  uploadId: 710143

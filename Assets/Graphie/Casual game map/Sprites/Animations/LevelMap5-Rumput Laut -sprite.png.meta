@@ -1,0 +1,1248 @@
+fileFormatVersion: 2
+guid: 6dbfff0d91d396542aec44a1ed32b566
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3640
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8871c39a435ab3a4db2ffea2092ab1c4
+      internalID: -1643990707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_1
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 3640
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62dd739098cba1b4ea802ed1bf621a04
+      internalID: -564632470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_2
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 3640
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04866cb586594e4f801c27660657a20
+      internalID: 1874330123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_3
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 3640
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d705ec935fd2764e9349a9135125515
+      internalID: 1511794478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_4
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3640
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c769da0e6f76d2c4f988efd3e8c9dcef
+      internalID: 1018299399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_5
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 3640
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8689f5e527c912440801a217a40c8622
+      internalID: -891669888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_6
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3640
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779ab682285379b4ba550f484a1982bf
+      internalID: 106844258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3120
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ebf958649b12248b3974d0e261a694
+      internalID: -434314960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_8
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 3120
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69cb201a5acf0fd40b64c74a79f5025c
+      internalID: 521821588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_9
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 3120
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2db8cc63dcc23948944ba946bd1687d
+      internalID: 2090326835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_10
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 3120
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f1de628fa8bf94a820428b8217dd02
+      internalID: 1628529545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_11
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3120
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3850857c58f2fb0489990e22a51ee010
+      internalID: 1251015520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_12
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 3120
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ca04313899b554094c8c697577f70c
+      internalID: 210597049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_13
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3120
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee81a2e0527e7da43beb9da490c01daa
+      internalID: 1996894557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2600
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a40ddf87bc48f54d983f1c23ce677e3
+      internalID: -1947075574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_15
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 2600
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf1e967548450740b553f65e99f8156
+      internalID: 2048488311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_16
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2600
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4ee5fd40d09204381fba07f1fc3ded
+      internalID: 528183435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_17
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2600
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9833fbc7d21c4c047ac820d63f796dcf
+      internalID: -336343008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_18
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2600
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc38d18af80f12b43acf1d7aec407e1d
+      internalID: 2087658599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_19
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2600
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d342ff7eddc53de4aa8b1cc72e039722
+      internalID: 1768899492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_20
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2600
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e549a25074405747b7ab5b754bafeb4
+      internalID: 2083301449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2080
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1f1b7e8ab517a42aa360a926d6af05
+      internalID: -311014609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_22
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 2080
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f24e6a0e5650244a1b91541146cb89
+      internalID: 566330849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_23
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2080
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a3f93bc4f40894a8ff9074e5959722
+      internalID: -2013493819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_24
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2080
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb763d1bf8681f49b598f0ebeab1fe5
+      internalID: 1029979742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_25
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2080
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae76be520de1c145b61f64b41003bd1
+      internalID: 1094487754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_26
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2080
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92cb75cd75058394cbfdb226b87a23cd
+      internalID: 201606565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_27
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2080
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c956eb7171a832b418f51a8b1b3d6bbb
+      internalID: 1173123863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1560
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410dc19e2e59b774691e4a4e4c7b907c
+      internalID: 1586337308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_29
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1560
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15270915511d59b4bb6b559ae09cbf8c
+      internalID: 1240483769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_30
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1560
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d61085dd563ec4c8f5b385a09b66c9
+      internalID: 48623213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_31
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1560
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f856b7b1d852124b8d798f233208eb5
+      internalID: 1886597042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_32
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1560
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f4b28f5c1c8d24693f7a8a9ed70625
+      internalID: -332559701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_33
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1560
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4f3016c444c8442863ef7440f82a30
+      internalID: -894157157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_34
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1560
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e95efb30d746834d9438f564bb915ef
+      internalID: 657127678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1040
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4dfb7ae098e3c5419167abd51157960
+      internalID: -1560654358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_36
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1040
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6374c3f38b989fc47ad429ad14f44da9
+      internalID: -252309228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_37
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1040
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf0c6643bf9210499c1fc4b4e78537c
+      internalID: -1178039232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_38
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1040
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09d9cc5e17d2b0409b856cc30fb293c
+      internalID: -88052677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_39
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1040
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350844b374533ba489952e84b1238116
+      internalID: -1659575661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_40
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1040
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0068e1800038d742927af5b075c40f1
+      internalID: -1209134421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_41
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1040
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87154f11baa357b4290f803cbc9a946a
+      internalID: 1331934218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 520
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d28177fb18dd94596a9296021dc8fc
+      internalID: 551898150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_43
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 520
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b8b49e1b3d7214393c1363d4cbfd8e
+      internalID: -1115874639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_44
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 520
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596f8fad98356dc4686b4318aac10a5a
+      internalID: 1567649676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_45
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 520
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6cd747500a7bc4f96e8079e74c97fd
+      internalID: -663196839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_46
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 520
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfda32c3b85ea7d46b3c4469beebfcee
+      internalID: -663257694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_47
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 520
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12966917ae5c9b458560b62eaa1ef12
+      internalID: -353887273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_48
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 520
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082ebbe055819454893f521dcc30ebdb
+      internalID: -636209287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Rumput Laut -sprite_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 300
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1dc6440c49a5f54095578b4753c20a9
+      internalID: -318072247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LevelMap5-Rumput Laut -sprite_0: -1643990707
+      LevelMap5-Rumput Laut -sprite_1: -564632470
+      LevelMap5-Rumput Laut -sprite_10: 1628529545
+      LevelMap5-Rumput Laut -sprite_11: 1251015520
+      LevelMap5-Rumput Laut -sprite_12: 210597049
+      LevelMap5-Rumput Laut -sprite_13: 1996894557
+      LevelMap5-Rumput Laut -sprite_14: -1947075574
+      LevelMap5-Rumput Laut -sprite_15: 2048488311
+      LevelMap5-Rumput Laut -sprite_16: 528183435
+      LevelMap5-Rumput Laut -sprite_17: -336343008
+      LevelMap5-Rumput Laut -sprite_18: 2087658599
+      LevelMap5-Rumput Laut -sprite_19: 1768899492
+      LevelMap5-Rumput Laut -sprite_2: 1874330123
+      LevelMap5-Rumput Laut -sprite_20: 2083301449
+      LevelMap5-Rumput Laut -sprite_21: -311014609
+      LevelMap5-Rumput Laut -sprite_22: 566330849
+      LevelMap5-Rumput Laut -sprite_23: -2013493819
+      LevelMap5-Rumput Laut -sprite_24: 1029979742
+      LevelMap5-Rumput Laut -sprite_25: 1094487754
+      LevelMap5-Rumput Laut -sprite_26: 201606565
+      LevelMap5-Rumput Laut -sprite_27: 1173123863
+      LevelMap5-Rumput Laut -sprite_28: 1586337308
+      LevelMap5-Rumput Laut -sprite_29: 1240483769
+      LevelMap5-Rumput Laut -sprite_3: 1511794478
+      LevelMap5-Rumput Laut -sprite_30: 48623213
+      LevelMap5-Rumput Laut -sprite_31: 1886597042
+      LevelMap5-Rumput Laut -sprite_32: -332559701
+      LevelMap5-Rumput Laut -sprite_33: -894157157
+      LevelMap5-Rumput Laut -sprite_34: 657127678
+      LevelMap5-Rumput Laut -sprite_35: -1560654358
+      LevelMap5-Rumput Laut -sprite_36: -252309228
+      LevelMap5-Rumput Laut -sprite_37: -1178039232
+      LevelMap5-Rumput Laut -sprite_38: -88052677
+      LevelMap5-Rumput Laut -sprite_39: -1659575661
+      LevelMap5-Rumput Laut -sprite_4: 1018299399
+      LevelMap5-Rumput Laut -sprite_40: -1209134421
+      LevelMap5-Rumput Laut -sprite_41: 1331934218
+      LevelMap5-Rumput Laut -sprite_42: 551898150
+      LevelMap5-Rumput Laut -sprite_43: -1115874639
+      LevelMap5-Rumput Laut -sprite_44: 1567649676
+      LevelMap5-Rumput Laut -sprite_45: -663196839
+      LevelMap5-Rumput Laut -sprite_46: -663257694
+      LevelMap5-Rumput Laut -sprite_47: -353887273
+      LevelMap5-Rumput Laut -sprite_48: -636209287
+      LevelMap5-Rumput Laut -sprite_49: -318072247
+      LevelMap5-Rumput Laut -sprite_5: -891669888
+      LevelMap5-Rumput Laut -sprite_6: 106844258
+      LevelMap5-Rumput Laut -sprite_7: -434314960
+      LevelMap5-Rumput Laut -sprite_8: 521821588
+      LevelMap5-Rumput Laut -sprite_9: 2090326835
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303021
+  packageName: Casual Maps - Level Progression
+  packageVersion: 1.0
+  assetPath: Assets/Graphie/Casual game map/Sprites/Animations/LevelMap5-Rumput Laut
+    -sprite.png
+  uploadId: 710143

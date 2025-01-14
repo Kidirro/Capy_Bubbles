@@ -1,0 +1,1357 @@
+fileFormatVersion: 2
+guid: 837b3d3569f654f4f9d80f6bcf08cc60
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3672
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edab6891e78360749ab790630a5ea87f
+      internalID: 459254685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_1
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 3672
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e178aa79872bd14a838162e970134ef
+      internalID: 1966546165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_2
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 3672
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fbf37eba2cebe749a007c929326f911
+      internalID: 433039579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_3
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 3672
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148f84c260f934945a48be1056d93a63
+      internalID: 566638599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_4
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 3672
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c184004567737ef40ad4c4dcfd4bac13
+      internalID: 1861386389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_5
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 3672
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860741f5377a4504bb3256bf861a7682
+      internalID: -1591918436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_6
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 3672
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9389a7e0bcff61645baa7b9d13a6be50
+      internalID: -1739619914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_7
+      rect:
+        serializedVersion: 2
+        x: 4284
+        y: 3672
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c194f419be96ab541a1c7fdddc782755
+      internalID: 1267849599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3060
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52143918ba2602e42bfd2d7fec66671f
+      internalID: 2141436158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_9
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 3060
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb68045bcff56a43ba61df9aecb4cf1
+      internalID: 406995013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_10
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 3060
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58bd835e7dba4e2438199fbeaa424efa
+      internalID: -1690451117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_11
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 3060
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08eaff928c1679b439b60a4f37e5bb32
+      internalID: 1693481996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_12
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 3060
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481996e4f8d6e69468721237ddf28dd7
+      internalID: 2018502136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_13
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 3060
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6229fe1712d7a847bb8b45e59788b86
+      internalID: -164213017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_14
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 3060
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a26579fd73bd29469a42771db647245
+      internalID: 1893693427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_15
+      rect:
+        serializedVersion: 2
+        x: 4284
+        y: 3060
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f88851ba379ce4c9e81ecdd6365c6a
+      internalID: -1268265419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2448
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb40b05a5193f4245938904d334ee84e
+      internalID: 1067438732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_17
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 2448
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f368ecff46a3dc4c8fc7b8c6355ed13
+      internalID: -1323344978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_18
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 2448
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696ebabbb0e99fd4ba3381c7d247f07c
+      internalID: 1148721247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_19
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 2448
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61b9842553e0e944912c599a735e9c5
+      internalID: -1042213932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_20
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 2448
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8e791649611d048af88c4e6d991377
+      internalID: 1759106323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_21
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 2448
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde9ff0a7bf049e4cb57c0fa5b141c7b
+      internalID: 668282257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_22
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 2448
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763f6bde295582248abea37d2c7dce06
+      internalID: -1335054245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_23
+      rect:
+        serializedVersion: 2
+        x: 4284
+        y: 2448
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45086002cfe8c14cbe494f7ec06023d
+      internalID: 694599155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1836
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e994b1eacce54d24fb87678a4590457b
+      internalID: -263577587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_25
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1836
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a628be16dd43e04ab173fefa037bdfa
+      internalID: 708518835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_26
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1836
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1a4b398d4ca06459d0774185d3b6f2
+      internalID: 38830936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_27
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1836
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b41b67e0c369e41b0a753524e9823f
+      internalID: 1056726319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_28
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 1836
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145bb5454aa30724ba304b630097eef7
+      internalID: -1623201690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_29
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 1836
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a5760934610594593b3ef4f4e8a656
+      internalID: 742809721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_30
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 1836
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26b3fa3040d4634aae6aeafb7b5d5c8
+      internalID: -1017297963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_31
+      rect:
+        serializedVersion: 2
+        x: 4284
+        y: 1836
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d9ea65aa18863c44bf658852609429f
+      internalID: -733459678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1224
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfff464090cacfd45a6cbf4b5b616516
+      internalID: -1490797215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_33
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1224
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9927b9c10a744ff488a9c2d0552857f8
+      internalID: -166037184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_34
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1224
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73873ef61457f5e4f90f9e356ae5fed6
+      internalID: -1155880609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_35
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1224
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6360b636473eec44b7d6165f517e591
+      internalID: -1879536946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_36
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 1224
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a94fe2ea3f0f846b36efa4726c64fa
+      internalID: -132857372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_37
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 1224
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38df8dcdc61826428663aced9813038
+      internalID: 145365257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_38
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 1224
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4115e06e70b1245894e354c2f0fc82
+      internalID: 1034595487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_39
+      rect:
+        serializedVersion: 2
+        x: 4284
+        y: 1224
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9de48a88ac35db44b1fee7b2355dc4d
+      internalID: -277601753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 612
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83c3ef8f71a32b4cba4c43c0b43f9a1
+      internalID: -1771669844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_41
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 612
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7fd7065476ba3a43a6a6d3ac0a4cacf
+      internalID: -157066299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_42
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 612
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8347d0a750a08a41833d2b906436fba
+      internalID: -798820452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_43
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 612
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e095a79ffd37364e824b1eba69dba22
+      internalID: 64767337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_44
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 612
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca97c44f1a83fd48b4c14576305e2f1
+      internalID: -1875886058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_45
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 612
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3531b5b4249bc0478c01a282db75314
+      internalID: -805029673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_46
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 612
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e937c04a51f097648906aa2a3b390d15
+      internalID: 1902646544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_47
+      rect:
+        serializedVersion: 2
+        x: 4284
+        y: 612
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216b94913bf204a4aadd39723499246f
+      internalID: -132417248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566d83d12adc611488511f14814a2a83
+      internalID: -298516741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_49
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 0
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8de2645329eb0d4bbb13c0518e29d32
+      internalID: -1105308183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_50
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 0
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08cc11991132f140ac0595bdd1e5527
+      internalID: -2112433075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_51
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 0
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7546c2759972a64f91b5b210789e5fe
+      internalID: -1930473628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_52
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 0
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f51ae72239ca94494acb97135816d2
+      internalID: 1293867579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_53
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 0
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305e9f2093bb20b45bd7901082ce41cf
+      internalID: -945680449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap18-bebek goa-sprite_54
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 0
+        width: 612
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4a26dbcd4234041aaeab1b66efe97c
+      internalID: -1268505919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LevelMap18-bebek goa-sprite_0: 459254685
+      LevelMap18-bebek goa-sprite_1: 1966546165
+      LevelMap18-bebek goa-sprite_10: -1690451117
+      LevelMap18-bebek goa-sprite_11: 1693481996
+      LevelMap18-bebek goa-sprite_12: 2018502136
+      LevelMap18-bebek goa-sprite_13: -164213017
+      LevelMap18-bebek goa-sprite_14: 1893693427
+      LevelMap18-bebek goa-sprite_15: -1268265419
+      LevelMap18-bebek goa-sprite_16: 1067438732
+      LevelMap18-bebek goa-sprite_17: -1323344978
+      LevelMap18-bebek goa-sprite_18: 1148721247
+      LevelMap18-bebek goa-sprite_19: -1042213932
+      LevelMap18-bebek goa-sprite_2: 433039579
+      LevelMap18-bebek goa-sprite_20: 1759106323
+      LevelMap18-bebek goa-sprite_21: 668282257
+      LevelMap18-bebek goa-sprite_22: -1335054245
+      LevelMap18-bebek goa-sprite_23: 694599155
+      LevelMap18-bebek goa-sprite_24: -263577587
+      LevelMap18-bebek goa-sprite_25: 708518835
+      LevelMap18-bebek goa-sprite_26: 38830936
+      LevelMap18-bebek goa-sprite_27: 1056726319
+      LevelMap18-bebek goa-sprite_28: -1623201690
+      LevelMap18-bebek goa-sprite_29: 742809721
+      LevelMap18-bebek goa-sprite_3: 566638599
+      LevelMap18-bebek goa-sprite_30: -1017297963
+      LevelMap18-bebek goa-sprite_31: -733459678
+      LevelMap18-bebek goa-sprite_32: -1490797215
+      LevelMap18-bebek goa-sprite_33: -166037184
+      LevelMap18-bebek goa-sprite_34: -1155880609
+      LevelMap18-bebek goa-sprite_35: -1879536946
+      LevelMap18-bebek goa-sprite_36: -132857372
+      LevelMap18-bebek goa-sprite_37: 145365257
+      LevelMap18-bebek goa-sprite_38: 1034595487
+      LevelMap18-bebek goa-sprite_39: -277601753
+      LevelMap18-bebek goa-sprite_4: 1861386389
+      LevelMap18-bebek goa-sprite_40: -1771669844
+      LevelMap18-bebek goa-sprite_41: -157066299
+      LevelMap18-bebek goa-sprite_42: -798820452
+      LevelMap18-bebek goa-sprite_43: 64767337
+      LevelMap18-bebek goa-sprite_44: -1875886058
+      LevelMap18-bebek goa-sprite_45: -805029673
+      LevelMap18-bebek goa-sprite_46: 1902646544
+      LevelMap18-bebek goa-sprite_47: -132417248
+      LevelMap18-bebek goa-sprite_48: -298516741
+      LevelMap18-bebek goa-sprite_49: -1105308183
+      LevelMap18-bebek goa-sprite_5: -1591918436
+      LevelMap18-bebek goa-sprite_50: -2112433075
+      LevelMap18-bebek goa-sprite_51: -1930473628
+      LevelMap18-bebek goa-sprite_52: 1293867579
+      LevelMap18-bebek goa-sprite_53: -945680449
+      LevelMap18-bebek goa-sprite_54: -1268505919
+      LevelMap18-bebek goa-sprite_6: -1739619914
+      LevelMap18-bebek goa-sprite_7: 1267849599
+      LevelMap18-bebek goa-sprite_8: 2141436158
+      LevelMap18-bebek goa-sprite_9: 406995013
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303021
+  packageName: Casual Maps - Level Progression
+  packageVersion: 1.0
+  assetPath: Assets/Graphie/Casual game map/Sprites/Animations/LevelMap18-bebek goa-sprite.png
+  uploadId: 710143

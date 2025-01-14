@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: dcae17545ffb4ed47a9c1fd19ff73a32
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303021
+  packageName: Casual Maps - Level Progression
+  packageVersion: 1.0
+  assetPath: Assets/Graphie/Casual game map/Scripts/CustomVerticalLayout.cs
+  uploadId: 710143

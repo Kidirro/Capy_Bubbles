@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 00d5c124d2f8a6946b6c90d30acc5a16
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303021
+  packageName: Casual Maps - Level Progression
+  packageVersion: 1.0
+  assetPath: Assets/Graphie/Casual game map/Scripts/AnimationEnv.cs
+  uploadId: 710143

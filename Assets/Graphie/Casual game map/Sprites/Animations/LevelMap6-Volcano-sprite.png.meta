@@ -1,0 +1,1907 @@
+fileFormatVersion: 2
+guid: 74ea748d8080c9747b2cabedb646ece2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7344
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0512c357e6cbc42aa8c96e06a24d19
+      internalID: 1709648978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_1
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 7344
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d504c370dfc351c40aa0b1a3ca9a0c9c
+      internalID: 291833576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_2
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 7344
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d31a6ae9db06547b47219bd57340f1
+      internalID: -183186024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_3
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 7344
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22600646d35e6c849846901066141203
+      internalID: 1867140300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_4
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 7344
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6c5a257bb95e548b258ae4ce1432a8
+      internalID: 1483389858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_5
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 7344
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c492ab53aea09546a998676b3c4eb19
+      internalID: 807297367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_6
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 7344
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79660c7403b0cd34a8453428a76062f2
+      internalID: 1148445099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_7
+      rect:
+        serializedVersion: 2
+        x: 4760
+        y: 7344
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ed12b133ab865449b26d5eb8612df3
+      internalID: 351155567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6528
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91cb02e04fc3cc74f90b64d1e2913d00
+      internalID: -1199403564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_9
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 6528
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f469619e30cf84f8abe0d92b141938
+      internalID: -1928567865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_10
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 6528
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20cc41515b6b6f646af47a7017e2d69d
+      internalID: -1645490448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_11
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 6528
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7dd7a0160a5cf45b8ad3f440279aea
+      internalID: 1254872141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_12
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 6528
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cfd77666764b6948a69c9719195ba81
+      internalID: -1797546723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_13
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 6528
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67dd1bd4ac1f6bd47bd4948116833c8d
+      internalID: 1918157846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_14
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 6528
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bbf6bb7b7db9ac4fb922c04a928a2ec
+      internalID: -1471184894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_15
+      rect:
+        serializedVersion: 2
+        x: 4760
+        y: 6528
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5339e6d7c79df1946b4ab7b58efd3f6d
+      internalID: -399884485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5712
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334fdba4c9aaa4d48bdfe2157c61dec1
+      internalID: -1226976116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_17
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 5712
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 234f8344f5e1a5b4ab1bdd7e567fb436
+      internalID: -1606013174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_18
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 5712
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae607e8106111a46929f20f6bd923e9
+      internalID: 2090314925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_19
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 5712
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8b682613b1ed64eb6e651256f9097d
+      internalID: 2063055970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_20
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 5712
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3c1b973c78d3e42811c58cecb25f95
+      internalID: 2140007702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_21
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 5712
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388b150ef340a4f44b526a596877d877
+      internalID: 1487891866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_22
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 5712
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05cdf4836fe3b6c488b3175a65a2eb7d
+      internalID: 1194767800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_23
+      rect:
+        serializedVersion: 2
+        x: 4760
+        y: 5712
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d0db00ed6ee114082b5d8037de1397
+      internalID: -1137817418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4896
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4903c5167a0a1a40b110cf4d0be416c
+      internalID: 1771204989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_25
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 4896
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e357656921ba1cc4383df208d4286aae
+      internalID: -863806666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_26
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 4896
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96c77cbac22c094f974cce096a195b0
+      internalID: 895892063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_27
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 4896
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f5179ff54fb8534fa98683490ec9633
+      internalID: -690298801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_28
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 4896
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d60f497d0e163c46a279bbc10aac38e
+      internalID: 1731693686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_29
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 4896
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578a20df52616bc49be478ebd91f2a81
+      internalID: 188451524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_30
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 4896
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85df5c9a02307a54bb5e9df0a5407436
+      internalID: -651924163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_31
+      rect:
+        serializedVersion: 2
+        x: 4760
+        y: 4896
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870cf801211b297438b839ceb733e8d3
+      internalID: 262660598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4080
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289b6d23147271845bc4bfb182983d31
+      internalID: -881099766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_33
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 4080
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7301e4b0d1ec4b24f99258c88afd05d8
+      internalID: 1245527013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_34
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 4080
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9c8e4f3e8862948ae7317b64ff8c6a
+      internalID: -736192914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_35
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 4080
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80214d1fad7be1d428f6582101e02989
+      internalID: 1002047224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_36
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 4080
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8566bd6e40986fc4e8765a576e7e0427
+      internalID: 736417596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_37
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 4080
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7f5b3d442c76e4b911806680690411
+      internalID: 130286199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_38
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 4080
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a621294cbee6b274482c564ca4a1c697
+      internalID: -128783881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_39
+      rect:
+        serializedVersion: 2
+        x: 4760
+        y: 4080
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812b8f9800a6ce344a61506450fe9317
+      internalID: 1224893001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3264
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68495009dbe21bc4b99a5f0fc7c05078
+      internalID: 2042886688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_41
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 3264
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e5339fe7ef24c42b4fa95b9e659779
+      internalID: 545455993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_42
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 3264
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ddc966f58e6cf419d9ec72bb448f7b
+      internalID: 200756946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_43
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 3264
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab2f96cef53ecc4d8fc38eebbb36c6f
+      internalID: -1992056085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_44
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 3264
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713fc9d84580bc6408da8848d54f326c
+      internalID: 693200010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_45
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 3264
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46a8583f6108374e9e3315339b57552
+      internalID: -359476890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_46
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 3264
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3607a0816f6f945932a9525a6fb4cf
+      internalID: 458314603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_47
+      rect:
+        serializedVersion: 2
+        x: 4760
+        y: 3264
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d4f876e8f96f774eb5258f32a6d1205
+      internalID: -1714394227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2448
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbedc48f56276e747a1b3481427062ee
+      internalID: -667341739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_49
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 2448
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e416aa14a083c45ae47480139a2c81
+      internalID: -2117976638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_50
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 2448
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0721a25e33048934380a28e6bda0297e
+      internalID: -912419185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_51
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 2448
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7a9d7bdc196f348b03934a9f2c39bf
+      internalID: 1464442294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_52
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 2448
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a38e882c1250bd47b4e78cefc6ede83
+      internalID: 276349139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_53
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 2448
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebaa3b75ec28672458e38f92863ce09e
+      internalID: 420459905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_54
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 2448
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7993bcaf5ab7d5845be8174b262d8c21
+      internalID: -580562107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_55
+      rect:
+        serializedVersion: 2
+        x: 4760
+        y: 2448
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926e2715b6173174ebf546d0c91fe8c9
+      internalID: 914840548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1632
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d530539f3a73474a9f8705a77f6c04a
+      internalID: 412055292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_57
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1632
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3303f8e9051ce9d4ebe5aefc10430223
+      internalID: 147273184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_58
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1632
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e306f373a28f448864b6d62b8471c8
+      internalID: 631224911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_59
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 1632
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4697e8e06cb076d428ed62fc8be1c41f
+      internalID: -1730208080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_60
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 1632
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98cbcb9ec7afe5447bda1bd9b320f7ce
+      internalID: 1528640097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_61
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 1632
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294db512ce001d6458097464507ba4e8
+      internalID: -1855583670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_62
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 1632
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79271561d4636774091846e086b44b18
+      internalID: 1301954766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_63
+      rect:
+        serializedVersion: 2
+        x: 4760
+        y: 1632
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9ae6ddd9aeae547b1f04a70cdbf9f3
+      internalID: 1822807498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 816
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9665ce2005564ef499806c2281084e4b
+      internalID: 1194232288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_65
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 816
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da34e3586246ca84b8322823fb1e3dec
+      internalID: 1522174263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_66
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 816
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c84764c173084745a2004ba8fc581be
+      internalID: -423057408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_67
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 816
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59aac9983db0be348bc424110dea42b2
+      internalID: -1555220694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_68
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 816
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308469c36b742f9419cb35917d2c941b
+      internalID: -685330549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_69
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 816
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c27066686e8ae24b8fc20dfc02cbd6d
+      internalID: -1176049274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_70
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 816
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ff4aee3536b794d82b428a8dfe6430
+      internalID: 2110281582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_71
+      rect:
+        serializedVersion: 2
+        x: 4760
+        y: 816
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4067919db4a35264ebee2baaee885b15
+      internalID: 180626311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd9521bceadab24687db8d695c4f93e
+      internalID: -1536139366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_73
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 0
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81b6ebe1334f534b8a3ada8b3345746
+      internalID: 2015050358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_74
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 0
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fecc9f237cad41d448513e8523d66d79
+      internalID: 2053803106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_75
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 0
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8081bc8479271d48b25e061a9947dc7
+      internalID: -769502550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_76
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 0
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0d89315cdc0b84596645568f550be3
+      internalID: -610499598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_77
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 0
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adacc21a9333c5049b7872a6e89e2fe9
+      internalID: 1825078672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_78
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 0
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f407dd7e716e39648ac50dcaa653c98c
+      internalID: 1861617750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap6-Volcano-sprite_79
+      rect:
+        serializedVersion: 2
+        x: 4760
+        y: 0
+        width: 680
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7636fb97e37d14c98f4adc18547b95
+      internalID: 1053121674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LevelMap6-Volcano-sprite_0: 1709648978
+      LevelMap6-Volcano-sprite_1: 291833576
+      LevelMap6-Volcano-sprite_10: -1645490448
+      LevelMap6-Volcano-sprite_11: 1254872141
+      LevelMap6-Volcano-sprite_12: -1797546723
+      LevelMap6-Volcano-sprite_13: 1918157846
+      LevelMap6-Volcano-sprite_14: -1471184894
+      LevelMap6-Volcano-sprite_15: -399884485
+      LevelMap6-Volcano-sprite_16: -1226976116
+      LevelMap6-Volcano-sprite_17: -1606013174
+      LevelMap6-Volcano-sprite_18: 2090314925
+      LevelMap6-Volcano-sprite_19: 2063055970
+      LevelMap6-Volcano-sprite_2: -183186024
+      LevelMap6-Volcano-sprite_20: 2140007702
+      LevelMap6-Volcano-sprite_21: 1487891866
+      LevelMap6-Volcano-sprite_22: 1194767800
+      LevelMap6-Volcano-sprite_23: -1137817418
+      LevelMap6-Volcano-sprite_24: 1771204989
+      LevelMap6-Volcano-sprite_25: -863806666
+      LevelMap6-Volcano-sprite_26: 895892063
+      LevelMap6-Volcano-sprite_27: -690298801
+      LevelMap6-Volcano-sprite_28: 1731693686
+      LevelMap6-Volcano-sprite_29: 188451524
+      LevelMap6-Volcano-sprite_3: 1867140300
+      LevelMap6-Volcano-sprite_30: -651924163
+      LevelMap6-Volcano-sprite_31: 262660598
+      LevelMap6-Volcano-sprite_32: -881099766
+      LevelMap6-Volcano-sprite_33: 1245527013
+      LevelMap6-Volcano-sprite_34: -736192914
+      LevelMap6-Volcano-sprite_35: 1002047224
+      LevelMap6-Volcano-sprite_36: 736417596
+      LevelMap6-Volcano-sprite_37: 130286199
+      LevelMap6-Volcano-sprite_38: -128783881
+      LevelMap6-Volcano-sprite_39: 1224893001
+      LevelMap6-Volcano-sprite_4: 1483389858
+      LevelMap6-Volcano-sprite_40: 2042886688
+      LevelMap6-Volcano-sprite_41: 545455993
+      LevelMap6-Volcano-sprite_42: 200756946
+      LevelMap6-Volcano-sprite_43: -1992056085
+      LevelMap6-Volcano-sprite_44: 693200010
+      LevelMap6-Volcano-sprite_45: -359476890
+      LevelMap6-Volcano-sprite_46: 458314603
+      LevelMap6-Volcano-sprite_47: -1714394227
+      LevelMap6-Volcano-sprite_48: -667341739
+      LevelMap6-Volcano-sprite_49: -2117976638
+      LevelMap6-Volcano-sprite_5: 807297367
+      LevelMap6-Volcano-sprite_50: -912419185
+      LevelMap6-Volcano-sprite_51: 1464442294
+      LevelMap6-Volcano-sprite_52: 276349139
+      LevelMap6-Volcano-sprite_53: 420459905
+      LevelMap6-Volcano-sprite_54: -580562107
+      LevelMap6-Volcano-sprite_55: 914840548
+      LevelMap6-Volcano-sprite_56: 412055292
+      LevelMap6-Volcano-sprite_57: 147273184
+      LevelMap6-Volcano-sprite_58: 631224911
+      LevelMap6-Volcano-sprite_59: -1730208080
+      LevelMap6-Volcano-sprite_6: 1148445099
+      LevelMap6-Volcano-sprite_60: 1528640097
+      LevelMap6-Volcano-sprite_61: -1855583670
+      LevelMap6-Volcano-sprite_62: 1301954766
+      LevelMap6-Volcano-sprite_63: 1822807498
+      LevelMap6-Volcano-sprite_64: 1194232288
+      LevelMap6-Volcano-sprite_65: 1522174263
+      LevelMap6-Volcano-sprite_66: -423057408
+      LevelMap6-Volcano-sprite_67: -1555220694
+      LevelMap6-Volcano-sprite_68: -685330549
+      LevelMap6-Volcano-sprite_69: -1176049274
+      LevelMap6-Volcano-sprite_7: 351155567
+      LevelMap6-Volcano-sprite_70: 2110281582
+      LevelMap6-Volcano-sprite_71: 180626311
+      LevelMap6-Volcano-sprite_72: -1536139366
+      LevelMap6-Volcano-sprite_73: 2015050358
+      LevelMap6-Volcano-sprite_74: 2053803106
+      LevelMap6-Volcano-sprite_75: -769502550
+      LevelMap6-Volcano-sprite_76: -610499598
+      LevelMap6-Volcano-sprite_77: 1825078672
+      LevelMap6-Volcano-sprite_78: 1861617750
+      LevelMap6-Volcano-sprite_79: 1053121674
+      LevelMap6-Volcano-sprite_8: -1199403564
+      LevelMap6-Volcano-sprite_9: -1928567865
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303021
+  packageName: Casual Maps - Level Progression
+  packageVersion: 1.0
+  assetPath: Assets/Graphie/Casual game map/Sprites/Animations/LevelMap6-Volcano-sprite.png
+  uploadId: 710143

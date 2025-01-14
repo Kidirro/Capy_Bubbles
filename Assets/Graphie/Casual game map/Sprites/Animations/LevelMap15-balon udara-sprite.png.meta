@@ -1,0 +1,1027 @@
+fileFormatVersion: 2
+guid: 33de5c154f014994085961ea161c71df
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1850
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a2548dadf8c2d4f8c8b9261f7d3409
+      internalID: -181575230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_1
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1850
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f95a62ccc61f34483ca095cf94aeb5
+      internalID: 1349869313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_2
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1850
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139c983bc8e4cb24cb861776537fdf1c
+      internalID: 1858356792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_3
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1850
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c798b86187678ef49b199d5daf955984
+      internalID: -928005373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_4
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 1850
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef0b57ae54dda24aadb9c2bc519902e
+      internalID: 2058435220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_5
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 1850
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2ef38e76bb05b47a723e37bf0c0bf0
+      internalID: 41612070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_6
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 1850
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08bc333a7c8401a4a9220dfd5edad4ae
+      internalID: 1664623848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1480
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbaaea448ebf17f4b8656bb462617203
+      internalID: 2105227189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_8
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1480
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd487862cc8f5d94b8870ec84aaa1d56
+      internalID: 1603069643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_9
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1480
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7adc97a60a5ff6c4783a5f16eb31ecbc
+      internalID: -361117690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_10
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1480
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f2c4605aa8ee245ae79bbf224e08e2
+      internalID: 1117516007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_11
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 1480
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68729950b5eb08840ae5aa6ec3118f77
+      internalID: -768822719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_12
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 1480
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929fb44e9fc69df4e83f19fac3baacbb
+      internalID: 802613366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_13
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 1480
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f03cfcafaf89a744b7df3842a414d32
+      internalID: -579721572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1110
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82479099adca1e34eaacc94e805432ab
+      internalID: -1040923076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_15
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1110
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8626849188d597e4194a78a131bfb210
+      internalID: 1212256142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_16
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1110
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a077962d87159c3498de86d5ef0a08ff
+      internalID: -694145407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_17
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1110
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb190857964d4c4b911813229c62dff
+      internalID: -674585651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_18
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 1110
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f811ac77f10264580dc756969aaf93
+      internalID: -2121070464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_19
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 1110
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6773a1251266b474cb7c863948f229ef
+      internalID: -610939737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_20
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 1110
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c3fd844334e49488bbeb246f21163a
+      internalID: 49763783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 740
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814903b370ac1444eab674450e2258b8
+      internalID: 1415082265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_22
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 740
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f164092d2ac1a4141950715fe0b02e26
+      internalID: 43624946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_23
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 740
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5248b728b8a575e46a8853c1b663ab2e
+      internalID: 1489744927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_24
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 740
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb58d6ee9f4e8d4982168509f54f628
+      internalID: 264769184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_25
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 740
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba42550255e1c9a4fad9a12afbfa5247
+      internalID: -862685242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_26
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 740
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82a8d0d145a791468b4805350d9fe2c
+      internalID: 989386028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_27
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 740
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9deed306c832f648b3c810b8f552cd2
+      internalID: 1667268471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 370
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f748b58a1f3c646419485ddc217072bf
+      internalID: 504013469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_29
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 370
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601e0a9bdd9bf4b478c67dc36f990bef
+      internalID: -375278010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_30
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 370
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b760bc60d54ca4e807e33377b56ac1
+      internalID: 158992528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_31
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 370
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01842fdd95484504a8c50179a3a6edf8
+      internalID: -939924151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_32
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 370
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4be15804aae0345aa2856185764bd5
+      internalID: -4105218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_33
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 370
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c93ee3a15d71904cb800ce4bccc539c
+      internalID: -1750322584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_34
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 370
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02d6169f35e17f41af1d5dc65e00369
+      internalID: 1512348942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e540ee796031ea41afec835170b7314
+      internalID: 1712105709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_36
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 0
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2644f582de9384083424d5a9c2f34a
+      internalID: 1171026967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_37
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 0
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c23c0d2bf5a0647b9c7b4d33cac19c
+      internalID: -815430842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_38
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 0
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1a1b2cf6b4fc1428cc03659ff258b3
+      internalID: -1903277531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-balon udara-sprite_39
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 0
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c48067427c75754ba008e953a292073
+      internalID: -646130674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LevelMap15-balon udara-sprite_0: -181575230
+      LevelMap15-balon udara-sprite_1: 1349869313
+      LevelMap15-balon udara-sprite_10: 1117516007
+      LevelMap15-balon udara-sprite_11: -768822719
+      LevelMap15-balon udara-sprite_12: 802613366
+      LevelMap15-balon udara-sprite_13: -579721572
+      LevelMap15-balon udara-sprite_14: -1040923076
+      LevelMap15-balon udara-sprite_15: 1212256142
+      LevelMap15-balon udara-sprite_16: -694145407
+      LevelMap15-balon udara-sprite_17: -674585651
+      LevelMap15-balon udara-sprite_18: -2121070464
+      LevelMap15-balon udara-sprite_19: -610939737
+      LevelMap15-balon udara-sprite_2: 1858356792
+      LevelMap15-balon udara-sprite_20: 49763783
+      LevelMap15-balon udara-sprite_21: 1415082265
+      LevelMap15-balon udara-sprite_22: 43624946
+      LevelMap15-balon udara-sprite_23: 1489744927
+      LevelMap15-balon udara-sprite_24: 264769184
+      LevelMap15-balon udara-sprite_25: -862685242
+      LevelMap15-balon udara-sprite_26: 989386028
+      LevelMap15-balon udara-sprite_27: 1667268471
+      LevelMap15-balon udara-sprite_28: 504013469
+      LevelMap15-balon udara-sprite_29: -375278010
+      LevelMap15-balon udara-sprite_3: -928005373
+      LevelMap15-balon udara-sprite_30: 158992528
+      LevelMap15-balon udara-sprite_31: -939924151
+      LevelMap15-balon udara-sprite_32: -4105218
+      LevelMap15-balon udara-sprite_33: -1750322584
+      LevelMap15-balon udara-sprite_34: 1512348942
+      LevelMap15-balon udara-sprite_35: 1712105709
+      LevelMap15-balon udara-sprite_36: 1171026967
+      LevelMap15-balon udara-sprite_37: -815430842
+      LevelMap15-balon udara-sprite_38: -1903277531
+      LevelMap15-balon udara-sprite_39: -646130674
+      LevelMap15-balon udara-sprite_4: 2058435220
+      LevelMap15-balon udara-sprite_5: 41612070
+      LevelMap15-balon udara-sprite_6: 1664623848
+      LevelMap15-balon udara-sprite_7: 2105227189
+      LevelMap15-balon udara-sprite_8: 1603069643
+      LevelMap15-balon udara-sprite_9: -361117690
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303021
+  packageName: Casual Maps - Level Progression
+  packageVersion: 1.0
+  assetPath: Assets/Graphie/Casual game map/Sprites/Animations/LevelMap15-balon udara-sprite.png
+  uploadId: 710143

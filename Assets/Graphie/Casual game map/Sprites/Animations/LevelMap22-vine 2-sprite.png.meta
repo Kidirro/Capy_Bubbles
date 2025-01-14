@@ -1,0 +1,1335 @@
+fileFormatVersion: 2
+guid: 4b16c305dcdc09549851336a78eea4ca
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1824
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff9ef1652cc5e8409f57eb2640124f6
+      internalID: -369831012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_1
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1824
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73c338830deed64b9b58f87aeaa8005
+      internalID: 2130515908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_2
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1824
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5959b67bb73c64786bd15025682326
+      internalID: -1917332070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_3
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 1824
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566b4d8b5865ecb428b34633ddcf292b
+      internalID: -736611965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_4
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1824
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d15eb80c80ead542b78daf4b90dbabb
+      internalID: -1525672649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_5
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 1824
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90b9f03c1e07414db4e2b93de04642d
+      internalID: -2083223218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_6
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 1824
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023c8dcfd7a26594b8b7a2aeb523357e
+      internalID: 1688084177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_7
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 1824
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453bd12f73e80b24bb814a43fbfd4a16
+      internalID: 1655910723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1520
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91620f7348f8b194db130e2daca4f169
+      internalID: -592921222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_9
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1520
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228ddfb412b449a4fb93970e99d688aa
+      internalID: 1824303353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_10
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1520
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8af11ed4a6a0f44930a31ba10aaf7f
+      internalID: -1543065697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_11
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 1520
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47dafd817c743b44c91dd05d0722d4d2
+      internalID: -1324038673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_12
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1520
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8658352a5f9d91e4c957b1d3457c8458
+      internalID: 1119038485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_13
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 1520
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b1773290d57424aa673ca8e36ecff5
+      internalID: 1636100539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_14
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 1520
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c77a6ad9b7ca743a7906559e2bddf1
+      internalID: 1060691401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_15
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 1520
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebb612f1747ebe44905f7d5dae18947
+      internalID: 1826514503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1216
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017187c426c60e147b60ddb8730c7478
+      internalID: -767712722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_17
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1216
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4662eb2b832dd73449eb9acdfd1a00c8
+      internalID: -655942569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_18
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1216
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1212826fe1617244d90a32b4b8146cb7
+      internalID: -1078583671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_19
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 1216
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc286ab8cb2d7d43bed94bde9b91098
+      internalID: 1997070458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_20
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1216
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfeb5959f1a3f184bbb0ab7597f8859a
+      internalID: 382901832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_21
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 1216
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab877c0c67672f4f9b0e88c4ccafb64
+      internalID: 211419427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_22
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 1216
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1f4866b9975e34a8baa153327b3525
+      internalID: 368299755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_23
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 1216
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3658b6cc1ca1b44b67a1ea3756935f
+      internalID: -660994125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 912
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55ada4b38e54444d8f3c66892072015
+      internalID: -126099147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_25
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 912
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0a6ccb329631349b3477de71c60bbc
+      internalID: -1940194698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_26
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 912
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5e3f274c881634a90e025837326e98
+      internalID: 1879513694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_27
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 912
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784926e2447c4a94e8c48d50e919aa27
+      internalID: -819445529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_28
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 912
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f496127511797344a300b6a65c7b4bf
+      internalID: -691282640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_29
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 912
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bec953945e9b624f82c51703bfa6da8
+      internalID: 910460986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_30
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 912
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774704529b6e9ef418e078842d2f6d04
+      internalID: -260391715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_31
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 912
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044c11e49fd04f8428b8b9dfac3e337a
+      internalID: -1261568655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 608
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dad20d549d590641a1bc76d8c68b752
+      internalID: -1982386215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_33
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 608
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 546cf0454243a024a81ac5588b733ab9
+      internalID: -969268009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_34
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 608
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61dead54e6512548a78320bf7dd1ea6
+      internalID: -233388923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_35
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 608
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7985b8fa95bb44d4785ff0a9f5493a1d
+      internalID: -220749002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_36
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 608
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea4a5269111436468ec053448266590
+      internalID: -760635424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_37
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 608
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b552cea9e3b8784e8a078392301278e
+      internalID: -1557909544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_38
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 608
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508e54d386baf0b469177d988c63ca7b
+      internalID: 1837796591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_39
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 608
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b49df13b9ffe0c4cbb4efb57a0f022e
+      internalID: 119739725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624f8cef5f9344a49b2a76366b1d6fe3
+      internalID: 1566096792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_41
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 304
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47221321cf516344cbe1806d10b35eab
+      internalID: 134228149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_42
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 304
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e094a5db9800a40b9f1e640c496395
+      internalID: 1783413034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_43
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 304
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8deb6eba91e8cb74284a1b0ccfc2a32f
+      internalID: 1958863583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_44
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 304
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0149a425907401845b857a2dc5b80b6b
+      internalID: 482647596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_45
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 304
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5931f71906e21db468ef964466fb5f46
+      internalID: -299863655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_46
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 304
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696e7d1105d5eee4da0cb1e1c5b472df
+      internalID: 1438810819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_47
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 304
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0d60ac1ca81704c925771a0eff6f48
+      internalID: -405477159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972dd637af1fa984fa86cb57fed3e4d1
+      internalID: -736410589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_49
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 0
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ebd65ada78dcf2409969e17f4be312f
+      internalID: -661016436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_50
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 0
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3032edf26c06b41be39d12903e60df
+      internalID: 190154782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_51
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 0
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337104d33c8a1ca4aac4b3c9f49a3dee
+      internalID: 1203665369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_52
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 0
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9306dd424a7cf84691d35774fdac5c7
+      internalID: 1056899195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap22-vine 2-sprite_53
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 0
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cbc3ec23862e1f40a5e944f04a1719c
+      internalID: 107582595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LevelMap22-vine 2-sprite_0: -369831012
+      LevelMap22-vine 2-sprite_1: 2130515908
+      LevelMap22-vine 2-sprite_10: -1543065697
+      LevelMap22-vine 2-sprite_11: -1324038673
+      LevelMap22-vine 2-sprite_12: 1119038485
+      LevelMap22-vine 2-sprite_13: 1636100539
+      LevelMap22-vine 2-sprite_14: 1060691401
+      LevelMap22-vine 2-sprite_15: 1826514503
+      LevelMap22-vine 2-sprite_16: -767712722
+      LevelMap22-vine 2-sprite_17: -655942569
+      LevelMap22-vine 2-sprite_18: -1078583671
+      LevelMap22-vine 2-sprite_19: 1997070458
+      LevelMap22-vine 2-sprite_2: -1917332070
+      LevelMap22-vine 2-sprite_20: 382901832
+      LevelMap22-vine 2-sprite_21: 211419427
+      LevelMap22-vine 2-sprite_22: 368299755
+      LevelMap22-vine 2-sprite_23: -660994125
+      LevelMap22-vine 2-sprite_24: -126099147
+      LevelMap22-vine 2-sprite_25: -1940194698
+      LevelMap22-vine 2-sprite_26: 1879513694
+      LevelMap22-vine 2-sprite_27: -819445529
+      LevelMap22-vine 2-sprite_28: -691282640
+      LevelMap22-vine 2-sprite_29: 910460986
+      LevelMap22-vine 2-sprite_3: -736611965
+      LevelMap22-vine 2-sprite_30: -260391715
+      LevelMap22-vine 2-sprite_31: -1261568655
+      LevelMap22-vine 2-sprite_32: -1982386215
+      LevelMap22-vine 2-sprite_33: -969268009
+      LevelMap22-vine 2-sprite_34: -233388923
+      LevelMap22-vine 2-sprite_35: -220749002
+      LevelMap22-vine 2-sprite_36: -760635424
+      LevelMap22-vine 2-sprite_37: -1557909544
+      LevelMap22-vine 2-sprite_38: 1837796591
+      LevelMap22-vine 2-sprite_39: 119739725
+      LevelMap22-vine 2-sprite_4: -1525672649
+      LevelMap22-vine 2-sprite_40: 1566096792
+      LevelMap22-vine 2-sprite_41: 134228149
+      LevelMap22-vine 2-sprite_42: 1783413034
+      LevelMap22-vine 2-sprite_43: 1958863583
+      LevelMap22-vine 2-sprite_44: 482647596
+      LevelMap22-vine 2-sprite_45: -299863655
+      LevelMap22-vine 2-sprite_46: 1438810819
+      LevelMap22-vine 2-sprite_47: -405477159
+      LevelMap22-vine 2-sprite_48: -736410589
+      LevelMap22-vine 2-sprite_49: -661016436
+      LevelMap22-vine 2-sprite_5: -2083223218
+      LevelMap22-vine 2-sprite_50: 190154782
+      LevelMap22-vine 2-sprite_51: 1203665369
+      LevelMap22-vine 2-sprite_52: 1056899195
+      LevelMap22-vine 2-sprite_53: 107582595
+      LevelMap22-vine 2-sprite_6: 1688084177
+      LevelMap22-vine 2-sprite_7: 1655910723
+      LevelMap22-vine 2-sprite_8: -592921222
+      LevelMap22-vine 2-sprite_9: 1824303353
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303021
+  packageName: Casual Maps - Level Progression
+  packageVersion: 1.0
+  assetPath: Assets/Graphie/Casual game map/Sprites/Animations/LevelMap22-vine 2-sprite.png
+  uploadId: 710143

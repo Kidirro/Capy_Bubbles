@@ -1,0 +1,1049 @@
+fileFormatVersion: 2
+guid: 48ebf2a3dc4c00e4dae46ff4c496e410
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2420
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84fddeea5755151468f73a871d1f874c
+      internalID: -1062783390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_1
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 2420
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147f60e612251a04aa9299d3607d5614
+      internalID: 472891224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_2
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 2420
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c6490ccb0b28a479fca6b8ecf2b938
+      internalID: -1751390527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_3
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 2420
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc73d0635b8b0f4eb559e25a2ce438b
+      internalID: -1592554072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_4
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 2420
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4905adbc15b25564c822b9e8aaba3426
+      internalID: -975189229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_5
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 2420
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b61e28fd26b2b548a96353c680ba7a6
+      internalID: -1800712248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_6
+      rect:
+        serializedVersion: 2
+        x: 2904
+        y: 2420
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f042414ee1a632946becee9f1319dde5
+      internalID: -1068890638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1936
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4bc2f80b65fb8469563c25dd22f772
+      internalID: 115543698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_8
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1936
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c96d064c92917704394a13b51aabdf42
+      internalID: 79687755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_9
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 1936
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ce5d196bf8b8d47ad1b1aa315fa93a
+      internalID: -689324913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_10
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 1936
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435bbf6291547f84a95662a8acc350e6
+      internalID: 619949037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_11
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 1936
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d433ccbc4c356fa479dd5b246190f93a
+      internalID: 102275408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_12
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 1936
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 157e2399503eaa349993ee8287e06cb9
+      internalID: 2013480021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_13
+      rect:
+        serializedVersion: 2
+        x: 2904
+        y: 1936
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c04e3b910d8f774fbd94ec9b52d84ee
+      internalID: 2135548689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1452
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293fe561da199064c8d0d988a1a41a49
+      internalID: -410162511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_15
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1452
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69ef2a888b4e844cb759035c063af92
+      internalID: 1509060567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_16
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 1452
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c1601f86b457f49996b3289d9235cf
+      internalID: -124372148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_17
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 1452
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7defd7dece437a345a656c3de2b572c2
+      internalID: 2123260104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_18
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 1452
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f826c9292e6843419c6c5ab165bdf02
+      internalID: 1197554410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_19
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 1452
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb40c9c1ff3e0b649b388c6982c234f4
+      internalID: -651922679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_20
+      rect:
+        serializedVersion: 2
+        x: 2904
+        y: 1452
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10de922eaf4cae43b642d598481e8c6
+      internalID: 988337022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 968
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07401429dba6454ebad5b13e61aa84c
+      internalID: 739282525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_22
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 968
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1bdaa92b8d18c2498e83f2ee4a6cbea
+      internalID: 2061123763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_23
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 968
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9dcd145f1055840978ab4213cc3ed0
+      internalID: -2025729718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_24
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 968
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 797d0478820f1c641bcbf99fb02e2cd8
+      internalID: -1086208747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_25
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 968
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e61312ee2f4a564d9a3088e4c83885c
+      internalID: -1927317205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_26
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 968
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0688226ced197841baf15c1f1afbc9e
+      internalID: -98615464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_27
+      rect:
+        serializedVersion: 2
+        x: 2904
+        y: 968
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deaaedd22cbee824c9d36c12e637be4a
+      internalID: 1211979097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 484
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482c5c789ed69b243b8c7fab8374c3f3
+      internalID: -1418443206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_29
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 484
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c115706013d3a0c4e80d7c4e295f3335
+      internalID: -724021927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_30
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 484
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bdcb8c574c5db34aa1d1a23cf6b5364
+      internalID: 607485749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_31
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 484
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d4e74e6b2912249bc5d1f68c7120ed
+      internalID: -1251568932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_32
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 484
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6255a57d1b38f5a4f943fa8ebe4517ea
+      internalID: 604498871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_33
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 484
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec13f1fbd2387948bed7e6cf67133b8
+      internalID: 813872370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_34
+      rect:
+        serializedVersion: 2
+        x: 2904
+        y: 484
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2008b080f8cfedb4f899d50c7de7f7d2
+      internalID: -559766831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4d6af03441e9348bea4b1a28193893
+      internalID: -340808469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_36
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 0
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a22ca880c863fe4da7bfec4923e4c5f
+      internalID: -719645993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_37
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 0
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b2d5b0c0e55744498f3690dce7f658
+      internalID: 2018014366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_38
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 0
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131ce79a4c3788041917172de32420a7
+      internalID: -312870310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_39
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 0
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9f453910dafa842ba52867d4304a58
+      internalID: -300376411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap15-bebek awan-sprite_40
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 0
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6a050be2b1c514ab8f58d4f5f9e98e
+      internalID: -565076655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LevelMap15-bebek awan-sprite_0: -1062783390
+      LevelMap15-bebek awan-sprite_1: 472891224
+      LevelMap15-bebek awan-sprite_10: 619949037
+      LevelMap15-bebek awan-sprite_11: 102275408
+      LevelMap15-bebek awan-sprite_12: 2013480021
+      LevelMap15-bebek awan-sprite_13: 2135548689
+      LevelMap15-bebek awan-sprite_14: -410162511
+      LevelMap15-bebek awan-sprite_15: 1509060567
+      LevelMap15-bebek awan-sprite_16: -124372148
+      LevelMap15-bebek awan-sprite_17: 2123260104
+      LevelMap15-bebek awan-sprite_18: 1197554410
+      LevelMap15-bebek awan-sprite_19: -651922679
+      LevelMap15-bebek awan-sprite_2: -1751390527
+      LevelMap15-bebek awan-sprite_20: 988337022
+      LevelMap15-bebek awan-sprite_21: 739282525
+      LevelMap15-bebek awan-sprite_22: 2061123763
+      LevelMap15-bebek awan-sprite_23: -2025729718
+      LevelMap15-bebek awan-sprite_24: -1086208747
+      LevelMap15-bebek awan-sprite_25: -1927317205
+      LevelMap15-bebek awan-sprite_26: -98615464
+      LevelMap15-bebek awan-sprite_27: 1211979097
+      LevelMap15-bebek awan-sprite_28: -1418443206
+      LevelMap15-bebek awan-sprite_29: -724021927
+      LevelMap15-bebek awan-sprite_3: -1592554072
+      LevelMap15-bebek awan-sprite_30: 607485749
+      LevelMap15-bebek awan-sprite_31: -1251568932
+      LevelMap15-bebek awan-sprite_32: 604498871
+      LevelMap15-bebek awan-sprite_33: 813872370
+      LevelMap15-bebek awan-sprite_34: -559766831
+      LevelMap15-bebek awan-sprite_35: -340808469
+      LevelMap15-bebek awan-sprite_36: -719645993
+      LevelMap15-bebek awan-sprite_37: 2018014366
+      LevelMap15-bebek awan-sprite_38: -312870310
+      LevelMap15-bebek awan-sprite_39: -300376411
+      LevelMap15-bebek awan-sprite_4: -975189229
+      LevelMap15-bebek awan-sprite_40: -565076655
+      LevelMap15-bebek awan-sprite_5: -1800712248
+      LevelMap15-bebek awan-sprite_6: -1068890638
+      LevelMap15-bebek awan-sprite_7: 115543698
+      LevelMap15-bebek awan-sprite_8: 79687755
+      LevelMap15-bebek awan-sprite_9: -689324913
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303021
+  packageName: Casual Maps - Level Progression
+  packageVersion: 1.0
+  assetPath: Assets/Graphie/Casual game map/Sprites/Animations/LevelMap15-bebek awan-sprite.png
+  uploadId: 710143

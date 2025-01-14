@@ -37,6 +37,7 @@ namespace BubbleShooterGameToolkit.Scripts.System
         public Life life;
         public ResourceObject[] boosters;
         public GameplaySettings GameplaySettings { get; private set; }
+        public EndGameSetting endGameSetting { get; private set; }
         public GameSettings GameSettings { get; private set; }
 
         public Action<int> purchaseSucceded;
@@ -52,6 +53,7 @@ namespace BubbleShooterGameToolkit.Scripts.System
             shopItems = Resources.Load<ShopSettings>("Settings/ShopSettings").shopItems;
             GameSettings = Resources.Load<GameSettings>("Settings/GameSettings");
             GameplaySettings = Resources.Load<GameplaySettings>("Settings/GameplaySettings");
+            endGameSetting = Resources.Load<EndGameSetting>("Settings/EndGameMap");
             FindFirstObjectByType<LifeRefillTimer>()?.Init(GameSettings.MaxLife, GameSettings.TotalTimeForRestLifeHours * 3600 + GameSettings.TotalTimeForRestLifeMin * 60 + GameSettings.TotalTimeForRestLifeSec, life);
 
             DOTween.SetTweensCapacity(1250, 512);

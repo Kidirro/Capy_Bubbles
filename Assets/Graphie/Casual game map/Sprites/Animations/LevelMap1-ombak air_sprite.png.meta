@@ -1,0 +1,1336 @@
+fileFormatVersion: 2
+guid: 47014a8478bb1984c824c83808e48e29
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3500
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b86fa4b099cf534aa118bac7bb1039e
+      internalID: 139547432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_1
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 3500
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5481a9c76ad47a0448c4abde88420f90
+      internalID: -1196741509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_2
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 3500
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e433d53c0d6eeb44db3d1b82fe461ebe
+      internalID: 1090832472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_3
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 3500
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75aef20a37054fc43af63d7f79d5e701
+      internalID: 1579333704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_4
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 3500
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3a3f07cdcb73a42b42923bfa7a4d72
+      internalID: 1054056589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_5
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3500
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a2fa4472514ca44b835615de6995b1
+      internalID: 1105437129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_6
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 3500
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926f75136ec47284aaafc3d1f5c8d9bb
+      internalID: 1827935494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_7
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 3500
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a4895b30c69c845b3f77293ad4d728
+      internalID: -469704832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_8
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 3500
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb95a32ef6cbf52419fc7b42761f4c99
+      internalID: -1103990349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_9
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 3500
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac4937ad112a224a8ac91763b54bf80
+      internalID: -1748972877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_10
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3500
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2806a6b69783f62449f627b02284c284
+      internalID: -899398187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_11
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 3500
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60941879620c1441bf18b24d04853a4
+      internalID: 1381648730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2625
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cba9b6c4bc916948a41c02fcaed991e
+      internalID: 1580031448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_13
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 2625
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51829f4ed6aa74b4baac989b7f4f1695
+      internalID: 317224268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_14
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 2625
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1186a7c9987360141a93648f93a10757
+      internalID: -1259198824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_15
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 2625
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc621c521a206b4a9951686ad895b91
+      internalID: 239811598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_16
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2625
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d31f21a9c0811c46a8f400b0642e202
+      internalID: -311004855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_17
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2625
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2edd30ba27231947856fb8a5550d7bf
+      internalID: -514036011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_18
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2625
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9ad7f1caf1fd746878f1ed6743e5df
+      internalID: 783725004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_19
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 2625
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46261f048a9d3414dbf58db05be60532
+      internalID: 1199834440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_20
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2625
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb91135352cfae4987ec3c0c9087083
+      internalID: 2096161606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_21
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 2625
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3d5cfa295d6bf4a98bd963f65f6d26
+      internalID: 912036321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_22
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2625
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbce1c615fbe414e8629f291727ec03
+      internalID: 1571400449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_23
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 2625
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc76f4ac716ad04a90d6b5902ab5ede
+      internalID: -1632563261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1750
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4272b29b3953fd4ebda91ef25260373
+      internalID: 3100947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_25
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1750
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7783aeb7781e6e4c946b0087010b4c1
+      internalID: 313905861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_26
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1750
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b04c411be3653b459cf85151333d27c
+      internalID: -949036620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_27
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1750
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861dafc4ba8cecd40940ec1509d0bb58
+      internalID: 1256812987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_28
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1750
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff1216e25647ee45b4f8a230812696c
+      internalID: 1409417239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_29
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1750
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8920e982fc571ee4d938c5c51daa8a46
+      internalID: -1164887089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_30
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1750
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b9ef64398a15a4e8ce96f6b83345ca
+      internalID: -732350464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_31
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 1750
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6cd74ab28261c4aa6b32d4ef0ed91e
+      internalID: 699981321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_32
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1750
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da7d43e49ba4234a8f70fb487af1cc1
+      internalID: -595065327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_33
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1750
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb169ee0e53ede34598cad9a184eb481
+      internalID: 1401519193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_34
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1750
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468380c88cce1ea4fa591cf8efd33f24
+      internalID: 721263065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_35
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 1750
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43831f94cd8c382418287fa7aa3c34da
+      internalID: 232744687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 875
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3061b1608128eff4dab5673146c8a7e4
+      internalID: 1376444514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_37
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 875
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd8a4ed191299942818bd6cd680c1ed
+      internalID: -1008631828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_38
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 875
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c09d3709af88b646a3477fe9b999fea
+      internalID: 1497157253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_39
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 875
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d73b1a96f9d0e2448263ceaa5af48f3
+      internalID: -301931284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_40
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 875
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2a497cfea26cb41baf14a708cf3b03
+      internalID: -779784170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_41
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 875
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17766f9943d93a2449ba48ad4d4b94a3
+      internalID: -1144284743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_42
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 875
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2356d64ff3cf7824ca978369c614587a
+      internalID: 132426389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_43
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 875
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d83112016bab843a42aa4ce065bacd
+      internalID: 568434712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_44
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 875
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b0a81e3d13bbf4fbf5d2980a44c1fe
+      internalID: -981204554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_45
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 875
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3526b54e145e88841a5a62c376992855
+      internalID: -1086221388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_46
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 875
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a327e7e5533cbe428dd310bde45f13b
+      internalID: -1409776210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_47
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 875
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841973bd492f1294390401a5dea1db49
+      internalID: 907396990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436f3a580ab166f4286fa8d14585b4fc
+      internalID: -746872982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_49
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31f4dc8023ae294ebc72097a7bdfbd3
+      internalID: 1578095717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_50
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b9c1efedf2c6d46bfd10f9be080d03
+      internalID: 840735565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_51
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f002ff488a3ca74aa0d591a4bc58832
+      internalID: 1241307315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_52
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a717a7801ed7254292127e428098464
+      internalID: -584960549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap1-ombak air_sprite_53
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 360
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c00f39035ab02e4f98b7e010f7c0ab2
+      internalID: -1499698414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LevelMap1-ombak air_sprite_0: 139547432
+      LevelMap1-ombak air_sprite_1: -1196741509
+      LevelMap1-ombak air_sprite_10: -899398187
+      LevelMap1-ombak air_sprite_11: 1381648730
+      LevelMap1-ombak air_sprite_12: 1580031448
+      LevelMap1-ombak air_sprite_13: 317224268
+      LevelMap1-ombak air_sprite_14: -1259198824
+      LevelMap1-ombak air_sprite_15: 239811598
+      LevelMap1-ombak air_sprite_16: -311004855
+      LevelMap1-ombak air_sprite_17: -514036011
+      LevelMap1-ombak air_sprite_18: 783725004
+      LevelMap1-ombak air_sprite_19: 1199834440
+      LevelMap1-ombak air_sprite_2: 1090832472
+      LevelMap1-ombak air_sprite_20: 2096161606
+      LevelMap1-ombak air_sprite_21: 912036321
+      LevelMap1-ombak air_sprite_22: 1571400449
+      LevelMap1-ombak air_sprite_23: -1632563261
+      LevelMap1-ombak air_sprite_24: 3100947
+      LevelMap1-ombak air_sprite_25: 313905861
+      LevelMap1-ombak air_sprite_26: -949036620
+      LevelMap1-ombak air_sprite_27: 1256812987
+      LevelMap1-ombak air_sprite_28: 1409417239
+      LevelMap1-ombak air_sprite_29: -1164887089
+      LevelMap1-ombak air_sprite_3: 1579333704
+      LevelMap1-ombak air_sprite_30: -732350464
+      LevelMap1-ombak air_sprite_31: 699981321
+      LevelMap1-ombak air_sprite_32: -595065327
+      LevelMap1-ombak air_sprite_33: 1401519193
+      LevelMap1-ombak air_sprite_34: 721263065
+      LevelMap1-ombak air_sprite_35: 232744687
+      LevelMap1-ombak air_sprite_36: 1376444514
+      LevelMap1-ombak air_sprite_37: -1008631828
+      LevelMap1-ombak air_sprite_38: 1497157253
+      LevelMap1-ombak air_sprite_39: -301931284
+      LevelMap1-ombak air_sprite_4: 1054056589
+      LevelMap1-ombak air_sprite_40: -779784170
+      LevelMap1-ombak air_sprite_41: -1144284743
+      LevelMap1-ombak air_sprite_42: 132426389
+      LevelMap1-ombak air_sprite_43: 568434712
+      LevelMap1-ombak air_sprite_44: -981204554
+      LevelMap1-ombak air_sprite_45: -1086221388
+      LevelMap1-ombak air_sprite_46: -1409776210
+      LevelMap1-ombak air_sprite_47: 907396990
+      LevelMap1-ombak air_sprite_48: -746872982
+      LevelMap1-ombak air_sprite_49: 1578095717
+      LevelMap1-ombak air_sprite_5: 1105437129
+      LevelMap1-ombak air_sprite_50: 840735565
+      LevelMap1-ombak air_sprite_51: 1241307315
+      LevelMap1-ombak air_sprite_52: -584960549
+      LevelMap1-ombak air_sprite_53: -1499698414
+      LevelMap1-ombak air_sprite_54: -298030775
+      LevelMap1-ombak air_sprite_6: 1827935494
+      LevelMap1-ombak air_sprite_7: -469704832
+      LevelMap1-ombak air_sprite_8: -1103990349
+      LevelMap1-ombak air_sprite_9: -1748972877
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303021
+  packageName: Casual Maps - Level Progression
+  packageVersion: 1.0
+  assetPath: Assets/Graphie/Casual game map/Sprites/Animations/LevelMap1-ombak air_sprite.png
+  uploadId: 710143

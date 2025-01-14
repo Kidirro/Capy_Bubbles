@@ -1,0 +1,1247 @@
+fileFormatVersion: 2
+guid: 0bd23dcc24d41da438e2b4dc67246208
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2448
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a3517314df94747bccfdc05f584420
+      internalID: 1051303426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_1
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 2448
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d8896c83f243d4496c662189f0e26d
+      internalID: 611049255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_2
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 2448
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30153d5f81f280c498608233cceb455f
+      internalID: 285353662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_3
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 2448
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c02583664aea184c9fbc2dc339844b4
+      internalID: -1885879428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_4
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 2448
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ddfafabd5ce484b8bfab1cc37477f1
+      internalID: 376870635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2176
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d562a8005cbdd7e4692f12d1b4190326
+      internalID: 1089932761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_6
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 2176
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780668d5c64938c40b23362878a2bbb7
+      internalID: -1321528392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_7
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 2176
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812a22cf0f121da4186a52efd4301697
+      internalID: -170722472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_8
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 2176
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bdefde9bd6fc884bbdb72298ced9cdb
+      internalID: -928725465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_9
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 2176
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c346f1dde516e4c9473c886f64f000
+      internalID: 2065178812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1904
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b6f8fe5952a0c42afffb82d0fff53a
+      internalID: 1702078168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_11
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1904
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f032d3a3485b4374fa3590ba7e80c0b3
+      internalID: -396785597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_12
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1904
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4983cc270755a40a922c20971d609a
+      internalID: 1199042595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_13
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1904
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a26b0dc22f9bd4095760eae61cc821
+      internalID: -2022912196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_14
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1904
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7878c1d1564a34dbe640e04afc7549
+      internalID: -199088662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1632
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b3b1f6c71e37845afc5e74b87c1c1e
+      internalID: 1518059783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_16
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1632
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875903e1f85f3be4aab87e2a3ddaa429
+      internalID: -393114914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_17
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1632
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7537e1978f1cdc548858ec91fc40b8e2
+      internalID: -1422580804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_18
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1632
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b174b2f5a5989414c835e9828f19adae
+      internalID: -803979247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_19
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1632
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37175df82d87694da78c15a0c7e46a6
+      internalID: -1848714721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1360
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7bf34a53c1984f469674bc9edabdf1a
+      internalID: 1529544207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_21
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1360
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d12bff0240e8d45bb220326cbcade9
+      internalID: 233082941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_22
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1360
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: facde8efec96ac04db6f28127d134e86
+      internalID: -475853901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_23
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1360
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10f2a7b3cd31714f8be26f85fcd8676
+      internalID: 1920309001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_24
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1360
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536a2e8a66677b248a5b2dc7bf8fdec5
+      internalID: -1511105508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1088
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f1fca5faf476f4da81cd299a145e37
+      internalID: 1026395539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_26
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1088
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1881f489f12f54783bbf95b164a10f
+      internalID: 102236994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_27
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1088
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd201fd59d308e4c8a30c4c38d57fa6
+      internalID: -1061722754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_28
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1088
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6fd2e7bb5c74349b3df569dc99ee1b
+      internalID: 1319358294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_29
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1088
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0acc0f5a39434084b86ce92a3ab2133a
+      internalID: -1434293809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 816
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c516524369d454488f4c5845f5e20d
+      internalID: 22371151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_31
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 816
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c0d58a56544c9441b9ed51611ed96f9
+      internalID: -1520774397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_32
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 816
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d01b88f860131489c877e64f6a8c7d
+      internalID: -2058313115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_33
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 816
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8def8075208d24c94cbc3731d7f712
+      internalID: -1688090370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_34
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 816
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48b78e0dfa63b941bec9fa968747768
+      internalID: -1145176649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 544
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231a0ed55cd5deb40a916f7c321c7667
+      internalID: -6065308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_36
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 544
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc85baafb1a49845848df3de75c5b4e
+      internalID: -2077347399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_37
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 544
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4dcc4eeea695a49a2d950c963858a1
+      internalID: 171971061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_38
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 544
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb484b165982124bacdcf0fe3b9bbb9
+      internalID: 313769513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_39
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 544
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5047f2710f0d05b4d81272790a26132c
+      internalID: -179143152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21523541d55db1a45a2158c6f46ee151
+      internalID: 689079001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_41
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 272
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c51f8966806f814aa2cc613fdf7e05c
+      internalID: 381910419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_42
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 272
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9c8cd7f4ff9ec4eb84b1462d36cf4a
+      internalID: 1852918920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_43
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 272
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b97526b8ddb6c43a210bceed50ef04
+      internalID: -1181009533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_44
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 272
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02fd5b7ff0cad3840877a791ff38a26f
+      internalID: 1651196920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6dd3795301557445819083e49062509
+      internalID: -404507313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_46
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05535bd020f1eb745af0751d51c4fd39
+      internalID: -391327594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_47
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 0
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe434edf6fee5ee4b9f97cf1b21182ef
+      internalID: 441989097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_48
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 0
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d6209e523001847aa480e10e4f7897
+      internalID: -1762682366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap5-Duck Mermaid-sprite_49
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 0
+        width: 340
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5c4d22bd3f0284ab58a3953a1d0496
+      internalID: -1863211941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LevelMap5-Duck Mermaid-sprite_0: 1051303426
+      LevelMap5-Duck Mermaid-sprite_1: 611049255
+      LevelMap5-Duck Mermaid-sprite_10: 1702078168
+      LevelMap5-Duck Mermaid-sprite_11: -396785597
+      LevelMap5-Duck Mermaid-sprite_12: 1199042595
+      LevelMap5-Duck Mermaid-sprite_13: -2022912196
+      LevelMap5-Duck Mermaid-sprite_14: -199088662
+      LevelMap5-Duck Mermaid-sprite_15: 1518059783
+      LevelMap5-Duck Mermaid-sprite_16: -393114914
+      LevelMap5-Duck Mermaid-sprite_17: -1422580804
+      LevelMap5-Duck Mermaid-sprite_18: -803979247
+      LevelMap5-Duck Mermaid-sprite_19: -1848714721
+      LevelMap5-Duck Mermaid-sprite_2: 285353662
+      LevelMap5-Duck Mermaid-sprite_20: 1529544207
+      LevelMap5-Duck Mermaid-sprite_21: 233082941
+      LevelMap5-Duck Mermaid-sprite_22: -475853901
+      LevelMap5-Duck Mermaid-sprite_23: 1920309001
+      LevelMap5-Duck Mermaid-sprite_24: -1511105508
+      LevelMap5-Duck Mermaid-sprite_25: 1026395539
+      LevelMap5-Duck Mermaid-sprite_26: 102236994
+      LevelMap5-Duck Mermaid-sprite_27: -1061722754
+      LevelMap5-Duck Mermaid-sprite_28: 1319358294
+      LevelMap5-Duck Mermaid-sprite_29: -1434293809
+      LevelMap5-Duck Mermaid-sprite_3: -1885879428
+      LevelMap5-Duck Mermaid-sprite_30: 22371151
+      LevelMap5-Duck Mermaid-sprite_31: -1520774397
+      LevelMap5-Duck Mermaid-sprite_32: -2058313115
+      LevelMap5-Duck Mermaid-sprite_33: -1688090370
+      LevelMap5-Duck Mermaid-sprite_34: -1145176649
+      LevelMap5-Duck Mermaid-sprite_35: -6065308
+      LevelMap5-Duck Mermaid-sprite_36: -2077347399
+      LevelMap5-Duck Mermaid-sprite_37: 171971061
+      LevelMap5-Duck Mermaid-sprite_38: 313769513
+      LevelMap5-Duck Mermaid-sprite_39: -179143152
+      LevelMap5-Duck Mermaid-sprite_4: 376870635
+      LevelMap5-Duck Mermaid-sprite_40: 689079001
+      LevelMap5-Duck Mermaid-sprite_41: 381910419
+      LevelMap5-Duck Mermaid-sprite_42: 1852918920
+      LevelMap5-Duck Mermaid-sprite_43: -1181009533
+      LevelMap5-Duck Mermaid-sprite_44: 1651196920
+      LevelMap5-Duck Mermaid-sprite_45: -404507313
+      LevelMap5-Duck Mermaid-sprite_46: -391327594
+      LevelMap5-Duck Mermaid-sprite_47: 441989097
+      LevelMap5-Duck Mermaid-sprite_48: -1762682366
+      LevelMap5-Duck Mermaid-sprite_49: -1863211941
+      LevelMap5-Duck Mermaid-sprite_5: 1089932761
+      LevelMap5-Duck Mermaid-sprite_6: -1321528392
+      LevelMap5-Duck Mermaid-sprite_7: -170722472
+      LevelMap5-Duck Mermaid-sprite_8: -928725465
+      LevelMap5-Duck Mermaid-sprite_9: 2065178812
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303021
+  packageName: Casual Maps - Level Progression
+  packageVersion: 1.0
+  assetPath: Assets/Graphie/Casual game map/Sprites/Animations/LevelMap5-Duck Mermaid-sprite.png
+  uploadId: 710143

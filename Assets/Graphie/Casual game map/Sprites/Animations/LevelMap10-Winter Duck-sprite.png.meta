@@ -1,0 +1,1798 @@
+fileFormatVersion: 2
+guid: 0088b2441d2f22d42bd7410054d0c6bb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2448
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500302896a5bd354a8c71d3a57c5e7f9
+      internalID: 423841928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_1
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2448
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab11ff6ce5a74ac4b9f9880c2c04fc1b
+      internalID: -1687698887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_2
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 2448
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b2646f4add9324bb47ff7a024970a6
+      internalID: 445543178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_3
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 2448
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b00f86c58aa4844a8d2c717492fdb5c
+      internalID: 1074672613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_4
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 2448
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4bc901c3e09cf4daefbd7308c952a5
+      internalID: 1993320538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_5
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 2448
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574204de10d45aa4da1f09d1bd6e289a
+      internalID: 497277474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_6
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 2448
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1719bb8516484ae4683b614b947fc814
+      internalID: 1871033707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_7
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 2448
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f07ba6cb1ae184c90415201357f19f
+      internalID: 1972210121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2176
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7eeb3fe6ebf974fa1e945ccf196706
+      internalID: 629152175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_9
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2176
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2de148960fa5444f9fff1acc64f8990
+      internalID: -480413056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_10
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 2176
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc70c162b6316d468ce6f4abc74b67e
+      internalID: 980854978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_11
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 2176
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74bba14ba579654891471e23ecf47fe
+      internalID: 1280337795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_12
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 2176
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880576d922d2c9f4b8e10e8286de0439
+      internalID: -1303241507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_13
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 2176
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9244af7ff99174e8cd8b578259a42d
+      internalID: 1325647889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_14
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 2176
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ed5c8beb467d5408d06ec0edfa662a
+      internalID: -996487445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_15
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 2176
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f57ee7071858634dadb24ea1dc09628
+      internalID: -1044301450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1904
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f22b0d7444d5d24599719d3b44d1cc3
+      internalID: 263346079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_17
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1904
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09164c032464e0e4598ffa07cb53f9d5
+      internalID: 1301237839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_18
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1904
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d54686672ea11348a6ef85704a627ee
+      internalID: 342634584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_19
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1904
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b560509cca29c4e967fff21b3946b2
+      internalID: 949652378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_20
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1904
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb43573978b07e46b869d432717a494
+      internalID: -1399542253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_21
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1904
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e9188d7d8716e4aafcd3359cac22ec
+      internalID: 1661319825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_22
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 1904
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b494b78edee088c4d86955d971fbfbd7
+      internalID: -1141619492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_23
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 1904
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7ed5952bd21304b8f27d3f43fbee00
+      internalID: -1295303940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1632
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747d6010225b3e8469db4c4332bfed54
+      internalID: -507660556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_25
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1632
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6b44132891f7d42b98ac6567293fb3
+      internalID: -1546848508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_26
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1632
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813f732f045ef4942b252de26a0ad3ab
+      internalID: 1528721412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_27
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1632
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e01e0dbf03d84640ad109da60ad5f60
+      internalID: -1862831313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_28
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1632
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed18d7b17156f7499662051b4b4d7eb
+      internalID: 1384789026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_29
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1632
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0daa288c559d8904eaf262654a7bbabb
+      internalID: -129638841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_30
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 1632
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f3e0dc86794824581afae4ba854f2d
+      internalID: 511622358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_31
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 1632
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80f6aa777833d641a7c7eaa4f7d3f51
+      internalID: 642764290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1360
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949bfdff80484574aaed18ce6a0b80ae
+      internalID: -243950159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_33
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1360
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70589c05c6a8a1d4c9443838178353b9
+      internalID: 683408026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_34
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1360
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc913303e515e7f42b2587509fd4606a
+      internalID: -1809445414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_35
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1360
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b74de96b6f69db3498f868ca65487e1b
+      internalID: -71282214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_36
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1360
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31b7f32b0fe382489dfb883ab50b648
+      internalID: 2055631523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_37
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1360
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40231276e227cc469665a684d59a653
+      internalID: -82472717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_38
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 1360
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9159796480d5a41ad9a0aca6cd65d9
+      internalID: -2033862954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_39
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 1360
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295fa002b01286242b861750977abc75
+      internalID: -819730774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1088
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1f3893efd702b43a62734a0bf208b7
+      internalID: -177893618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_41
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1088
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832c9f9807fade14aab3c58ea4205a92
+      internalID: 1336799984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_42
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1088
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dda55fe9634a8347843ea8c8f03912e
+      internalID: 2086547906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_43
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1088
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309cd989bb71bff428b7998e31da9076
+      internalID: -742715899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_44
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1088
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f83e3f5fe73cb340ad04a1948c08b2e
+      internalID: 1891511339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_45
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1088
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f3c4c149afd60419655dd57cb615e2
+      internalID: -1888888398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_46
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 1088
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5f3efdb7e924041910e992beb6d89b
+      internalID: 896647948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_47
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 1088
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb7e5a0438149e438dc4a6dd56baea6
+      internalID: 416063052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 816
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c389f3b3a33db40885afe96ddba2a8
+      internalID: 1903186569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_49
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 816
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef6c6de1da1e9944a666ee37c97612f
+      internalID: -4262840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_50
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 816
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34bba1615af3554aa0b6b0f82c78138
+      internalID: 656724914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_51
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 816
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765d987b8871f914da4187225d30abd6
+      internalID: -1276762713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_52
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 816
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92b9c03090dce74d940d1c495d9d797
+      internalID: 342989566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_53
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 816
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50b5f02e16f43448a8961027bb2bdf2
+      internalID: 274246272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_54
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 816
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d558c883da3b2ab48a970daa42c6aa60
+      internalID: -822354408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_55
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 816
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a1c8c71cce92464fb0d83394df63c32
+      internalID: 818440463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 544
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276bb6c1d3b01264ebbbf001b5f8a24b
+      internalID: 765163754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_57
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 544
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235544f8c25936a459223d563d3627b0
+      internalID: -1612976916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_58
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 544
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c84d48239318f41a5bce79b554b681
+      internalID: 505245000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_59
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 544
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8232c7a5f63d34ab79e346c9a39bdc
+      internalID: -1357934577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_60
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 544
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfca9a9fed05dc4282e710f40c7d5ba
+      internalID: 799168729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_61
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 544
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c46ffcf4026b44fafdd77937a61d1b
+      internalID: -36940882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_62
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 544
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3192db79792f27e43a7a824bac9a193a
+      internalID: -962227283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_63
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 544
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6a38118982f47459e5afd428d35cbf
+      internalID: 1582611088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6ef5d6814e62c44aa7c9eb3f572dec
+      internalID: 694983800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_65
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 272
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42efba000a09a1b4ebafef7b3273835f
+      internalID: -1651126607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_66
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 272
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae2f1b6c4ca4674c889ae44736c6d9d
+      internalID: -149680709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_67
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 272
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20652197f73b83140ad90965c927235c
+      internalID: 70439441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_68
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 272
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a9e0256c1f2904b90e196e523eae77
+      internalID: 1468961003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_69
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 272
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d627fbc46ffa9443854692659af50d5
+      internalID: -177945426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_70
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 272
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a03d7f86bdd4143b1e89af2f91acca
+      internalID: -486492249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_71
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 272
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcccbe46a0df3924da71b65cb8059c0a
+      internalID: 1957158441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a0512edb5c54b4784f78549227aa8d
+      internalID: -633670194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_73
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c49570c4dc68d74197522c8fc8b7fbd
+      internalID: -1412489855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap10-Winter Duck-sprite_74
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 336
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f885d016bbe444a8441032187dbd96
+      internalID: -210964885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LevelMap10-Winter Duck-sprite_0: 423841928
+      LevelMap10-Winter Duck-sprite_1: -1687698887
+      LevelMap10-Winter Duck-sprite_10: 980854978
+      LevelMap10-Winter Duck-sprite_11: 1280337795
+      LevelMap10-Winter Duck-sprite_12: -1303241507
+      LevelMap10-Winter Duck-sprite_13: 1325647889
+      LevelMap10-Winter Duck-sprite_14: -996487445
+      LevelMap10-Winter Duck-sprite_15: -1044301450
+      LevelMap10-Winter Duck-sprite_16: 263346079
+      LevelMap10-Winter Duck-sprite_17: 1301237839
+      LevelMap10-Winter Duck-sprite_18: 342634584
+      LevelMap10-Winter Duck-sprite_19: 949652378
+      LevelMap10-Winter Duck-sprite_2: 445543178
+      LevelMap10-Winter Duck-sprite_20: -1399542253
+      LevelMap10-Winter Duck-sprite_21: 1661319825
+      LevelMap10-Winter Duck-sprite_22: -1141619492
+      LevelMap10-Winter Duck-sprite_23: -1295303940
+      LevelMap10-Winter Duck-sprite_24: -507660556
+      LevelMap10-Winter Duck-sprite_25: -1546848508
+      LevelMap10-Winter Duck-sprite_26: 1528721412
+      LevelMap10-Winter Duck-sprite_27: -1862831313
+      LevelMap10-Winter Duck-sprite_28: 1384789026
+      LevelMap10-Winter Duck-sprite_29: -129638841
+      LevelMap10-Winter Duck-sprite_3: 1074672613
+      LevelMap10-Winter Duck-sprite_30: 511622358
+      LevelMap10-Winter Duck-sprite_31: 642764290
+      LevelMap10-Winter Duck-sprite_32: -243950159
+      LevelMap10-Winter Duck-sprite_33: 683408026
+      LevelMap10-Winter Duck-sprite_34: -1809445414
+      LevelMap10-Winter Duck-sprite_35: -71282214
+      LevelMap10-Winter Duck-sprite_36: 2055631523
+      LevelMap10-Winter Duck-sprite_37: -82472717
+      LevelMap10-Winter Duck-sprite_38: -2033862954
+      LevelMap10-Winter Duck-sprite_39: -819730774
+      LevelMap10-Winter Duck-sprite_4: 1993320538
+      LevelMap10-Winter Duck-sprite_40: -177893618
+      LevelMap10-Winter Duck-sprite_41: 1336799984
+      LevelMap10-Winter Duck-sprite_42: 2086547906
+      LevelMap10-Winter Duck-sprite_43: -742715899
+      LevelMap10-Winter Duck-sprite_44: 1891511339
+      LevelMap10-Winter Duck-sprite_45: -1888888398
+      LevelMap10-Winter Duck-sprite_46: 896647948
+      LevelMap10-Winter Duck-sprite_47: 416063052
+      LevelMap10-Winter Duck-sprite_48: 1903186569
+      LevelMap10-Winter Duck-sprite_49: -4262840
+      LevelMap10-Winter Duck-sprite_5: 497277474
+      LevelMap10-Winter Duck-sprite_50: 656724914
+      LevelMap10-Winter Duck-sprite_51: -1276762713
+      LevelMap10-Winter Duck-sprite_52: 342989566
+      LevelMap10-Winter Duck-sprite_53: 274246272
+      LevelMap10-Winter Duck-sprite_54: -822354408
+      LevelMap10-Winter Duck-sprite_55: 818440463
+      LevelMap10-Winter Duck-sprite_56: 765163754
+      LevelMap10-Winter Duck-sprite_57: -1612976916
+      LevelMap10-Winter Duck-sprite_58: 505245000
+      LevelMap10-Winter Duck-sprite_59: -1357934577
+      LevelMap10-Winter Duck-sprite_6: 1871033707
+      LevelMap10-Winter Duck-sprite_60: 799168729
+      LevelMap10-Winter Duck-sprite_61: -36940882
+      LevelMap10-Winter Duck-sprite_62: -962227283
+      LevelMap10-Winter Duck-sprite_63: 1582611088
+      LevelMap10-Winter Duck-sprite_64: 694983800
+      LevelMap10-Winter Duck-sprite_65: -1651126607
+      LevelMap10-Winter Duck-sprite_66: -149680709
+      LevelMap10-Winter Duck-sprite_67: 70439441
+      LevelMap10-Winter Duck-sprite_68: 1468961003
+      LevelMap10-Winter Duck-sprite_69: -177945426
+      LevelMap10-Winter Duck-sprite_7: 1972210121
+      LevelMap10-Winter Duck-sprite_70: -486492249
+      LevelMap10-Winter Duck-sprite_71: 1957158441
+      LevelMap10-Winter Duck-sprite_72: -633670194
+      LevelMap10-Winter Duck-sprite_73: -1412489855
+      LevelMap10-Winter Duck-sprite_74: -210964885
+      LevelMap10-Winter Duck-sprite_8: 629152175
+      LevelMap10-Winter Duck-sprite_9: -480413056
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303021
+  packageName: Casual Maps - Level Progression
+  packageVersion: 1.0
+  assetPath: Assets/Graphie/Casual game map/Sprites/Animations/LevelMap10-Winter
+    Duck-sprite.png
+  uploadId: 710143

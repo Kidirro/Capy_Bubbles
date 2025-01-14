@@ -1,0 +1,1644 @@
+fileFormatVersion: 2
+guid: bc838f4ae3339be4ca282dfd8813960b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2752
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e1bee82c0ab7c449d97e264cbaf1ee
+      internalID: 43222668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_1
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 2752
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0294c8ec808b91f47bf917f757a409d8
+      internalID: -594085690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_2
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2752
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb37ca0ccbb71644af71644b2745bac
+      internalID: -989240168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_3
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2752
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d802a6d573097d5488e7bccdeacc88f4
+      internalID: 147013016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_4
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2752
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d251863cc44cc694f8e5fec86c720c78
+      internalID: -78067024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_5
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2752
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280d551fa73083e4b93cc8d96a1df37a
+      internalID: -444396903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_6
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2752
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731b5561f151990428e4c2aea9f920d2
+      internalID: 869430676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_7
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 2752
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e065caf44e50749a54afab7d851291
+      internalID: -2140652168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2408
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197bc7671910d5844a538f486f5715d9
+      internalID: -1596784146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_9
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 2408
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7fe95e408286a4fab8eab5fe4b846e
+      internalID: -262995010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_10
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2408
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae32402652dbc7a4c8917d48152a8206
+      internalID: 1898216186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_11
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2408
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06baad5de5afbf54986b8154fbfae123
+      internalID: 286608988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_12
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2408
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a96d48070ca15e4287970ba5403d5d6
+      internalID: 1061542280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_13
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2408
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f0e4d33bd2555448b10c2df7ba6921
+      internalID: 828532518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_14
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2408
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a74d45ce1ac07d498c927c516e9ef49
+      internalID: 2124425730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_15
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 2408
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb4542a6ddfa6640888773847f6fec0
+      internalID: 1929508271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2064
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b2876ea69d25e4dba908984412d5a0
+      internalID: 450390569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_17
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 2064
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483e10192b6b809429b41953e0af1203
+      internalID: -642009054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_18
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2064
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddbe867b3cbc35747bea68d0c7345f3f
+      internalID: 88392765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_19
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2064
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c22249f6476eaf44b5f2dccc3424d06
+      internalID: -1203897520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_20
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2064
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d009eb1a79d87694eab3598a76febfa9
+      internalID: -983850225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_21
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2064
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528f40270c79b2844a185a4bc2da8dd8
+      internalID: 1781724889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_22
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2064
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5690b911b8989d4f8d5093f55ee6904
+      internalID: -1102102192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_23
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 2064
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5927bdb6adbba834fb2fababd3cb0290
+      internalID: -1122951283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1720
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb8a714a5607ea438c51a6b59a0deec
+      internalID: -498074078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_25
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1720
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627f9309a4f8cdc48b61c02be9a8e7d0
+      internalID: -210615966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_26
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1720
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18cf3ab84905084b869faea620d9222
+      internalID: -1204033960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_27
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1720
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef438a6d3e2bb22448d5d3fcfbfe9776
+      internalID: -2062358082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_28
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1720
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f5be6e4577232540af105e39c074f5a
+      internalID: -1738163356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_29
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1720
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13ab7db78c60fc45b323ccd31387fd3
+      internalID: 302005028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_30
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1720
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a12732f6c50d5a43836164752b8af87
+      internalID: -1747115180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_31
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 1720
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178aad23b172d7f4da412b28be2b9dbe
+      internalID: -1204134132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1376
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e846652d18387542980e6eafb4cadba
+      internalID: -1015271548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_33
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1376
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092227a1e979e1547a7c42e12b05af2b
+      internalID: -667705681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_34
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1376
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d238a4a192229f488a51f4a8d8439e3
+      internalID: -1197331772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_35
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1376
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cef6997b0ce5ed459e716953ce05aca
+      internalID: -416599983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_36
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1376
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc745605c5d7c824b90c4fa996233a93
+      internalID: -1574280171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_37
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1376
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c756fad363e4c4eabaf2064187e798
+      internalID: 241255340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_38
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1376
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0fa4dd80f7d3c49803dbc265275195
+      internalID: 1305710587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_39
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 1376
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0086c27101a19c148b1170793326c0b6
+      internalID: -1405535621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1032
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85778c8d381ce2e4e846080d79d47c5f
+      internalID: 1987063018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_41
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1032
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67cda7e842253324e81d1372f2213fb4
+      internalID: 55376579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_42
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1032
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573a6ddb1968d074089ecdf0ef2a4442
+      internalID: -1244574306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_43
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1032
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345d49d4ee5fc55409d215913fed5d86
+      internalID: -2102893230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_44
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1032
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc32e46592533564792831496d325b92
+      internalID: -206702157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_45
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1032
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b42096751d478e4db29f8940ba80abc
+      internalID: 189552988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_46
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1032
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21eae6ab65106c4c839599e499c5e4f
+      internalID: -171904342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_47
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 1032
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31ac1f392f939146abae7e5a9ff586c
+      internalID: -360079358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 688
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fdd7ec87686a8f41968cd3188587b87
+      internalID: 1148236274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_49
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 688
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9098dbff563790c41a9505a8b6fa9d3f
+      internalID: 639457750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_50
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 688
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe9f04e04883074eaa588bea677dcdd
+      internalID: 1389098845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_51
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 688
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df5c20f8072e914cadb09644a22eebb
+      internalID: 951211275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_52
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 688
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9637a942d166e46aae578a4b6e0fc4
+      internalID: -338377127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_53
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 688
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce5f7e34392147439ca76b849a6918f
+      internalID: 413298614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_54
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 688
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6af941d41a4614f84ebf7ab7e27414
+      internalID: -641681946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_55
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 688
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5062096dc84f547a6a695c6ebf1786
+      internalID: 45398896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 344
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66aa3023331b5174580f5f6c8b8352ea
+      internalID: 1899281908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_57
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 344
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e207284483df794d9f30a83218f4059
+      internalID: -460483132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_58
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 344
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3696349a0c339bb4bba58f1b6cc2efa7
+      internalID: 1512209894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_59
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 344
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef0ada7d41ee17469e398098c0588c9
+      internalID: -1902569049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_60
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 344
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5119f8558cb08c4597dd63b90cc6efb
+      internalID: 430513612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_61
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 344
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0178e6edfa6555d42ae53c0034226de0
+      internalID: -1639178530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_62
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 344
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b1ea511068fea49806f9e00e9793bc
+      internalID: 1715707404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_63
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 344
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78871e6b53fa35f4ebf3b96af14824d7
+      internalID: 1469029655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e742f9dbf28da7f43b1a10e2152895ba
+      internalID: 1633362591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_65
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314cfc7b5f2278c4b9ec41cf3a7b0efd
+      internalID: 132309038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_66
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0da774067712a4f964ba540db17843
+      internalID: -819134815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap9-Coconut Tree-sprite_67
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 300
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040a6b5ebdddaa145ad70a76d2b03a97
+      internalID: 1814124959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LevelMap9-Coconut Tree-sprite_0: 43222668
+      LevelMap9-Coconut Tree-sprite_1: -594085690
+      LevelMap9-Coconut Tree-sprite_10: 1898216186
+      LevelMap9-Coconut Tree-sprite_11: 286608988
+      LevelMap9-Coconut Tree-sprite_12: 1061542280
+      LevelMap9-Coconut Tree-sprite_13: 828532518
+      LevelMap9-Coconut Tree-sprite_14: 2124425730
+      LevelMap9-Coconut Tree-sprite_15: 1929508271
+      LevelMap9-Coconut Tree-sprite_16: 450390569
+      LevelMap9-Coconut Tree-sprite_17: -642009054
+      LevelMap9-Coconut Tree-sprite_18: 88392765
+      LevelMap9-Coconut Tree-sprite_19: -1203897520
+      LevelMap9-Coconut Tree-sprite_2: -989240168
+      LevelMap9-Coconut Tree-sprite_20: -983850225
+      LevelMap9-Coconut Tree-sprite_21: 1781724889
+      LevelMap9-Coconut Tree-sprite_22: -1102102192
+      LevelMap9-Coconut Tree-sprite_23: -1122951283
+      LevelMap9-Coconut Tree-sprite_24: -498074078
+      LevelMap9-Coconut Tree-sprite_25: -210615966
+      LevelMap9-Coconut Tree-sprite_26: -1204033960
+      LevelMap9-Coconut Tree-sprite_27: -2062358082
+      LevelMap9-Coconut Tree-sprite_28: -1738163356
+      LevelMap9-Coconut Tree-sprite_29: 302005028
+      LevelMap9-Coconut Tree-sprite_3: 147013016
+      LevelMap9-Coconut Tree-sprite_30: -1747115180
+      LevelMap9-Coconut Tree-sprite_31: -1204134132
+      LevelMap9-Coconut Tree-sprite_32: -1015271548
+      LevelMap9-Coconut Tree-sprite_33: -667705681
+      LevelMap9-Coconut Tree-sprite_34: -1197331772
+      LevelMap9-Coconut Tree-sprite_35: -416599983
+      LevelMap9-Coconut Tree-sprite_36: -1574280171
+      LevelMap9-Coconut Tree-sprite_37: 241255340
+      LevelMap9-Coconut Tree-sprite_38: 1305710587
+      LevelMap9-Coconut Tree-sprite_39: -1405535621
+      LevelMap9-Coconut Tree-sprite_4: -78067024
+      LevelMap9-Coconut Tree-sprite_40: 1987063018
+      LevelMap9-Coconut Tree-sprite_41: 55376579
+      LevelMap9-Coconut Tree-sprite_42: -1244574306
+      LevelMap9-Coconut Tree-sprite_43: -2102893230
+      LevelMap9-Coconut Tree-sprite_44: -206702157
+      LevelMap9-Coconut Tree-sprite_45: 189552988
+      LevelMap9-Coconut Tree-sprite_46: -171904342
+      LevelMap9-Coconut Tree-sprite_47: -360079358
+      LevelMap9-Coconut Tree-sprite_48: 1148236274
+      LevelMap9-Coconut Tree-sprite_49: 639457750
+      LevelMap9-Coconut Tree-sprite_5: -444396903
+      LevelMap9-Coconut Tree-sprite_50: 1389098845
+      LevelMap9-Coconut Tree-sprite_51: 951211275
+      LevelMap9-Coconut Tree-sprite_52: -338377127
+      LevelMap9-Coconut Tree-sprite_53: 413298614
+      LevelMap9-Coconut Tree-sprite_54: -641681946
+      LevelMap9-Coconut Tree-sprite_55: 45398896
+      LevelMap9-Coconut Tree-sprite_56: 1899281908
+      LevelMap9-Coconut Tree-sprite_57: -460483132
+      LevelMap9-Coconut Tree-sprite_58: 1512209894
+      LevelMap9-Coconut Tree-sprite_59: -1902569049
+      LevelMap9-Coconut Tree-sprite_6: 869430676
+      LevelMap9-Coconut Tree-sprite_60: 430513612
+      LevelMap9-Coconut Tree-sprite_61: -1639178530
+      LevelMap9-Coconut Tree-sprite_62: 1715707404
+      LevelMap9-Coconut Tree-sprite_63: 1469029655
+      LevelMap9-Coconut Tree-sprite_64: 1633362591
+      LevelMap9-Coconut Tree-sprite_65: 132309038
+      LevelMap9-Coconut Tree-sprite_66: -819134815
+      LevelMap9-Coconut Tree-sprite_67: 1814124959
+      LevelMap9-Coconut Tree-sprite_7: -2140652168
+      LevelMap9-Coconut Tree-sprite_8: -1596784146
+      LevelMap9-Coconut Tree-sprite_9: -262995010
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303021
+  packageName: Casual Maps - Level Progression
+  packageVersion: 1.0
+  assetPath: Assets/Graphie/Casual game map/Sprites/Animations/LevelMap9-Coconut
+    Tree-sprite.png
+  uploadId: 710143

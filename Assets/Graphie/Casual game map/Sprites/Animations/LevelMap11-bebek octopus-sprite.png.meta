@@ -1,0 +1,1027 @@
+fileFormatVersion: 2
+guid: 694e240a61077e844afcdd09c5d1e533
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5520
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72761964519c5f54a98c6bfddb22922b
+      internalID: -1668978655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_1
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 5520
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0900e5441854a49bea4c6bdfbb3bb0
+      internalID: -1438412186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_2
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 5520
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14aa6ca086c03a44affbe96d186170e
+      internalID: -1276062293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_3
+      rect:
+        serializedVersion: 2
+        x: 3312
+        y: 5520
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9260583fad2d1af4eadf6165a6f1654f
+      internalID: 270052003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_4
+      rect:
+        serializedVersion: 2
+        x: 4416
+        y: 5520
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb54847faf26bfd47bcafa3615481806
+      internalID: 1130558606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_5
+      rect:
+        serializedVersion: 2
+        x: 5520
+        y: 5520
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906a23cd915763f47bdf7527de7205ac
+      internalID: -1086087774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_6
+      rect:
+        serializedVersion: 2
+        x: 6624
+        y: 5520
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdca74cbe5aad8f47872e05047f558ef
+      internalID: 944191010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4416
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11715899174eb64e9b2830ce33c9693
+      internalID: 1872239127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_8
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 4416
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7148a76565155ed48be7f363d7e545ff
+      internalID: 2069248656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_9
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 4416
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e7095b4ee7f9d4686beb45fa52072f
+      internalID: -1834727383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_10
+      rect:
+        serializedVersion: 2
+        x: 3312
+        y: 4416
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c09ad164c03ff24087494a386ee773d
+      internalID: -361733735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_11
+      rect:
+        serializedVersion: 2
+        x: 4416
+        y: 4416
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13123e76d85b82540858b1d58cb48c95
+      internalID: -1392735560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_12
+      rect:
+        serializedVersion: 2
+        x: 5520
+        y: 4416
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5971cd935aa2fe04b943c22d1452d11b
+      internalID: 108683890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_13
+      rect:
+        serializedVersion: 2
+        x: 6624
+        y: 4416
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b500c1e5c9e745a4c89e95736bc5d2cf
+      internalID: 284165273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3312
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf18dba4760c5543817a4a010015da5
+      internalID: 295252915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_15
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 3312
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f584cb35c850f4469950a72405a52d1
+      internalID: -1442083225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_16
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 3312
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65aa313b35cd6a948bb95e3e58f9ed0a
+      internalID: 1812240216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_17
+      rect:
+        serializedVersion: 2
+        x: 3312
+        y: 3312
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33017e2277fe2a94a9e2383bf1f4035e
+      internalID: -174534611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_18
+      rect:
+        serializedVersion: 2
+        x: 4416
+        y: 3312
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020e8e59edcb18043bcab6273ff81b69
+      internalID: 1762682274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_19
+      rect:
+        serializedVersion: 2
+        x: 5520
+        y: 3312
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d4676671b9c364ea6aeec011375d83
+      internalID: -21828493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_20
+      rect:
+        serializedVersion: 2
+        x: 6624
+        y: 3312
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277c44d753cd3454ab8ed4c72e9178e8
+      internalID: -963255209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2208
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf47c2d3bd06d54887390865f02416b
+      internalID: -1563166422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_22
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 2208
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3ca7dde61ec0e40b31f5b279c645f0
+      internalID: 1622505998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_23
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 2208
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba891588f6c16b1468fd9ec3beac171e
+      internalID: 977752293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_24
+      rect:
+        serializedVersion: 2
+        x: 3312
+        y: 2208
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ea4e575be5b79489573b4bc1d20875
+      internalID: -1403912485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_25
+      rect:
+        serializedVersion: 2
+        x: 4416
+        y: 2208
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02efe650defe44e458aee83fc3370754
+      internalID: -1103888960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_26
+      rect:
+        serializedVersion: 2
+        x: 5520
+        y: 2208
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9dad57d33e24b7499ed9e810c04a93e
+      internalID: -1938887387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_27
+      rect:
+        serializedVersion: 2
+        x: 6624
+        y: 2208
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b036bb00132101c46b75ebc41dc98266
+      internalID: 125537409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1104
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d238d6cd0f07c4d458f792ed59751c7b
+      internalID: -1532752395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_29
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1104
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414afa237e320d14abf5d37b2893eaee
+      internalID: 1816867227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_30
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 1104
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcab875a786bed5439740f9b6442b2fb
+      internalID: -1283249273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_31
+      rect:
+        serializedVersion: 2
+        x: 3312
+        y: 1104
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c8e8d9b972b3b4788bc36cc05115bb
+      internalID: -2112655155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_32
+      rect:
+        serializedVersion: 2
+        x: 4416
+        y: 1104
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9cec5c889f7494fba815b5b064ebc6
+      internalID: 403371881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_33
+      rect:
+        serializedVersion: 2
+        x: 5520
+        y: 1104
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66de042065b73894a994f150d4dbc70f
+      internalID: 1112674775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_34
+      rect:
+        serializedVersion: 2
+        x: 6624
+        y: 1104
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f615e04b497e114297b9007a0ba55cf
+      internalID: -1898538005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8327086927f197d45b01e57f4dc491f0
+      internalID: 1230145919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_36
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 0
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe02b70f8fa0b6a458eba5c128a036de
+      internalID: 1766631248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_37
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 0
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b8e9f6adf5f2d4cbc51c5ad4fd228c
+      internalID: 1369043489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_38
+      rect:
+        serializedVersion: 2
+        x: 3312
+        y: 0
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e0e38ac98401146b99a21ce21281f2
+      internalID: 494331277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap11-bebek octopus-sprite_39
+      rect:
+        serializedVersion: 2
+        x: 4416
+        y: 0
+        width: 1104
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00203a10d131b014a80020d9fcd44f06
+      internalID: 1624019608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LevelMap11-bebek octopus-sprite_0: -1668978655
+      LevelMap11-bebek octopus-sprite_1: -1438412186
+      LevelMap11-bebek octopus-sprite_10: -361733735
+      LevelMap11-bebek octopus-sprite_11: -1392735560
+      LevelMap11-bebek octopus-sprite_12: 108683890
+      LevelMap11-bebek octopus-sprite_13: 284165273
+      LevelMap11-bebek octopus-sprite_14: 295252915
+      LevelMap11-bebek octopus-sprite_15: -1442083225
+      LevelMap11-bebek octopus-sprite_16: 1812240216
+      LevelMap11-bebek octopus-sprite_17: -174534611
+      LevelMap11-bebek octopus-sprite_18: 1762682274
+      LevelMap11-bebek octopus-sprite_19: -21828493
+      LevelMap11-bebek octopus-sprite_2: -1276062293
+      LevelMap11-bebek octopus-sprite_20: -963255209
+      LevelMap11-bebek octopus-sprite_21: -1563166422
+      LevelMap11-bebek octopus-sprite_22: 1622505998
+      LevelMap11-bebek octopus-sprite_23: 977752293
+      LevelMap11-bebek octopus-sprite_24: -1403912485
+      LevelMap11-bebek octopus-sprite_25: -1103888960
+      LevelMap11-bebek octopus-sprite_26: -1938887387
+      LevelMap11-bebek octopus-sprite_27: 125537409
+      LevelMap11-bebek octopus-sprite_28: -1532752395
+      LevelMap11-bebek octopus-sprite_29: 1816867227
+      LevelMap11-bebek octopus-sprite_3: 270052003
+      LevelMap11-bebek octopus-sprite_30: -1283249273
+      LevelMap11-bebek octopus-sprite_31: -2112655155
+      LevelMap11-bebek octopus-sprite_32: 403371881
+      LevelMap11-bebek octopus-sprite_33: 1112674775
+      LevelMap11-bebek octopus-sprite_34: -1898538005
+      LevelMap11-bebek octopus-sprite_35: 1230145919
+      LevelMap11-bebek octopus-sprite_36: 1766631248
+      LevelMap11-bebek octopus-sprite_37: 1369043489
+      LevelMap11-bebek octopus-sprite_38: 494331277
+      LevelMap11-bebek octopus-sprite_39: 1624019608
+      LevelMap11-bebek octopus-sprite_4: 1130558606
+      LevelMap11-bebek octopus-sprite_5: -1086087774
+      LevelMap11-bebek octopus-sprite_6: 944191010
+      LevelMap11-bebek octopus-sprite_7: 1872239127
+      LevelMap11-bebek octopus-sprite_8: 2069248656
+      LevelMap11-bebek octopus-sprite_9: -1834727383
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303021
+  packageName: Casual Maps - Level Progression
+  packageVersion: 1.0
+  assetPath: Assets/Graphie/Casual game map/Sprites/Animations/LevelMap11-bebek octopus-sprite.png
+  uploadId: 710143

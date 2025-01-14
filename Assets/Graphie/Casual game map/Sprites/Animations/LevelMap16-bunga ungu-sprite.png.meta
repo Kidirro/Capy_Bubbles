@@ -1,0 +1,1027 @@
+fileFormatVersion: 2
+guid: 3d05c5b89b538104986f42c40e6ebc54
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2640
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84ad489fa0d80b4ead9407836eb1628
+      internalID: -2139471348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_1
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 2640
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937ef8dce483c2c408b95e2bc5055186
+      internalID: 1750825663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_2
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 2640
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bad871ee0d27f2428774c3fca982584
+      internalID: -1148150900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_3
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 2640
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300007616afc1c54ab09ddf5da8a5b39
+      internalID: 2125479398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_4
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 2640
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6936bc276a1d8c40b65633b46dc94ef
+      internalID: -623763574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_5
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 2640
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f90e3e7509c55b48a143245f80d4d45
+      internalID: 2119074057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_6
+      rect:
+        serializedVersion: 2
+        x: 3168
+        y: 2640
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842a716874ea86449b4691962cf195f5
+      internalID: -1412980080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2112
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3c17183d4b6da448ee7140633aa112
+      internalID: -67877678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_8
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 2112
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c7e5827711a8e42810741032225c33
+      internalID: -1504836946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_9
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 2112
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967b3bdf19c64584c920e9ca82887aed
+      internalID: -1156430880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_10
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 2112
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa3959c5dee236438b720ca666af418
+      internalID: 917845560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_11
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 2112
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6cf86d2939debc46a3fc53cf371ff64
+      internalID: 711032667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_12
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 2112
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1b1235eef41d648ac910d755879702
+      internalID: 860112007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_13
+      rect:
+        serializedVersion: 2
+        x: 3168
+        y: 2112
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8638676a1b4b9c48b58f0e3b9d4dfce
+      internalID: 808984805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1584
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766b11241b1b2e349b2d7c8940f2e8b6
+      internalID: 905138043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_15
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1584
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31a47ea2a9265a45b1046b35f2a2356
+      internalID: -1995159235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_16
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1584
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294d80e107f9d134b83abf951cb13f7a
+      internalID: -350700220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_17
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 1584
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5268e93f1074e8d4c89b68c4c6ce3242
+      internalID: 834755600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_18
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 1584
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d8af6fd73690349b3896eda01b6e4b
+      internalID: 276172046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_19
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 1584
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77f98b6b92dfd74ba3d9e3850b1180a
+      internalID: -472683067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_20
+      rect:
+        serializedVersion: 2
+        x: 3168
+        y: 1584
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c47b6b85796c54fac604ff645f9967
+      internalID: 193192613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1056
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d4cb184b68ec443ae5f562aa4e8ad9
+      internalID: 1272532470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_22
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1056
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c52d7628ae2094a842db8d7c58a4cf
+      internalID: 1153929321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_23
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1056
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ce35c3a29fff544bca5e915dc8ac6c
+      internalID: -1174606749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_24
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 1056
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6a3a577db8be84f8b5783d5524722c
+      internalID: -1284125414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_25
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 1056
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e150656f4649a42bd8b05ea7d37199
+      internalID: 1065192603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_26
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 1056
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2489d6dd5e92f4c808686cbd4bd21e
+      internalID: 385530277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_27
+      rect:
+        serializedVersion: 2
+        x: 3168
+        y: 1056
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997998600775dd54a97d49301c094900
+      internalID: 441168878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139eca2d55e3d2d42aa86f5c769046b0
+      internalID: 1898629189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_29
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 528
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a113f8a4c8fec574fb4e84e448c4a664
+      internalID: 801350817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_30
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 528
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d6865c71e496a4eb1bbaf5a8182b9c
+      internalID: 955723553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_31
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 528
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98db36274062bd240a62669035c432da
+      internalID: 1669998378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_32
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 528
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e653f43baacd59e469f1f3866d993865
+      internalID: -1398607868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_33
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 528
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d018d5dbf4e5d674cb638ff1b0d6de87
+      internalID: 218476641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_34
+      rect:
+        serializedVersion: 2
+        x: 3168
+        y: 528
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2c93072645fee4aa7cd1c5576300f4
+      internalID: -421366745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e4cf6bbc9b1a64d86528e74b8f9af0
+      internalID: 476722976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_36
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267824857119ae648a549568e017f1b5
+      internalID: -22758621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_37
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 0
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4f006925ee1794daa4a17a8d61b097
+      internalID: 1853651257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_38
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 0
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0d8f93f7cf34447b2125df430215a9
+      internalID: 2147394391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelMap16-bunga ungu-sprite_39
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 0
+        width: 528
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207d9facd23b45240a42ed803805889b
+      internalID: 975822572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LevelMap16-bunga ungu-sprite_0: -2139471348
+      LevelMap16-bunga ungu-sprite_1: 1750825663
+      LevelMap16-bunga ungu-sprite_10: 917845560
+      LevelMap16-bunga ungu-sprite_11: 711032667
+      LevelMap16-bunga ungu-sprite_12: 860112007
+      LevelMap16-bunga ungu-sprite_13: 808984805
+      LevelMap16-bunga ungu-sprite_14: 905138043
+      LevelMap16-bunga ungu-sprite_15: -1995159235
+      LevelMap16-bunga ungu-sprite_16: -350700220
+      LevelMap16-bunga ungu-sprite_17: 834755600
+      LevelMap16-bunga ungu-sprite_18: 276172046
+      LevelMap16-bunga ungu-sprite_19: -472683067
+      LevelMap16-bunga ungu-sprite_2: -1148150900
+      LevelMap16-bunga ungu-sprite_20: 193192613
+      LevelMap16-bunga ungu-sprite_21: 1272532470
+      LevelMap16-bunga ungu-sprite_22: 1153929321
+      LevelMap16-bunga ungu-sprite_23: -1174606749
+      LevelMap16-bunga ungu-sprite_24: -1284125414
+      LevelMap16-bunga ungu-sprite_25: 1065192603
+      LevelMap16-bunga ungu-sprite_26: 385530277
+      LevelMap16-bunga ungu-sprite_27: 441168878
+      LevelMap16-bunga ungu-sprite_28: 1898629189
+      LevelMap16-bunga ungu-sprite_29: 801350817
+      LevelMap16-bunga ungu-sprite_3: 2125479398
+      LevelMap16-bunga ungu-sprite_30: 955723553
+      LevelMap16-bunga ungu-sprite_31: 1669998378
+      LevelMap16-bunga ungu-sprite_32: -1398607868
+      LevelMap16-bunga ungu-sprite_33: 218476641
+      LevelMap16-bunga ungu-sprite_34: -421366745
+      LevelMap16-bunga ungu-sprite_35: 476722976
+      LevelMap16-bunga ungu-sprite_36: -22758621
+      LevelMap16-bunga ungu-sprite_37: 1853651257
+      LevelMap16-bunga ungu-sprite_38: 2147394391
+      LevelMap16-bunga ungu-sprite_39: 975822572
+      LevelMap16-bunga ungu-sprite_4: -623763574
+      LevelMap16-bunga ungu-sprite_5: 2119074057
+      LevelMap16-bunga ungu-sprite_6: -1412980080
+      LevelMap16-bunga ungu-sprite_7: -67877678
+      LevelMap16-bunga ungu-sprite_8: -1504836946
+      LevelMap16-bunga ungu-sprite_9: -1156430880
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303021
+  packageName: Casual Maps - Level Progression
+  packageVersion: 1.0
+  assetPath: Assets/Graphie/Casual game map/Sprites/Animations/LevelMap16-bunga ungu-sprite.png
+  uploadId: 710143
