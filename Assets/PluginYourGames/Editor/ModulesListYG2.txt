@@ -1,5 +1,5 @@
 Authorization v1.0
 InterstitialAdv v1.0
 Payments v1.0
-RewardedAdv v1.0
+RewardedAdv v1.001
 Storage v1.0

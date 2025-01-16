@@ -144,7 +144,8 @@
                 createUnityInstance(canvas, config, (progress) => {
                     spinner.style.display = "none";
                     progressBarEmpty.style.display = "";
-                    progressBarFull.style.width = `${100 * progress}%`;
+                    const adjustedProgress = Math.max(progress, 0.05);
+                    progressBarFull.style.width = `${100 * adjustedProgress}%`;
                 }).then((unityInstance) => {
                     ygGameInstance = unityInstance;
                     loadingCover.style.display = "none";
@@ -153,7 +154,7 @@
                 });
             };
             
-            if (LocalHost() || syncInit)
+            if (IsLocalHost() || syncInit)
                 StartUnityInstance_IfUnloaded();
         };
 
@@ -162,11 +163,23 @@
                 StartUnityInstance();
         }
 
-        function LocalHost() {
-            var host = window.location.hostname;
-            if (host == "localhost" || host == "127.0.0.1")
-                return true;
-            else return false;
+        function IsLocalHost() {
+            try {
+                if (window.top !== window) {
+                    console.warn("The application is running in an iframe");
+                    return false;
+                }
+
+                const host = window.location.hostname;
+                if (host === "localhost" || host === "127.0.0.1" || host.endsWith(".local")) {
+                    LogStyledMessage("Local Host");
+                    return true;
+                }
+            } 
+            catch (error) {
+                console.error("Error checking the local host:", error);
+                return false;
+            }
         }
 
         function YG2Instance(method) {
@@ -208,7 +221,7 @@
         InitYSDK();
         async function InitYSDK() {
             try {
-                if (LocalHost()) return;
+                if (IsLocalHost()) return;
 
                 ysdk = await YaGames.init();
 
@@ -230,7 +243,7 @@
                 console.error('CRASH Initialization SDK: ', e);
             }
 
-            if (!LocalHost() && !syncInit)
+            if (!IsLocalHost() && !syncInit)
                 StartUnityInstance_IfUnloaded();
         }
 

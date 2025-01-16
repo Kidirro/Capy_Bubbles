@@ -42,8 +42,12 @@ namespace YG
             {
                 [Tooltip(Langs.t_progressBar_round)]
                 public bool round = true;
-                [Range(0, 100), Tooltip(Langs.t_progressBar_width)]
+                [Range(1, 20), NestedYG(nameof(round))]
+                public int roundAngle = 10;
+                [Range(1, 100), Tooltip(Langs.t_progressBar_width)]
                 public int width = 30;
+                [Range(1, 100)]
+                public int height = 24;
                 [Tooltip(Langs.t_progressBar_color1)]
                 public Color color1 = new Color(0.25f, 0.6392f, 1f, 1f);
                 [Tooltip(Langs.t_progressBar_color2)]
@@ -79,13 +83,16 @@ namespace YG
             public Gradient gradientBackgroundByAspectRatio;
 
             [Tooltip(Langs.t_pixelRatio)]
-            public bool pixelRatioEnable;
-            [NestedYG(nameof(pixelRatioEnable)), Min(0)]
-            public float pixelRatioValue = 1.3f;
-
-            [Tooltip(Langs.t_developerBuild)]
-            public bool developerBuild;
 #endif
+            public bool pixelRatioEnable;
+#if UNITY_EDITOR
+            [NestedYG(nameof(pixelRatioEnable)), Min(0)]
+#endif
+            public float pixelRatioValue = 1.3f;
+#if UNITY_EDITOR
+            [Tooltip(Langs.t_developerBuild)]
+#endif
+            public bool developerBuild;
         }
     }
 }

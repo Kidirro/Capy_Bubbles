@@ -1,12 +1,13 @@
-﻿using System.Collections.Generic;
+﻿#if UNITY_EDITOR 
+using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
-using UnityEditor;
 using UnityEngine;
 using YG.Insides;
+using UnityEditor;
 using UnityEditor.Compilation;
 
 namespace YG.EditorScr
@@ -372,9 +373,12 @@ namespace YG.EditorScr
                         string quickImport = "Quick Import";
                         if (GUI.Button(rect, quickImport, YGEditorStyles.button))
                         {
-                            if (EditorUtility.DisplayDialog($"{quickImport}", Langs.quickImport, Langs.continue_, Langs.cancel))
+                            if (IsUpdatePlugin())
                             {
-                                ImportPackage(modules[i]);
+                                if (EditorUtility.DisplayDialog($"{quickImport}", Langs.quickImport, Langs.continue_, Langs.cancel))
+                                {
+                                    ImportPackage(modules[i]);
+                                }
                             }
                         }
                     }
@@ -404,7 +408,7 @@ namespace YG.EditorScr
                                         {
                                             UpdatePlyginYG(modules[i]);
                                         }
-                                        else
+                                        else if (IsUpdatePlugin())
                                         {
                                             ImportPackage(modules[i]);
 
@@ -510,7 +514,10 @@ namespace YG.EditorScr
                             if (!modules[i].noLoad)
                             {
                                 if (GUI.Button(rect, "Import", YGEditorStyles.button))
-                                    ImportPackage(modules[i]);
+                                {
+                                    if (IsUpdatePlugin())
+                                        ImportPackage(modules[i]);
+                                }
                             }
                             else
                             {
@@ -549,6 +556,26 @@ namespace YG.EditorScr
 
             EditorGUILayout.EndScrollView();
             Repaint();
+
+            bool IsUpdatePlugin()
+            {
+                for (int i = 0; i < modules.Count; i++)
+                {
+                    if (modules[i].nameModule == InfoYG.NAME_PLUGIN)
+                    {
+                        float.TryParse(modules[i].projectVersion, NumberStyles.Float, CultureInfo.InvariantCulture, out float projectVersion);
+                        float.TryParse(modules[i].lastVersion, NumberStyles.Float, CultureInfo.InvariantCulture, out float lastVersion);
+
+                        if (projectVersion >= lastVersion)
+                            return true;
+                        else
+                            break;
+                    }
+                }
+
+                EditorUtility.DisplayDialog($"Update PluginYG first", Langs.updatePluginFirst, "Ok");
+                return false;
+            }
         }
 
         private void DeletePluginYG()
@@ -702,3 +729,5 @@ namespace YG.EditorScr
         }
     }
 }
+
+#endif

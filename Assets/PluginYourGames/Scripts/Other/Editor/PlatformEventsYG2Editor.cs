@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
@@ -22,7 +23,7 @@ namespace YG.EditorScr
             unityEvents = serializedObject.FindProperty("platformAction");
 
 #if RU_YG2
-            m_AddButonContent = EditorGUIUtility.TrTextContent("Добавить платформу");
+            m_AddButonContent = EditorGUIUtility.TrTextContent("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
 #else
             m_AddButonContent = EditorGUIUtility.TrTextContent("Add platform");
 #endif
@@ -56,7 +57,7 @@ namespace YG.EditorScr
                     PlatformSettings platform = AssetDatabase.LoadAssetAtPath<PlatformSettings>(path);
                     if (platform != null)
                     {
-                        result.Add(PlatformSettings.currentPlatformBaseName);
+                        result.Add(platform.NameBase());
                     }
                 }
             }
@@ -78,7 +79,7 @@ namespace YG.EditorScr
             }
 
 #if RU_YG2
-            string nameProp = "Платформы для которых cработают методы";
+            string nameProp = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ cпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ";
 #else
             string nameProp = "Platforms for which methods will be triggered";
 #endif
@@ -86,7 +87,7 @@ namespace YG.EditorScr
 
             EditorGUILayout.Space(10);
 #if RU_YG2
-            nameProp = "Когда выполнить";
+            nameProp = "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ";
 #else
             nameProp = "When to Execute";
 #endif
@@ -101,7 +102,7 @@ namespace YG.EditorScr
                 if (targetObject.name == ((PlatformEventsYG2)target).gameObject.name && methodName == "DeactivateGameObject")
                 {
 #if RU_YG2
-                    string tooltip = "По умолчанию привязан метод деактивации объекта";
+                    string tooltip = "пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ";
 #else
                     string tooltip = "By default, the deactivation method of object is linked";
 #endif
@@ -158,3 +159,4 @@ namespace YG.EditorScr
         }
     }
 }
+#endif

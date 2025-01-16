@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿#if UNITY_EDITOR
+using System.Linq;
 using System.IO;
 using System.IO.Compression;
 using YG.Insides;
@@ -48,3 +49,4 @@ namespace YG.EditorScr.BuildModify
         }
     }
 }
+#endif
