@@ -11,7 +11,8 @@
         "Unity.Services.Core.Environments",
         "CandySmith.Ads",
         "CandySmith.IAP",
-        "YG_Defenition"
+        "YG_Defenition",
+        "RuStoreSDK"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

@@ -14,6 +14,7 @@ using System.Linq;
 using BubbleShooterGameToolkit.Scripts.Services;
 using BubbleShooterGameToolkit.Scripts.Settings;
 using BubbleShooterGameToolkit.Scripts.System;
+using RuStore.BillingClient;
 using UnityEngine;
 using YG;
 
@@ -24,13 +25,26 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
         public GameObject awaitPanel;
         public ItemPurchase[] packs;
         private ShopSettings shopSettings;
+
+        protected override void Awake()
+        {
+            
+#if UNITY_ANDROID
+            RuStoreBillingClient.Instance.Init();
+#endif
+        }
+
         private async void OnEnable()
         {
             shopSettings = Resources.Load<ShopSettings>("Settings/ShopSettings");
             
 #if YandexGamesPlatfom_yg
-            YG2.onPurchaseSuccess += PurchaseSucceded;
-#elif BEELINE
+            YG2.onPurchaseSuccess += PurchaseSucceded;            
+#endif
+
+            
+            
+#if BEELINE
             Shop data = await Model.GetShopProduts();
             var prod = data.products;
             for (int i = 0; i < packs.Length; i++)
@@ -81,8 +95,25 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
 
         public async void BuyCoins(string id)
         {
-#if !YandexGamesPlatfom_yg
+#if YandexGamesPlatfom_yg
             YG2.PurchaseByID(id);
+#elif UNITY_ANDROID            
+            RuStoreBillingClient.Instance.PurchaseProduct(
+                productId: id,
+                quantity: 1,
+                developerPayload: "test payload",
+                onFailure: _ => { },
+                onSuccess: (result) => {
+                    bool isSandbox = false;
+                    switch (result) {
+                        case PaymentSuccess paymentSuccess:
+                            PurchaseSucceded(id);
+                            break;
+                        case PaymentCancelled paymentCancelled:
+                        case PaymentFailure paymentFailure:
+                            break;
+                    }
+                });
 #elif BEELINE
             awaitPanel.SetActive(true);
             await Model.BuyProduct(id);
