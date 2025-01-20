@@ -1,4 +1,6 @@
 ﻿
+using System;
+
 namespace YG
 {
     [System.Serializable]
@@ -6,13 +8,13 @@ namespace YG
     {
         public int idSave;
         
-        public int language;
+        public int language = -1;
         public int sound;
         public int music;
 
         public string levelData;
         
-        public string playerDataJson;
+        public string playerDataJson = String.Empty;
 
     }
 }

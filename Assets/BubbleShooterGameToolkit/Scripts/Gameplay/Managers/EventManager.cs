@@ -12,6 +12,8 @@
 
 using System;
 using System.Collections.Generic;
+using BubbleShooterGameToolkit.Scripts.Ads;
+using BubbleShooterGameToolkit.Scripts.Ads.AdUnits;
 using BubbleShooterGameToolkit.Scripts.CommonUI;
 using BubbleShooterGameToolkit.Scripts.CommonUI.Popups;
 using BubbleShooterGameToolkit.Scripts.Enums;
@@ -88,6 +90,7 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
                     GetEvent<EStatus>(EGameEvent.Play).Invoke(newStatus);
                     break;
                 case EStatus.Win:
+                    AdsManager.instance.ShowAdByType(ScriptableObject.CreateInstance<AdReference>(), _ => { });
                     GameManager.instance.life.Add(1);
                     GetEvent<EStatus>(EGameEvent.Win).Invoke(newStatus);
                     break;
@@ -95,6 +98,7 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
                     MenuManager.instance.ShowPopup<MenuPause>();
                     break;
                 case EStatus.Fail:
+                    AdsManager.instance.ShowAdByType(ScriptableObject.CreateInstance<AdReference>(), _ => { });
                     if(LevelLoader.instance.CurrentLevel.levelMode == ELevelMode.Moves)
                         MenuManager.instance.ShowPopup<PreFail>(null, ResultActionOnFail);
                     else

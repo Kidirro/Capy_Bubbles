@@ -158,5 +158,14 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
             return false;
 #endif
         }
+
+        public void ShowInterstitialAd(AdReference adRef)
+        {
+#if! YandexGamesPlatfom_yg
+            YG2.InterstitialAdvShow();
+#else
+            
+#endif
+        }
     }
 }

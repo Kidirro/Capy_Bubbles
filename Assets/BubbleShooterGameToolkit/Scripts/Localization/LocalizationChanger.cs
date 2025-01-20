@@ -1,7 +1,9 @@
 using System;
+using System.Globalization;
 using BubbleShooterGameToolkit.Scripts.Gameplay.GUI;
 using UnityEngine;
 using UnityEngine.UI;
+using YG;
 #if YandexGamesPlatfom_yg
 using YG; 
 #endif
@@ -19,8 +21,32 @@ public class LocalizationChanger : MonoBehaviour
 
     void Awake()
     {
+        var defaultLocalize = Application.systemLanguage;
+        
 #if YandexGamesPlatfom_yg
-        language = (Language)YG2.saves.language;
+        switch (YG2.lang)
+        {
+         case "ru":
+             language = Language.Russia;
+             break;
+         case "tr":
+             language = Language.Tajikistan;
+             break;
+         default:
+             language = Language.English;
+             break;
+        }
+#else
+        language = defaultLocalize switch
+        {
+            SystemLanguage.Russian => Language.Russia,
+            _ => Language.English
+        };
+#endif        
+
+#if YandexGamesPlatfom_yg
+        if (YG2.saves.language != -1)
+            language = (Language)YG2.saves.language;
 #else
         if (PlayerPrefs.HasKey("Localization"))
             language = (Language)PlayerPrefs.GetInt("Localization");

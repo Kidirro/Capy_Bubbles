@@ -24,8 +24,10 @@ public class Model : MonoBehaviour
     void Start()
     {
         _telegram.onClick.AddListener(OpenTelegram);
-#if UNITY_EDITOR
+#if !UNITY_EDITOR
         Token("3fdf1266a04f9cf495e106a297a69d5307a38281");
+#elif YandexGamesPlatfom_yg
+        UpdateData();
 #else
         SendGetToken();
 #endif
@@ -281,7 +283,7 @@ public class PlayerData
 {
     public int gold = 0;
     public int hearts = 0;
-    public List<int> levels;
+    public List<int> levels = new ();
     public int[] boosters = new int[4];
     public int counterLevel = 0;
     public bool[] endGameFirstMapObjectsOpen = new bool[25];
