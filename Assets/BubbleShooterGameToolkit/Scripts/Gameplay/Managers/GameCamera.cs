@@ -90,7 +90,7 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
 
         public void SetVerticalLevel()
         {
-            Camera.orthographicSize = GameManager.instance.GameplaySettings.cameraSize / Screen.width * Screen.height / 2f;
+            //Camera.orthographicSize = GameManager.instance.GameplaySettings.cameraSize / Screen.width * Screen.height / 2f;
         }
 
         public void SetRoratingLevel(Ball _rotatingLevelBall, Vector3 _center, int levelSizeX, int levelSizeY)
@@ -152,9 +152,8 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
            if (starting && (Vector2.Distance(transform.position, dest) < 0.1f || transform.position == _safePos))
            {
                starting = false;
-               var pos = CalculateScreenBounds();
-               leftBorder.localPosition = new Vector3(pos.bottomLeft.x - 1f, 0, 0);
-               rightBorder.localPosition = new Vector3(pos.topRight.x + 1f, 0, 0);
+               //leftBorder.localPosition = new Vector3(pos.bottomLeft.x - 1f, 0, 0);
+               //rightBorder.localPosition = new Vector3(pos.topRight.x + 1f, 0, 0);
                if (LevelLoader.instance.CurrentLevel.levelType == ELevelTypes.Rotating)
                {
                    topBorder.position = new Vector3(0, topPivotUI.position.y, 0);
@@ -205,14 +204,15 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
         public (Vector3 topRight, Vector3 bottomLeft) CalculateScreenBounds()
         {
             float cameraHeight = 2f * Camera.orthographicSize;
+            
             float cameraWidth = cameraHeight * Camera.aspect;
 
             float halfHeight = cameraHeight * 0.35f;
             float halfWidth = cameraWidth * 0.5f;
 
             Vector3 cameraPosition = Camera.transform.position;
-            Vector3 topRight = cameraPosition + new Vector3(halfWidth-.5f, halfHeight, 0);
-            Vector3 bottomLeft = cameraPosition + new Vector3(-halfWidth+.5f, -halfHeight, 0);
+            Vector3 topRight = cameraPosition + new Vector3(rightBorder.localPosition.x - 1f, halfHeight, 0);
+            Vector3 bottomLeft = cameraPosition + new Vector3(leftBorder.localPosition.x + 1f, -halfHeight, 0);
 
             return (topRight, bottomLeft);
         }

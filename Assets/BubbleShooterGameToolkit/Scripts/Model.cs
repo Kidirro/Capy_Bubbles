@@ -13,9 +13,7 @@ using YG;
 
 public class Model : MonoBehaviour
 {
-    [SerializeField] private Button privacyOK;
     [SerializeField] private Button _telegram;
-    [SerializeField] private GameObject privacy;
     private static string token;
     public static PlayerData playerData;
 
@@ -24,25 +22,12 @@ public class Model : MonoBehaviour
     void Start()
     {
         _telegram.onClick.AddListener(OpenTelegram);
-#if !UNITY_EDITOR
+#if UNITY_EDITOR
         Token("3fdf1266a04f9cf495e106a297a69d5307a38281");
 #elif YandexGamesPlatfom_yg
         UpdateData();
 #else
         SendGetToken();
-#endif
-#if BEELINE
-        if (PlayerPrefs.GetFloat("firstOpen", 0) == 0)
-        {
-            privacy.SetActive(true);
-            privacyOK.onClick.AddListener(() =>
-            {
-                PlayerPrefs.SetFloat("firstOpen", 1);
-                privacy.SetActive(false);
-            });
-        }
-
-#else
 #endif
     }
     public async void Token(string token) // this calling from webview

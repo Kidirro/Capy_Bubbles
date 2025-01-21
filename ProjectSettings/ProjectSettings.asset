@@ -781,9 +781,9 @@ PlayerSettings:
   webGLWebAssemblyBigInt: 0
   webGLCloseOnQuit: 0
   scriptingDefineSymbols:
-    Android: PLUGIN_YG_2;Authorization_yg;InterstitialAdv_yg;Payments_yg;RewardedAdv_yg;Storage_yg;TMP_YG2;NJSON_YG2
+    Android: PLUGIN_YG_2;Authorization_yg;InterstitialAdv_yg;Payments_yg;RewardedAdv_yg;Storage_yg;TMP_YG2;NJSON_YG2;Localization_yg
     Standalone: BEELINE;PLUGIN_YG_2;Authorization_yg;InterstitialAdv_yg;Payments_yg;RewardedAdv_yg;Storage_yg;TMP_YG2;NJSON_YG2;beelinePlatform_yg
-    WebGL: BEELINE;PLUGIN_YG_2;NJSON_YG2;RewardedAdv_yg;InterstitialAdv_yg;Payments_yg;Authorization_yg;Storage_yg;TMP_YG2
+    WebGL: BEELINE;PLUGIN_YG_2;NJSON_YG2;RewardedAdv_yg;InterstitialAdv_yg;Payments_yg;Authorization_yg;Storage_yg;TMP_YG2;Localization_yg
     Windows Store Apps: 
     iPhone: 
   additionalCompilerArguments: {}
