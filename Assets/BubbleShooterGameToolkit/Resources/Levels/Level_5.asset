@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Level_5
   m_EditorClassIdentifier: 
   moves: 1
-  stars: e8030000d0070000b80b0000
+  stars: f401000020030000e8030000
   levelType: 0
   levelMode: 0
   targets:
