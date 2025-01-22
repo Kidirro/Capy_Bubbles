@@ -36,7 +36,6 @@ public class LocalizationChanger : MonoBehaviour
              language = Language.English;
              break;
         }
-        Debug.Log($"LocalizationChanger: Current language: {YG2.lang}");
 #else
         language = defaultLocalize switch
         {
@@ -52,6 +51,8 @@ public class LocalizationChanger : MonoBehaviour
         if (PlayerPrefs.HasKey("Localization"))
             language = (Language)PlayerPrefs.GetInt("Localization");
 #endif
+        
+        Debug.Log($"LocalizationChanger: Current OS language: {YG2.lang}. Save language: {language}");
         languageButton.onClick.AddListener(ChangeLanguage);
         localizeStorage.Init();
     }

@@ -7,6 +7,7 @@ using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.UI;
 #if PLUGIN_YG_2
+using Unity.Plastic.Newtonsoft.Json;
 using YG;
 #endif
 
@@ -69,17 +70,15 @@ public class Model : MonoBehaviour
             GameManager.instance.boosters[i].Set(i < playerData.boosters.Length ? playerData.boosters[i] : 0);
         }
 
-        if (PlayerPrefs.GetInt("Level", 1) < playerData.levels.Count + 1)
-            PlayerPrefs.SetInt("Level", playerData.levels.Count + 1);
-
 #if PLUGIN_YG_2
         for (int i = 1; i < playerData.levels.Count + 1; i++)
         {
-            GameDataManager.instance.SaveLevel(i, playerData.levels[i], false);
+            GameDataManager.instance.SaveLevel(i, playerData.levels[i - 1]);
         }
-
-        GameDataManager.instance.SaveLevel(1, playerData.levels.Count > 0 ? playerData.levels[0] : 0);
 #else
+
+        if (PlayerPrefs.GetInt("Level", 1) < playerData.levels.Count + 1)
+            PlayerPrefs.SetInt("Level", playerData.levels.Count + 1);
         for (int i = 1; i < playerData.levels.Count + 1; i++)
         {
             PlayerPrefs.SetInt("LevelScore" + i, playerData.levels[i - 1]);
@@ -95,7 +94,7 @@ public class Model : MonoBehaviour
             return JsonConvert.DeserializeObject<CatState>(PlayerPrefs.GetString("CatState"));
         }*/
 #if PLUGIN_YG_2
-        return YG2.saves.playerDataJson == "" ? new PlayerData() : JsonUtility.FromJson<PlayerData>(YG2.saves.playerDataJson);
+        return YG2.saves.playerDataJson == "" ? new PlayerData(false) :JsonConvert.DeserializeObject(YG2.saves.playerDataJson, typeof(PlayerData)) as PlayerData;
 
 #else
         var request = UnityWebRequest.Get(backend + "user");
@@ -200,14 +199,12 @@ public class Model : MonoBehaviour
             return JsonConvert.DeserializeObject<CatState>(PlayerPrefs.GetString("CatState"));
         }*/
         Debug.Log("SetSave");
-
+        GetData();
+        
 #if PLUGIN_YG_2
-        YG2.saves.playerDataJson = JsonUtility.ToJson(new PlayerSendData(playerData));
+        YG2.saves.playerDataJson = JsonConvert.SerializeObject(playerData);
         YG2.SaveProgress();
 #else
-
-
-        GetData();
         Debug.Log(JsonUtility.ToJson(new PlayerSendData(playerData)));
         var request = UnityWebRequest.Put(backend + "user", JsonUtility.ToJson(new PlayerSendData(playerData)));
         request.SetRequestHeader("accessToken", token);
@@ -295,14 +292,18 @@ public class PlayerData
     public PlayerData(bool toserver)
     {
         levels = new List<int>();
+#if PLUGIN_YG_2
+        
+        levels = JsonConvert.DeserializeObject(YG2.saves.levelData, typeof(List<int>)) as List<int> ?? new List<int>(){};
+#else        
         for (int i = 0; i < PlayerPrefs.GetInt("Level", 1); i++)
         {
             int value = PlayerPrefs.GetInt("LevelScore" + (i + 1), 0);
             if (value > 0)
                 levels.Add(value);
         }
+#endif
         boosters = new int[4];
-        counterLevel = Model.playerData.counterLevel;
         GameManager.instance.coins.LoadPrefs();
         GameManager.instance.life.LoadPrefs();
         for (int i = 0; i < GameManager.instance.boosters.Length; i++)
@@ -313,7 +314,16 @@ public class PlayerData
 
         gold = GameManager.instance.coins.GetResource();
         hearts = GameManager.instance.life.GetResource();
-        endGameFirstMapObjectsOpen = Model.playerData.endGameFirstMapObjectsOpen;
+        if (Model.playerData == null)
+        {
+            counterLevel = 0;
+            endGameFirstMapObjectsOpen = new bool[25];
+        }
+        else
+        {
+            counterLevel = Model.playerData.counterLevel;
+            endGameFirstMapObjectsOpen = Model.playerData.endGameFirstMapObjectsOpen;
+        }
     }
     public PlayerData()
     {

@@ -12,7 +12,8 @@ namespace YG
         public int sound;
         public int music;
 
-        public string levelData;
+        public string levelData = String.Empty;
+        public int laslLevel = 1; 
         
         public string playerDataJson = String.Empty;
 

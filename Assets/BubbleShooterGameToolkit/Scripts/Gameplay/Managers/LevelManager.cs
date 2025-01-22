@@ -13,6 +13,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using BubbleShooterGameToolkit.Scripts.Ads;
 using BubbleShooterGameToolkit.Scripts.Ads.AdUnits;
 using BubbleShooterGameToolkit.Scripts.CommonUI;
 using BubbleShooterGameToolkit.Scripts.CommonUI.Popups;
@@ -274,7 +275,7 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
             GameDataManager.instance.SaveLevel(CurrentLevel, ScoreManager.instance.GetScore());
 
             MenuManager.instance.ShowPopup<MenuWin>();
-            AdsManager.instance.ShowAdByType(ScriptableObject.CreateInstance<AdReference>(), _ => { });
+            AdsManager.instance.ShowAdByType(new AdReference(){adType = EAdType.Interstitial}, _ => { });
         }
 
         /// Process actions after a thrown ball stopped

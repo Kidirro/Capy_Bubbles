@@ -12,6 +12,7 @@
 
 using System;
 using System.Collections.Generic;
+using BubbleShooterGameToolkit.Scripts.Ads;
 using BubbleShooterGameToolkit.Scripts.Ads.AdUnits;
 using BubbleShooterGameToolkit.Scripts.CommonUI.Popups;
 using BubbleShooterGameToolkit.Scripts.Settings;
@@ -127,7 +128,15 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
         public void ShowAdByType(AdReference adRef, Action<string> shown)
         {
 #if PLUGIN_YG_2
-            YG2.RewardedAdvShow("", () => shown.Invoke(""));
+            switch (adRef.adType)
+            {
+                case EAdType.Rewarded:
+                    YG2.RewardedAdvShow("", () => shown.Invoke(""));
+                    break;
+                case EAdType.Interstitial:
+                    YG2.InterstitialAdvShow();
+                    break;
+            }
 #else
             foreach (var adUnit in adUnits)
             {

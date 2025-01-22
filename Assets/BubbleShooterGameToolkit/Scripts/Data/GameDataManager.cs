@@ -14,6 +14,7 @@ using System;
 using System.Collections.Generic;
 using BubbleShooterGameToolkit.Scripts.Gameplay.Managers;
 using BubbleShooterGameToolkit.Scripts.System;
+using Unity.Plastic.Newtonsoft.Json;
 using UnityEngine;
 using YG;
 
@@ -21,11 +22,8 @@ namespace BubbleShooterGameToolkit.Scripts.Data
 {
     public class GameDataManager : SingletonBehaviour<GameDataManager>
     {
-        [HideInInspector]
-        public int Level;
+        [HideInInspector] public int Level;
         
-        public Dictionary<int, int> LevelScores = new Dictionary<int, int>();
-
         private void OnEnable()
         {
             UpdateLevel();
@@ -42,23 +40,29 @@ namespace BubbleShooterGameToolkit.Scripts.Data
             Level = PlayerPrefs.GetInt("Level", 1);
         }
 
-        public void SaveLevel(int levelNumber, int score, bool isNeedSave = true)
+        public void SaveLevel(int levelNumber, int score)
         {
-#if PLUGIN_YG_2
-            LevelScores[levelNumber] = score;
-            if (isNeedSave)
-            {
-                YG2.saves.levelData = JsonUtility.ToJson(LevelScores);
-                YG2.SaveProgress();
-            }
-#else
             if (Model.playerData.levels.Count >= EndGameMap.LAST_LEVEL)
             {
-               Model.playerData.counterLevel++;
+                Model.playerData.counterLevel++;
             }
             else
             {
                 Level = levelNumber + 1;
+
+#if PLUGIN_YG_2
+                var levellast = YG2.saves.laslLevel;
+                if (levellast < Level)
+                {
+                    YG2.saves.laslLevel = Level;
+                    Model.playerData.levels.Add(score);
+                }
+                
+                YG2.saves.levelData = JsonConvert.SerializeObject(Model.playerData.levels);
+                YG2.SaveProgress();
+                Model.SetSave();
+#else
+
                 var levellast = PlayerPrefs.GetInt("Level", 1);
                 if (levellast < Level)
                 {
@@ -71,9 +75,10 @@ namespace BubbleShooterGameToolkit.Scripts.Data
             //{
             //    PlayerPrefs.SetInt("LevelScore" + levelNumber, score);
             //}
-            GameManager.instance.coins.Add(1);
             PlayerPrefs.Save();
 #endif
+                //GameManager.instance.coins.Add(1);
+            }
         }
     }
 }

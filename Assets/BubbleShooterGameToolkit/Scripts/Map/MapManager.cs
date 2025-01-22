@@ -19,6 +19,7 @@ using BubbleShooterGameToolkit.Scripts.Data;
 using BubbleShooterGameToolkit.Scripts.System;
 using DG.Tweening;
 using UnityEngine;
+using YG;
 
 namespace BubbleShooterGameToolkit.Scripts.Map
 {
@@ -41,7 +42,12 @@ namespace BubbleShooterGameToolkit.Scripts.Map
         {
             gameObject.SetActive(true);
             var lvls = FindObjectsOfType<LevelPin>().OrderBy(x => x.number).ToArray();
-            var lastLevel = PlayerPrefs.GetInt("Level", 1);
+            var lastLevel =
+#if PLUGIN_YG_2
+                YG2.saves.laslLevel;          
+#else                
+                PlayerPrefs.GetInt("Level", 1);
+#endif
             foreach (var levelPin in lvls)
             {
                 if (levelPin.number > lastLevel)
@@ -49,7 +55,8 @@ namespace BubbleShooterGameToolkit.Scripts.Map
                 else
                 {
                     openedLevels.Add(levelPin);
-                    levelPin.SetScore(PlayerPrefs.GetInt("LevelScore" + levelPin.number, 0));
+                    var score = levelPin.number - 1 >= Model.playerData.levels.Count ? 0 : Model.playerData.levels[levelPin.number - 1];
+                    levelPin.SetScore(score);
                 }
             }
             OnLastLevelPosition?.Invoke(openedLevels[^1].transform.position);

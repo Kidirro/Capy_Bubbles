@@ -113,7 +113,7 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
         {
             if (result == EPopupResult.Cancel)
             {
-                AdsManager.instance.ShowAdByType(ScriptableObject.CreateInstance<AdReference>(), _ => { });
+                AdsManager.instance.ShowAdByType(new AdReference(){adType = EAdType.Interstitial}, _ => { });
                 MenuManager.instance.ShowPopup<MenuFail>();
             }
             else if (result == EPopupResult.Continue)

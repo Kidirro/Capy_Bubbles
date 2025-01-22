@@ -108,6 +108,7 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
 
         private IEnumerator StartSpin()
         {
+            closeButton.gameObject.SetActive(false);
             freeSpinButton.interactable = false;
             buySpinButton.interactable = false;
             rewardedAdButton.interactable = false;
@@ -130,6 +131,7 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
             yield return new WaitWhile(() => rb.angularVelocity != 0);
             isSpinning = false;
             CheckReward(GetWinReward());
+            closeButton.gameObject.SetActive(true);
         }
         
         private void Update()
