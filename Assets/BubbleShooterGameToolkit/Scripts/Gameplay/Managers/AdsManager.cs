@@ -112,7 +112,7 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
                     if (((open && adElement.popup.showOnOpen) || (!open && adElement.popup.showOnClose)) &&
                         popup.GetType() == adElement.popup.popup.GetType())
                     {
-#if YandexGamesPlatfom_yg
+#if PLUGIN_YG_2
                         YG2.RewardedAdvShow("", ()=>adUnit.OnShown.Invoke(""));  
 #else
                         adUnit.Show();
@@ -126,7 +126,7 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
 
         public void ShowAdByType(AdReference adRef, Action<string> shown)
         {
-#if YandexGamesPlatfom_yg
+#if PLUGIN_YG_2
             YG2.RewardedAdvShow("", () => shown.Invoke(""));
 #else
             foreach (var adUnit in adUnits)
@@ -144,7 +144,7 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
 
         public bool IsRewardedAvailable(AdReference adRef)
         {
-#if YandexGamesPlatfom_yg
+#if PLUGIN_YG_2
             return true;
 #else
             foreach (var adUnit in adUnits)
@@ -161,7 +161,7 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
 
         public void ShowInterstitialAd(AdReference adRef)
         {
-#if! YandexGamesPlatfom_yg
+#if! PLUGIN_YG_2
             YG2.InterstitialAdvShow();
 #else
             

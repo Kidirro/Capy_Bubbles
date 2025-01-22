@@ -119,14 +119,7 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
 
         private bool IsTouchStarted(bool down)
         {
-            #if UNITY_EDITOR || UNITY_STANDALONE 
-            if (down)
-            {
-                return Input.GetMouseButton(0) && !EventSystem.current.IsPointerOverGameObject();
-            }
-
-            return Input.GetMouseButtonUp(0) && !EventSystem.current.IsPointerOverGameObject();
-            #else
+#if UNITY_ANDROID || UNITY_IOS
             if (Input.touchCount > 0 && !EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId))
             {
                 if (down)
@@ -144,7 +137,14 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
                 }
             }
             return false;
-            #endif
+#else
+            if (down)
+            {
+                return Input.GetMouseButton(0) && !EventSystem.current.IsPointerOverGameObject();
+            }
+
+            return Input.GetMouseButtonUp(0) && !EventSystem.current.IsPointerOverGameObject();
+#endif
         }
 
         private static bool IsPhaseTouching()

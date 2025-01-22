@@ -90,7 +90,6 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
                     GetEvent<EStatus>(EGameEvent.Play).Invoke(newStatus);
                     break;
                 case EStatus.Win:
-                    AdsManager.instance.ShowAdByType(ScriptableObject.CreateInstance<AdReference>(), _ => { });
                     GameManager.instance.life.Add(1);
                     GetEvent<EStatus>(EGameEvent.Win).Invoke(newStatus);
                     break;
@@ -98,7 +97,6 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
                     MenuManager.instance.ShowPopup<MenuPause>();
                     break;
                 case EStatus.Fail:
-                    AdsManager.instance.ShowAdByType(ScriptableObject.CreateInstance<AdReference>(), _ => { });
                     if(LevelLoader.instance.CurrentLevel.levelMode == ELevelMode.Moves)
                         MenuManager.instance.ShowPopup<PreFail>(null, ResultActionOnFail);
                     else
@@ -115,6 +113,7 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
         {
             if (result == EPopupResult.Cancel)
             {
+                AdsManager.instance.ShowAdByType(ScriptableObject.CreateInstance<AdReference>(), _ => { });
                 MenuManager.instance.ShowPopup<MenuFail>();
             }
             else if (result == EPopupResult.Continue)

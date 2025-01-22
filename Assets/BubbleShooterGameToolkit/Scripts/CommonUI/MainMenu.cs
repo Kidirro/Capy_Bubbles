@@ -10,19 +10,28 @@
 // // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // // THE SOFTWARE.
 
+using System;
 using BubbleShooterGameToolkit.Scripts.System;
 using UnityEngine;
 using UnityEngine.UI;
+
+#if PLUGIN_YG_2
+using YG;
+#endif
 
 namespace BubbleShooterGameToolkit.Scripts.CommonUI
 {
     public class MainMenu : MonoBehaviour
     {
         [SerializeField] private Button playButton;
-
+        
         private void Start()
         {
             playButton.onClick.AddListener(StartGame);
+            
+#if PLUGIN_YG_2
+                YG2.GameReadyAPI();
+#endif
         }
 
         private void StartGame()

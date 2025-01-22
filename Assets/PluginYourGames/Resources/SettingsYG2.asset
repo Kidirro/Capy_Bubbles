@@ -26,36 +26,56 @@ MonoBehaviour:
     postponeCallByFail: 0
     postponeCallTimer: 10
     labelAdvSimLabel: 0
+  Localization:
+    setLanguageMod: 1
   Payments:
     testBuyFail: 0
     purshases:
-    - id: gun
-      title: Gun
-      description: Product - Gun
-      imageURI: demo image
-      price: 5 YAN
-      priceValue: 5
-      priceCurrencyCode: YAN
-      currencyImageURL: https://yastatic.net/s3/games-static/static-data/images/payments/sdk/currency-icon-s@2x.png
-      consumed: 1
-    - id: armor
-      title: Armor
-      description: Product - Armor
-      imageURI: demo image
-      price: 10 YAN
-      priceValue: 10
-      priceCurrencyCode: YAN
-      currencyImageURL: https://yastatic.net/s3/games-static/static-data/images/payments/sdk/currency-icon-s@2x.png
-      consumed: 1
-    - id: grenade
-      title: Grenade
-      description: Product - Grenade
-      imageURI: demo image
-      price: 30 YAN
-      priceValue: 30
-      priceCurrencyCode: YAN
-      currencyImageURL: https://yastatic.net/s3/games-static/static-data/images/payments/sdk/currency-icon-s@2x.png
-      consumed: 1
+    - id: Coins_10
+      title: 
+      description: 
+      imageURI: 
+      price: 30
+      priceValue: 
+      priceCurrencyCode: 
+      currencyImageURL: 
+      consumed: 0
+    - id: Coins_20
+      title: 
+      description: 
+      imageURI: 
+      price: 57
+      priceValue: 
+      priceCurrencyCode: 
+      currencyImageURL: 
+      consumed: 0
+    - id: Coins_40
+      title: 
+      description: 
+      imageURI: 
+      price: 108
+      priceValue: 
+      priceCurrencyCode: 
+      currencyImageURL: 
+      consumed: 0
+    - id: Coins_80
+      title: 
+      description: 
+      imageURI: 
+      price: 204
+      priceValue: 
+      priceCurrencyCode: 
+      currencyImageURL: 
+      consumed: 0
+    - id: Coins_160
+      title: 
+      description: 
+      imageURI: 
+      price: 384
+      priceValue: 
+      priceCurrencyCode: 
+      currencyImageURL: 
+      consumed: 0
   RewardedAdv:
     rewardedAfterClosing: 1
     skipInterAdvAfterReward: 0
@@ -66,9 +86,9 @@ MonoBehaviour:
     saveCloudInterval: 0
     flush: 0
   Basic:
-    platform: {fileID: 0}
+    platform: {fileID: 11400000, guid: c2a303d33a9fd394bae4c4b88b9a1c44, type: 2}
     autoApplySettings: 1
-    autoPauseGame: 1
+    autoPauseGame: 0
     editEventSystem: 1
     autoGRA: 1
     logInEditor: 1
@@ -76,6 +96,7 @@ MonoBehaviour:
     syncInitSDK: 0
     loadSceneIfSDKLate: 0
     loadSceneIndex: 0
+    simulationLoadScene: 0
   Simulation:
     device: 0
     language: ru
@@ -94,7 +115,9 @@ MonoBehaviour:
     customProgressBar: 1
     progressBarSettigs:
       round: 1
+      roundAngle: 10
       width: 30
+      height: 24
       color1: {r: 0.25, g: 0.6392, b: 1, a: 1}
       color2: {r: 1, g: 0.831, b: 0.149, a: 0.7}
     fixedAspectRatio: 0
@@ -108,6 +131,8 @@ MonoBehaviour:
     pixelRatioEnable: 0
     pixelRatioValue: 1.3
     developerBuild: 0
+  platformInfo:
+    ownHost: 0
   platformToggles:
     showFirstAdv: 0
     interAdvInterval: 0
@@ -119,6 +144,7 @@ MonoBehaviour:
     compressionFormat: 1
     decompressionFallback: 1
     autoGraphicsAPI: 1
+    minimalCodeCompression: 1
     dataCaching: 0
     colorSpace: 0
     archivingBuild: 0

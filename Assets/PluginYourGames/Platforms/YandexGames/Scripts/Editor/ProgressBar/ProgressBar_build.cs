@@ -1,4 +1,5 @@
-﻿#if YandexGamesPlatform_yg
+﻿#if UNITY_EDITOR
+#if YandexGamesPlatform_yg
 using UnityEngine;
 
 namespace YG.EditorScr.BuildModify
@@ -41,4 +42,5 @@ namespace YG.EditorScr.BuildModify
         }
     }
 }
+#endif
 #endif

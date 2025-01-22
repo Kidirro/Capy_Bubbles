@@ -6,14 +6,13 @@ using BubbleShooterGameToolkit.Scripts.System;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.UI;
-using YG;
-#if YandexGamesPlatfom_yg
+#if PLUGIN_YG_2
 using YG;
 #endif
 
 public class Model : MonoBehaviour
 {
-    [SerializeField] private Button _telegram;
+    //[SerializeField] private Button _telegram;
     private static string token;
     public static PlayerData playerData;
 
@@ -21,10 +20,10 @@ public class Model : MonoBehaviour
     private static string telegram = "https://t.me/Rozi_cat";
     void Start()
     {
-        _telegram.onClick.AddListener(OpenTelegram);
+        //_telegram.onClick.AddListener(OpenTelegram);
 #if UNITY_EDITOR
         Token("3fdf1266a04f9cf495e106a297a69d5307a38281");
-#elif YandexGamesPlatfom_yg
+#elif PLUGIN_YG_2
         UpdateData();
 #else
         SendGetToken();
@@ -73,12 +72,13 @@ public class Model : MonoBehaviour
         if (PlayerPrefs.GetInt("Level", 1) < playerData.levels.Count + 1)
             PlayerPrefs.SetInt("Level", playerData.levels.Count + 1);
 
-#if YandexGamesPlatfom_yg
+#if PLUGIN_YG_2
         for (int i = 1; i < playerData.levels.Count + 1; i++)
         {
             GameDataManager.instance.SaveLevel(i, playerData.levels[i], false);
-        } 
-        GameDataManager.instance.SaveLevel(1, playerData.levels[0]);
+        }
+
+        GameDataManager.instance.SaveLevel(1, playerData.levels.Count > 0 ? playerData.levels[0] : 0);
 #else
         for (int i = 1; i < playerData.levels.Count + 1; i++)
         {
@@ -94,7 +94,7 @@ public class Model : MonoBehaviour
         {
             return JsonConvert.DeserializeObject<CatState>(PlayerPrefs.GetString("CatState"));
         }*/
-#if YandexGamesPlatfom_yg
+#if PLUGIN_YG_2
         return YG2.saves.playerDataJson == "" ? new PlayerData() : JsonUtility.FromJson<PlayerData>(YG2.saves.playerDataJson);
 
 #else
@@ -122,6 +122,25 @@ public class Model : MonoBehaviour
         {
             return JsonConvert.DeserializeObject<CatState>(PlayerPrefs.GetString("CatState"));
         }*/
+#if PLUGIN_YG_2
+       var shop = new Shop();
+       
+       var listProducts = new List<ProductShop>();
+
+       for (int i = 0; i < YG2.purchases.Length; i++)
+       {
+           var productShop = new ProductShop();
+           productShop.id = YG2.purchases[i].id;
+           productShop.price = YG2.purchases[i].price;
+           productShop.gold =int.Parse(YG2.purchases[i].id.Split("_")[^1]);
+           
+           listProducts.Add(productShop);
+       }
+    
+       shop.products = listProducts.ToArray();
+       return shop;
+
+#else
         var request = UnityWebRequest.Get(backend + "product");
         await request.SendWebRequest();
         switch (request.responseCode)
@@ -138,7 +157,7 @@ public class Model : MonoBehaviour
                 Debug.Log("Error: " + request.responseCode + " Message: " + request.downloadHandler.error);
                 return null;
         }
-
+#endif
     }
 
     public static async Task BuyProduct(string id)
@@ -182,7 +201,7 @@ public class Model : MonoBehaviour
         }*/
         Debug.Log("SetSave");
 
-#if YandexGamesPlatfom_yg
+#if PLUGIN_YG_2
         YG2.saves.playerDataJson = JsonUtility.ToJson(new PlayerSendData(playerData));
         YG2.SaveProgress();
 #else

@@ -13,7 +13,7 @@
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
-#if YandexGamesPlatfom_yg
+#if PLUGIN_YG_2
 #endif
 using YG; 
 
@@ -49,7 +49,7 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
 		{
 			int musicInt = 0;
 			int soundInt = 0;
-#if YandexGamesPlatfom_yg
+#if PLUGIN_YG_2
 			soundInt = YG2.saves.sound;
 			musicInt = YG2.saves.music;
 #else
@@ -75,7 +75,7 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
 
 		private void ToggleMusic()
 		{
-#if YandexGamesPlatfom_yg
+#if PLUGIN_YG_2
 			int music = YG2.saves.music;
 			YG2.saves.music = music == 0f ? 1 : 0;
 			YG2.SaveProgress();
@@ -88,7 +88,7 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
 
 		private void ToggleSound()
 		{
-#if YandexGamesPlatfom_yg
+#if PLUGIN_YG_2
 			int sound = YG2.saves.sound;
 			YG2.saves.sound = sound == 0f ? 1 : 0;
 			YG2.SaveProgress();

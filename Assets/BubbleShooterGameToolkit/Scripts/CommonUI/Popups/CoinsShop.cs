@@ -10,13 +10,12 @@
 // // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // // THE SOFTWARE.
 
+using System;
 using System.Linq;
 using BubbleShooterGameToolkit.Scripts.Services;
 using BubbleShooterGameToolkit.Scripts.Settings;
 using BubbleShooterGameToolkit.Scripts.System;
-using RuStore.BillingClient;
 using UnityEngine;
-using YG;
 
 namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
 {
@@ -26,23 +25,9 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
         public ItemPurchase[] packs;
         private ShopSettings shopSettings;
 
-        protected override void Awake()
-        {
-            
-#if UNITY_ANDROID
-            RuStoreBillingClient.Instance.Init();
-#endif
-        }
-
         private async void OnEnable()
         {
             shopSettings = Resources.Load<ShopSettings>("Settings/ShopSettings");
-            
-#if YandexGamesPlatfom_yg
-            YG2.onPurchaseSuccess += PurchaseSucceded;            
-#endif
-
-            
             
 #if BEELINE
             Shop data = await Model.GetShopProduts();
@@ -77,9 +62,6 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
 
         private void OnDisable()
         {
-#if YandexGamesPlatfom_yg
-            YG2.onPurchaseSuccess -= PurchaseSucceded;
-#endif
             GameManager.instance.purchaseSucceded -= PurchaseSucceded;
         }
 
@@ -87,40 +69,15 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
         {
             topPanel.AnimateCoins(packs.First(i => i.settingsShopItem.coins == count).BuyItemButton.transform.position, "+" + count, null);
         }
-        
-        private void PurchaseSucceded(string id)
-        {
-            PurchaseSucceded(packs.First(x=>x.id==id).settingsShopItem.coins);
-        }
-
         public async void BuyCoins(string id)
         {
-#if YandexGamesPlatfom_yg
-            YG2.PurchaseByID(id);
-#elif UNITY_ANDROID            
-            RuStoreBillingClient.Instance.PurchaseProduct(
-                productId: id,
-                quantity: 1,
-                developerPayload: "test payload",
-                onFailure: _ => { },
-                onSuccess: (result) => {
-                    bool isSandbox = false;
-                    switch (result) {
-                        case PaymentSuccess paymentSuccess:
-                            PurchaseSucceded(id);
-                            break;
-                        case PaymentCancelled paymentCancelled:
-                        case PaymentFailure paymentFailure:
-                            break;
-                    }
-                });
+#if PLUGIN_YG_2 || UNITY_ANDROID || UNITY_IOS
+            IAPManager.instance.BuyProduct(id);
 #elif BEELINE
             awaitPanel.SetActive(true);
             await Model.BuyProduct(id);
-            PurchaseSucceded(id);
+            PurchaseSucceded(Convert.ToInt32(id));
             awaitPanel.SetActive(false);
-#else
-            IAPManager.instance.BuyProduct(id);
 #endif
         }
     }

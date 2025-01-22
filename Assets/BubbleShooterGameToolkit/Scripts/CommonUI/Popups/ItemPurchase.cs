@@ -31,16 +31,23 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
         private void OnEnable()
         {
             BuyItemButton.onClick.AddListener(BuyCoins);
+#if PLUGIN_YG_2
+            price.text = _price;
+#else
             decimal priceValue = IAPManager.instance.GetProductLocalizedPrice(settingsShopItem.productID);
             if (priceValue > 0.01m)
             {
                 price.text = IAPManager.instance.GetProductLocalizedPriceString(settingsShopItem.productID);
             }
+#endif
         }
 
         private void BuyCoins()
         {
-#if BEELINE
+            
+#if PLUGIN_YG_2
+            GetComponentInParent<CoinsShop>().BuyCoins(settingsShopItem.productID);
+#elif BEELINE
             BubbleShooterGameToolkit.Scripts.CommonUI.MenuManager.instance.ShowPopup<BubbleShooterGameToolkit.Scripts.CommonUI.Popups.BuyInfoPopup>().SetText(count.text, _price.ToString(), () =>
             GetComponentInParent<CoinsShop>().BuyCoins(id));
 

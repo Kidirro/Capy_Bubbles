@@ -4,7 +4,7 @@ using BubbleShooterGameToolkit.Scripts.Gameplay.GUI;
 using UnityEngine;
 using UnityEngine.UI;
 using YG;
-#if YandexGamesPlatfom_yg
+#if PLUGIN_YG_2
 using YG; 
 #endif
 
@@ -23,7 +23,7 @@ public class LocalizationChanger : MonoBehaviour
     {
         var defaultLocalize = Application.systemLanguage;
         
-#if YandexGamesPlatfom_yg
+#if PLUGIN_YG_2
         switch (YG2.lang)
         {
          case "ru":
@@ -36,6 +36,7 @@ public class LocalizationChanger : MonoBehaviour
              language = Language.English;
              break;
         }
+        Debug.Log($"LocalizationChanger: Current language: {YG2.lang}");
 #else
         language = defaultLocalize switch
         {
@@ -44,7 +45,7 @@ public class LocalizationChanger : MonoBehaviour
         };
 #endif        
 
-#if YandexGamesPlatfom_yg
+#if PLUGIN_YG_2
         if (YG2.saves.language != -1)
             language = (Language)YG2.saves.language;
 #else
@@ -67,7 +68,7 @@ public class LocalizationChanger : MonoBehaviour
         languageImage.sprite = flags[(int)language];
         languageActions?.Invoke(language);
         
-#if YandexGamesPlatfom_yg
+#if PLUGIN_YG_2
         YG2.saves.language = (int)language;
         YG2.SaveProgress();
 #else

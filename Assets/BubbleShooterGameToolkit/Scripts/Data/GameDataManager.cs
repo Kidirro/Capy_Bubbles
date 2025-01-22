@@ -44,7 +44,7 @@ namespace BubbleShooterGameToolkit.Scripts.Data
 
         public void SaveLevel(int levelNumber, int score, bool isNeedSave = true)
         {
-#if YandexGamesPlatfom_yg
+#if PLUGIN_YG_2
             LevelScores[levelNumber] = score;
             if (isNeedSave)
             {

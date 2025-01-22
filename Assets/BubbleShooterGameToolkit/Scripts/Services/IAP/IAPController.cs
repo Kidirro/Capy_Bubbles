@@ -13,6 +13,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using YG;
 #if UNITY_PURCHASING
 using UnityEngine.Purchasing;
 using UnityEngine.Purchasing.Extension;
@@ -42,7 +43,15 @@ namespace BubbleShooterGameToolkit.Scripts.Services
                 builder.AddProduct(productId, ProductType.Consumable);
             }
 
+            
+            
+#if PLUGIN_YG_2
+            YG2.onPurchaseSuccess += PurchaseSucceded;            
+#elif UNITY_ANDROID
+            RuStoreBillingClient.Instance.Init();
+#else
             UnityPurchasing.Initialize(this, builder);
+#endif
         }
 
         public bool IsInitialized()
@@ -52,6 +61,27 @@ namespace BubbleShooterGameToolkit.Scripts.Services
 
         public void BuyProduct(string productId)
         {
+            
+#if PLUGIN_YG_2
+            YG2.BuyPayments(productId);
+#elif UNITY_ANDROID            
+            RuStoreBillingClient.Instance.PurchaseProduct(
+                productId: id,
+                quantity: 1,
+                developerPayload: "test payload",
+                onFailure: _ => { },
+                onSuccess: (result) => {
+                    bool isSandbox = false;
+                    switch (result) {
+                        case PaymentSuccess paymentSuccess:
+                            PurchaseSucceded(id);
+                            break;
+                        case PaymentCancelled paymentCancelled:
+                        case PaymentFailure paymentFailure:
+                            break;
+                    }
+                });
+#else
             try
             {
                 if (IsInitialized())
@@ -77,6 +107,7 @@ namespace BubbleShooterGameToolkit.Scripts.Services
             {
                 Debug.Log("BuyProductID: FAIL. Exception during purchase. " + e);
             }
+#endif
         }
         
         public decimal GetProductLocalizedPrice(string productId)
@@ -131,6 +162,14 @@ namespace BubbleShooterGameToolkit.Scripts.Services
         public void OnInitializeFailed(InitializationFailureReason error, string message)
         {
             Debug.Log("OnInitializeFailed InitializationFailureReason:" + error + " message: " + message);
+        }
+
+        public void PurchaseSucceded(string id)
+        {
+            
+            Debug.Log($"ProcessPurchase: PASS. Product: '{id}'");
+        
+            OnSuccessfulPurchase?.Invoke(id);
         }
 
         public PurchaseProcessingResult ProcessPurchase(PurchaseEventArgs args)

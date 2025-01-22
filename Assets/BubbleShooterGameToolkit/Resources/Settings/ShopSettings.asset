@@ -13,18 +13,18 @@ MonoBehaviour:
   m_Name: ShopSettings
   m_EditorClassIdentifier: 
   shopItems:
-  - productID: product_1
+  - productID: Coins_10
     coins: 10
     discountPercent: 0
-  - productID: product_2
+  - productID: Coins_20
     coins: 20
     discountPercent: 5
-  - productID: product_3
+  - productID: Coins_40
     coins: 40
     discountPercent: 10
-  - productID: product_4
+  - productID: Coins_80
     coins: 80
     discountPercent: 15
-  - productID: product_5
+  - productID: Coins_160
     coins: 160
     discountPercent: 20

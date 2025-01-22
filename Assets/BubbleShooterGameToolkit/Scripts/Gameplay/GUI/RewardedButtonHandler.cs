@@ -28,6 +28,8 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.GUI
         [SerializeField]
         private UnityEvent onRewardedAdComplete;
 
+        private static bool isAdShowed = false; 
+
         private void Awake()
         {
             rewardedButton.onClick.AddListener(ShowRewardedAd);
@@ -40,12 +42,13 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.GUI
 
         private void CheckActivation()
         {
-            rewardedButton.gameObject.SetActive(AdsManager.instance.IsRewardedAvailable(adReference));
+            rewardedButton.gameObject.SetActive(AdsManager.instance.IsRewardedAvailable(adReference) && !isAdShowed);
         }
 
         private void ShowRewardedAd()
         {
             AdsManager.instance.ShowAdByType(adReference, _ => onRewardedAdComplete?.Invoke());
+            isAdShowed = true;
             CheckActivation();
         }
     }

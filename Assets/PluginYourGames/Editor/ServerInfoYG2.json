@@ -8,7 +8,7 @@
     "modules": [
         {
             "name": "PluginYG2",
-            "version": "2.003",
+            "version": "2.0031",
             "download": "https://max-games.ru/public/pluginYG2/other/PluginYG2.unitypackage",
             "doc": "https://max-games.ru/plugin-yg/doc/"
         },
@@ -29,7 +29,7 @@
         },
         {
             "name": "InterstitialAdv",
-            "version": "1.0",
+            "version": "1.001",
             "download": "https://max-games.ru/public/pluginYG2/modules/InterstitialAdv.unitypackage",
             "doc": "https://max-games.ru/plugin-yg/doc/inter-ad/"
         },

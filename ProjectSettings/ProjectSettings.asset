@@ -754,7 +754,7 @@ PlayerSettings:
   blurSplashScreenBackground: 1
   spritePackerPolicy: 
   webGLMemorySize: 32
-  webGLExceptionSupport: 1
+  webGLExceptionSupport: 2
   webGLNameFilesAsHashes: 0
   webGLShowDiagnostics: 0
   webGLDataCaching: 1
@@ -764,11 +764,11 @@ PlayerSettings:
   webGLTemplate: PROJECT:YandexGames
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
-  webGLCompressionFormat: 1
+  webGLCompressionFormat: 0
   webGLWasmArithmeticExceptions: 0
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
-  webGLDecompressionFallback: 1
+  webGLDecompressionFallback: 0
   webGLInitialMemorySize: 32
   webGLMaximumMemorySize: 2048
   webGLMemoryGrowthMode: 2
@@ -783,7 +783,7 @@ PlayerSettings:
   scriptingDefineSymbols:
     Android: PLUGIN_YG_2;Authorization_yg;InterstitialAdv_yg;Payments_yg;RewardedAdv_yg;Storage_yg;TMP_YG2;NJSON_YG2;Localization_yg
     Standalone: BEELINE;PLUGIN_YG_2;Authorization_yg;InterstitialAdv_yg;Payments_yg;RewardedAdv_yg;Storage_yg;TMP_YG2;NJSON_YG2;beelinePlatform_yg
-    WebGL: BEELINE;PLUGIN_YG_2;NJSON_YG2;RewardedAdv_yg;InterstitialAdv_yg;Payments_yg;Authorization_yg;Storage_yg;TMP_YG2;Localization_yg
+    WebGL: BEELINE;PLUGIN_YG_2;NJSON_YG2;RewardedAdv_yg;InterstitialAdv_yg;Payments_yg;Authorization_yg;Storage_yg;TMP_YG2;Localization_yg;YandexGamesPlatform_yg
     Windows Store Apps: 
     iPhone: 
   additionalCompilerArguments: {}
@@ -795,7 +795,7 @@ PlayerSettings:
     WebGL: 0
   il2cppStacktraceInformation: {}
   managedStrippingLevel:
-    WebGL: 1
+    WebGL: 4
   incrementalIl2cppBuild: {}
   suppressCommonWarnings: 1
   allowUnsafeCode: 0

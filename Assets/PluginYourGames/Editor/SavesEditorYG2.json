@@ -1,0 +1,16 @@
+{
+    "intExample": 5,
+    "strExample": "Hello!",
+    "boolExample": [
+        false,
+        false,
+        false,
+        false
+    ],
+    "idSave": 51,
+    "language": -1,
+    "sound": 0,
+    "music": 0,
+    "levelData": "{}",
+    "playerDataJson": "{\"gold\":0,\"hearts\":0,\"levels\":\"[]\",\"boosters\":\"]\",\"counterLevel\":0,\"endGameFirstMapObjectsOpen\":\"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]\"}"
+}

@@ -32,7 +32,7 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
 
         public override void AfterShowAnimation()
         {
-            topPanel.gameObject.SetActive(true);
+            topPanel?.gameObject.SetActive(true);
             base.AfterShowAnimation();
         }
 
