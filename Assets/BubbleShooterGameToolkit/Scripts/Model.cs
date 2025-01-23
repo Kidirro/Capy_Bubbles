@@ -7,7 +7,7 @@ using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.UI;
 #if PLUGIN_YG_2
-using Unity.Plastic.Newtonsoft.Json;
+using Newtonsoft.Json;
 using YG;
 #endif
 

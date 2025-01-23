@@ -14,7 +14,7 @@ using System;
 using System.Collections.Generic;
 using BubbleShooterGameToolkit.Scripts.Gameplay.Managers;
 using BubbleShooterGameToolkit.Scripts.System;
-using Unity.Plastic.Newtonsoft.Json;
+using Newtonsoft.Json;
 using UnityEngine;
 using YG;
 
