@@ -7,11 +7,11 @@
         false,
         false
     ],
-    "idSave": 1,
+    "idSave": 6,
     "language": -1,
     "sound": 0,
     "music": 0,
-    "levelData": "",
-    "laslLevel": 1,
-    "playerDataJson": "{\"gold\":15,\"hearts\":5,\"levels\":[],\"boosters\":[1,1,1,1],\"counterLevel\":0,\"endGameFirstMapObjectsOpen\":[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]}"
+    "levelData": "[510,3250]",
+    "laslLevel": 4,
+    "playerDataJson": "{\"gold\":0,\"hearts\":2,\"levels\":[510,3250],\"boosters\":[0,0,0,0],\"counterLevel\":0,\"endGameFirstMapObjectsOpen\":[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]}"
 }

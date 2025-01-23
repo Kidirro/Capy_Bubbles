@@ -13,7 +13,8 @@ public class EndGameMap : MonoBehaviour
     [SerializeField] 
     private AudioClip[] clips;
     public const int MAX_LEVEL = 198;
-    public const int LAST_LEVEL = 198;
+    //198
+    public const int LAST_LEVEL = 5;
     public void Open()
     {
         gameObject.SetActive(true);
