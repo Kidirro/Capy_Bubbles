@@ -22,9 +22,9 @@ public class Model : MonoBehaviour
     void Start()
     {
         //_telegram.onClick.AddListener(OpenTelegram);
-#if UNITY_EDITOR
-        Token("3fdf1266a04f9cf495e106a297a69d5307a38281");
-#elif PLUGIN_YG_2
+        Debug.Log($"[SAVE] START BEGIN");
+#if PLUGIN_YG_2
+        Debug.Log($"[SAVE] START UPDATE");
         UpdateData();
 #else
         SendGetToken();
@@ -49,10 +49,7 @@ public class Model : MonoBehaviour
 #if  BEELINE
         JavaScriptHandler.GetTokenFromParameters();
 #endif
-
     }
-
-
 
     private static void GetData()
     {
@@ -61,7 +58,12 @@ public class Model : MonoBehaviour
 
     private static async Task UpdateData()
     {
-        playerData = await GetSave();
+        playerData =
+#if PLUGIN_YG_2
+            GetSaveYG();
+#else
+            await GetSave();
+#endif
         if (playerData.endGameFirstMapObjectsOpen.Length == 0)
             playerData.endGameFirstMapObjectsOpen = new bool[25];
         GameManager.instance.coins.Set(playerData.gold);
@@ -93,13 +95,16 @@ public class Model : MonoBehaviour
         {
             return JsonConvert.DeserializeObject<CatState>(PlayerPrefs.GetString("CatState"));
         }*/
-#if PLUGIN_YG_2
-        return YG2.saves.playerDataJson == "" ? new PlayerData(false) :JsonConvert.DeserializeObject(YG2.saves.playerDataJson, typeof(PlayerData)) as PlayerData;
-
-#else
+#if BEELINE
         var request = UnityWebRequest.Get(backend + "user");
         request.SetRequestHeader("accessToken", token);
-        await request.SendWebRequest();
+        var operation =  request.SendWebRequest();
+
+        while (!operation.isDone)
+        {
+            await Task.Yield();
+        }
+
         switch (request.responseCode)
         {
             case 200:
@@ -113,6 +118,19 @@ public class Model : MonoBehaviour
 
         }
 #endif
+    }
+
+    private static PlayerData GetSaveYG()
+    {
+        if (YG2.saves.playerDataJson == "")
+        {
+            return new PlayerData(false);
+        }
+        else
+        {
+            var tempPlayerData = JsonUtility.FromJson<PlayerData>(YG2.saves.playerDataJson) ?? new PlayerData(false);
+            return tempPlayerData;
+        }
     }
 
     public static async Task<Shop> GetShopProduts()
@@ -167,7 +185,13 @@ public class Model : MonoBehaviour
         }*/
         var request = UnityWebRequest.Post(backend + $"user/buy?productId={id}", "", "application/json");
         request.SetRequestHeader("accessToken", token);
-        await request.SendWebRequest();
+        var operation = request.SendWebRequest();
+        
+        while (!operation.isDone)
+        {
+            await Task.Yield();
+        }
+        
         switch (request.responseCode)
         {
             case 200:
@@ -198,11 +222,10 @@ public class Model : MonoBehaviour
         {
             return JsonConvert.DeserializeObject<CatState>(PlayerPrefs.GetString("CatState"));
         }*/
-        Debug.Log("SetSave");
         GetData();
         
 #if PLUGIN_YG_2
-        YG2.saves.playerDataJson = JsonConvert.SerializeObject(playerData);
+        YG2.saves.playerDataJson = JsonUtility.ToJson(playerData);
         YG2.SaveProgress();
 #else
         Debug.Log(JsonUtility.ToJson(new PlayerSendData(playerData)));
@@ -295,6 +318,7 @@ public class PlayerData
 #if PLUGIN_YG_2
         
         levels = JsonConvert.DeserializeObject(YG2.saves.levelData, typeof(List<int>)) as List<int> ?? new List<int>(){};
+        Debug.LogError($"[SAVE] Try deserialization. Is correct {levels != null}");
 #else        
         for (int i = 0; i < PlayerPrefs.GetInt("Level", 1); i++)
         {
