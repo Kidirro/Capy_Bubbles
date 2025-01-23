@@ -64,6 +64,8 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
         [HideInInspector]
         public Ball bottomBall;
 
+        private Vector2 _screenSizeConst =  new Vector2(1440, 2280 );
+        
         public Camera Camera
         {
             get
@@ -90,7 +92,7 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
 
         public void SetVerticalLevel()
         {
-            //Camera.orthographicSize = GameManager.instance.GameplaySettings.cameraSize / Screen.width * Screen.height / 2f;
+            Camera.orthographicSize = GameManager.instance.GameplaySettings.cameraSize / _screenSizeConst.x * _screenSizeConst.y / 2f;
         }
 
         public void SetRoratingLevel(Ball _rotatingLevelBall, Vector3 _center, int levelSizeX, int levelSizeY)
@@ -107,7 +109,7 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
         {
             float sizeRatio = Math.Max(levelWidth, levelHeight) / 8f;
             float aspectRatioManagement = Mathf.Pow(Camera.aspect, 0.5f);
-            Camera.orthographicSize = sizeRatio * aspectRatioManagement * (GameManager.instance.GameplaySettings.cameraSize / Screen.width * Screen.height / 2f);
+            Camera.orthographicSize = sizeRatio * aspectRatioManagement * (GameManager.instance.GameplaySettings.cameraSize / _screenSizeConst.x * _screenSizeConst.y / 2f);
         }
 
         public void MoveToStartingPosition(Action onStart)
@@ -152,8 +154,9 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
            if (starting && (Vector2.Distance(transform.position, dest) < 0.1f || transform.position == _safePos))
            {
                starting = false;
-               //leftBorder.localPosition = new Vector3(pos.bottomLeft.x - 1f, 0, 0);
-               //rightBorder.localPosition = new Vector3(pos.topRight.x + 1f, 0, 0);
+               var pos = CalculateScreenBounds();
+               leftBorder.localPosition = new Vector3(pos.bottomLeft.x, 0, 0);
+               rightBorder.localPosition = new Vector3(pos.topRight.x, 0, 0);
                if (LevelLoader.instance.CurrentLevel.levelType == ELevelTypes.Rotating)
                {
                    topBorder.position = new Vector3(0, topPivotUI.position.y, 0);
@@ -205,14 +208,13 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
         {
             float cameraHeight = 2f * Camera.orthographicSize;
             
-            float cameraWidth = cameraHeight * Camera.aspect;
+            float cameraWidth = 0.57f * Camera.orthographicSize;
 
             float halfHeight = cameraHeight * 0.35f;
-            float halfWidth = cameraWidth * 0.5f;
-
+            
             Vector3 cameraPosition = Camera.transform.position;
-            Vector3 topRight = cameraPosition + new Vector3(rightBorder.localPosition.x - 1f, halfHeight, 0);
-            Vector3 bottomLeft = cameraPosition + new Vector3(leftBorder.localPosition.x + 1f, -halfHeight, 0);
+            Vector3 topRight = cameraPosition + new Vector3(cameraWidth, halfHeight, 0);
+            Vector3 bottomLeft = cameraPosition + new Vector3(-cameraWidth, -halfHeight, 0);
 
             return (topRight, bottomLeft);
         }

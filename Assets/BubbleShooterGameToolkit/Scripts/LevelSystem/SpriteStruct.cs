@@ -48,7 +48,7 @@ namespace BubbleShooterGameToolkit.Scripts.LevelSystem
         public Image GetImage(float squareSize)
         {
             Image image = new Image();
-            image.image = sprite.texture;
+            image.image = sprite?.texture;
 
             image.style.position = Position.Absolute;
             image.style.color = Color.clear;
