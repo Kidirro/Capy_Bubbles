@@ -31,6 +31,7 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI
             
 #if PLUGIN_YG_2
                 YG2.GameReadyAPI();
+                YG2.ConsumePurchases();
 #endif
         }
 

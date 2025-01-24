@@ -77,7 +77,6 @@ namespace BubbleShooterGameToolkit.Scripts.Data
             //}
             PlayerPrefs.Save();
 #endif
-                //GameManager.instance.coins.Add(1);
             }
         }
     }

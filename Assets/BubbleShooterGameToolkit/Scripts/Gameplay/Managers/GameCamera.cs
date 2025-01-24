@@ -155,8 +155,8 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
            {
                starting = false;
                var pos = CalculateScreenBounds();
-               leftBorder.localPosition = new Vector3(pos.bottomLeft.x, 0, 0);
-               rightBorder.localPosition = new Vector3(pos.topRight.x, 0, 0);
+               leftBorder.localPosition = new Vector3(pos.bottomLeft.x - 1f, 0, 0);
+               rightBorder.localPosition = new Vector3(pos.topRight.x + 1f, 0, 0);
                if (LevelLoader.instance.CurrentLevel.levelType == ELevelTypes.Rotating)
                {
                    topBorder.position = new Vector3(0, topPivotUI.position.y, 0);

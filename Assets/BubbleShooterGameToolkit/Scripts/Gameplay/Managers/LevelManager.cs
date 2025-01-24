@@ -275,7 +275,7 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
             GameDataManager.instance.SaveLevel(CurrentLevel, ScoreManager.instance.GetScore());
 
             MenuManager.instance.ShowPopup<MenuWin>();
-            AdsManager.instance.ShowAdByType(new AdReference(){adType = EAdType.Interstitial}, _ => { });
+            GameManager.instance.coins.Add(1);
         }
 
         /// Process actions after a thrown ball stopped

@@ -11,6 +11,8 @@
 // // THE SOFTWARE.
 
 using System.Collections;
+using BubbleShooterGameToolkit.Scripts.Ads;
+using BubbleShooterGameToolkit.Scripts.Ads.AdUnits;
 using BubbleShooterGameToolkit.Scripts.Gameplay.Managers;
 using BubbleShooterGameToolkit.Scripts.LevelSystem;
 using BubbleShooterGameToolkit.Scripts.Settings;
@@ -49,8 +51,12 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
 		{
 			Close();
 			var gameSettings = Resources.Load<GameSettings>("Settings/GameSettings");
-			if(!gameSettings.GoMapAfter.skipMap || LevelLoader.instance.CurrentLevel.Number >= gameSettings.GoMapAfter.untilLevel)
-				OnCloseAction =(_) => SceneLoader.instance.GoToMap();
+			if (!gameSettings.GoMapAfter.skipMap ||
+			    LevelLoader.instance.CurrentLevel.Number >= gameSettings.GoMapAfter.untilLevel)
+			{
+				OnCloseAction = (_) => SceneLoader.instance.GoToMap();
+				AdsManager.instance.ShowAdByType(new AdReference() { adType = EAdType.Interstitial }, _ => { });
+			}
 			else
 			{
 				PlayerPrefs.SetInt("OpenLevel", PlayerPrefs.GetInt("Level", 1));

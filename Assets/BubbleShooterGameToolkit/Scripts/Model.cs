@@ -22,9 +22,7 @@ public class Model : MonoBehaviour
     void Start()
     {
         //_telegram.onClick.AddListener(OpenTelegram);
-        Debug.Log($"[SAVE] START BEGIN");
 #if PLUGIN_YG_2
-        Debug.Log($"[SAVE] START UPDATE");
         UpdateData();
 #else
         SendGetToken();
@@ -129,6 +127,7 @@ public class Model : MonoBehaviour
         else
         {
             var tempPlayerData = JsonUtility.FromJson<PlayerData>(YG2.saves.playerDataJson) ?? new PlayerData(false);
+            Debug.Log($"[SAVE] Current save data: {YG2.saves.playerDataJson}");
             return tempPlayerData;
         }
     }
@@ -318,7 +317,6 @@ public class PlayerData
 #if PLUGIN_YG_2
         
         levels = JsonConvert.DeserializeObject(YG2.saves.levelData, typeof(List<int>)) as List<int> ?? new List<int>(){};
-        Debug.LogError($"[SAVE] Try deserialization. Is correct {levels != null}");
 #else        
         for (int i = 0; i < PlayerPrefs.GetInt("Level", 1); i++)
         {
