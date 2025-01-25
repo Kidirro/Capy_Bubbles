@@ -781,7 +781,7 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: PLUGIN_YG_2;Authorization_yg;InterstitialAdv_yg;Payments_yg;RewardedAdv_yg;Storage_yg;TMP_YG2;NJSON_YG2;Localization_yg
+    Android: PLUGIN_YG_2;Authorization_yg;InterstitialAdv_yg;Payments_yg;RewardedAdv_yg;Storage_yg;TMP_YG2;NJSON_YG2;Localization_yg;YandexGamesPlatform_yg;BEELINE
     Standalone: BEELINE;PLUGIN_YG_2;Authorization_yg;InterstitialAdv_yg;Payments_yg;RewardedAdv_yg;Storage_yg;TMP_YG2;NJSON_YG2;beelinePlatform_yg
     WebGL: BEELINE;PLUGIN_YG_2;NJSON_YG2;RewardedAdv_yg;InterstitialAdv_yg;Payments_yg;Authorization_yg;Storage_yg;TMP_YG2;Localization_yg;YandexGamesPlatform_yg
     Windows Store Apps: 

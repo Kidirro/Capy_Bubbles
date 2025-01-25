@@ -116,6 +116,7 @@ public class Model : MonoBehaviour
 
         }
 #endif
+        return new PlayerData();
     }
 
     private static PlayerData GetSaveYG()
