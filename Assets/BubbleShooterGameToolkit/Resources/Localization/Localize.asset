@@ -357,6 +357,6 @@ MonoBehaviour:
     EnglishValue: {fileID: 21300000, guid: 2d3b9d481f97d78e19626f8972658e3a, type: 3}
     TjsValue: {fileID: 21300000, guid: ae5e536d66282e055820f9dc1d888024, type: 3}
   - key: Main
-    RussiaValue: {fileID: 21300000, guid: 7a194f60d9e8865b9ab66ac8e378eaf6, type: 3}
-    EnglishValue: {fileID: 21300000, guid: a2c40ec7396498f4bb43463be4d52a1c, type: 3}
-    TjsValue: {fileID: 21300000, guid: a2c40ec7396498f4bb43463be4d52a1c, type: 3}
+    RussiaValue: {fileID: 21300000, guid: 46c727956fd0e5342919a67ce26aab74, type: 3}
+    EnglishValue: {fileID: 21300000, guid: a49a70e5385b1434291172086b622aff, type: 3}
+    TjsValue: {fileID: 21300000, guid: a49a70e5385b1434291172086b622aff, type: 3}
