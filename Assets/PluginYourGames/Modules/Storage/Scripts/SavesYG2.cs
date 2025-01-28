@@ -21,5 +21,6 @@ namespace YG
 
         public string dailyBonusDay = "";
         public int rewardStreak = -1;
+        public string lastDisabledTime = DateTime.Now.ToString("o");
     }
 }

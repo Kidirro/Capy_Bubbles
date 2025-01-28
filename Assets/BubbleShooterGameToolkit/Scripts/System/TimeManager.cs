@@ -15,6 +15,7 @@ using System.Collections;
 using System.Globalization;
 using UnityEngine;
 using UnityEngine.Networking;
+using YG;
 
 namespace BubbleShooterGameToolkit.Scripts.System
 {
@@ -47,7 +48,12 @@ namespace BubbleShooterGameToolkit.Scripts.System
         private void OnEnable()
         {
             GetServerTime();
-            lastDisableTime = PlayerPrefs.GetString("LastDisabledTime", DateTime.Now.ToString("o"));
+            lastDisableTime =
+#if PLUGIN_YG_2
+                YG2.saves.lastDisabledTime;
+#else
+                PlayerPrefs.GetString("LastDisabledTime", DateTime.Now.ToString("o"));
+#endif
         }
 
         public float GetTimeSinceLastDisable()
@@ -85,7 +91,11 @@ namespace BubbleShooterGameToolkit.Scripts.System
         {
             dateReceived = false;
             // Save the current time as the last disabled time
+#if PLUGIN_YG_2
+            YG2.saves.lastDisabledTime = DateTime.Now.ToString("o");
+#else
             PlayerPrefs.SetString("LastDisabledTime", DateTime.Now.ToString("o"));
+#endif
             Debug.Log("On Disable " + PlayerPrefs.GetString("LastDisabledTime", DateTime.Now.ToString("o")));
         }
 

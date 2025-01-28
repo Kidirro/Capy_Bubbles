@@ -40,15 +40,26 @@ namespace BubbleShooterGameToolkit.Scripts.Audio
         }
         private void OnEnable()
         {
+#if PLUGIN_YG_2
+            SetSound(YG.YG2.saves.sound);       
+#else
             SetSound(PlayerPrefs.GetInt(volumeVariable));
+#endif
         }
 
         public void Mute()
         {
+#if PLUGIN_YG_2
+            if(!GetStatus()) YG.YG2.saves.sound = -80;
+            else YG.YG2.saves.sound = 0;
+            
+            SetSound(YG.YG2.saves.sound);       
+#else
             if(!GetStatus()) PlayerPrefs.SetInt(volumeVariable,-80);
             else PlayerPrefs.SetInt(volumeVariable,0);
             PlayerPrefs.Save();
             SetSound(PlayerPrefs.GetInt(volumeVariable));
+#endif
         }
 
         private bool GetStatus()

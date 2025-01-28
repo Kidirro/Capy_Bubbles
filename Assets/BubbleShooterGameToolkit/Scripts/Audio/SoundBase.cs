@@ -16,6 +16,7 @@ using BubbleShooterGameToolkit.Scripts.System;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.Serialization;
+using YG;
 
 namespace BubbleShooterGameToolkit.Scripts.Audio
 {
@@ -82,7 +83,13 @@ namespace BubbleShooterGameToolkit.Scripts.Audio
 
 		private void Start()
 		{
-			mixer.SetFloat(soundParameter, PlayerPrefs.GetInt("Sound", 1) == 0 ? -80 : 0);
+			int soundInt =
+#if PLUGIN_YG_2
+				YG2.saves.sound;
+#else
+				PlayerPrefs.GetInt("Sound", 1);
+#endif
+			mixer.SetFloat(soundParameter,soundInt  == 0 ? -80 : 0);
 		}
 
 		public void PlaySound(AudioClip clip)
