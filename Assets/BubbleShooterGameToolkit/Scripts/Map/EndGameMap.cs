@@ -14,7 +14,7 @@ public class EndGameMap : MonoBehaviour
     private AudioClip[] clips;
     public const int MAX_LEVEL = 198;
     //198
-    public const int LAST_LEVEL = 5;
+    public const int LAST_LEVEL = 198;
     public void Open()
     {
         gameObject.SetActive(true);

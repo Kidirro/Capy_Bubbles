@@ -11,10 +11,12 @@
 // // THE SOFTWARE.
 
 using System;
+using System.Globalization;
 using System.Linq;
 using BubbleShooterGameToolkit.Scripts.CommonUI.Popups;
 using BubbleShooterGameToolkit.Scripts.Settings;
 using UnityEngine;
+using YG;
 
 namespace BubbleShooterGameToolkit.Scripts.CommonUI.Daily
 {
@@ -51,13 +53,28 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Daily
         public int UpdateRewardStreak()
         {
             DateTime today = DateTime.Today;
-            DateTime lastRewardDate = DateTime.Parse(PlayerPrefs.GetString("DailyBonusDay", today.Subtract(TimeSpan.FromDays(1)).ToString()));
+            string dailyBonusDay =
+#if PLUGIN_YG_2
+                YG2.saves.dailyBonusDay;    
+#else
+                PlayerPrefs.GetString("DailyBonusDay","");
+#endif
+            if (dailyBonusDay == String.Empty)
+                dailyBonusDay = today.Subtract(TimeSpan.FromDays(1)).ToString(CultureInfo.CurrentCulture);
+            
+            DateTime lastRewardDate = DateTime.Parse(dailyBonusDay);
 
             if (today > lastRewardDate)
             {
                 int rewardStreak = GetRewardStreak() + 1;
                 PlayerPrefs.SetString("DailyBonusDay", today.ToString());
-                PlayerPrefs.SetInt("RewardStreak", rewardStreak = (int)Mathf.Repeat(rewardStreak, dayHandles.Length));
+                rewardStreak = (int)Mathf.Repeat(rewardStreak, dayHandles.Length);
+                PlayerPrefs.SetInt("RewardStreak", rewardStreak);
+                
+#if PLUGIN_YG_2
+                YG2.saves.dailyBonusDay = today.ToString();
+                YG2.saves.rewardStreak = rewardStreak;
+#endif
                 return rewardStreak;
             }
 
@@ -82,7 +99,11 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Daily
         // Gets and returns the reward streak count from player preferences 
         public int GetRewardStreak()
         {
+#if PLUGIN_YG_2
+            return YG2.saves.rewardStreak;
+#else            
             return PlayerPrefs.GetInt("RewardStreak", -1);
+#endif
         }
 
         public override void Close()

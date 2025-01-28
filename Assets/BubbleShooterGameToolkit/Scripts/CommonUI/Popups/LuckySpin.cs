@@ -46,7 +46,13 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
             rb = spin.GetComponent<Rigidbody2D>();
             freeSpinButton.onClick.AddListener(FreeSpin);
             buySpinButton.onClick.AddListener(BuySpin);
-            var isFirstSpin = PlayerPrefs.GetInt("FreeSpin", 0) == 0;
+            var isFirstSpin =
+
+#if PLUGIN_YG_2
+                YG.YG2.saves.isFreeSpin;
+#else
+                PlayerPrefs.GetInt("FreeSpin", 0) == 0;
+#endif                
             freeSpinButton.gameObject.SetActive(isFirstSpin);
             buySpinButton.gameObject.SetActive(!isFirstSpin);
             rewardedAdButton.gameObject.SetActive(!isFirstSpin);
@@ -103,6 +109,9 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
         private void FreeSpin()
         {
             PlayerPrefs.SetInt("FreeSpin", 1);
+#if PLUGIN_YG_2            
+            YG.YG2.saves.isFreeSpin = false;
+#endif
             Spin();
         }
 

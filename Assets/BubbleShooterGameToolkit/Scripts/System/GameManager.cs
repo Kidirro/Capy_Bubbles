@@ -27,6 +27,7 @@ using BubbleShooterGameToolkit.Scripts.Settings;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using YG;
 using Event = UnityEngine.Event;
 
 namespace BubbleShooterGameToolkit.Scripts.System
@@ -212,7 +213,15 @@ namespace BubbleShooterGameToolkit.Scripts.System
         private bool CheckDailyBonusConditions()
         {
             DateTime today = DateTime.Today;
-            DateTime lastRewardDate = DateTime.Parse(PlayerPrefs.GetString("DailyBonusDay", today.Subtract(TimeSpan.FromDays(1)).ToString(CultureInfo.CurrentCulture)));
+            string dailyBonusDay =
+#if PLUGIN_YG_2
+                YG2.saves.dailyBonusDay;    
+#else
+                PlayerPrefs.GetString("DailyBonusDay","");
+#endif
+            if (dailyBonusDay == String.Empty)
+                dailyBonusDay = today.Subtract(TimeSpan.FromDays(1)).ToString(CultureInfo.CurrentCulture);
+            DateTime lastRewardDate = DateTime.Parse(dailyBonusDay);
             return today.Date > lastRewardDate.Date;
         }
     }

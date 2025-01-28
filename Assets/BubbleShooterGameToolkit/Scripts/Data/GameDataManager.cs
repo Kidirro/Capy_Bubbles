@@ -57,7 +57,10 @@ namespace BubbleShooterGameToolkit.Scripts.Data
                     YG2.saves.laslLevel = Level;
                     Model.playerData.levels.Add(score);
                 }
-                
+                else
+                {
+                    Model.playerData.levels[levelNumber-1] = Mathf.Max(Model.playerData.levels[levelNumber - 1], score);
+                }
                 YG2.saves.levelData = JsonConvert.SerializeObject(Model.playerData.levels);
                 YG2.SaveProgress();
                 Model.SetSave();

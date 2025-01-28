@@ -32,7 +32,11 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Reward
 
         private void CheckFree()
         {
+#if PLUGIN_YG_2
+            freeSpinLabel.SetActive(YG.YG2.saves.isFreeSpin);
+#else
             freeSpinLabel.SetActive(PlayerPrefs.GetInt("FreeSpin", 0) == 0);
+#endif
         }
 
         private void OpenSpin()
