@@ -54,6 +54,7 @@ namespace BubbleShooterGameToolkit.Scripts.System
 #else
                 PlayerPrefs.GetString("LastDisabledTime", DateTime.Now.ToString("o"));
 #endif
+            StartCoroutine(SaveTimeProcess());
         }
 
         public float GetTimeSinceLastDisable()
@@ -91,12 +92,17 @@ namespace BubbleShooterGameToolkit.Scripts.System
         {
             dateReceived = false;
             // Save the current time as the last disabled time
+            SaveTime();
+            Debug.Log("On Disable " + PlayerPrefs.GetString("LastDisabledTime", DateTime.Now.ToString("o")));
+        }
+
+        private static void SaveTime()
+        {
 #if PLUGIN_YG_2
             YG2.saves.lastDisabledTime = DateTime.Now.ToString("o");
 #else
             PlayerPrefs.SetString("LastDisabledTime", DateTime.Now.ToString("o"));
 #endif
-            Debug.Log("On Disable " + PlayerPrefs.GetString("LastDisabledTime", DateTime.Now.ToString("o")));
         }
 
         IEnumerator getTime()
@@ -150,6 +156,16 @@ namespace BubbleShooterGameToolkit.Scripts.System
             if (!www.isDone)
             {
                 www.Abort();
+            }
+        }
+
+        IEnumerator SaveTimeProcess()
+        {
+            var yieldWait = new WaitForSeconds(5);
+            while (true)
+            {
+                yield return yieldWait;
+                SaveTime();
             }
         }
 
