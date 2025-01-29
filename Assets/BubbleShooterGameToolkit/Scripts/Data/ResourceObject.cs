@@ -50,7 +50,9 @@ namespace BubbleShooterGameToolkit.Scripts.Data
         {
             Resource += amount;
             PlayerPrefs.SetInt(ResourceName, Resource);
+#if !PLUGIN_YG_2
             if (this is not Life)
+#endif
                 _ = Model.SetSave();
             OnResourceChanged();
         }
@@ -72,7 +74,9 @@ namespace BubbleShooterGameToolkit.Scripts.Data
                 Resource -= amount;
                 PlayerPrefs.SetInt(ResourceName, Resource);
                 PlayerPrefs.Save();
+#if !PLUGIN_YG_2
                 if (this is not Life)
+#endif
                     _ = Model.SetSave();
                 OnResourceChanged();
                 return true;

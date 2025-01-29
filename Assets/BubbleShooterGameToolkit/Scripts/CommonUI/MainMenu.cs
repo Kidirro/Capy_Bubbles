@@ -12,6 +12,7 @@
 
 using System;
 using BubbleShooterGameToolkit.Scripts.System;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -25,13 +26,18 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI
     {
         [SerializeField] private Button playButton;
         
+        [SerializeField] private TextMeshProUGUI versionText;
+        
         private void Start()
         {
             playButton.onClick.AddListener(StartGame);
-            
+     
+            versionText.text = "";       
 #if PLUGIN_YG_2
                 YG2.GameReadyAPI();
                 YG2.ConsumePurchases();
+                
+                versionText.text = $"v{Application.version}";
 #endif
         }
 

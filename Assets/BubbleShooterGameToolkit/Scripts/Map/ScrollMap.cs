@@ -22,6 +22,8 @@ namespace BubbleShooterGameToolkit.Scripts.Map
 
         [SerializeField]
         private ScrollRect scrollRect;
+        
+        private float aspectRatioConst = 2280f/1440f; 
         private const float mapLenght = 2700;
         void Start()
         {
@@ -54,7 +56,12 @@ namespace BubbleShooterGameToolkit.Scripts.Map
             Vector2 contentPositionInLocalSpace = scrollRect.transform.InverseTransformPoint(scrollRect.content.position);
             Vector2 contentAnchoredPosition = contentPositionInLocalSpace - avatarPositionInLocalSpace;
 
-            float aspectRatio = Screen.height / Screen.width;
+            float aspectRatio =
+#if PLUGIN_YG_2
+                aspectRatioConst;
+#else
+                Screen.height / Screen.width;
+#endif
             float centerOffset = aspectRatio * 1000f;
             scrollRect.content.anchoredPosition = new Vector2(0, contentAnchoredPosition.y + centerOffset);
         }
