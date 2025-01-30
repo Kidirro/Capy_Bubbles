@@ -53,7 +53,7 @@ namespace BubbleShooterGameToolkit.Scripts.Data
 #if !PLUGIN_YG_2
             if (this is not Life)
 #endif
-                _ = Model.SetSave();
+            Model.SetSave();
             OnResourceChanged();
         }
 
@@ -77,7 +77,7 @@ namespace BubbleShooterGameToolkit.Scripts.Data
 #if !PLUGIN_YG_2
                 if (this is not Life)
 #endif
-                    _ = Model.SetSave();
+                Model.SetSave();
                 OnResourceChanged();
                 return true;
             }

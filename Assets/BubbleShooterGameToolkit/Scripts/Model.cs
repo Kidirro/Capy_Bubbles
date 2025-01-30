@@ -123,6 +123,10 @@ public class Model : MonoBehaviour
     {
         if (YG2.saves.playerDataJson == "")
         {
+            if (YG2.saves.idSave == 0)
+            {
+                PlayerPrefs.DeleteAll();
+            }
             return new PlayerData(false);
         }
         else
