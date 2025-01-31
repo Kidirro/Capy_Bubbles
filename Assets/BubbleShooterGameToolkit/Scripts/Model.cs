@@ -6,6 +6,7 @@ using BubbleShooterGameToolkit.Scripts.System;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.UI;
+using YG.Insides;
 #if PLUGIN_YG_2
 using Newtonsoft.Json;
 using YG;
@@ -121,20 +122,14 @@ public class Model : MonoBehaviour
 
     private static PlayerData GetSaveYG()
     {
-        if (YG2.saves.playerDataJson == "")
+        if (YG2.player.id != PlayerPrefs.GetString("CurrentPlayer"))
         {
-            if (YG2.saves.idSave == 0)
-            {
-                PlayerPrefs.DeleteAll();
-            }
-            return new PlayerData(false);
+            PlayerPrefs.DeleteAll();
         }
-        else
-        {
-            var tempPlayerData = JsonUtility.FromJson<PlayerData>(YG2.saves.playerDataJson) ?? new PlayerData(false);
-            Debug.Log($"[SAVE] Current save data: {YG2.saves.playerDataJson}");
-            return tempPlayerData;
-        }
+
+        var tempPlayerData = JsonUtility.FromJson<PlayerData>(YG2.saves.playerDataJson) ?? new PlayerData(false);
+        return tempPlayerData;
+
     }
 
     public static async Task<Shop> GetShopProduts()
@@ -230,6 +225,7 @@ public class Model : MonoBehaviour
         
 #if PLUGIN_YG_2
         YG2.saves.playerDataJson = JsonUtility.ToJson(playerData);
+        PlayerPrefs.SetString("CurrentPlayer", YG2.player.id);
         YG2.SaveProgress();
 #else
         Debug.Log(JsonUtility.ToJson(new PlayerSendData(playerData)));
@@ -330,6 +326,7 @@ public class PlayerData
                 levels.Add(value);
         }
 #endif
+        
         boosters = new int[4];
         GameManager.instance.coins.LoadPrefs();
         GameManager.instance.life.LoadPrefs();

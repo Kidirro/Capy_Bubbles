@@ -62,7 +62,8 @@ namespace BubbleShooterGameToolkit.Scripts.Map
 #else
                 Screen.height / Screen.width;
 #endif
-            float centerOffset = aspectRatio * 1000f;
+
+            float centerOffset = aspectRatio * 500f;
             scrollRect.content.anchoredPosition = new Vector2(0, contentAnchoredPosition.y + centerOffset);
         }
     }

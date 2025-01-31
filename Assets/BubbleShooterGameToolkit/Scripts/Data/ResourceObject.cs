@@ -88,9 +88,6 @@ namespace BubbleShooterGameToolkit.Scripts.Data
         private void OnResourceChanged()
         {
             OnResourceUpdate?.Invoke(Resource);
-#if PLUGIN_YG_2
-      Model.SetSave();      
-#endif            
         }
 
         //get the resource

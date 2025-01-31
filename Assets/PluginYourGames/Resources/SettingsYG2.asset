@@ -81,7 +81,7 @@ MonoBehaviour:
     skipInterAdvAfterReward: 0
     labelAdvSimLabel: 0
   Storage:
-    saveLocal: 1
+    saveLocal: 0
     saveCloud: 1
     saveCloudInterval: 0
     flush: 0
