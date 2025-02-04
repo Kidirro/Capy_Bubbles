@@ -113,6 +113,8 @@ namespace YG.EditorScr
                 if (File.Exists(texturePath))
                     CreateIcon(texturePath, out moduleTextures[i]);
             }
+
+            Repaint();
         }
 
         private void Reserialize()
@@ -249,6 +251,7 @@ namespace YG.EditorScr
             GUILayout.EndHorizontal();
 
             GUILayout.Space(10);
+            EditorGUI.BeginChangeCheck();
 
             GUILayout.BeginHorizontal(YGEditorStyles.boxLight);
             EditorGUILayout.PropertyField(serializedObject.FindProperty("Basic"), new GUIContent("Basic Settings"), true);
@@ -435,7 +438,8 @@ namespace YG.EditorScr
             if (EditorGUI.EndChangeCheck())
                 serializedObject.ApplyModifiedProperties();
 
-            Repaint();
+            if (EditorUtils.IsMouseOverWindow(this))
+                Repaint();
         }
 
         private void OnLoadServerInfo()

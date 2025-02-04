@@ -144,7 +144,7 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
-  bundleVersion: 1.0.7
+  bundleVersion: 1.0.8
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -783,7 +783,7 @@ PlayerSettings:
   scriptingDefineSymbols:
     Android: PLUGIN_YG_2;Authorization_yg;InterstitialAdv_yg;Payments_yg;RewardedAdv_yg;Storage_yg;TMP_YG2;NJSON_YG2;Localization_yg;YandexGamesPlatform_yg;BEELINE
     Standalone: BEELINE;PLUGIN_YG_2;Authorization_yg;InterstitialAdv_yg;Payments_yg;RewardedAdv_yg;Storage_yg;TMP_YG2;NJSON_YG2;beelinePlatform_yg
-    WebGL: BEELINE;PLUGIN_YG_2;NJSON_YG2;RewardedAdv_yg;InterstitialAdv_yg;Payments_yg;Authorization_yg;Storage_yg;TMP_YG2;Localization_yg;YandexGamesPlatform_yg
+    WebGL: BEELINE;PLUGIN_YG_2;NJSON_YG2;RewardedAdv_yg;InterstitialAdv_yg;Payments_yg;Authorization_yg;Storage_yg;TMP_YG2;Localization_yg;YandexGamesPlatform_yg;Flags_yg
     Windows Store Apps: 
     iPhone: 
   additionalCompilerArguments: {}

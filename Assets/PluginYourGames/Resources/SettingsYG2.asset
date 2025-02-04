@@ -20,6 +20,10 @@ MonoBehaviour:
     uniqueID: 000
     playerPhoto: demo image
     payingStatus: 0
+  Flags:
+    flags:
+    - name: LastLevel
+      value: 198
   InterstitialAdv:
     showFirstAdv: 1
     interAdvInterval: 60

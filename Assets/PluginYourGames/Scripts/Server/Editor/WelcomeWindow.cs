@@ -2,6 +2,7 @@
 using System.Globalization;
 using UnityEditor;
 using UnityEngine;
+using YG.EditorScr.BuildModify;
 using YG.Insides;
 
 namespace YG.EditorScr
@@ -9,6 +10,8 @@ namespace YG.EditorScr
     [InitializeOnLoad]
     public class WelcomeWindow : EditorWindow
     {
+        private static Texture2D iconPluginYG;
+
         static WelcomeWindow() => InitializeOnLoad();
         private static void InitializeOnLoad()
         {
@@ -24,12 +27,30 @@ namespace YG.EditorScr
             };
         }
 
-        //[MenuItem("YG2/Welcome")]
+        //[MenuItem("Tools/YG2/Welcome")]
         public static void ShowWindow()
         {
             WelcomeWindow window = GetWindow<WelcomeWindow>($"Welcome to {InfoYG.NAME_PLUGIN}!");
             window.position = new Rect(250, 150, 700, 540);
             window.minSize = new Vector2(700, 540);
+        }
+
+        private void OnEnable()
+        {
+            EditorApplication.playModeStateChanged += OnPlayModeStateChanged;
+            ModifyBuild.onModifyComplete += Serialize;
+            Serialize();
+        }
+        private void OnDisable()
+        {
+            EditorApplication.playModeStateChanged -= OnPlayModeStateChanged;
+            ModifyBuild.onModifyComplete -= Serialize;
+        }
+        private void OnPlayModeStateChanged(PlayModeStateChange state) => Serialize();
+        private void Serialize()
+        {
+            InfoYGEditorWindow.CreateIcon(InfoYG.PATCH_PC_ICON_YG2, out iconPluginYG);
+            Repaint();
         }
 
         private void OnGUI()
@@ -127,9 +148,9 @@ namespace YG.EditorScr
                 GUILayout.FlexibleSpace();
                 GUILayout.EndHorizontal();
 #if RU_YG2
-                GUILayout.Label("Вся информация в документации и нашем уютном чате, заходите :)", styleWelcome);
+                GUILayout.Label("Вся полезная информация в документации и телеграм канале", styleWelcome);
 #else
-                GUILayout.Label("All information is in the documentation and our cozy chat, come in :)", styleWelcome);
+                GUILayout.Label("All the useful information is in the documentation and telegram channel", styleWelcome);
 #endif
                 bool newerVersion = false;
                 float thisVersion;
@@ -163,9 +184,8 @@ namespace YG.EditorScr
                 GUILayout.BeginHorizontal();
 
                 GUILayout.Space(10);
-                InfoYGEditorWindow.CreateIcon(InfoYG.PATCH_PC_ICON_YG2, out Texture2D iconYG2);
                 Rect textureRect = GUILayoutUtility.GetRect(50, 50, GUILayout.ExpandWidth(false));
-                GUI.DrawTexture(textureRect, iconYG2);
+                GUI.DrawTexture(textureRect, iconPluginYG);
 
                 if (!newerVersion)
                 {
@@ -194,7 +214,8 @@ namespace YG.EditorScr
                 GUILayout.EndHorizontal();
             }
 
-            Repaint();
+            if (EditorUtils.IsMouseOverWindow(this))
+                Repaint();
         }
     }
 }

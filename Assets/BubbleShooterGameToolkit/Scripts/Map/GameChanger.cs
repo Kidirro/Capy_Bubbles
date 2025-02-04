@@ -8,7 +8,7 @@ public class GameChanger : MonoBehaviour
     [SerializeField] private MapManager mapManager;
     [SerializeField] private EndGameMap mapEndGame;
 
-    void Awake()
+    private void Start()
     {
         if(Model.playerData.levels.Count>=EndGameMap.LAST_LEVEL)
         {

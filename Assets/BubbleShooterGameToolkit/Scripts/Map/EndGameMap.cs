@@ -1,9 +1,11 @@
+using System;
 using BubbleShooterGameToolkit.Scripts.CommonUI;
 using BubbleShooterGameToolkit.Scripts.CommonUI.Popups;
 using BubbleShooterGameToolkit.Scripts.System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using YG;
 
 public class EndGameMap : MonoBehaviour
 {
@@ -14,7 +16,8 @@ public class EndGameMap : MonoBehaviour
     private AudioClip[] clips;
     public const int MAX_LEVEL = 198;
     //198
-    public const int LAST_LEVEL = 198;
+    public static int LAST_LEVEL => int.Parse(YG2.GetFlag("LastLevel"));
+
     public void Open()
     {
         gameObject.SetActive(true);

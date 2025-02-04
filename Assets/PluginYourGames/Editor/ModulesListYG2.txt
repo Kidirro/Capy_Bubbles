@@ -1,4 +1,5 @@
 Authorization v1.0
+Flags v1.001
 InterstitialAdv v1.0
 Localization v1.001
 Payments v1.0
