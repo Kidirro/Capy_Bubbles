@@ -21,7 +21,7 @@ public class EndGameMap : MonoBehaviour
         {
             Model.playerData.counterLevel = LAST_LEVEL;
         }
-        levels.text = Model.playerData.counterLevel.ToString();
+        levels.text = Model.playerData.counterLevel+" уровень";
         play.onClick.AddListener(PlayRandomLevel);
         for (int i = 0; i < openedObjects.Length; i++)
         {
@@ -40,6 +40,7 @@ public class EndGameMap : MonoBehaviour
 
         int number = 20 + (Model.playerData.counterLevel * 7 % (MAX_LEVEL - 20));
         PlayerPrefs.SetInt("OpenLevel", number);
+        
         SceneLoader.instance.StartGameScene();
     }
 }
