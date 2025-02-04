@@ -7,15 +7,15 @@
         false,
         false
     ],
-    "idSave": 110,
+    "idSave": 119,
     "language": -1,
     "sound": 1,
     "music": 1,
     "isFreeSpin": true,
     "levelData": "[3270,1210,3290,4740]",
     "laslLevel": 5,
-    "playerDataJson": "{\"gold\":138,\"hearts\":6,\"levels\":[3270,1210,3290,4740],\"boosters\":[0,0,1,1],\"counterLevel\":3,\"endGameFirstMapObjectsOpen\":[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]}",
-    "dailyBonusDay": "03.02.2025 0:00:00",
-    "rewardStreak": 0,
-    "lastDisabledTime": "2025-02-03T14:57:24.7399193+03:00"
+    "playerDataJson": "{\"gold\":158,\"hearts\":5,\"levels\":[3270,1210,3290,4740],\"boosters\":[0,0,1,1],\"counterLevel\":3,\"endGameFirstMapObjectsOpen\":[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]}",
+    "dailyBonusDay": "04.02.2025 0:00:00",
+    "rewardStreak": 1,
+    "lastDisabledTime": "2025-02-04T16:55:46.3720810+03:00"
 }
