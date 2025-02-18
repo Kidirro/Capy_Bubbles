@@ -16,8 +16,10 @@ public class Model : MonoBehaviour
     [SerializeField] private GameObject privacy;
     private static string token;
     public static PlayerData playerData;
+    public static int id;
+    public static string phone;
 
-    private static string backend = "https://bubbles.arcomm.ru/api/";
+    public static string backend = "https://bubbles.arcomm.ru/api/";
     private static string telegram = "https://t.me/Rozi_cat";
     void Start()
     {
@@ -73,8 +75,12 @@ public class Model : MonoBehaviour
     private static async Task UpdateData()
     {
         playerData = await GetSave();
+        id = playerData.id;
+        phone = playerData.phone;
         if (playerData.endGameFirstMapObjectsOpen.Length == 0)
             playerData.endGameFirstMapObjectsOpen = new bool[25];
+        if (playerData.endGameSecondMapObjectsOpen.Length == 0)
+            playerData.endGameSecondMapObjectsOpen = new bool[27];
         GameManager.instance.coins.Set(playerData.gold);
         for (int i = 0; i < GameManager.instance.boosters.Length; i++)
         {
@@ -119,7 +125,6 @@ public class Model : MonoBehaviour
         }
 #endif
     }
-
     public static async Task<Shop> GetShopProduts()
     {
         /*if (PlayerPrefs.HasKey("CatState"))
@@ -177,7 +182,24 @@ public class Model : MonoBehaviour
         }
 
     }
+    public static int GetScore(){
+        int result=0;
+        for (int i = 0; i < playerData.endGameFirstMapObjectsOpen.Length; i++)
+        {
+            if(playerData.endGameFirstMapObjectsOpen[i])
+            {
+                result += Mathf.RoundToInt(GameManager.instance.endGameSetting.mapObjectCost[0].mapObjectCost[i]/10f);
+            }
+        }
+        for (int i = 0; i<playerData.endGameSecondMapObjectsOpen.Length;i++){
+            if(playerData.endGameSecondMapObjectsOpen[i])
+            {
+                result += Mathf.RoundToInt(GameManager.instance.endGameSetting.mapObjectCost[1].mapObjectCost[i]/10);
+            }
+        }
 
+        return result;
+    }
     public static async Task SetSave()
     {
         /*if (PlayerPrefs.HasKey("CatState"))
@@ -233,6 +255,9 @@ public class PlayerSendData
     public string boosters;
     public int counterLevel = 0;
     public string endGameFirstMapObjectsOpen;
+    public string endGameSecondMapObjectsOpen;
+    public int score=0;
+
     public PlayerSendData(PlayerData data)
     {
         gold = data.gold;
@@ -241,13 +266,26 @@ public class PlayerSendData
 
 
         endGameFirstMapObjectsOpen = "[";
+        bool isZero = true;
         foreach (var obj in data.endGameFirstMapObjectsOpen)
         {
+            isZero = false;
             endGameFirstMapObjectsOpen += obj.ToString().ToLower() + ",";
         }
-        endGameFirstMapObjectsOpen = endGameFirstMapObjectsOpen.Remove(endGameFirstMapObjectsOpen.Length - 1);
+        if (!isZero)
+            endGameFirstMapObjectsOpen = endGameFirstMapObjectsOpen.Remove(endGameFirstMapObjectsOpen.Length - 1);
         endGameFirstMapObjectsOpen += "]";
 
+        endGameSecondMapObjectsOpen = "[";
+        bool isZero1 = true;
+        foreach (var obj in data.endGameSecondMapObjectsOpen)
+        {
+            isZero1 = false;
+            endGameSecondMapObjectsOpen += obj.ToString().ToLower() + ",";
+        }
+        if (!isZero1)
+            endGameSecondMapObjectsOpen = endGameSecondMapObjectsOpen.Remove(endGameSecondMapObjectsOpen.Length - 1);
+        endGameSecondMapObjectsOpen += "]";
 
         levels = "[";
         foreach (var level in data.levels)
@@ -265,17 +303,22 @@ public class PlayerSendData
         }
         boosters = boosters.Remove(boosters.Length - 1);
         boosters += "]";
+        score = Model.GetScore();
     }
 }
 [Serializable]
 public class PlayerData
 {
+    public int id = 0;
+    public string phone;
     public int gold = 0;
     public int hearts = 0;
     public List<int> levels;
     public int[] boosters = new int[4];
     public int counterLevel = 0;
     public bool[] endGameFirstMapObjectsOpen = new bool[25];
+    public bool[] endGameSecondMapObjectsOpen = new bool[27];
+    public int score=0;
 
     public PlayerData(bool toserver)
     {
@@ -299,6 +342,8 @@ public class PlayerData
         gold = GameManager.instance.coins.GetResource();
         hearts = GameManager.instance.life.GetResource();
         endGameFirstMapObjectsOpen = Model.playerData.endGameFirstMapObjectsOpen;
+        endGameSecondMapObjectsOpen = Model.playerData.endGameSecondMapObjectsOpen;
+        score = Model.GetScore();
     }
     public PlayerData()
     {
