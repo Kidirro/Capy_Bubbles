@@ -1,4 +1,6 @@
 using BubbleShooterGameToolkit.Scripts.Audio;
+using BubbleShooterGameToolkit.Scripts.CommonUI;
+using BubbleShooterGameToolkit.Scripts.CommonUI.Popups;
 using BubbleShooterGameToolkit.Scripts.System;
 using DG.Tweening;
 using TMPro;
@@ -15,10 +17,14 @@ public class OpenedObject : MonoBehaviour
     private AudioClip[] clips;
     private int index = 0;
     private int number;
+    private int mapID;
+    public delegate void Anim(Vector3 position);
+    private Anim anim;
 
-    public void Init(bool isOpened, int cost, int num, AudioClip[] clips)
+    public void Init(bool isOpened, int cost, int num, AudioClip[] clips, int mapID, Anim anim)
     {
         number = num;
+        this.mapID = mapID;
         if (isOpened)
         {
             allObjects.SetActive(true);
@@ -26,6 +32,7 @@ public class OpenedObject : MonoBehaviour
         }
         else
         {
+            this.anim=anim;
             allObjects.SetActive(false);
             this.cost.text = cost.ToString();
             buy.gameObject.SetActive(true);
@@ -38,11 +45,20 @@ public class OpenedObject : MonoBehaviour
         {
             if (cost > GameManager.instance.coins.GetResource())
             {
+                MenuManager.instance.ShowPopup<CoinsShop>();
                 return;
             }
             else
             {
-                Model.playerData.endGameFirstMapObjectsOpen[number] = true;
+                switch (mapID)
+                {
+                    case 0:
+                        Model.playerData.endGameFirstMapObjectsOpen[number] = true;
+                        break;
+                    case 1:
+                        Model.playerData.endGameSecondMapObjectsOpen[number] = true;
+                        break;
+                }
                 GameManager.instance.coins.Consume(cost);
 
                 AnimObjs();
@@ -51,6 +67,7 @@ public class OpenedObject : MonoBehaviour
 
             void AnimObjs()
             {
+                anim(transform.position);
                 buy.transform.DOScale(new Vector3(0.5f, 0.3f), 0.5f).OnComplete(() =>
                 {
                     buy.gameObject.SetActive(false);
