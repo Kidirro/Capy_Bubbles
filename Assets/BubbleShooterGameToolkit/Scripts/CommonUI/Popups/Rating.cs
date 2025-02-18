@@ -52,7 +52,11 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
         {
 
             var request = UnityWebRequest.Get(Model.backend + "user/rating");
-            await request.SendWebRequest();
+            var process = request.SendWebRequest();
+            while (!process.isDone)
+            {
+                await Task.Yield();
+            }
             switch (request.responseCode)
             {
                 case 200:
