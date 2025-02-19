@@ -32,6 +32,7 @@ using BubbleShooterGameToolkit.Scripts.Settings;
 using BubbleShooterGameToolkit.Scripts.System;
 using BubbleShooterGameToolkit.Scripts.Utils;
 using UnityEngine;
+using YG;
 
 namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
 {
@@ -276,6 +277,20 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
 
             MenuManager.instance.ShowPopup<MenuWin>();
             GameManager.instance.coins.Add(1);
+
+            int scoreCount = 0;
+            
+            if (Model.playerData.levels.Count >= EndGameMap.LAST_LEVEL)
+            {
+                scoreCount = Model.playerData.counterLevel + EndGameMap.LAST_LEVEL;
+            }
+            else
+            {
+                scoreCount = Model.playerData.levels.Count;
+            }
+            Debug.Log($"Current score: {scoreCount}");
+            
+            YG2.SetLeaderboard("LevelCountLeaderboard",scoreCount);
         }
 
         /// Process actions after a thrown ball stopped
