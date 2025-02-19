@@ -64,7 +64,7 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
         [HideInInspector]
         public Ball bottomBall;
 
-        private Vector2 _screenSizeConst =  new Vector2(1440, 2280 );
+        private Vector2 _screenSizeConst =  new Vector2(1440, 1920 );
         
         public Camera Camera
         {
@@ -208,7 +208,7 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
         {
             float cameraHeight = 2f * Camera.orthographicSize;
             
-            float cameraWidth = 0.57f * Camera.orthographicSize;
+            float cameraWidth = 0.68f * Camera.orthographicSize;
 
             float halfHeight = cameraHeight * 0.35f;
             

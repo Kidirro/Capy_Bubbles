@@ -23,7 +23,7 @@ namespace BubbleShooterGameToolkit.Scripts.Map
         [SerializeField]
         private ScrollRect scrollRect;
         
-        private float aspectRatioConst = 2280f/1440f; 
+        private float aspectRatioConst = 1920/1440f; 
         private const float mapLenght = 2700;
         void Start()
         {
