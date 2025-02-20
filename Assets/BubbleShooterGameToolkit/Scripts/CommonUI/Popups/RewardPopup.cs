@@ -17,11 +17,14 @@ using UnityEngine;
 
 namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
 {
-	public class RewardPopup : PopupWithCurrencyLabel {
+	public class RewardPopup : PopupWithCurrencyLabel
+	{
 		public Transform iconPos;
+		public Transform manyItem;
 		private int _count;
 		private ResourceObject _resource;
 		private RewardSettingSpin rewardVisual;
+		private RewardSettingSpin[] rewardVisuals;
 
 		public override void ShowAnimationSound()
 		{
@@ -39,18 +42,37 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
 			_count = rewardVisual.count;
 			_resource = rewardVisual.resource;
 		}
-		
+		public void SetReward(RewardSettingSpin[] rewardVisual)
+		{
+			rewardVisuals = rewardVisual;
+			foreach (RewardSettingSpin reward in rewardVisual)
+			{
+				var rewardObject = Instantiate(reward.rewardVisualPrefab, manyItem);
+				rewardObject.SetCount(reward.count);
+			}
+			_resource = rewardVisual[0].resource;
+			_count = rewardVisual[0].count;
+		}
+
 		public override void Close()
 		{
-			rewardVisual.resource.Add(rewardVisual.count);
-			if(_resource.name == "Coins")
-				topPanel.AnimateCoins(iconPos.position, "+"+_count, () => base.Close());
-			else if(_resource.name == "Life")
+			rewardVisual?.resource.Add(rewardVisual.count);
+			foreach (var rewardVisual in rewardVisuals)
+			{
+				rewardVisual.resource.Add(rewardVisual.count);
+				if (_resource.name == "Coins")
+					topPanel.AnimateCoins(iconPos.position, "+" + _count, () => base.Close());
+				else if (_resource.name == "Life")
+					topPanel.AnimateLife(iconPos.position, "", () => base.Close());
+			}
+			if (_resource.name == "Coins")
+				topPanel.AnimateCoins(iconPos.position, "+" + _count, () => base.Close());
+			else if (_resource.name == "Life")
 				topPanel.AnimateLife(iconPos.position, "", () => base.Close());
 			else
 				base.Close();
 		}
 
-		
+
 	}
 }
