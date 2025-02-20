@@ -7,17 +7,18 @@
         false,
         false
     ],
-    "idSave": 58,
+    "idSave": 116,
     "language": -1,
     "sound": 1,
     "music": 1,
     "isFreeSpin": true,
-    "levelData": "[1710,2100,3790,3570,1700]",
+    "levelData": "[4230,2080,3810,2690,2000]",
     "laslLevel": 6,
-    "playerDataJson": "{\"id\":0,\"phone\":\"\",\"gold\":260,\"hearts\":5,\"levels\":[1710,2100,3790,3570,1700],\"boosters\":[1,1,1,1],\"counterLevel\":24,\"endGameFirstMapObjectsOpen\":[false,false,true,true,false,true,false,true,true,true,true,true,true,true,false,false,false,false,false,false,true,true,true,false,false],\"endGameSecondMapObjectsOpen\":[false,false,false,true,true,true,true,true,true,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false],\"score\":166}",
+    "playerDataJson": "{\"id\":0,\"phone\":\"\",\"gold\":150,\"hearts\":6,\"levels\":[4230,2080,3810,2690,2000],\"boosters\":[5,1,2,0],\"counterLevel\":25,\"endGameFirstMapObjectsOpen\":[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false],\"endGameSecondMapObjectsOpen\":[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false],\"score\":0}",
     "dailyBonusDay": "06.03.2025 0:00:00",
-    "rewardStreak": 1,
-    "lastDisabledTime": "2025-03-06T12:51:05.5468964+03:00",
-    "scoreLevelLeaderboard": 0,
-    "scoreObjectLeaderboard": 100
+    "rewardStreak": 0,
+    "lastDisabledTime": "2025-03-06T16:59:54.8518178+03:00",
+    "scoreLevelLeaderboard": 9,
+    "scoreObjectLeaderboard": 0,
+    "chestLevels": 2
 }

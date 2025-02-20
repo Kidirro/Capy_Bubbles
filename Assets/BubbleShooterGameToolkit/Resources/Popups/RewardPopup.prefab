@@ -38,6 +38,7 @@ RectTransform:
   - {fileID: 1861735467073415721}
   - {fileID: 1067254818258428581}
   - {fileID: 6818272178824945305}
+  - {fileID: 137234281380535351}
   m_Father: {fileID: 8034155342639863909}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -616,6 +617,66 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &4499283758303351804
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 137234281380535351}
+  - component: {fileID: 7280501766762919446}
+  m_Layer: 5
+  m_Name: manyObj
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &137234281380535351
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4499283758303351804}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2540674465421346160}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -1.5735, y: -40.5227}
+  m_SizeDelta: {x: 933.9157, y: 428.0453}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &7280501766762919446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4499283758303351804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 4
+  m_StartCorner: 0
+  m_StartAxis: 0
+  m_CellSize: {x: 100, y: 100}
+  m_Spacing: {x: 150, y: 0}
+  m_Constraint: 2
+  m_ConstraintCount: 1
 --- !u!1 &4501312028568731289
 GameObject:
   m_ObjectHideFlags: 0
@@ -943,6 +1004,7 @@ MonoBehaviour:
   closeButton: {fileID: 3450714724836197452}
   topPanelPrefab: {fileID: 2478078317949295629, guid: 395aa405674a742f4887b6c057f3aa57, type: 3}
   iconPos: {fileID: 1067254818258428581}
+  manyItem: {fileID: 137234281380535351}
 --- !u!95 &8016891387234896929
 Animator:
   serializedVersion: 7

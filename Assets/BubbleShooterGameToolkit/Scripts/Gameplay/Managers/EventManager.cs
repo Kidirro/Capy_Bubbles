@@ -23,7 +23,7 @@ using UnityEngine;
 
 namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
 {
-     public enum EGameEvent
+    public enum EGameEvent
     {
         LevelLoaded,
         Win,
@@ -82,7 +82,7 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
 
         public static void SetGameStatus(EStatus newStatus)
         {
-            if(gameStatus == newStatus) return;
+            if (gameStatus == newStatus) return;
             gameStatus = newStatus;
             switch (newStatus)
             {
@@ -91,13 +91,14 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
                     break;
                 case EStatus.Win:
                     GameManager.instance.life.Add(1);
+                    PlayerPrefs.SetInt("ChestLevels", PlayerPrefs.GetInt("ChestLevels", 0) + 1);
                     GetEvent<EStatus>(EGameEvent.Win).Invoke(newStatus);
                     break;
                 case EStatus.Pause:
                     MenuManager.instance.ShowPopup<MenuPause>();
                     break;
                 case EStatus.Fail:
-                    if(LevelLoader.instance.CurrentLevel.levelMode == ELevelMode.Moves)
+                    if (LevelLoader.instance.CurrentLevel.levelMode == ELevelMode.Moves)
                         MenuManager.instance.ShowPopup<PreFail>(null, ResultActionOnFail);
                     else
                         MenuManager.instance.ShowPopup<PreFailTime>(null, ResultActionOnFail);

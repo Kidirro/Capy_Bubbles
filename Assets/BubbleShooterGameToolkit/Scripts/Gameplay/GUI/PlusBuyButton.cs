@@ -15,7 +15,7 @@ using UnityEngine;
 
 namespace BubbleShooterGameToolkit.Scripts.Gameplay.GUI
 {
-    public class PlusBuyButton : CustomButton
+  public class PlusBuyButton : CustomButton
     {
         private TextMeshProUGUI plusIcon;
         

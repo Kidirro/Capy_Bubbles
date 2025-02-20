@@ -25,5 +25,7 @@ namespace YG
 
         public int scoreLevelLeaderboard = 0;
         public int scoreObjectLeaderboard = 0;
+
+        public int chestLevels = 0;
     }
 }

@@ -296,6 +296,13 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
             Model.playerData.score = YG2.saves.scoreLevelLeaderboard;
             
             YG2.SetLeaderboard("LevelCountLeaderboard",YG2.saves.scoreObjectLeaderboard + YG2.saves.scoreLevelLeaderboard);
+            
+#if PLUGIN_YG_2
+            YG2.saves.chestLevels += 1;
+            YG2.SaveProgress();
+#else
+        PlayerPrefs.SetInt("ChestLevels", PlayerPrefs.GetInt("ChestLevels",0));
+#endif
         }
 
         /// Process actions after a thrown ball stopped

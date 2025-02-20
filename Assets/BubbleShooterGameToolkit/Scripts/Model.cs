@@ -62,9 +62,11 @@ public class Model : MonoBehaviour
         playerData =
 #if PLUGIN_YG_2
             GetSaveYG();
+            Debug.Log("!!!!!!!!");
 #else
             await GetSave();
 #endif
+        Debug.Log($"Player Data {playerData == null}");
         id = playerData.id;
         phone = playerData.phone;
         if (playerData.endGameFirstMapObjectsOpen.Length == 0)
@@ -133,9 +135,8 @@ public class Model : MonoBehaviour
             PlayerPrefs.DeleteAll();
         }
 
-        var tempPlayerData = JsonUtility.FromJson<PlayerData>(YG2.saves.playerDataJson) ?? new PlayerData(false);
-        return tempPlayerData;
-
+        Debug.Log($" save {YG2.saves.playerDataJson == ""}");
+        return YG2.saves.playerDataJson == "" ? new PlayerData(false) : JsonUtility.FromJson<PlayerData>(YG2.saves.playerDataJson);
     }
     public static async Task<Shop> GetShopProduts()
     {
@@ -359,7 +360,6 @@ public class PlayerData
     {
         levels = new List<int>();
 #if PLUGIN_YG_2
-        
         levels = JsonConvert.DeserializeObject(YG2.saves.levelData, typeof(List<int>)) as List<int> ?? new List<int>(){};
 #else        
         for (int i = 0; i < PlayerPrefs.GetInt("Level", 1); i++)
@@ -385,15 +385,16 @@ public class PlayerData
         {
             counterLevel = 0;
             endGameFirstMapObjectsOpen = new bool[25];
+            endGameSecondMapObjectsOpen = new bool[27];
+            score = 0;
         }
         else
         {
             counterLevel = Model.playerData.counterLevel;
             endGameFirstMapObjectsOpen = Model.playerData.endGameFirstMapObjectsOpen;
+            endGameSecondMapObjectsOpen = Model.playerData.endGameSecondMapObjectsOpen;
+            score = Model.GetScore();
         }
-        endGameFirstMapObjectsOpen = Model.playerData.endGameFirstMapObjectsOpen;
-        endGameSecondMapObjectsOpen = Model.playerData.endGameSecondMapObjectsOpen;
-        score = Model.GetScore();
     }
     public PlayerData()
     {
