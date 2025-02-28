@@ -65,7 +65,6 @@ public class Model : MonoBehaviour
 #else
             await GetSave();
 #endif
-        playerData = await GetSave();
         id = playerData.id;
         phone = playerData.phone;
         if (playerData.endGameFirstMapObjectsOpen.Length == 0)

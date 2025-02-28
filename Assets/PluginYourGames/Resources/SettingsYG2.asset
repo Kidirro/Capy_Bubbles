@@ -23,7 +23,7 @@ MonoBehaviour:
   Flags:
     flags:
     - name: LastLevel
-      value: 198
+      value: 5
   InterstitialAdv:
     showFirstAdv: 1
     interAdvInterval: 60
