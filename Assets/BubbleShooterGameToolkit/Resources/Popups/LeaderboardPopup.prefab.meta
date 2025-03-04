@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9648731e07e97e642a5e603971cd65c5
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 
+  assetPath: Assets/BubbleShooterGameToolkit/Resources/Popups/LuckySpin.prefab
+  uploadId: 0
