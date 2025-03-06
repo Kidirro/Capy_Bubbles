@@ -4,6 +4,7 @@ using BubbleShooterGameToolkit.Scripts.CommonUI;
 using BubbleShooterGameToolkit.Scripts.CommonUI.Popups;
 using UnityEngine;
 using UnityEngine.UI;
+using YG;
 
 public class LeaderboardButton : MonoBehaviour
 {
@@ -18,7 +19,7 @@ public class LeaderboardButton : MonoBehaviour
 
         private void OpenSpin()
         {
-            MenuManager.instance.ShowPopup<LeaderboardPopup>();
+            MenuManager.instance.ShowPopup<Rating>();
         }
     
 }

@@ -6,6 +6,7 @@ using DG.Tweening;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using YG;
 
 public class OpenedObject : MonoBehaviour
 {
@@ -59,7 +60,13 @@ public class OpenedObject : MonoBehaviour
                         Model.playerData.endGameSecondMapObjectsOpen[number] = true;
                         break;
                 }
+
                 GameManager.instance.coins.Consume(cost);
+
+#if PLUGIN_YG_2
+                YG2.saves.scoreObjectLeaderboard += cost / 10;
+                YG2.SetLeaderboard("LevelCountLeaderboard", YG2.saves.scoreObjectLeaderboard + YG2.saves.scoreLevelLeaderboard);
+#endif
 
                 AnimObjs();
             }

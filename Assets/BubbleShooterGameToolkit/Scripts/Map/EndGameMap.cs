@@ -27,8 +27,8 @@ public class EndGameMap : MonoBehaviour
     private List<Map> maps = new List<Map>();
     public const int MAX_LEVEL = 198;
     //198
-#if PLUGIN_YG_2    
-    public static int LAST_LEVEL => int.Parse(YG2.GetFlag("LastLevel"));
+#if PLUGIN_YG_2
+    public static int LAST_LEVEL = 5;//=> int.Parse(YG2.GetFlag("LastLevel"));
 #else
     public const int LAST_LEVEL = 198;
 #endif

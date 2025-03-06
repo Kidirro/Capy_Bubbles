@@ -278,19 +278,24 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
             MenuManager.instance.ShowPopup<MenuWin>();
             GameManager.instance.coins.Add(1);
 
-            int scoreCount = 0;
+            
             
             if (Model.playerData.levels.Count >= EndGameMap.LAST_LEVEL)
             {
-                scoreCount = Model.playerData.counterLevel + EndGameMap.LAST_LEVEL;
+                if (YG2.saves.scoreLevelLeaderboard == 0)
+                {
+                    YG2.saves.scoreLevelLeaderboard = EndGameMap.LAST_LEVEL;
+                }
+                YG2.saves.scoreLevelLeaderboard += 1;
             }
             else
             {
-                scoreCount = Model.playerData.levels.Count;
+                YG2.saves.scoreLevelLeaderboard = Model.playerData.levels.Count;
             }
-            Debug.Log($"Current score: {scoreCount}");
+            Debug.Log($"Current score: {YG2.saves.scoreLevelLeaderboard}");
+            Model.playerData.score = YG2.saves.scoreLevelLeaderboard;
             
-            YG2.SetLeaderboard("LevelCountLeaderboard",scoreCount);
+            YG2.SetLeaderboard("LevelCountLeaderboard",YG2.saves.scoreObjectLeaderboard + YG2.saves.scoreLevelLeaderboard);
         }
 
         /// Process actions after a thrown ball stopped

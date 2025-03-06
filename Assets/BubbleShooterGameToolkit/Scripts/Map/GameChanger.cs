@@ -10,6 +10,9 @@ public class GameChanger : MonoBehaviour
 
     private void Start()
     {
+        Debug.Log($"[DEBUG] Model.playerData {Model.playerData}.");
+        Debug.Log($"[DEBUG] Model.playerData.levels {Model.playerData.levels}.");
+        Debug.Log($"[DEBUG] Model.playerData.levels.count {Model.playerData.levels.Count}.");
         if(Model.playerData.levels.Count>=EndGameMap.LAST_LEVEL)
         {
             mapEndGame.Open();

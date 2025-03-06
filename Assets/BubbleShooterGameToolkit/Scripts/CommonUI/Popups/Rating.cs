@@ -4,6 +4,8 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using UnityEngine;
 using UnityEngine.Networking;
+using YG;
+using YG.Utils.LB;
 
 namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
 {
@@ -14,15 +16,33 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
         [SerializeField] private RatingItem _prefab;
         [SerializeField] private Transform _container;
         [SerializeField] private RatingItem _player;
+        
         async void OnEnable()
         {
             _loading.SetActive(true);
             _rating.SetActive(false);
+#if PLUGIN_YG_2
+            YG2.onGetLeaderboard -= GetLBData;
+            YG2.onGetLeaderboard += GetLBData;
+            
+            YG2.GetLeaderboard("LevelCountLeaderboard",5,5);
+#else
             var ratingData = await GetRating();
             CreateRating(ratingData);
             _loading.SetActive(false);
             _rating.SetActive(true);
+#endif
         }
+
+#if PLUGIN_YG_2
+        protected override void OnDisable()
+        {
+#if PLUGIN_YG_2
+            YG2.onGetLeaderboard -= GetLBData;
+#endif
+            base.OnDisable();
+        }
+#endif
 
         private void CreateRating(List<RatingData> ratingDatas)
         {
@@ -32,25 +52,56 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
             }
             int i = 0;
             bool isPlayerInit=false;
+            
             foreach (RatingData ratingData in ratingDatas)
             {
+                bool isCurrentPlayer = 
+#if PLUGIN_YG_2
+                    YG2.player!=null && ratingData.id_YG == YG2.player.id
+#else
+                    ratingData.id == Model.id
+#endif
+                    ;
                 i++;
-                Instantiate(_prefab, _container).Initialize(i, ratingData.masked_phone, ratingData.counterLevel, ratingData.id == Model.id);
-                if (ratingData.id == Model.id)
+                Instantiate(_prefab, _container).Initialize(
+#if PLUGIN_YG_2                    
+                    ratingData.rank_YG,
+                    ratingData.nickname_YG,
+#else 
+                    i,
+                    ratingData.masked_phone,
+#endif
+                    ratingData.counterLevel,isCurrentPlayer);
+                if (isCurrentPlayer)
                 {
                     isPlayerInit=true;
-                    _player.Initialize(i, Model.phone, ratingData.counterLevel, true);
+                    _player.Initialize(
+#if PLUGIN_YG_2           
+                        ratingData.rank_YG,
+                        YG2.player.name,
+#else                    
+                        i,
+                        Model.phone,
+#endif
+                        ratingData.counterLevel, true);
                 }
             }
             if(!isPlayerInit)
             {
-                 _player.Initialize(0, Model.phone, Model.playerData.counterLevel, true);
+                _player.Initialize(0,
+#if PLUGIN_YG_2
+                    YG2.player.name, 
+                    Model.playerData.score,
+#else
+                     Model.phone, 
+                     Model.playerData.counterLevel,
+#endif
+                    true);
             }
         }
 
         private static async Task<List<RatingData>> GetRating()
         {
-
             var request = UnityWebRequest.Get(Model.backend + "user/rating");
             var process = request.SendWebRequest();
             while (!process.isDone)
@@ -70,12 +121,42 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
 
             }
         }
+        
+#if PLUGIN_YG_2
+        private void GetLBData(LBData lbData)
+        {
+            List<RatingData> ratingDatas = new List<RatingData>();
+            foreach (var data in lbData.players)
+            {
+                ratingDatas.Add(new RatingData()
+                {
+                    id_YG = data.uniqueID,
+                    counterLevel =data.score,
+                    rank_YG = data.rank,
+                    nickname_YG = data.name
+                } );
+            }
+            
+            
+            CreateRating(ratingDatas);
+            _loading.SetActive(false);
+            _rating.SetActive(true);
+        }
+#endif        
+        
         [Serializable]
         public class RatingData
         {
             public int id { get; set; }
             public string masked_phone { get; set; }
             public int counterLevel { get; set; }
+            
+#if PLUGIN_YG_2            
+            public int rank_YG { get; set; }
+            public string nickname_YG { get; set; }
+            
+            public string id_YG { get; set; }
+#endif
         }
     }
 }

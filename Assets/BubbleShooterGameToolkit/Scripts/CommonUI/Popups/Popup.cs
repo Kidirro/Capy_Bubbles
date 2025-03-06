@@ -90,7 +90,7 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
             Destroy(gameObject, 2f);
         }
 
-        private void OnDisable()
+        protected virtual void OnDisable()
         {
             OnAfterCloseAction?.Invoke();
             DOTween.Kill(gameObject);
