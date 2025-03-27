@@ -195,6 +195,7 @@ GameObject:
   - component: {fileID: 6243856726882488619}
   - component: {fileID: 5161571311967907967}
   - component: {fileID: 4026317262119788329}
+  - component: {fileID: 9110694684057678117}
   m_Layer: 5
   m_Name: place
   m_TagString: Untagged
@@ -292,17 +293,15 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
+  m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
-  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -320,6 +319,20 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &9110694684057678117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 449058730306475751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b955dac9756d2dab50499296d60541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _localizeKey: Place
+  text: {fileID: 4026317262119788329}
 --- !u!1 &1587225076812220278
 GameObject:
   m_ObjectHideFlags: 0
@@ -463,7 +476,7 @@ MonoBehaviour:
   _player: {fileID: 784331825897223830}
 --- !u!95 &112243108766994399
 Animator:
-  serializedVersion: 7
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -477,7 +490,6 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -569,6 +581,7 @@ GameObject:
   - component: {fileID: 5860080734163898700}
   - component: {fileID: 6897137806776179077}
   - component: {fileID: 2582652369544437986}
+  - component: {fileID: 4671126519554665350}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -666,17 +679,15 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
+  m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
-  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -694,6 +705,20 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &4671126519554665350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922738974049933545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b955dac9756d2dab50499296d60541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _localizeKey: Rating
+  text: {fileID: 2582652369544437986}
 --- !u!1 &2269435215142468115
 GameObject:
   m_ObjectHideFlags: 0
@@ -906,6 +931,7 @@ GameObject:
   - component: {fileID: 4486476035199858550}
   - component: {fileID: 6851140971928734627}
   - component: {fileID: 7375352354958082073}
+  - component: {fileID: 6196331643171704882}
   m_Layer: 5
   m_Name: place_2
   m_TagString: Untagged
@@ -1003,17 +1029,15 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
+  m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
-  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -1031,6 +1055,20 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &6196331643171704882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2445376019028005162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b955dac9756d2dab50499296d60541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _localizeKey: Score
+  text: {fileID: 7375352354958082073}
 --- !u!1 &4270845209884571337
 GameObject:
   m_ObjectHideFlags: 0
@@ -1772,6 +1810,7 @@ GameObject:
   - component: {fileID: 1623373480131113338}
   - component: {fileID: 8741434762788557740}
   - component: {fileID: 7666552708175980486}
+  - component: {fileID: 7279132919510090891}
   m_Layer: 5
   m_Name: place_1
   m_TagString: Untagged
@@ -1869,17 +1908,15 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
+  m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
-  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -1897,6 +1934,20 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &7279132919510090891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8856543465576834609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b955dac9756d2dab50499296d60541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _localizeKey: Player
+  text: {fileID: 7666552708175980486}
 --- !u!1 &8878563416137248619
 GameObject:
   m_ObjectHideFlags: 0

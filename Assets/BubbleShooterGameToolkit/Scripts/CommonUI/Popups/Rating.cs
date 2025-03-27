@@ -52,12 +52,13 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
             }
             int i = 0;
             bool isPlayerInit=false;
+            bool isPlayerAuth = YG2.player.auth;
             
             foreach (RatingData ratingData in ratingDatas)
             {
                 bool isCurrentPlayer = 
 #if PLUGIN_YG_2
-                    YG2.player!=null && ratingData.id_YG == YG2.player.id
+                    isPlayerAuth && ratingData.id_YG == YG2.player.id
 #else
                     ratingData.id == Model.id
 #endif
@@ -78,7 +79,7 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
                     _player.Initialize(
 #if PLUGIN_YG_2           
                         ratingData.rank_YG,
-                        YG2.player.name,
+                        isPlayerAuth ? YG2.player.name : LocalizeStorage.GetText("You",LocalizationChanger.language),
 #else                    
                         i,
                         Model.phone,
@@ -90,7 +91,7 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
             {
                 _player.Initialize(0,
 #if PLUGIN_YG_2
-                    YG2.player.name, 
+                    isPlayerAuth ? YG2.player.name : LocalizeStorage.GetText("You",LocalizationChanger.language),
                     Model.playerData.score,
 #else
                      Model.phone, 

@@ -339,6 +339,26 @@ MonoBehaviour:
       \u0437\u0443\u0434\u04E3 \u0431\u0438\u0441\u0451\u0440 \u0447\u0438\u0437\u0438
       \u043D\u0430\u0432 \u0432\u0430 \u04B7\u043E\u043B\u0438\u0431 \u0445\u043E\u04B3\u04E3
       \u0434\u0438\u0434! \u0418\u043D\u0442\u0438\u0437\u043E\u0440 \u0448\u0430\u0432!"
+  - key: You
+    RussiaValue: "\u0412\u044B"
+    EnglishValue: You
+    TjsValue: "\u0428\u0443\u043C\u043E"
+  - key: Rating
+    RussiaValue: "\u0420\u0435\u0439\u0442\u0438\u043D\u0433"
+    EnglishValue: Rating
+    TjsValue: "\u0420\u0435\u0439\u0442\u0438\u043D\u0433"
+  - key: Place
+    RussiaValue: "\u041C\u0435\u0441\u0442\u043E"
+    EnglishValue: Place
+    TjsValue: "\u04B6\u043E\u0439\u0433\u0438\u0440"
+  - key: Player
+    RussiaValue: "\u0418\u0433\u0440\u043E\u043A"
+    EnglishValue: Player
+    TjsValue: "\u0411\u043E\u0437\u0438\u043D\u0433\u0430\u0440"
+  - key: Score
+    RussiaValue: "\u041E\u0447\u043A\u0438"
+    EnglishValue: Score
+    TjsValue: "\u04B2\u0438\u0441\u043E\u0431"
   localizeImageObjs:
   - key: Fantastic
     RussiaValue: {fileID: 21300000, guid: fcf2b6b367b6edf72a3c66a4f748e2c4, type: 3}

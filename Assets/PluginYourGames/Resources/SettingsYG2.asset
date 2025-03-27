@@ -15,7 +15,7 @@ MonoBehaviour:
   Authorization:
     scopes: 1
     playerPhotoSize: 1
-    authorized: 1
+    authorized: 0
     playerName: Player current
     uniqueID: 000
     playerPhoto: demo image
