@@ -916,6 +916,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   privacyOK: {fileID: 4306901669260892951}
   _telegram: {fileID: 1386763960}
+  _megafonQuit: {fileID: -1362214027744232562, guid: c3eb0af69cfbdd961a714a265661f0dc, type: 3}
   privacy: {fileID: 931076183}
 --- !u!1 &223341045
 GameObject:

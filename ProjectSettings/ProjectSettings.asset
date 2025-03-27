@@ -783,7 +783,7 @@ PlayerSettings:
   scriptingDefineSymbols:
     Android: 
     Standalone: BEELINE;PLUGIN_YG_2;Authorization_yg;InterstitialAdv_yg;Payments_yg;RewardedAdv_yg;Storage_yg;TMP_YG2;NJSON_YG2;beelinePlatform_yg
-    WebGL: BEELINE
+    WebGL: BEELINE;MEGAFON
     Windows Store Apps: 
     iPhone: 
   additionalCompilerArguments: {}

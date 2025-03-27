@@ -13,17 +13,27 @@ public class Model : MonoBehaviour
 {
     [SerializeField] private Button privacyOK;
     [SerializeField] private Button _telegram;
+    [SerializeField] private Sprite _megafonQuit;
     [SerializeField] private GameObject privacy;
     private static string token;
     public static PlayerData playerData;
     public static int id;
     public static string phone;
-
+#if MEGAFON
+    public static string backend = "https://tj-capybubbles.rozicat.com/api/";
+#else
     public static string backend = "https://bubbles.arcomm.ru/api/";
     private static string telegram = "https://t.me/Rozi_cat";
+#endif
     void Start()
     {
+#if MEGAFON
+        _telegram.transform.GetChild(0).GetComponent<Image>().gameObject.SetActive(false);
+        _telegram.GetComponent<Image>().sprite = _megafonQuit;
+        _telegram.onClick.AddListener(JavaScriptHandler.Quit);
+#else
         _telegram.onClick.AddListener(OpenTelegram);
+#endif
 #if UNITY_EDITOR
         Token("3fdf1266a04f9cf495e106a297a69d5307a38281");
 #else
@@ -52,7 +62,7 @@ public class Model : MonoBehaviour
     public void OpenTelegram()
     {
 
-#if BEELINE
+#if BEELINE && !MEGAFON
         JavaScriptHandler.OpenURLInSameTab(telegram);
 #endif
     }
@@ -119,7 +129,7 @@ public class Model : MonoBehaviour
 
 
             default:
-                Debug.Log("Error: " + request.responseCode + " Message: " + request.downloadHandler.error);
+                Debug.Log("Error: " + request.responseCode + " Message: " + request.downloadHandler.text);
                 return new PlayerData(false);
 
         }
@@ -182,19 +192,21 @@ public class Model : MonoBehaviour
         }
 
     }
-    public static int GetScore(){
-        int result=0;
+    public static int GetScore()
+    {
+        int result = 0;
         for (int i = 0; i < playerData.endGameFirstMapObjectsOpen.Length; i++)
         {
-            if(playerData.endGameFirstMapObjectsOpen[i])
+            if (playerData.endGameFirstMapObjectsOpen[i])
             {
-                result += Mathf.RoundToInt(GameManager.instance.endGameSetting.mapObjectCost[0].mapObjectCost[i]/10f);
+                result += Mathf.RoundToInt(GameManager.instance.endGameSetting.mapObjectCost[0].mapObjectCost[i] / 10f);
             }
         }
-        for (int i = 0; i<playerData.endGameSecondMapObjectsOpen.Length;i++){
-            if(playerData.endGameSecondMapObjectsOpen[i])
+        for (int i = 0; i < playerData.endGameSecondMapObjectsOpen.Length; i++)
+        {
+            if (playerData.endGameSecondMapObjectsOpen[i])
             {
-                result += Mathf.RoundToInt(GameManager.instance.endGameSetting.mapObjectCost[1].mapObjectCost[i]/10);
+                result += Mathf.RoundToInt(GameManager.instance.endGameSetting.mapObjectCost[1].mapObjectCost[i] / 10);
             }
         }
 
@@ -256,7 +268,7 @@ public class PlayerSendData
     public int counterLevel = 0;
     public string endGameFirstMapObjectsOpen;
     public string endGameSecondMapObjectsOpen;
-    public int score=0;
+    public int score = 0;
 
     public PlayerSendData(PlayerData data)
     {
@@ -318,7 +330,7 @@ public class PlayerData
     public int counterLevel = 0;
     public bool[] endGameFirstMapObjectsOpen = new bool[25];
     public bool[] endGameSecondMapObjectsOpen = new bool[27];
-    public int score=0;
+    public int score = 0;
 
     public PlayerData(bool toserver)
     {

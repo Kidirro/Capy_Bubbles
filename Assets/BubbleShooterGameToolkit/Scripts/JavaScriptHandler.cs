@@ -17,4 +17,9 @@ public class JavaScriptHandler : MonoBehaviour
     [DllImport("__Internal")]
     public static extern void ResumeSound();
     #endif
+    #if MEGAFON
+    [DllImport("__Internal")]
+    public static extern void Quit();
+    
+    #endif
 }
