@@ -35,12 +35,13 @@ namespace BubbleShooterGameToolkit.Scripts.System
     {
         public Coins coins;
         public Life life;
+        public Gem gem;
         public ResourceObject[] boosters;
         public GameplaySettings GameplaySettings { get; private set; }
         public EndGameSetting endGameSetting { get; private set; }
         public GameSettings GameSettings { get; private set; }
 
-        public Action<int> purchaseSucceded;
+        public Action<ShopItemEditor> purchaseSucceded;
         private ShopItemEditor[] shopItems;
 
         public override void Awake()
@@ -204,9 +205,12 @@ namespace BubbleShooterGameToolkit.Scripts.System
 
         private void PurchaseSucceded(string id)
         {
-            var count = shopItems.First(i => i.productID == id).coins;
-            coins.Add(count);
-            purchaseSucceded?.Invoke(count);
+            var item = shopItems.First(i => i.productID == id);
+            var countCoins = item.coins;
+            var countGems = item.gems;
+            coins.Add(countCoins);
+            gem.Add(countGems);
+            purchaseSucceded?.Invoke(item);
         }
 
         private bool CheckDailyBonusConditions()

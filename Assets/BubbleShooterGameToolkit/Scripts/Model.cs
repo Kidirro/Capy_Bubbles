@@ -256,6 +256,7 @@ public class ProductShop
     public string id;
     public string price;
     public int gold;
+    public int gems;
 }
 [Serializable]
 public class PlayerSendData

@@ -20,6 +20,7 @@ namespace BubbleShooterGameToolkit.Scripts.Settings
         [Header("Default settings")] 
         public int MaxLife;
         public int coins;
+        public int gem;
         [Header("Life settings")] 
         public int refillLifeCost;
         public int TotalTimeForRestLifeHours;

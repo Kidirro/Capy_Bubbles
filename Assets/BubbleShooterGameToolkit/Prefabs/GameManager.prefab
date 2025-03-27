@@ -347,6 +347,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coins: {fileID: 11400000, guid: 05af233fe9cfa409abb37d57d2cceaea, type: 2}
   life: {fileID: 11400000, guid: dba5017dba75c414abbab5cc5d6742b6, type: 2}
+  gem: {fileID: 11400000, guid: 3431c5e4877f0c496bbc7098fa83846d, type: 2}
   boosters:
   - {fileID: 11400000, guid: 769f5efd419024822a38fdf6e2e034b0, type: 2}
   - {fileID: 11400000, guid: 253b9682b7cc14d42af0286c29f97299, type: 2}
