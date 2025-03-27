@@ -92,6 +92,7 @@ public class Model : MonoBehaviour
         if (playerData.endGameSecondMapObjectsOpen.Length == 0)
             playerData.endGameSecondMapObjectsOpen = new bool[27];
         GameManager.instance.coins.Set(playerData.gold);
+        GameManager.instance.gem.Set(playerData.gems);
         for (int i = 0; i < GameManager.instance.boosters.Length; i++)
         {
             GameManager.instance.boosters[i].Set(i < playerData.boosters.Length ? playerData.boosters[i] : 0);
@@ -264,6 +265,7 @@ public class PlayerSendData
 
     public int gold = 0;
     public int hearts = 0;
+    public int gems = 0;
     public string levels;
     public string boosters;
     public int counterLevel = 0;
@@ -274,6 +276,7 @@ public class PlayerSendData
     public PlayerSendData(PlayerData data)
     {
         gold = data.gold;
+        gems = data.gems;
         hearts = data.hearts;
         counterLevel = data.counterLevel;
 
@@ -326,6 +329,7 @@ public class PlayerData
     public string phone;
     public int gold = 0;
     public int hearts = 0;
+    public int gems = 0;
     public List<int> levels;
     public int[] boosters = new int[4];
     public int counterLevel = 0;
@@ -353,6 +357,7 @@ public class PlayerData
         }
 
         gold = GameManager.instance.coins.GetResource();
+        gems = GameManager.instance.gem.GetResource();
         hearts = GameManager.instance.life.GetResource();
         endGameFirstMapObjectsOpen = Model.playerData.endGameFirstMapObjectsOpen;
         endGameSecondMapObjectsOpen = Model.playerData.endGameSecondMapObjectsOpen;
