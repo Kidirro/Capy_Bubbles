@@ -21,6 +21,10 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
         {
             _info.text = LocalizeStorage.GetText(textsInfo.ToString() ,LocalizationChanger.language);
         }
+        public void SetCustomText(string data)
+        {
+            _info.text = data;
+        }
     }
     public enum TextsInfo
     {

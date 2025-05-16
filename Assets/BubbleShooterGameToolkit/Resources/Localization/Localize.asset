@@ -340,9 +340,13 @@ MonoBehaviour:
       \u043D\u0430\u0432 \u0432\u0430 \u04B7\u043E\u043B\u0438\u0431 \u0445\u043E\u04B3\u04E3
       \u0434\u0438\u0434! \u0418\u043D\u0442\u0438\u0437\u043E\u0440 \u0448\u0430\u0432!"
   - key: Gems Shop
-    RussiaValue: "\u041C\u0430\u0433\u0430\u0437\u0438\u043D \u0414\u0440\u0430\u0433\u043E\u0446\u0435\u043D\u043D\u043E\u0441\u0442\u0435\u0439"
+    RussiaValue: "\u041C\u0430\u0433\u0430\u0437\u0438\u043D \u0413\u0435\u043C\u043E\u0432"
     EnglishValue: Gems Shop
-    TjsValue: "\u041C\u0430\u0493\u043E\u0437\u0430\u0438 \u0417\u0430\u0440\u0433\u0430\u0440\u04E3"
+    TjsValue: "\u041C\u0430\u0493\u043E\u0437\u0430\u0438 \u0413\u0435\u043C\u043E\u0432"
+  - key: GEMS
+    RussiaValue: "\u0433\u0435\u043C\u043E\u0432"
+    EnglishValue: gems
+    TjsValue: "\u0433\u0435\u043C\u043E\u0432"
   localizeImageObjs:
   - key: Fantastic
     RussiaValue: {fileID: 21300000, guid: fcf2b6b367b6edf72a3c66a4f748e2c4, type: 3}

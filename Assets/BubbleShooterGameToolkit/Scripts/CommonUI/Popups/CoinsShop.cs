@@ -52,10 +52,10 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
 
         protected virtual void SetProducts(Shop data)
         {
-            var prod = data.products.Where(x=> x.gold>0).ToArray();
+            var prod = data.products.Where(x => x.gold > 0).ToArray();
             for (int i = 0; i < packs.Length; i++)
             {
-                packs[i].settingsShopItem = shopSettings.shopItems.First(x=> x.coins==prod[i].gold);
+                packs[i].settingsShopItem = shopSettings.shopItems.First(x => x.coins == prod[i].gold);
                 packs[i].count.text = prod[i].gold.ToString();
                 packs[i].id = prod[i].id;
                 packs[i]._price = prod[i].price;
@@ -82,10 +82,16 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
         {
 #if UNITY_WEBPLAYER
             GameManager.instance.PurchaseSucceded(id);
+#elif MEGAFON
+            awaitPanel.SetActive(true);
+            var pack = packs.First(x => x.id == id);
+            MegafonShopTJS.BuyProduct(pack,()=>PurchaseSucceded(pack.settingsShopItem));
+            awaitPanel.SetActive(false);
 #elif BEELINE
             awaitPanel.SetActive(true);
-            await Model.BuyProduct(id);
-            PurchaseSucceded(packs.First(x => x.id == id).settingsShopItem);
+            bool isSucces = await Model.BuyProduct(id);
+            if (isSucces)
+                PurchaseSucceded(packs.First(x => x.id == id).settingsShopItem);
             awaitPanel.SetActive(false);
 #else
             IAPManager.instance.BuyProduct(id);

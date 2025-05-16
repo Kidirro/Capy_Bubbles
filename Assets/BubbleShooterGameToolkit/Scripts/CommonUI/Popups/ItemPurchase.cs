@@ -41,7 +41,7 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
         private void BuyCoins()
         {
 #if BEELINE
-            BubbleShooterGameToolkit.Scripts.CommonUI.MenuManager.instance.ShowPopup<BubbleShooterGameToolkit.Scripts.CommonUI.Popups.BuyInfoPopup>().SetText(count.text, _price.ToString(), () =>
+            MenuManager.instance.ShowPopup<BuyInfoPopup>().SetText(count.text, _price.ToString(), settingsShopItem.gems==0, () =>
             GetComponentInParent<CoinsShop>().BuyCoins(id));
 
 #else
