@@ -29,17 +29,17 @@
 
         const token = getCookie('authToken');
         console.log('Token from cookie:', token);
-    	window.unityInstance.SendMessage('Model', 'Token', token);
-        // Возвращаем значение обратно в Unity
+        
+        
             const lengthBytes = lengthBytesUTF8(token) + 1;
 
-    	// Выделяем память
+
     	const stringOnWasmHeap = unityInstance.Module.asm.malloc(lengthBytes);
 
-    	// Копируем строку в выделенную память
+
     	stringToUTF8(token, stringOnWasmHeap, lengthBytes);
 
-    	// Возвращаем указатель
+
     	return stringOnWasmHeap;
     },
     

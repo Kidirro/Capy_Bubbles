@@ -54,7 +54,7 @@ public class Model : MonoBehaviour
 #else
 #endif
     }
-    public async void Token(string token) // this calling from webview
+    public async void Token(string token) 
     {
         Model.token = token;
         await UpdateData();
@@ -68,10 +68,11 @@ public class Model : MonoBehaviour
 #endif
     }
 
-    private void SendGetToken()
+    private async void SendGetToken() 
     {
 #if BEELINE
-        Debug.LogError(JavaScriptHandler.GetTokenFromParameters());
+        Model.token = JavaScriptHandler.GetTokenFromParameters();
+        await UpdateData();
 #endif
 
     }
