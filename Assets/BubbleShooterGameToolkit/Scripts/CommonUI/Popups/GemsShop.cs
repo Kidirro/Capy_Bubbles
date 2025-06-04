@@ -23,7 +23,7 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
             for (int i = 0; i < prod.Length; i++)
             {
                 packs[i].settingsShopItem = shopSettings.shopItems.First(x=> x.gems==prod[i].gems);
-                packs[i].count.text = prod[i].gold.ToString();
+                packs[i].count.text = prod[i].gems.ToString();
                 packs[i].id = prod[i].id;
                 packs[i]._price = prod[i].price;
                 packs[i].price.text = prod[i].price + "p.";

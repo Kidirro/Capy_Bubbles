@@ -31,6 +31,7 @@ public class Model : MonoBehaviour
         _telegram.transform.GetChild(0).GetComponent<Image>().gameObject.SetActive(false);
         _telegram.GetComponent<Image>().sprite = _megafonQuit;
         _telegram.onClick.AddListener(JavaScriptHandler.Quit);
+        //TestToken();
 #else
         _telegram.onClick.AddListener(OpenTelegram);
 #endif
@@ -53,7 +54,7 @@ public class Model : MonoBehaviour
 #else
 #endif
     }
-    public async void Token(string token) // this calling from webview
+    public async void Token(string token) 
     {
         Model.token = token;
         await UpdateData();
@@ -67,14 +68,35 @@ public class Model : MonoBehaviour
 #endif
     }
 
-    private void SendGetToken()
+    private async void SendGetToken() 
     {
-#if  BEELINE
-        JavaScriptHandler.GetTokenFromParameters();
+#if BEELINE
+        Model.token = JavaScriptHandler.GetTokenFromParameters();
+        await UpdateData();
 #endif
 
     }
 
+    // public static async void TestToken()
+    // {
+    //     /*if (PlayerPrefs.HasKey("CatState"))
+    //     {
+    //         return JsonConvert.DeserializeObject<CatState>(PlayerPrefs.GetString("CatState"));
+    //     }*/
+    //     string jsonBody = "{\"user_id\":\"123\", \"device\": \"321\", \"pushable\": false}";
+
+    //     var request = new UnityWebRequest("https://tj-capybubbles.rozicat.com/token/megafon/session", "POST");
+    //     byte[] jsonToSend = System.Text.Encoding.UTF8.GetBytes(jsonBody);
+
+    //     // Настраиваем заголовки
+    //     request.uploadHandler = new UploadHandlerRaw(jsonToSend);
+    //     request.downloadHandler = new DownloadHandlerBuffer();
+    //     request.SetRequestHeader("Content-Type", "application/json");
+    //     request.SetRequestHeader("authorization", "Bearer 5ea39e867aab868f7eeccafa749ff80b98fd4837b60baac0993626cdf0461f75");
+
+    //     await request.SendWebRequest();
+    //     Debug.Log(request.responseCode + " code");
+    // }
 
 
     private static void GetData()
@@ -82,7 +104,7 @@ public class Model : MonoBehaviour
         playerData = new PlayerData(true);
     }
 
-    private static async Task UpdateData()
+    public static async Task UpdateData()
     {
         playerData = await GetSave();
         id = playerData.id;
@@ -161,7 +183,7 @@ public class Model : MonoBehaviour
 
     }
 
-    public static async Task BuyProduct(string id)
+    public static async Task<bool> BuyProduct(string id)
     {
         /*if (PlayerPrefs.HasKey("CatState"))
         {
@@ -175,24 +197,25 @@ public class Model : MonoBehaviour
             case 200:
                 await UpdateData();
                 Debug.Log("Product Buing: " + request.downloadHandler.text);
-                return;
+                return true;
             case 402:
 
                 BubbleShooterGameToolkit.Scripts.CommonUI.MenuManager.instance.ShowPopup<BubbleShooterGameToolkit.Scripts.CommonUI.Popups.InfoPopup>().SetText(textsInfo: BubbleShooterGameToolkit.Scripts.CommonUI.Popups.TextsInfo.NotPayment);
-                return;
+                return false;
             case 403:
             case 504:
             case 408:
                 BubbleShooterGameToolkit.Scripts.CommonUI.MenuManager.instance.ShowPopup<BubbleShooterGameToolkit.Scripts.CommonUI.Popups.InfoPopup>().SetText(textsInfo: BubbleShooterGameToolkit.Scripts.CommonUI.Popups.TextsInfo.Timeout);
-                return;
+                return false;
 
             default:
                 BubbleShooterGameToolkit.Scripts.CommonUI.MenuManager.instance.ShowPopup<BubbleShooterGameToolkit.Scripts.CommonUI.Popups.InfoPopup>().SetText(textsInfo: BubbleShooterGameToolkit.Scripts.CommonUI.Popups.TextsInfo.ErrorPayment);
                 Debug.Log("Error: " + request.responseCode + " Message: " + request.downloadHandler.error + "Detail: " + request.downloadHandler.text);
-                return;
+                return false;
         }
 
     }
+
     public static int GetScore()
     {
         int result = 0;

@@ -1,4 +1,6 @@
  mergeInto(LibraryManager.library, {
+ 
+
   Quit: function () {
     console.log("Quit pressed  (JS)");
 
@@ -15,15 +17,32 @@
     console.log("Quit sended  (JS)");
   },
 
-  GetTokenFromParameters: function() {
-    console.log("Try get token from params");
+    GetTokenFromParameters: function () {
+        console.log("Unity вызвал GetTokenFromParameters");
 
-    const queryString = window.location.search;
-    const urlParams = new URLSearchParams(queryString);
-    var token = urlParams.get('game_token');
+        function getCookie(name) {
+            const matches = document.cookie.match(new RegExp(
+                "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+            ));
+            return matches ? decodeURIComponent(matches[1]) : undefined;
+        }
 
-    SendToken(token);
-},
+        const token = getCookie('authToken');
+        console.log('Token from cookie:', token);
+        
+        
+            const lengthBytes = lengthBytesUTF8(token) + 1;
+
+
+    	const stringOnWasmHeap = unityInstance.Module.asm.malloc(lengthBytes);
+
+
+    	stringToUTF8(token, stringOnWasmHeap, lengthBytes);
+
+
+    	return stringOnWasmHeap;
+    },
+    
   GetToken: function () {
     console.log("GetToken called  (JS)");
 
