@@ -20,6 +20,8 @@ namespace BubbleShooterGameToolkit.Scripts.LevelSystem
     {
         public static Action OnLevelLoaded;
 
+        public static int CurrentEvent = -1;
+
         // Current loaded level
         public Level CurrentLevel { get; private set; }
         public Level LoadLevel(int num)
@@ -34,6 +36,7 @@ namespace BubbleShooterGameToolkit.Scripts.LevelSystem
             if (CurrentLevel != null)
                 return;
             var levelName = PlayerPrefs.GetString("OpenLevelName");
+            CurrentEvent = PlayerPrefs.GetInt("OpenEvent");
             if (!string.IsNullOrEmpty(levelName))
             {
                 CurrentLevel = Resources.Load<Level>("Levels/"+levelName);

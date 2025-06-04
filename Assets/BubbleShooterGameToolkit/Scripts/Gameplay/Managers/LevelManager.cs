@@ -85,6 +85,10 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
         private SeparatingBallManager separatingBallManager;
         private int matchCount;
 
+        private bool _isStartEvent = false;
+        private float _eventTime = 0f;
+        public float EventTime => _eventTime;
+
         private void OnEnable()
         {
             destroyManager = new DestroyManager();
@@ -170,6 +174,12 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
             // Check for any separated balls which soar alone.
             separatingBallManager.Init(balls, Level);
             separatingBallManager.CheckSeparatedBalls();
+            _isStartEvent = false;
+            if (PlayerPrefs.GetInt("OpenEvent", -1) != -1)
+            {
+                _isStartEvent = true;
+                StartCoroutine(CalculateEventTime());
+            }
         }
 
         private void OnDisable()
@@ -272,7 +282,14 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
 
             GameDataManager.instance.SaveLevel(CurrentLevel, ScoreManager.instance.GetScore());
 
-            MenuManager.instance.ShowPopup<MenuWin>();
+            if (_isStartEvent)
+            {
+                MenuManager.instance.ShowPopup<EventWinPopup>();
+            }
+            else
+            {
+                MenuManager.instance.ShowPopup<MenuWin>();
+            }
         }
 
         /// Process actions after a thrown ball stopped
@@ -357,6 +374,20 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
             
             // check win and lose conditions
             CheckMovesAndTargetsAfterDestroy();
+        }
+
+        private IEnumerator CalculateEventTime()
+        {
+            
+            _eventTime = 0;
+            while (true)
+            {
+                _eventTime += Time.deltaTime;
+                //PlayerPrefs.SetFloat($"EventTime{SpecialEventManager.CurrentEventData.eventName}", _eventTime);
+                yield return null;
+                //Раз в 5 сек отправлять на бэк время
+                
+            }
         }
     }
 }

@@ -185,7 +185,9 @@ namespace BubbleShooterGameToolkit.Scripts.System
         public void RestartLevel()
         {
             if (life.IsEnough(1))
+            {
                 SceneLoader.instance.StartGameScene();
+            }
             else
             {
                 var lifeShop = MenuManager.instance.ShowPopup<LifeShop>();

@@ -3826,7 +3826,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.36, y: 0.03}
   m_AnchorMax: {x: 0.36, y: 0.03}
-  m_AnchoredPosition: {x: -246.54001, y: 389.82996}
+  m_AnchoredPosition: {x: -246.54002, y: 389.82996}
   m_SizeDelta: {x: 460.92004, y: 342.65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &949680591
@@ -7144,10 +7144,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91cd4d3d6d6eb37449be971e6a5634b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  launchContainer: {fileID: 1699580215}
-  ballContainerSpawn: {fileID: 443186280}
-  switchRect: {fileID: 927015659}
-  aimLine: {fileID: 604962988}
   field: {fileID: 242234661}
   ball_center_pivot: {fileID: 0}
   holes: {fileID: 1306032180}
@@ -7156,6 +7152,10 @@ MonoBehaviour:
   bubbleLine: {fileID: 1813768643307919048, guid: 7460b9e8207804e7484152479ea90a44, type: 3}
   landingRect: {fileID: 511600700}
   rotatingLevelBall: {fileID: 0}
+  launchContainer: {fileID: 1699580215}
+  ballContainerSpawn: {fileID: 443186280}
+  switchRect: {fileID: 927015659}
+  aimLine: {fileID: 604962988}
 --- !u!4 &1618878302
 Transform:
   m_ObjectHideFlags: 0
