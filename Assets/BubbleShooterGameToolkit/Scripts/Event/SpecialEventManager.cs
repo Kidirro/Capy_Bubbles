@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using BubbleShooterGameToolkit.Scripts.Gameplay.Managers;
 using UnityEngine;
@@ -8,7 +9,7 @@ using UnityEngine.Networking;
 public class SpecialEventManager
 {
     public static EventData ChosenEventData = null; 
-    public static List<EventData> CurrentEventDataList;
+    public static List<EventData> CurrentEventDataList = new ();
         
     public static async Task<List<EventData>> GetCurrentEventData()
     {
@@ -19,6 +20,7 @@ public class SpecialEventManager
             case 200:
                 Debug.Log("Event: " + request.downloadHandler.text);
                 var tempEventDataList = JsonHelper.FromJson<EventDataRaw>(request.downloadHandler.text);
+                CurrentEventDataList = new List<EventData>();
                 foreach (var tempEventData in tempEventDataList)
                 {
                     CurrentEventDataList.Add(new EventData()
@@ -26,13 +28,15 @@ public class SpecialEventManager
                         id = tempEventData.id,
                         name = tempEventData.name,
                         event_type = tempEventData.event_type,
-                        start_date = DateTime.Parse(tempEventData.start_date),
-                        end_date = DateTime.Parse(tempEventData.end_date),
+                        start_date = DateTime.Parse(tempEventData.start_date, null, System.Globalization.DateTimeStyles.RoundtripKind),
+                        end_date = DateTime.Parse(tempEventData.end_date, null, System.Globalization.DateTimeStyles.RoundtripKind),
                         logo = tempEventData.logo,
                         level_id = tempEventData.level_id,
                         prizes = tempEventData.prizes
                         
                     });
+                    
+                    
                 }
                 break;
             case 500:
@@ -69,40 +73,40 @@ public class SpecialEventManager
         }
     }
     
-    public static async Task<EventData> GetLeaderBoard(int eventId, float limit)
+    public static async Task<LeaderboardResponse> GetLeaderBoard(int eventId, float limit)
     {
         var request = UnityWebRequest.Get(Model.backend + $"event/leaderboard?event_id={eventId}&limit={limit}");
         request.SetRequestHeader("accessToken", Model.GetToken());
         await request.SendWebRequest();
+        var result = new LeaderboardResponse();
         switch (request.responseCode)
         {
             case 200:
                 Debug.Log("Event: " + request.downloadHandler.text);
-                //CurrentEventData = JsonUtility.FromJson<EventData>(request.downloadHandler.text);
+                result = JsonUtility.FromJson<LeaderboardResponse>(request.downloadHandler.text);
                 break;
             case 500:
-                Debug.Log("Error: " + request.responseCode + " Message: " + request.downloadHandler.error);
-                //CurrentEventData = new EventData();
+                Debug.Log("Error: " + request.responseCode + " Message: " + request.downloadHandler.text);
                 break;
         
             default:
                 Debug.Log("Error: " + request.responseCode + " Message: " + request.downloadHandler.text);
-                //CurrentEventData = null;
                 break;
         }
-        return new ();
+        return result;
     }
 
-    public static async Task<EventData> GetUnclaimedPrizes()
+    public static async Task<List<EventReward>> GetUnclaimedPrizes()
     {
         var request = UnityWebRequest.Get(Model.backend + $"prizes/unclaimed");
         request.SetRequestHeader("accessToken", Model.GetToken());
         await request.SendWebRequest();
+        List<EventReward> result = new();
         switch (request.responseCode)
         {
             case 200:
-                Debug.Log("Event: " + request.downloadHandler.text);
-                //CurrentEventData = JsonUtility.FromJson<EventData>(request.downloadHandler.text);
+                Debug.Log("Prizes: " + request.downloadHandler.text);
+                result = JsonHelper.FromJson<EventReward>(request.downloadHandler.text).ToList();
                 break;
             case 500:
                 Debug.Log("Error: " + request.responseCode + " Message: " + request.downloadHandler.error);
@@ -114,7 +118,7 @@ public class SpecialEventManager
                 //CurrentEventData = null;
                 break;
         }
-        return new ();
+        return result;
     }
     
     public static async void SetClaimPrize(int id)
@@ -152,7 +156,7 @@ public class SpecialEventManager
         public EventType event_type; // Или использовать кастомный enum
         public DateTime start_date;
         public DateTime end_date;
-        public string logo;
+        public int logo;
         public List<int> level_id;
         public List<Prize> prizes;
     }
@@ -165,7 +169,7 @@ public class SpecialEventManager
         public EventType event_type; // Или использовать кастомный enum
         public string start_date;
         public string end_date;
-        public string logo;
+        public int logo;
         public List<int> level_id;
         public List<Prize> prizes;
     }
@@ -183,9 +187,36 @@ public class SpecialEventManager
         public int gold;
         public int gem;
     }
+    
+    [Serializable]
+    public class EventReward
+    {
+        public int reward_id;
+        public int event_id;
+        public int place;
+        public Reward rewards;
+    }
+    
     public enum EventType
     {
         score
+    }
+    
+    [Serializable]
+    public class LeaderboardResponse
+    {
+        public List<LeaderboardEntry> top;
+        public LeaderboardEntry current_user;
+    }
+
+    [Serializable]
+    public class LeaderboardEntry
+    {
+        public int user_id;
+        public float result;
+        public string user_name; // может быть null у current_user
+        public int place; // может отсутствовать у current_user
+        public Reward rewards; // может быть null
     }
 }
 

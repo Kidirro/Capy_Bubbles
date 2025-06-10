@@ -87,7 +87,6 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
 
         private bool _isStartEvent = false;
         private float _eventTime = 0f;
-        public float EventTime => _eventTime;
 
         private void OnEnable()
         {
@@ -378,13 +377,12 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
 
         private IEnumerator CalculateEventTime()
         {
-            
-            _eventTime = 0;
+            var key = $"EventTime{SpecialEventManager.ChosenEventData.id}";
             while (true)
             {
-                _eventTime += Time.deltaTime;
-                //PlayerPrefs.SetFloat($"EventTime{SpecialEventManager.CurrentEventData.eventName}", _eventTime);
-                yield return null;
+                var currentScore = PlayerPrefs.GetFloat(key, 0) + 1;
+                PlayerPrefs.SetFloat(key,currentScore);
+                yield return new WaitForSecondsRealtime(1f);
                 //Раз в 5 сек отправлять на бэк время
                 
             }

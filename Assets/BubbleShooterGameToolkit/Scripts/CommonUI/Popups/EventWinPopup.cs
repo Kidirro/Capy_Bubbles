@@ -8,6 +8,7 @@ using BubbleShooterGameToolkit.Scripts.Settings;
 using BubbleShooterGameToolkit.Scripts.System;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class EventWinPopup : Popup
@@ -27,17 +28,19 @@ public class EventWinPopup : Popup
         // play.onClick.AddListener(GoMap);
         // closeButton.onClick.AddListener(GoMap);
         // restart.onClick.AddListener(RestartLevel);
-        scoreText.text = LevelManager.instance.EventTime.ToString();
     }
 
     private void Start()
     {
-        currentLevelEventId = PlayerPrefs.GetInt("EventLevel", 0) + 1;
-        PlayerPrefs.SetInt("EventLevel", currentLevelEventId);
-
-
+        float currentScore = PlayerPrefs.GetFloat($"EventTime{SpecialEventManager.ChosenEventData.id}", 0);
+        
+        scoreText.text = ((int)currentScore).ToString()+ " сек";
+        currentLevelEventId = PlayerPrefs.GetInt("EventLevel"+ SpecialEventManager.ChosenEventData.id, 0) + 1;
+        PlayerPrefs.SetInt("EventLevel"+ SpecialEventManager.ChosenEventData.id, currentLevelEventId);
+        
         if (currentLevelEventId == SpecialEventManager.ChosenEventData.level_id.Count)
         {
+            SpecialEventManager.PostResultEvent(SpecialEventManager.ChosenEventData.id, currentScore);
             toMenu.gameObject.SetActive(true);
             play.gameObject.SetActive(false);
         }
@@ -53,6 +56,8 @@ public class EventWinPopup : Popup
         int currentLevel =SpecialEventManager.ChosenEventData.level_id[currentLevelEventId];
         PlayerPrefs.SetInt("OpenLevel", currentLevel);
         PlayerPrefs.SetInt("OpenEvent", 1);
+        OnCloseAction = (_) => SceneLoader.instance.StartGameScene();
+        Close();
     }
 
     public void GoMap()

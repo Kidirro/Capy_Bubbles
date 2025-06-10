@@ -15,33 +15,55 @@ public class EventUiHandler : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI eventText;
     
+    [SerializeField]
+    private List<ImageData> eventImageList;
+    
+    private Dictionary<int, Sprite> _eventImageDictionary = new ();
     private EventData _eventData;
 
     public void SetEvent(EventData eventData)
     {
         _eventData = eventData;
+        PrepareSprites();
+        if (_eventImageDictionary.TryGetValue(_eventData.logo, out var sprite))
+        {
+            eventImage.sprite = sprite;
+        }
+
         StartCoroutine(EventTimerProcess());
+    }
+
+    private void PrepareSprites()
+    {
+        if (_eventImageDictionary.Count == eventImageList.Count) return;
+        
+        _eventImageDictionary.Clear();
+        foreach (var imageData in eventImageList)
+        {
+            _eventImageDictionary[imageData.id] = imageData.sprite; 
+        }
     }
     
     private IEnumerator EventTimerProcess()
     {
-        float timeRemaining = 0;
+        var timeRemaining = 0f;
         
-        float timeStart = (float)(_eventData.start_date - DateTime.UtcNow).TotalSeconds;
-        float timeEnd = (float)(DateTime.UtcNow - _eventData.end_date).TotalSeconds;
+        var timeStart = (float)((_eventData.start_date - DateTime.Now).TotalSeconds);
+        var timeEnd = (float)((_eventData.end_date - DateTime.Now).TotalSeconds);
         
         if (timeStart > 0)
         {
-            timeRemaining = timeStart * 60f;
+            timeRemaining = timeStart;
         }
         else
         {
-            timeRemaining = timeEnd * 60f;
+            timeRemaining = timeEnd;
         }
+        
 
         while (timeRemaining > 0)
         {
-            timeRemaining -= Time.deltaTime;
+            timeRemaining -= 1;
 
             float seconds = Mathf.FloorToInt(timeRemaining % 60);
             float minutes = Mathf.FloorToInt(timeRemaining / 60);
@@ -72,14 +94,34 @@ public class EventUiHandler : MonoBehaviour
                 eventText.text = $"{hoursTxt}:{minutesTxt}:{secondsTxt}";
             }
 
-            yield return null;
+            yield return new WaitForSecondsRealtime(1f);
         }
 
-        //eventHandler.SetActive(false);
+        if (SpecialEventManager.ChosenEventData == _eventData)
+        {
+            EventUI.instance.gameObject.SetActive(false);
+            EventUI.instance.CheckClaimRewards();
+        }
+
+        eventText.text = "Результаты";
+
     }
 
     public void OpenEventWindow()
     {
         SpecialEventManager.SetChosenEventData(_eventData);
+        EventUI.instance.ShowEventWindow();
+    }
+
+    private void OnDisable()
+    {
+        StopAllCoroutines();
+    }
+    
+    [Serializable]
+    public class ImageData
+    {
+        public int id;
+        public Sprite sprite;
     }
 }

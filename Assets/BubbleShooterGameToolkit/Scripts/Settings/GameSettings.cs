@@ -41,6 +41,9 @@ namespace BubbleShooterGameToolkit.Scripts.Settings
 
         [Header("GDPR settings")]
         public string privacyPolicyUrl;
+        
+        [Header("Reply event cost")]
+        public int eventReplyCost = 10;
     }
 
     [Serializable]

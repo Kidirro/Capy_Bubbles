@@ -148,7 +148,7 @@ public class Model : MonoBehaviour
         {
             case 200:
                 Debug.Log("Save: " + request.downloadHandler.text);
-                return JsonUtility.FromJson<PlayerData>(request.downloadHandler.text.Replace(":\"", ":").Replace("\",", ",").Replace("\"}", "}"));
+                return JsonUtility.FromJson<PlayerData>(request.downloadHandler.text.Replace("\"[", "[").Replace("]\"", "]"));
 
 
             default:
@@ -267,6 +267,11 @@ public class Model : MonoBehaviour
 #endif
 
     }
+
+    public static string GetToken()
+    {
+        return token;
+    }
 }
 
 [Serializable]
@@ -379,6 +384,7 @@ public class PlayerData
             boosters[i] = GameManager.instance.boosters[i].GetResource();
         }
 
+        phone = Model.playerData.phone;
         gold = GameManager.instance.coins.GetResource();
         gems = GameManager.instance.gem.GetResource();
         hearts = GameManager.instance.life.GetResource();
