@@ -21,7 +21,19 @@ public class EventWinPopup : Popup
     
     //[SerializeField] private Button restart;
     [SerializeField] private TextMeshProUGUI scoreText;
+    
+    [SerializeField] private TextMeshProUGUI currentTimeText;
 
+    
+    [SerializeField]
+    private TextMeshProUGUI eventProgressText;
+    
+    [SerializeField]
+    private Image eventProgressImage;
+    
+    [SerializeField]
+    private Image mandarinProgressImage;
+    
     private int currentLevelEventId = 0;
     
     public void OnEnable () {
@@ -35,12 +47,14 @@ public class EventWinPopup : Popup
         float currentScore = PlayerPrefs.GetFloat($"EventTime{SpecialEventManager.ChosenEventData.id}", 0);
         
         scoreText.text = ((int)currentScore).ToString()+ " сек";
+        currentTimeText.text = ((int)LevelManager.instance.EventTime).ToString() + " сек";
         currentLevelEventId = PlayerPrefs.GetInt("EventLevel"+ SpecialEventManager.ChosenEventData.id, 0) + 1;
         PlayerPrefs.SetInt("EventLevel"+ SpecialEventManager.ChosenEventData.id, currentLevelEventId);
         
+        
+        
         if (currentLevelEventId == SpecialEventManager.ChosenEventData.level_id.Count)
         {
-            SpecialEventManager.PostResultEvent(SpecialEventManager.ChosenEventData.id, currentScore);
             toMenu.gameObject.SetActive(true);
             play.gameObject.SetActive(false);
         }
@@ -49,6 +63,16 @@ public class EventWinPopup : Popup
             play.gameObject.SetActive(true);
             toMenu.gameObject.SetActive(false);
         }
+        
+        var progressRatio =
+            ((float)currentLevelEventId) / (float)SpecialEventManager.ChosenEventData.level_id.Count;
+        eventProgressImage.fillAmount = progressRatio;
+
+        var mandarinPosition = -300 + 600 * progressRatio;
+        mandarinProgressImage.transform.localPosition =
+            new Vector3(mandarinPosition, mandarinProgressImage.transform.localPosition.y);
+
+        eventProgressText.text = currentLevelEventId + "/" + SpecialEventManager.ChosenEventData.level_id.Count;
     }
 
     public void NextLevel()

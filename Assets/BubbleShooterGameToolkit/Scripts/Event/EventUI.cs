@@ -60,6 +60,7 @@ public class EventUI : SingletonBehaviour<EventUI>
 
         foreach (var eventData in SpecialEventManager.CurrentEventDataList)
         {
+            if (eventData.id < 0) continue;
             var eventObject = Instantiate(eventUiHandler, eventUIContainer);
 
             eventObject.SetEvent(eventData);
@@ -97,7 +98,7 @@ public class EventUI : SingletonBehaviour<EventUI>
             gameObject.SetActive(false);
             return;
         }
-        if (GameManager.instance.coins.Consume(GameManager.instance.GameSettings.eventReplyCost))
+        if (GameManager.instance.gem.Consume(GameManager.instance.GameSettings.eventReplyCost))
         {
             PlayerPrefs.SetInt("EventLevel" + SpecialEventManager.ChosenEventData.id, 0);
             PlayerPrefs.SetFloat($"EventTime{SpecialEventManager.ChosenEventData.id}", 0);

@@ -1,9 +1,15 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using BubbleShooterGameToolkit.Scripts.CommonUI.Popups;
+using TMPro;
 using UnityEngine;
 
 public class EventUIRating : MonoBehaviour
 {
+    [SerializeField]
+    private TextMeshProUGUI ratingText;
+    
     [SerializeField]
     private GameObject loadingScreen;
     
@@ -20,10 +26,19 @@ public class EventUIRating : MonoBehaviour
     private EventUIRatingPlayerCard currentPlayerCard;
     
     private List<EventUIRatingPlayerCard> _playerCards = new List<EventUIRatingPlayerCard>();
-    async void Start()
+    public async void Show()
     {
+        
+        gameObject.SetActive(true);
         loadingScreen.gameObject.SetActive(true);
         var leaderboard = await SpecialEventManager.GetLeaderBoard(SpecialEventManager.ChosenEventData.id,10);
+
+        if (leaderboard == null)
+        {
+            gameObject.SetActive(false);
+            return;
+        }
+        
         loadingScreen.gameObject.SetActive(false);
         
         _playerCards.Clear();
@@ -36,8 +51,28 @@ public class EventUIRating : MonoBehaviour
         
         nullRatingWarning.gameObject.SetActive(leaderboard.top.Count == 0);
 
+
+        /*
+        switch (SpecialEventManager.ChosenEventData.event_type)
+        {
+            case SpecialEventManager.EventType.time:
+                ratingText.text = "Время";
+                break;
+            case SpecialEventManager.EventType.score:
+                ratingText.text = "Очки";
+                break;
+                
+        }
+        */
+        
         leaderboard.current_user.user_name = Model.playerData.phone;
         currentPlayerCard.SetLeaderboardEntry(leaderboard.current_user);
+    }
+
+    public void Hide()
+    {
+        gameObject.SetActive(false);
+        ClearLeaderBoard();
     }
 
     public void ClearLeaderBoard()

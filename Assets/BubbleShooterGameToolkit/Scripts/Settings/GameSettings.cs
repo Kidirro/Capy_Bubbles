@@ -43,7 +43,7 @@ namespace BubbleShooterGameToolkit.Scripts.Settings
         public string privacyPolicyUrl;
         
         [Header("Reply event cost")]
-        public int eventReplyCost = 10;
+        public int eventReplyCost = 1;
     }
 
     [Serializable]

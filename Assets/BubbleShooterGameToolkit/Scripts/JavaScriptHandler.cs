@@ -7,7 +7,7 @@ public class JavaScriptHandler : MonoBehaviour
 #if BEELINE
 
     [DllImport("__Internal")]
-    public static extern string GetTokenFromParameters();
+    public static extern void GetTokenFromParameters();
 
     [DllImport("__Internal")]
     public static extern void OpenURLInSameTab(string url);
@@ -17,6 +17,17 @@ public class JavaScriptHandler : MonoBehaviour
     public static extern void ResumeSound();
 #endif
 
+    public static string GetToken()
+    {
+#if MEGAFON
+        return GetTokenFromParametersOrCookies();
+#elif BEELINE
+        GetTokenFromParameters();
+        return "";
+#endif
+
+    }
+    
 #if MEGAFON
     [DllImport("__Internal")]
     public static extern void Quit();
@@ -26,6 +37,10 @@ public class JavaScriptHandler : MonoBehaviour
 
     [DllImport("__Internal")]
     private static extern void CallConfirmPurchaseNew(string text);
+    
+    
+    [DllImport("__Internal")]
+    private static extern string GetTokenFromParametersOrCookies();
 
     public static void ConfirmPurchase(int price, string purchaseData, string description)
     {

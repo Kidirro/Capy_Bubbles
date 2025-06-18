@@ -37,7 +37,7 @@ public class PrizeCard : MonoBehaviour
 
         for (int i = 0; i < placeIcons.Count; i++)
         {
-            placeIcons[i].SetActive(i == _prize.place + 1);
+            placeIcons[i].SetActive(i + 1== _prize.place);
         }
 
         coinsHandler.SetActive(_prize.rewards.gold>0);

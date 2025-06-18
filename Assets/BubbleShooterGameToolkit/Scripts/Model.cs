@@ -70,9 +70,11 @@ public class Model : MonoBehaviour
 
     private async void SendGetToken() 
     {
-#if BEELINE
-        Model.token = JavaScriptHandler.GetTokenFromParameters();
+#if MEGAFON
+        Model.token = JavaScriptHandler.GetToken();
         await UpdateData();
+#elif BEELINE
+        JavaScriptHandler.GetToken();
 #endif
 
     }
@@ -143,6 +145,7 @@ public class Model : MonoBehaviour
 #else
         var request = UnityWebRequest.Get(backend + "user");
         request.SetRequestHeader("accessToken", token);
+        request.SetRequestHeader("Content-Type", ""); // Очищаем
         await request.SendWebRequest();
         switch (request.responseCode)
         {

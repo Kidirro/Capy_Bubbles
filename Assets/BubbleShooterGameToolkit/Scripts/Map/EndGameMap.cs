@@ -106,7 +106,7 @@ public class EndGameMap : MonoBehaviour
 
         int number = 20 + (Model.playerData.counterLevel * 7 % (MAX_LEVEL - 20));
         PlayerPrefs.SetInt("OpenLevel", number);
-        PlayerPrefs.SetInt("OpenEvent", -1);
+        PlayerPrefs.SetInt("OpenEvent", 0);
 
         SceneLoader.instance.StartGameScene();
     }

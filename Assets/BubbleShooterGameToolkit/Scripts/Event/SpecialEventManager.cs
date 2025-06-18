@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
 using BubbleShooterGameToolkit.Scripts.Gameplay.Managers;
@@ -14,6 +15,7 @@ public class SpecialEventManager
     public static async Task<List<EventData>> GetCurrentEventData()
     {
         var request = UnityWebRequest.Get(Model.backend + "/event/current");
+        request.SetRequestHeader("Content-Type", ""); // Очищаем
         await request.SendWebRequest();
         switch (request.responseCode)
         {
@@ -53,15 +55,17 @@ public class SpecialEventManager
     }
     //501 - ошибка при отправке. Ивент окончен 
     
-    public static async void PostResultEvent(int eventId, float result)
+    public static async Task<UpdateResultResponse> PostResultEvent(int eventId, float result)
     {
-        var request = UnityWebRequest.Post(Model.backend + $"event/result?event_id={eventId}", result.ToString(), "application/json");
+        var request = UnityWebRequest.Post(Model.backend + $"event/result?event_id={eventId}", result.ToString(CultureInfo.InvariantCulture), "application/json");
         request.SetRequestHeader("accessToken", Model.GetToken());
         await request.SendWebRequest();
+        var resultResponse =new UpdateResultResponse();
         switch (request.responseCode)
         {
             case 200:
                 Debug.Log("Event: " + request.downloadHandler.text);
+                resultResponse = JsonUtility.FromJson<UpdateResultResponse>(request.downloadHandler.text);
                 break;
             case 500:
                 Debug.Log("Error: " + request.responseCode + " Message: " + request.downloadHandler.error);
@@ -71,6 +75,7 @@ public class SpecialEventManager
                 Debug.Log("Error: " + request.responseCode + " Message: " + request.downloadHandler.text);
                 break;
         }
+        return resultResponse;
     }
     
     public static async Task<LeaderboardResponse> GetLeaderBoard(int eventId, float limit)
@@ -85,13 +90,10 @@ public class SpecialEventManager
                 Debug.Log("Event: " + request.downloadHandler.text);
                 result = JsonUtility.FromJson<LeaderboardResponse>(request.downloadHandler.text);
                 break;
-            case 500:
-                Debug.Log("Error: " + request.responseCode + " Message: " + request.downloadHandler.text);
-                break;
-        
             default:
+                BubbleShooterGameToolkit.Scripts.CommonUI.MenuManager.instance.ShowPopup<BubbleShooterGameToolkit.Scripts.CommonUI.Popups.InfoPopup>().SetCustomText($"Ошибка при загрузке рейтинга ({request.responseCode}).\n Попробуйте позже.");
                 Debug.Log("Error: " + request.responseCode + " Message: " + request.downloadHandler.text);
-                break;
+                return null;
         }
         return result;
     }
@@ -173,6 +175,14 @@ public class SpecialEventManager
         public List<int> level_id;
         public List<Prize> prizes;
     }
+    
+    [Serializable]
+    public class UpdateResultResponse
+    {
+        public bool updated;
+        public float result;
+        public int place;
+    }
 
     [Serializable]
     public class Prize
@@ -199,6 +209,7 @@ public class SpecialEventManager
     
     public enum EventType
     {
+        time,
         score
     }
     

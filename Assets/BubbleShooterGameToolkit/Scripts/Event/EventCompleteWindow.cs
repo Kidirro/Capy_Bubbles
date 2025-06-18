@@ -11,13 +11,23 @@ public class EventCompleteWindow : MonoBehaviour
 
    [SerializeField] 
    private TextMeshProUGUI placeText;
-
+   
+   [SerializeField]
+   private GameObject arrowUp;
+   
+   [SerializeField]
+   private GameObject arrowDown;
 
    private async void Start()
    {
-      var leaderboard = await SpecialEventManager.GetLeaderBoard(SpecialEventManager.ChosenEventData.id, 1);
+      var currentScore = PlayerPrefs.GetFloat($"EventTime{SpecialEventManager.ChosenEventData.id}", 0);
+      var postResultEvent =  await SpecialEventManager.PostResultEvent(SpecialEventManager.ChosenEventData.id, currentScore);
+      
 
-      timeText.text = leaderboard.current_user.result + " сек";
-      placeText.text = leaderboard.current_user.place + " место";
+      timeText.text = ((int)postResultEvent.result).ToString() + " сек";
+      placeText.text = postResultEvent.place + " место";
+      
+      arrowUp.SetActive(postResultEvent.updated);
+      arrowDown.SetActive(!postResultEvent.updated);
    }
 }

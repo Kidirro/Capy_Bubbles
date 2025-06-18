@@ -87,6 +87,7 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
 
         private bool _isStartEvent = false;
         private float _eventTime = 0f;
+        public float EventTime => _eventTime;
 
         private void OnEnable()
         {
@@ -174,9 +175,10 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
             separatingBallManager.Init(balls, Level);
             separatingBallManager.CheckSeparatedBalls();
             _isStartEvent = false;
-            if (PlayerPrefs.GetInt("OpenEvent", -1) != -1)
+            if (PlayerPrefs.GetInt("OpenEvent", 0) == 1)
             {
                 _isStartEvent = true;
+                _eventTime = 0f;
                 StartCoroutine(CalculateEventTime());
             }
         }
@@ -279,7 +281,6 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
                 ball != null && ball.gameObject.activeSelf && ball.transform.position.y > bottom.y && ball.GetComponent<Rigidbody2D>().velocity.magnitude > 0.001f));
                 
 
-            GameDataManager.instance.SaveLevel(CurrentLevel, ScoreManager.instance.GetScore());
 
             if (_isStartEvent)
             {
@@ -287,6 +288,7 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
             }
             else
             {
+                GameDataManager.instance.SaveLevel(CurrentLevel, ScoreManager.instance.GetScore());
                 MenuManager.instance.ShowPopup<MenuWin>();
             }
         }
@@ -380,9 +382,10 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
             var key = $"EventTime{SpecialEventManager.ChosenEventData.id}";
             while (true)
             {
+                _eventTime += 0.1f;
                 var currentScore = PlayerPrefs.GetFloat(key, 0) + 1;
                 PlayerPrefs.SetFloat(key,currentScore);
-                yield return new WaitForSecondsRealtime(1f);
+                yield return new WaitForSecondsRealtime(0.1f);
                 //Раз в 5 сек отправлять на бэк время
                 
             }

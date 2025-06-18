@@ -30,10 +30,10 @@ public class EventUIRatingPlayerCard : MonoBehaviour
     {
         placeText.text = _leaderboardEntry.place == 0 ? "-" : _leaderboardEntry.place.ToString();
         nameText.text = _leaderboardEntry.user_name.ToString();
-        scoreText.text = _leaderboardEntry.result.ToString();
+        scoreText.text = ((int)_leaderboardEntry.result).ToString();
         for (int i = 0; i < placeIcons.Count; i++)
         {
-            placeIcons[i].SetActive(i == _leaderboardEntry.place + 1);
+            placeIcons[i].SetActive(i + 1 == _leaderboardEntry.place);
         }
     }
 }
