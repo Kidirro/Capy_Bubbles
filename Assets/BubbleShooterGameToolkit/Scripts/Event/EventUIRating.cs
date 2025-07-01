@@ -82,7 +82,7 @@ public class EventUIRating : MonoBehaviour
         {
             var playerCard = _playerCards[0];
             _playerCards.Remove(playerCard);
-            Destroy(playerCard);
+            Destroy(playerCard.gameObject);
         }
     }
 }
