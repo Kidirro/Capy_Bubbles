@@ -383,7 +383,7 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
             while (true)
             {
                 _eventTime += 0.1f;
-                var currentScore = PlayerPrefs.GetFloat(key, 0) + 1;
+                var currentScore = PlayerPrefs.GetFloat(key, 0) + 0.1f;
                 PlayerPrefs.SetFloat(key,currentScore);
                 yield return new WaitForSecondsRealtime(0.1f);
                 //Раз в 5 сек отправлять на бэк время

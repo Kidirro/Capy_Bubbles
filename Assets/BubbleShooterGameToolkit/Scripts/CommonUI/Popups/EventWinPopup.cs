@@ -16,8 +16,8 @@ public class EventWinPopup : Popup
     //[SerializeField] private GameObject[] stars;
     //[SerializeField] private GameObject[] glitters;
     //[SerializeField] private GameObject[] starEffets;
-    [SerializeField] private Button play;
-    [SerializeField] private Button toMenu;
+    [SerializeField] private GameObject inProgressHandler;
+    [SerializeField] private GameObject completeHandler;
     
     //[SerializeField] private Button restart;
     [SerializeField] private TextMeshProUGUI scoreText;
@@ -55,13 +55,13 @@ public class EventWinPopup : Popup
         
         if (currentLevelEventId == SpecialEventManager.ChosenEventData.level_id.Count)
         {
-            toMenu.gameObject.SetActive(true);
-            play.gameObject.SetActive(false);
+            completeHandler.SetActive(true);
+            inProgressHandler.SetActive(false);
         }
         else
         {
-            play.gameObject.SetActive(true);
-            toMenu.gameObject.SetActive(false);
+            completeHandler.SetActive(false);
+            inProgressHandler.SetActive(true);
         }
         
         var progressRatio =

@@ -1,6 +1,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using BubbleShooterGameToolkit.Scripts.CommonUI;
+using BubbleShooterGameToolkit.Scripts.CommonUI.Popups;
 using BubbleShooterGameToolkit.Scripts.System;
 using TMPro;
 using UnityEngine;
@@ -73,6 +75,7 @@ public class EventUI : SingletonBehaviour<EventUI>
 
         if (isEventPlayed == 1 && SpecialEventManager.ChosenEventData != null)
         {
+            ShowEventWindow();
             int currentLevelEventId = PlayerPrefs.GetInt("EventLevel" + SpecialEventManager.ChosenEventData.id, 0);
             var eventComplete = currentLevelEventId == SpecialEventManager.ChosenEventData.level_id.Count;
 
@@ -119,12 +122,20 @@ public class EventUI : SingletonBehaviour<EventUI>
             return;
         }
         
-        int currentLevelEventId = PlayerPrefs.GetInt("EventLevel" + SpecialEventManager.ChosenEventData.id, 0);
-        int currentLevel = SpecialEventManager.ChosenEventData.level_id[currentLevelEventId];
-        PlayerPrefs.SetInt("OpenLevel", currentLevel);
-        PlayerPrefs.SetInt("OpenEvent", 1);
+        if (!GameManager.instance.life.IsEnough(1))
+        {
+            MenuManager.instance.ShowPopup<LifeShop>();
+        }
+        else
+        {
 
-        SceneLoader.instance.StartGameScene();
+            int currentLevelEventId = PlayerPrefs.GetInt("EventLevel" + SpecialEventManager.ChosenEventData.id, 0);
+            int currentLevel = SpecialEventManager.ChosenEventData.level_id[currentLevelEventId];
+            PlayerPrefs.SetInt("OpenLevel", currentLevel);
+            PlayerPrefs.SetInt("OpenEvent", 1);
+
+            SceneLoader.instance.StartGameScene();
+        }
     }
 
     public void ShowEventWindow()

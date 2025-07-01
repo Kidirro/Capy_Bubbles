@@ -26,6 +26,7 @@ public class EventUIRating : MonoBehaviour
     private EventUIRatingPlayerCard currentPlayerCard;
     
     private List<EventUIRatingPlayerCard> _playerCards = new List<EventUIRatingPlayerCard>();
+
     public async void Show()
     {
         

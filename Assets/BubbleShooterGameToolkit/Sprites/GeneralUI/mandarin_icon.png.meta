@@ -169,7 +169,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mandarin_icon_0: -1024903678130377873
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
