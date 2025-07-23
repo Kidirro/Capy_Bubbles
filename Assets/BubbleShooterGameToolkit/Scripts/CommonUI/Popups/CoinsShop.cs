@@ -60,6 +60,9 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
                 packs[i].id = prod[i].id;
                 packs[i]._price = prod[i].price;
                 packs[i].price.text = prod[i].price + "p.";
+#if MEGAFON
+                packs[i].price.text = prod[i].price + "с.";
+#endif
                 var discountPercent = packs[i].discountPercent;
                 if (discountPercent != null)
                 {
@@ -80,13 +83,9 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
 
         public async void BuyCoins(string id)
         {
-#if UNITY_WEBPLAYER
-            GameManager.instance.PurchaseSucceded(id);
-#elif MEGAFON
-            awaitPanel.SetActive(true);
+#if MEGAFON
             var pack = packs.First(x => x.id == id);
             MegafonShopTJS.BuyProduct(pack,()=>PurchaseSucceded(pack.settingsShopItem));
-            awaitPanel.SetActive(false);
 #elif BEELINE
             awaitPanel.SetActive(true);
             bool isSucces = await Model.BuyProduct(id);

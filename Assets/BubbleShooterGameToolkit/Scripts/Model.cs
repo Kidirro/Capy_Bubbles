@@ -31,16 +31,17 @@ public class Model : MonoBehaviour
         _telegram.transform.GetChild(0).GetComponent<Image>().gameObject.SetActive(false);
         _telegram.GetComponent<Image>().sprite = _megafonQuit;
         _telegram.onClick.AddListener(JavaScriptHandler.Quit);
-        //TestToken();
 #else
         _telegram.onClick.AddListener(OpenTelegram);
 #endif
 #if UNITY_EDITOR
-        Token("3fdf1266a04f9cf495e106a297a69d5307a38281");
+        //Token("3fdf1266a04f9cf495e106a297a69d5307a38281");
+        Token("717f610ab3d705c39230a07d4e1fa2a3f7822b30");
 #else
         SendGetToken();
 #endif
-#if BEELINE
+#if MEGAFON
+#elif BEELINE
         if (PlayerPrefs.GetFloat("firstOpen", 0) == 0)
         {
             privacy.SetActive(true);
@@ -68,9 +69,12 @@ public class Model : MonoBehaviour
 #endif
     }
 
-    private async void SendGetToken() 
+    private async void SendGetToken()
     {
-#if BEELINE
+#if MEGAFON
+        Model.token = JavaScriptHandler.GetTokenFromParametersOrCookies();
+        await UpdateData();
+#elif BEELINE
         Model.token = JavaScriptHandler.GetTokenFromParameters();
         await UpdateData();
 #endif
@@ -83,12 +87,11 @@ public class Model : MonoBehaviour
     //     {
     //         return JsonConvert.DeserializeObject<CatState>(PlayerPrefs.GetString("CatState"));
     //     }*/
-    //     string jsonBody = "{\"user_id\":\"123\", \"device\": \"321\", \"pushable\": false}";
+    //     string jsonBody = "{\"status\":1,  \"transaction_id\": \"test\"}";
 
-    //     var request = new UnityWebRequest("https://tj-capybubbles.rozicat.com/token/megafon/session", "POST");
+    //     var request = new UnityWebRequest("https://tj-capybubbles.rozicat.com/api/transactions/change", "POST");
     //     byte[] jsonToSend = System.Text.Encoding.UTF8.GetBytes(jsonBody);
 
-    //     // Настраиваем заголовки
     //     request.uploadHandler = new UploadHandlerRaw(jsonToSend);
     //     request.downloadHandler = new DownloadHandlerBuffer();
     //     request.SetRequestHeader("Content-Type", "application/json");
@@ -96,7 +99,28 @@ public class Model : MonoBehaviour
 
     //     await request.SendWebRequest();
     //     Debug.Log(request.responseCode + " code");
+    //     Debug.Log("Data "+request.downloadHandler.text);
     // }
+    public static async void TestToken()
+    {
+        /*if (PlayerPrefs.HasKey("CatState"))
+        {
+            return JsonConvert.DeserializeObject<CatState>(PlayerPrefs.GetString("CatState"));
+        }*/
+        string jsonBody = "{\"gamekey\":\"2\", \"price\": \"1\", \"data\": \"{\\\"data\\\":{\\\"product_id\\\":2240},\\\"route\\\":\\\"shop\\\"}\", \"transaction_id\": \"test\", \"megafon_user_id\": \"19688049_19831480\"}";
+
+        var request = new UnityWebRequest("https://tj-capybubbles.rozicat.com/token/megafon/register/2", "POST");
+        byte[] jsonToSend = System.Text.Encoding.UTF8.GetBytes(jsonBody);
+
+        request.uploadHandler = new UploadHandlerRaw(jsonToSend);
+        request.downloadHandler = new DownloadHandlerBuffer();
+        request.SetRequestHeader("Content-Type", "application/json");
+        request.SetRequestHeader("authorization", "Bearer 5ea39e867aab868f7eeccafa749ff80b98fd4837b60baac0993626cdf0461f75");
+
+        await request.SendWebRequest();
+        Debug.Log(request.responseCode + " code");
+        Debug.Log("Data "+request.downloadHandler.text);
+    }
 
 
     private static void GetData()
@@ -145,10 +169,10 @@ public class Model : MonoBehaviour
         request.SetRequestHeader("accessToken", token);
         await request.SendWebRequest();
         switch (request.responseCode)
-        {
+        { 
             case 200:
                 Debug.Log("Save: " + request.downloadHandler.text);
-                return JsonUtility.FromJson<PlayerData>(request.downloadHandler.text.Replace(":\"", ":").Replace("\",", ",").Replace("\"}", "}"));
+                return JsonUtility.FromJson<PlayerData>(request.downloadHandler.text.Replace("\"[", "[").Replace("]\"", "]"));
 
 
             default:
