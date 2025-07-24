@@ -312,7 +312,7 @@ MonoBehaviour:
   - key: RUB
     RussiaValue: "\u0440\u0443\u0431\u043B\u0435\u0439"
     EnglishValue: rubles
-    TjsValue: "\u0440\u0443\u0431\u043B\u0435\u0439"
+    TjsValue: "\u0441\u043E\u043C\u043E\u043D\u0438"
   - key: ErrorPayment
     RussiaValue: 
     EnglishValue: 

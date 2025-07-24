@@ -53,42 +53,21 @@ public class MegafonShopTJS : MonoBehaviour
     private void SlotConfirmed(string json)
     {
         if (json == null || json == "") return;
-        Debug.Log("Waiting slot is: " + waitingToConfirmSlot);
-        if (waitingToConfirmSlot == TJSShopType.None) return;
 
         ExternConfirmationData data = JsonConvert.DeserializeObject<ExternConfirmationData>(json);
         Debug.Log("Unity get data: " + json);
         Debug.Log("Status code: " + data.status);
         Debug.Log("Data: " + data.data);
-        switch (waitingToConfirmSlot)
-        {
-            case TJSShopType.BuyGold:
-            case TJSShopType.BuyGems:
-                _ = ProductConfirmed(data);
-                break;
-            default:
-                break;
-        }
-
-        waitingToConfirmSlot = TJSShopType.None;
+        
+        _ = ProductConfirmed(data);
+       
     }
 
     public static void BuyProduct(ItemPurchase data, UnityAction onBuyAction = null, UnityAction errorAction = null, TJSShopType type = TJSShopType.None)
     {
-        if (type == TJSShopType.None) return;
         if (query.Length > 0)
         {
-            waitingToConfirmSlot = type;
             string Route = "";
-            switch (type)
-            {
-                case TJSShopType.BuyGold:
-                    Route = "gold";
-                    break;
-                case TJSShopType.BuyGems:
-                    Route = "gems";
-                    break;
-            }
             if (onBuyAction != null)
             {
                 MegafonShopTJS.onBuyAction = onBuyAction;
@@ -119,6 +98,7 @@ public class MegafonShopTJS : MonoBehaviour
             await Model.UpdateData();
             //Нужен ли попап?
             onBuyAction.Invoke();
+            onBuyAction = null;
         }
         else if (data.status == 511 || data.status == 402)
         {
@@ -135,7 +115,7 @@ public class MegafonShopTJS : MonoBehaviour
         }
         else
         {
-            Debug.LogError(data.status);               
+            Debug.LogError(data.status);
             BubbleShooterGameToolkit.Scripts.CommonUI.MenuManager.instance.ShowPopup<InfoPopup>().SetCustomText(data.data);
         }
     }

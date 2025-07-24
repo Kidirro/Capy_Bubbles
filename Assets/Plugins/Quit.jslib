@@ -17,7 +17,7 @@
     console.log("Quit sended  (JS)");
   },
 
-    GetTokenFromParameters: function () {
+    GetTokenFromParametersOrCookies: function () {
         console.log("Unity вызвал GetTokenFromParameters");
 
         function getCookie(name) {
@@ -68,6 +68,16 @@
 
       return stringOnWasmHeap;
     },
+    
+    GetTokenFromParameters: function() {
+    console.log("Try get token from params");
+
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    var token = urlParams.get('game_token');
+
+    SendToken(token);
+},
     
     GetTokenFromParameters: function() {
     console.log("Try get token from params");

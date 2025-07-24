@@ -29,6 +29,9 @@ public class JavaScriptHandler : MonoBehaviour
     }
     
 #if MEGAFON
+
+    [DllImport("__Internal")]
+    public static extern string GetTokenFromParametersOrCookies();
     [DllImport("__Internal")]
     public static extern void Quit();
 
@@ -46,11 +49,11 @@ public class JavaScriptHandler : MonoBehaviour
     {
         var data = new PurcaseDataNew
         {
-            game_key = 1,
+            game_key = 2,
             price = price * 100,
             transactionId = Guid.NewGuid().ToString("N")[..20],
             data = purchaseData,
-            title = "Покупка в игре «Приключения Лайфи»",
+            title = "Покупка в игре «Капи баблс»",
             subtitle = $"Стоимость: {price} сомони",
             description = description
         };

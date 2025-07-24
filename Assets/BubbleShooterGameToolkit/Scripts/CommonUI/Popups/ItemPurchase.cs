@@ -40,7 +40,9 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
 
         private void BuyCoins()
         {
-#if BEELINE
+#if MEGAFON
+            GetComponentInParent<CoinsShop>().BuyCoins(id);
+#elif BEELINE
             MenuManager.instance.ShowPopup<BuyInfoPopup>().SetText(count.text, _price.ToString(), settingsShopItem.gems==0, () =>
             GetComponentInParent<CoinsShop>().BuyCoins(id));
 

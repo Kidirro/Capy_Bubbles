@@ -17,7 +17,11 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
             _confirm.onClick.AddListener(onConfirm);
             var key = isCoins ? "COINS" : "GEMS";
             _info.text = /*LocalizeStorage.GetText("YOU_BUY", LocalizationChanger.language)+" "+*/prize + " " + LocalizeStorage.GetText(key, LocalizationChanger.language);
+#if MEGAFON
+            _price.text = LocalizeStorage.GetText("PRICE", LocalizationChanger.language) + " " + price + " сомони";
+#elif BEELINE
             _price.text = LocalizeStorage.GetText("PRICE", LocalizationChanger.language) + " " + price + " " + LocalizeStorage.GetText("RUB", LocalizationChanger.language);
+#endif
         }
     }
 }
