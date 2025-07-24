@@ -36,7 +36,7 @@ public class Model : MonoBehaviour
 #endif
 #if UNITY_EDITOR
         //Token("3fdf1266a04f9cf495e106a297a69d5307a38281");
-        Token("717f610ab3d705c39230a07d4e1fa2a3f7822b30");
+        Token("3fdf1266a04f9cf495e106a297a69d5307a38281");
 #else
         SendGetToken();
 #endif
@@ -381,7 +381,7 @@ public class PlayerData
     public int gold = 0;
     public int hearts = 0;
     public int gems = 0;
-    public List<int> levels;
+    public List<int> levels = new List<int>();
     public int[] boosters = new int[4];
     public int counterLevel = 0;
     public bool[] endGameFirstMapObjectsOpen = new bool[25];

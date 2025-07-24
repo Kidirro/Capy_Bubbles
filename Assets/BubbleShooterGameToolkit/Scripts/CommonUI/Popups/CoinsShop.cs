@@ -47,7 +47,8 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
 
         private void OnDisable()
         {
-            GameManager.instance.purchaseSucceded -= PurchaseSucceded;
+            var manager = GameManager.instance;
+            if (manager != null) manager.purchaseSucceded -= PurchaseSucceded;
         }
 
         protected virtual void SetProducts(Shop data)
