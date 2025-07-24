@@ -44,7 +44,7 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
             }
             if(!isPlayerInit)
             {
-                 _player.Initialize(0, Model.phone, Model.playerData.counterLevel, true);
+                 _player.Initialize(0, Model.phone, Model.playerData.counterLevel + Model.GetScore(), true);
             }
         }
 

@@ -236,7 +236,6 @@ public class Model : MonoBehaviour
                 result += Mathf.RoundToInt(GameManager.instance.endGameSetting.mapObjectCost[1].mapObjectCost[i] / 10);
             }
         }
-
         return result;
     }
     public static async Task SetSave()
