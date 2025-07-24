@@ -75,9 +75,6 @@ public class Model : MonoBehaviour
         Model.token = JavaScriptHandler.GetTokenFromParametersOrCookies();
         await UpdateData();
 #elif BEELINE
-        Model.token = JavaScriptHandler.GetTokenFromParameters();
-        await UpdateData();
-#elif BEELINE
         JavaScriptHandler.GetToken();
 #endif
 
