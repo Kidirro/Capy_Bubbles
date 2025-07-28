@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using BubbleShooterGameToolkit.Scripts.CommonUI.Popups;
 using BubbleShooterGameToolkit.Scripts.System;
 using TMPro;
 using UnityEngine;
@@ -23,6 +24,10 @@ public class GemPurchaseButton : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI goldText;
 
+    [SerializeField]
+    private PopupWithCurrencyLabel popupWithCurrencyLabel;
+    
+    
     private void OnEnable()
     {
         buyItemButton.onClick.AddListener(BuyCoins);
@@ -39,5 +44,7 @@ public class GemPurchaseButton : MonoBehaviour
         }
         GameManager.instance.coins.Add(goldValue);
         GameManager.instance.gem.Add(-priceValue);
+        
+        popupWithCurrencyLabel.TopPanel.AnimateCoins(goldText.transform.position, "+" + goldValue, null);
     }
 }

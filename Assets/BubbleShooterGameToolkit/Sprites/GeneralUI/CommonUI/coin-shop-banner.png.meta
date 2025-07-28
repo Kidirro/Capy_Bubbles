@@ -1,5 +1,12 @@
 fileFormatVersion: 2
 guid: baa85245209a243ce960a6542de7614a
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272732
+  packageName: 'Bubble Shooter: Game Toolkit'
+  packageVersion: 
+  assetPath: Assets/BubbleShooterGameToolkit/Sprites/GeneralUI/CommonUI/coin-shop-banner.png
+  uploadId: 0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -49,7 +56,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 94, y: 0, z: 100, w: 0}
+  spriteBorder: {x: 95, y: 95, z: 95, w: 95}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -164,10 +171,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 272732
-  packageName: 'Bubble Shooter: Game Toolkit'
-  packageVersion: 
-  assetPath: Assets/BubbleShooterGameToolkit/Sprites/GeneralUI/CommonUI/coin-shop-banner.png
-  uploadId: 0
