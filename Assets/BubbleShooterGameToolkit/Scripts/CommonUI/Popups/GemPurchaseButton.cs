@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using BubbleShooterGameToolkit.Scripts.CommonUI;
 using BubbleShooterGameToolkit.Scripts.CommonUI.Popups;
 using BubbleShooterGameToolkit.Scripts.System;
 using TMPro;
@@ -30,12 +31,19 @@ public class GemPurchaseButton : MonoBehaviour
     
     private void OnEnable()
     {
-        buyItemButton.onClick.AddListener(BuyCoins);
+        buyItemButton.onClick.AddListener(OnBtnClick);
         
         priceText.text = priceValue.ToString();
         goldText.text = goldValue.ToString();
     }
 
+
+    private void OnBtnClick()
+    {
+        MenuManager.instance.ShowPopup<BuyInfoPopup>()
+            .SetGemText(goldValue.ToString(), priceValue.ToString(),BuyCoins);
+    }
+    
     private void BuyCoins()
     {
         if (GameManager.instance.gem.GetResource() < priceValue)

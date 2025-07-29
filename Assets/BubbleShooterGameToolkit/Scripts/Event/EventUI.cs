@@ -185,7 +185,7 @@ public class EventUI : SingletonBehaviour<EventUI>
         }
         else
         {
-            eventUIRating.gameObject.SetActive(true);
+            eventUIRating.Show();
         }
     }
 
