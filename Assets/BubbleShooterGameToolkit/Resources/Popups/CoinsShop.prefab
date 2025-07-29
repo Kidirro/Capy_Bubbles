@@ -51,9 +51,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buyItemButton: {fileID: 1613539301751076307}
-  priceValue: 20
+  priceValue: 6
   priceText: {fileID: 2415332751343991746}
-  goldValue: 1200
+  goldValue: 130
   goldText: {fileID: 8728537678236925374}
   popupWithCurrencyLabel: {fileID: -1198837960365262653}
 --- !u!1 &45584203506910328
@@ -1028,9 +1028,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buyItemButton: {fileID: 3948752865344036843}
-  priceValue: 30
+  priceValue: 12
   priceText: {fileID: 4500436377102275423}
-  goldValue: 2000
+  goldValue: 320
   goldText: {fileID: 8079387435275514223}
   popupWithCurrencyLabel: {fileID: -1198837960365262653}
 --- !u!1 &1023608675777447091
@@ -1784,7 +1784,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00012207031, y: -233.1402}
+  m_AnchoredPosition: {x: 0.00012207031, y: -259.00214}
   m_SizeDelta: {x: 927.043, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6877697370921424249
@@ -4780,8 +4780,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 375522132035049061}
   m_HandleRect: {fileID: 9204134111570636816}
   m_Direction: 2
-  m_Value: 1.0000002
-  m_Size: 0.74675477
+  m_Value: 1.0554646
+  m_Size: 0.72887486
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6859,9 +6859,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buyItemButton: {fileID: 2828766035692499095}
-  priceValue: 10
+  priceValue: 2
   priceText: {fileID: 2541131988503763056}
-  goldValue: 500
+  goldValue: 40
   goldText: {fileID: 6003009883264572768}
   popupWithCurrencyLabel: {fileID: -1198837960365262653}
 --- !u!1 &7553086989796076947
