@@ -1,9 +1,14 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using System.Xml.Schema;
 using BubbleShooterGameToolkit.Scripts.System;
 using DG.Tweening;
+using Newtonsoft.Json;
 using UnityEngine;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 public class Map : MonoBehaviour
 {
@@ -23,20 +28,15 @@ public class Map : MonoBehaviour
         bool[] bools;
         this.elems = elems;
         ratingPosistion = rating.position;
-        ratingTransform=rating;
-        switch (id)
-        {
-            case 0:
-                bools = Model.playerData.endGameFirstMapObjectsOpen;
-                break;
-            case 1:
-                bools = Model.playerData.endGameSecondMapObjectsOpen;
+        ratingTransform = rating;
 
-                break;
-            default:
-                bools = new bool[100];
-                break;
+        if (Model.playerData.endGameMapObjects.ContainsKey(id) == false)
+        {
+            Model.playerData.endGameMapObjects.Add(id, new bool [
+                GameManager.instance.endGameSetting.mapObjectCost[id].mapObjectCost.Length].ToList());
         }
+        
+        bools = Model.playerData.endGameMapObjects[id].ToArray();
         gameObject.SetActive(true);
         for (int i = 0; i < openedObjects.Length; i++)
         {

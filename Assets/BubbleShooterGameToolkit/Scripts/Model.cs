@@ -1,9 +1,12 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using BubbleShooterGameToolkit.Scripts.System;
+using Newtonsoft.Json;
 using UnityEngine;
 using UnityEngine.Networking;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 #if YandexGamesPlatfom_yg
 using YG;
@@ -132,10 +135,17 @@ public class Model : MonoBehaviour
         playerData = await GetSave();
         id = playerData.id;
         phone = playerData.phone;
-        if (playerData.endGameFirstMapObjectsOpen.Length == 0)
-            playerData.endGameFirstMapObjectsOpen = new bool[25];
-        if (playerData.endGameSecondMapObjectsOpen.Length == 0)
-            playerData.endGameSecondMapObjectsOpen = new bool[27];
+
+        if (playerData.endGameMapObjects == null || playerData.endGameMapObjects.Count == 0)
+        {
+            playerData.endGameMapObjects = new Dictionary<int, List<bool>>();
+            for (int i = 0; i < GameManager.instance.endGameSetting.mapObjectCost.Length; i++)
+            {
+                playerData.endGameMapObjects.Add(i, new bool [
+                    GameManager.instance.endGameSetting.mapObjectCost[i].mapObjectCost.Length].ToList());
+            }
+        }
+        
         GameManager.instance.coins.Set(playerData.gold);
         GameManager.instance.gem.Set(playerData.gems);
         for (int i = 0; i < GameManager.instance.boosters.Length; i++)
@@ -172,7 +182,32 @@ public class Model : MonoBehaviour
         { 
             case 200:
                 Debug.Log("Save: " + request.downloadHandler.text);
-                return JsonUtility.FromJson<PlayerData>(request.downloadHandler.text.Replace("\"[", "[").Replace("]\"", "]"));
+                
+                var rawData = JsonUtility.FromJson<SaveData>(request.downloadHandler.text);
+                
+               var tmpData = JsonUtility.FromJson<PlayerData>(request.downloadHandler.text.Replace("\"[", "[").Replace("]\"", "]"));
+
+                if (rawData.endGameMapObjects != "[]")
+                {
+                    tmpData.endGameMapObjects =
+                        JsonConvert.DeserializeObject<Dictionary<int, List<bool>>>(rawData.endGameMapObjects);
+                }
+                else
+                {
+                    
+                    tmpData.endGameMapObjects = new Dictionary<int, List<bool>>();
+                    if (rawData.endGameFirstMapObjectsOpen != null && rawData.endGameFirstMapObjectsOpen != "[]")
+                    {
+                        tmpData.endGameMapObjects[0] = JsonConvert.DeserializeObject<List<bool>>(rawData.endGameFirstMapObjectsOpen);
+                    }
+
+                    if (rawData.endGameSecondMapObjectsOpen != null && rawData.endGameSecondMapObjectsOpen != "[]")
+                    {
+                        tmpData.endGameMapObjects[1] = JsonConvert.DeserializeObject<List<bool>>(rawData.endGameSecondMapObjectsOpen);
+                    }
+                }
+
+                return tmpData;
 
 
             default:
@@ -206,7 +241,7 @@ public class Model : MonoBehaviour
         }
 
     }
-
+    
     public static async Task<bool> BuyProduct(string id)
     {
         /*if (PlayerPrefs.HasKey("CatState"))
@@ -243,20 +278,18 @@ public class Model : MonoBehaviour
     public static int GetScore()
     {
         int result = 0;
-        for (int i = 0; i < playerData.endGameFirstMapObjectsOpen.Length; i++)
+
+        for (int i = 0; i < playerData.endGameMapObjects.Count; i++)
         {
-            if (playerData.endGameFirstMapObjectsOpen[i])
+            for (int j = 0; j < playerData.endGameMapObjects[i].Count; j++)
             {
-                result += Mathf.RoundToInt(GameManager.instance.endGameSetting.mapObjectCost[0].mapObjectCost[i] / 10f);
+                if (playerData.endGameMapObjects[i][j])
+                {
+                    result += Mathf.RoundToInt(GameManager.instance.endGameSetting.mapObjectCost[i].mapObjectCost[j] / 10f); 
+                }
             }
         }
-        for (int i = 0; i < playerData.endGameSecondMapObjectsOpen.Length; i++)
-        {
-            if (playerData.endGameSecondMapObjectsOpen[i])
-            {
-                result += Mathf.RoundToInt(GameManager.instance.endGameSetting.mapObjectCost[1].mapObjectCost[i] / 10);
-            }
-        }
+        
         return result;
     }
     public static async Task SetSave()
@@ -274,7 +307,6 @@ public class Model : MonoBehaviour
 
 
         GetData();
-        Debug.Log(JsonUtility.ToJson(new PlayerSendData(playerData)));
         var request = UnityWebRequest.Put(backend + "user", JsonUtility.ToJson(new PlayerSendData(playerData)));
         request.SetRequestHeader("accessToken", token);
         request.uploadHandler.contentType = "application/json";
@@ -320,9 +352,8 @@ public class PlayerSendData
     public string levels;
     public string boosters;
     public int counterLevel = 0;
-    public string endGameFirstMapObjectsOpen;
-    public string endGameSecondMapObjectsOpen;
     public int score = 0;
+    public string endGameMapObjects;
 
     public PlayerSendData(PlayerData data)
     {
@@ -330,29 +361,6 @@ public class PlayerSendData
         gems = data.gems;
         hearts = data.hearts;
         counterLevel = data.counterLevel;
-
-
-        endGameFirstMapObjectsOpen = "[";
-        bool isZero = true;
-        foreach (var obj in data.endGameFirstMapObjectsOpen)
-        {
-            isZero = false;
-            endGameFirstMapObjectsOpen += obj.ToString().ToLower() + ",";
-        }
-        if (!isZero)
-            endGameFirstMapObjectsOpen = endGameFirstMapObjectsOpen.Remove(endGameFirstMapObjectsOpen.Length - 1);
-        endGameFirstMapObjectsOpen += "]";
-
-        endGameSecondMapObjectsOpen = "[";
-        bool isZero1 = true;
-        foreach (var obj in data.endGameSecondMapObjectsOpen)
-        {
-            isZero1 = false;
-            endGameSecondMapObjectsOpen += obj.ToString().ToLower() + ",";
-        }
-        if (!isZero1)
-            endGameSecondMapObjectsOpen = endGameSecondMapObjectsOpen.Remove(endGameSecondMapObjectsOpen.Length - 1);
-        endGameSecondMapObjectsOpen += "]";
 
         levels = "[";
         foreach (var level in data.levels)
@@ -371,8 +379,21 @@ public class PlayerSendData
         boosters = boosters.Remove(boosters.Length - 1);
         boosters += "]";
         score = Model.GetScore();
+        endGameMapObjects = JsonConvert.SerializeObject(data.endGameMapObjects);
+        
+        Debug.Log(JsonConvert.SerializeObject(data.endGameMapObjects));
     }
 }
+
+[Serializable]
+public class SaveData
+{
+    public int id;
+    public string endGameMapObjects;
+    public string endGameFirstMapObjectsOpen;
+    public string endGameSecondMapObjectsOpen;
+}
+
 [Serializable]
 public class PlayerData
 {
@@ -384,8 +405,7 @@ public class PlayerData
     public List<int> levels = new List<int>();
     public int[] boosters = new int[4];
     public int counterLevel = 0;
-    public bool[] endGameFirstMapObjectsOpen = new bool[25];
-    public bool[] endGameSecondMapObjectsOpen = new bool[27];
+    public Dictionary<int, List<bool>> endGameMapObjects = new Dictionary<int, List<bool>>();
     public int score = 0;
 
     public PlayerData(bool toserver)
@@ -411,8 +431,7 @@ public class PlayerData
         gold = GameManager.instance.coins.GetResource();
         gems = GameManager.instance.gem.GetResource();
         hearts = GameManager.instance.life.GetResource();
-        endGameFirstMapObjectsOpen = Model.playerData.endGameFirstMapObjectsOpen;
-        endGameSecondMapObjectsOpen = Model.playerData.endGameSecondMapObjectsOpen;
+        endGameMapObjects = Model.playerData.endGameMapObjects;
         score = Model.GetScore();
     }
     public PlayerData()

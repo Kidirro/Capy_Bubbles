@@ -13,6 +13,7 @@ public class OpenedObject : MonoBehaviour
     [SerializeField] private TMP_Text cost;
     [SerializeField] private Transform[] gameObjects;
     [SerializeField] private GameObject allObjects;
+    [SerializeField] private bool animAllObjects = false; 
 
     private AudioClip[] clips;
     private int index = 0;
@@ -50,15 +51,9 @@ public class OpenedObject : MonoBehaviour
             }
             else
             {
-                switch (mapID)
-                {
-                    case 0:
-                        Model.playerData.endGameFirstMapObjectsOpen[number] = true;
-                        break;
-                    case 1:
-                        Model.playerData.endGameSecondMapObjectsOpen[number] = true;
-                        break;
-                }
+                
+                //TIDI ДОБАВИТЬ ПРОВЕРКУ
+                Model.playerData.endGameMapObjects[mapID][number] = true;
                 GameManager.instance.coins.Consume(cost);
 
                 AnimObjs();
@@ -70,17 +65,29 @@ public class OpenedObject : MonoBehaviour
                 anim(transform.position);
                 buy.transform.DOScale(new Vector3(0.5f, 0.3f), 0.5f).OnComplete(() =>
                 {
+                    
                     buy.gameObject.SetActive(false);
                     PlaySound();
                     allObjects.SetActive(true);
-                    Sequence anim = DOTween.Sequence();
-                    foreach (Transform obj in gameObjects)
+                    if (animAllObjects)
                     {
-                        obj.localScale = new Vector3(0, 0, 0);
-                        anim.Append(obj.DOScale(new Vector3(1.2f, 1.5f, 1f), 0.3f).OnComplete(() => obj.DOScale(new Vector3(1, 1, 1), 0.3f).OnComplete(PlaySound)));
-
+                        allObjects.transform.DOScale(new Vector3(1.2f, 1.5f, 1f), 0.3f).OnComplete(() =>
+                            allObjects.transform.DOScale(new Vector3(1, 1, 1), 0.3f).OnComplete(PlaySound));
                     }
-                    anim.Play();
+                    else
+                    {
+
+                        Sequence anim = DOTween.Sequence();
+                        foreach (Transform obj in gameObjects)
+                        {
+                            obj.localScale = new Vector3(0, 0, 0);
+                            anim.Append(obj.DOScale(new Vector3(1.2f, 1.5f, 1f), 0.3f).OnComplete(() =>
+                                obj.DOScale(new Vector3(1, 1, 1), 0.3f).OnComplete(PlaySound)));
+
+                        }
+
+                        anim.Play();
+                    }
                 });
             }
 

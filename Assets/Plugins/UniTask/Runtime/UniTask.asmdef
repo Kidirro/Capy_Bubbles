@@ -1,6 +1,6 @@
 {
     "name": "UniTask",
-    "rootNamespace": "UniTask",
+    "rootNamespace": "",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
