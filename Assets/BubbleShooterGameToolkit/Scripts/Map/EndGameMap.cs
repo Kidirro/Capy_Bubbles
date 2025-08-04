@@ -117,6 +117,7 @@ public class EndGameMap : MonoBehaviour
         if (mapPrefabs.ContainsKey(id) == false)
         {
 
+            loadingCanvas.gameObject.SetActive(true);
             loadingCanvas.DOFade(1, 0.1f);
             loadingBar.fillAmount = 0f;
             await UniTask.Delay(100);
@@ -137,6 +138,7 @@ public class EndGameMap : MonoBehaviour
                 
             loadingCanvas.DOFade(0, 0.1f);
             await UniTask.Delay(100);
+            loadingCanvas.gameObject.SetActive(false);
         }
 
         if (currentMap != null)
