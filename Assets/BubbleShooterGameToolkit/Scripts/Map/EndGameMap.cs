@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using BubbleShooterGameToolkit.Scripts.CommonUI;
@@ -26,7 +27,7 @@ public class EndGameMap : MonoBehaviour
     [Space,SerializeField] private CanvasGroup loadingCanvas;
     [SerializeField] private Image loadingBar;
     private Map currentMap;
-    private int map =0;
+    private static int map =0;
     
     private bool _isLoading = false;
 
@@ -38,7 +39,7 @@ public class EndGameMap : MonoBehaviour
         "Map_4"
     };
     
-    private Dictionary<int, Map> mapPrefabs = new Dictionary<int, Map>();
+    private static Dictionary<int, Map> mapPrefabs = new Dictionary<int, Map>();
     
     private int MaxMap => mapPrefabNames.Count;
     public const int MAX_LEVEL = 198;
@@ -58,7 +59,6 @@ public class EndGameMap : MonoBehaviour
         levels.text = Model.playerData.counterLevel + " уровень";
         play.onClick.RemoveAllListeners();
         play.onClick.AddListener(PlayRandomLevel);
-        map = 0;
         ShowMap(map);
         nextMap.onClick.RemoveAllListeners();
         prevMap.onClick.RemoveAllListeners();
@@ -154,4 +154,12 @@ public class EndGameMap : MonoBehaviour
         _isLoading = false;
         //Стоп загрузки
     }
+    
+#if UNITY_EDITOR
+    private void OnApplicationQuit()
+    {
+        mapPrefabs.Clear();
+        map = 0;
+    }
+#endif    
 }

@@ -8,6 +8,7 @@ using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
+using UnityAsyncExtensions = Cysharp.Threading.Tasks.UnityAsyncExtensions;
 #if YandexGamesPlatfom_yg
 using YG;
 #endif
@@ -18,6 +19,13 @@ public class Model : MonoBehaviour
     [SerializeField] private Button _telegram;
     [SerializeField] private Sprite _megafonQuit;
     [SerializeField] private GameObject privacy;
+
+    [SerializeField] private GameObject errorPopup;
+    [SerializeField] private Button acceptErrorBtn;
+    
+    
+    private static GameObject errorPopupInstance;
+    private static Button acceptErrorBtnInstance;
     private static string token;
     public static PlayerData playerData;
     public static int id;
@@ -30,6 +38,8 @@ public class Model : MonoBehaviour
 #endif
     void Start()
     {
+        errorPopupInstance = errorPopup;
+        acceptErrorBtnInstance = acceptErrorBtn;
 #if MEGAFON
         _telegram.transform.GetChild(0).GetComponent<Image>().gameObject.SetActive(false);
         _telegram.GetComponent<Image>().sprite = _megafonQuit;
@@ -207,12 +217,20 @@ public class Model : MonoBehaviour
                     }
                 }
 
+                errorPopupInstance.SetActive(false);
                 return tmpData;
 
 
             default:
                 Debug.Log("Error: " + request.responseCode + " Message: " + request.downloadHandler.text);
-                return new PlayerData(false);
+                errorPopupInstance.SetActive(true);
+                acceptErrorBtnInstance.interactable = true;
+                
+                await UnityAsyncExtensions.OnClickAsync(acceptErrorBtnInstance);
+                //wait btn
+                Debug.Log("CLick!");
+                acceptErrorBtnInstance.interactable = false;
+                return await GetSave();
 
         }
 #endif
