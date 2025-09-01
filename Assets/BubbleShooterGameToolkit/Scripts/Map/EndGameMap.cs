@@ -23,9 +23,8 @@ public class EndGameMap : MonoBehaviour
     [SerializeField] private AudioClip[] clips;
     [SerializeField] private Transform mapContainer;
     
-    
-    [Space,SerializeField] private CanvasGroup loadingCanvas;
-    [SerializeField] private Image loadingBar;
+    [SerializeField] private MapLoading mapLoadingPrefab;
+
     private Map currentMap;
     private static int map =0;
     
@@ -116,29 +115,31 @@ public class EndGameMap : MonoBehaviour
 
         if (mapPrefabs.ContainsKey(id) == false)
         {
+            
+            var mapLoadingObject = Instantiate(mapLoadingPrefab);
 
-            loadingCanvas.gameObject.SetActive(true);
-            loadingCanvas.DOFade(1, 0.1f);
-            loadingBar.fillAmount = 0f;
+            mapLoadingObject.LoadingCanvas.gameObject.SetActive(true);
+            mapLoadingObject.LoadingCanvas.DOFade(1, 0.1f);
+            mapLoadingObject.LoadingBar.fillAmount = 0f;
             await UniTask.Delay(100);
 
             AsyncOperationHandle<GameObject> handle = Addressables.LoadAssetAsync<GameObject>(mapPrefabNames[id]);
 
             while (handle.IsDone == false)
             {
-                loadingBar.DOFillAmount(handle.PercentComplete, 0.25f);
+                mapLoadingObject.LoadingBar.DOFillAmount(handle.PercentComplete, 0.25f);
                 await UniTask.Delay(250);
             }
 
-            loadingBar.DOFillAmount(1, 0.1f);
+            mapLoadingObject.LoadingBar.DOFillAmount(1, 0.1f);
             await UniTask.Delay(100);
 
             
             mapPrefabs.Add(id, handle.Result.GetComponent<Map>());
                 
-            loadingCanvas.DOFade(0, 0.1f);
+            mapLoadingObject.LoadingCanvas.DOFade(0, 0.1f);
             await UniTask.Delay(100);
-            loadingCanvas.gameObject.SetActive(false);
+            Destroy(mapLoadingObject.gameObject);
         }
 
         if (currentMap != null)

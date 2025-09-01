@@ -12,11 +12,13 @@ public class GameChanger : MonoBehaviour
     {
         if(Model.playerData.levels.Count>=EndGameMap.LAST_LEVEL)
         {
-            mapEndGame.Open();
+            var mapend = Instantiate<EndGameMap>(mapEndGame,this.transform);
+            mapend.Open();
         }
         else
         {
-            mapManager.Open();
+            var map = Instantiate<MapManager>(mapManager,this.transform);
+            map.Open();
         }
     }
 }
