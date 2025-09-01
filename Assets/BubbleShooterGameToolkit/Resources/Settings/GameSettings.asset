@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxLife: 5
   coins: 5
-  gem: 0
   refillLifeCost: 10
-  TotalTimeForRestLifeSec: 3600
-  RefilTimeBonusPerLevel: 600
+  TotalTimeForRestLifeHours: 0
+  TotalTimeForRestLifeMin: 15
+  TotalTimeForRestLifeSec: 0
   continuePrice: 10
   movesContinue: 5
   timeContinue: 30
@@ -27,4 +27,3 @@ MonoBehaviour:
   openMenuPlay: 0
   matchSettingsCount: 3
   privacyPolicyUrl: https://docs.google.com/document/d/1xyvV9Fne3u58PU3yj9xirP4T9tmQBDQDiiFI_FhhgJc/edit?usp=sharing
-  eventReplyCost: 1

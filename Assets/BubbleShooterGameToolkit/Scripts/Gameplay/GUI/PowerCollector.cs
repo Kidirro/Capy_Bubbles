@@ -37,19 +37,9 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.GUI
         private Tweener anim;
         private Vector3 initialPosition;
 
-        private int _currentUpgradeLevel = 0;
-        private float _currentPowerBonus = 0;
-
         protected override void Start()
         {
-            var settings = Resources.Load<PowerSettings>("Settings/PowerSettings");
-            powerStep = settings.powerStep;
-
-            _currentUpgradeLevel = UpgradeDataController.GetUpgradeLevel("UltBallBonus");
-            
-            _currentPowerBonus = (settings.upgradePowerStep[_currentUpgradeLevel] * powerStep)/100f;
-            Debug.Log("CURRENT BONUS " + _currentPowerBonus + " ORIG " + powerStep);
-            
+            powerStep = Resources.Load<PowerSettings>("Settings/PowerSettings").powerStep;
             base.Start();
             // Set the initial fill amount for the energy bar
             energyBar.fillAmount = power / maxPower;
@@ -82,7 +72,6 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.GUI
                 return;
             // Increment the power by the specified power step
             power += powerStep;
-            power += _currentPowerBonus;
             // Clamp the power value between 0 and maxPower
             power = Mathf.Clamp(power, 0, maxPower);
             // Update the energy bar fill

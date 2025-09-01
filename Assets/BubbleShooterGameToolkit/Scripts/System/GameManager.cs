@@ -24,7 +24,6 @@ using BubbleShooterGameToolkit.Scripts.LevelSystem;
 using BubbleShooterGameToolkit.Scripts.Map;
 using BubbleShooterGameToolkit.Scripts.Services;
 using BubbleShooterGameToolkit.Scripts.Settings;
-using Cysharp.Threading.Tasks;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -56,28 +55,13 @@ namespace BubbleShooterGameToolkit.Scripts.System
             GameSettings = Resources.Load<GameSettings>("Settings/GameSettings");
             GameplaySettings = Resources.Load<GameplaySettings>("Settings/GameplaySettings");
             endGameSetting = Resources.Load<EndGameSetting>("Settings/EndGameMap");
+            FindFirstObjectByType<LifeRefillTimer>()?.Init(GameSettings.MaxLife, GameSettings.TotalTimeForRestLifeHours * 3600 + GameSettings.TotalTimeForRestLifeMin * 60 + GameSettings.TotalTimeForRestLifeSec, life);
 
             DOTween.SetTweensCapacity(1250, 512);
             LevelLoader.ResetInstance();
             EventManager.SetGameStatus(EStatus.Init);
-            InitTimer();
         }
 
-        private async void InitTimer()
-        {
-            while (Model.playerData == null)
-            {
-                await UniTask.Delay(100);
-            }
-            
-            var totalTime = GameSettings.TotalTimeForRestLifeSec -
-                            UpgradeDataController.GetUpgradeLevel("LifeRefillBonus") *
-                            GameSettings.RefilTimeBonusPerLevel; 
-            
-            Debug.Log($"Total hour {GameSettings.TotalTimeForRestLifeSec}. Final time {totalTime}");
-            FindFirstObjectByType<LifeRefillTimer>()?.Init(GameSettings.MaxLife, totalTime, life);
-        }
-        
         private void Start()
         {
             // Load resources from PlayerPrefs

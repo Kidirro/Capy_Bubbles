@@ -217,16 +217,13 @@ public class Model : MonoBehaviour
                     }
                 }
 
-                tmpData.upgrdadeData = rawData.upgradeData != "[]" ? JsonConvert.DeserializeObject<Dictionary<string,int>>(rawData.upgradeData) : new Dictionary<string,int>();
-                
-                if (errorPopupInstance != null)
-                    errorPopupInstance.SetActive(false);
+                errorPopupInstance.SetActive(false);
                 return tmpData;
 
 
             default:
                 Debug.Log("Error: " + request.responseCode + " Message: " + request.downloadHandler.text);
-                errorPopupInstance?.SetActive(true);
+                errorPopupInstance.SetActive(true);
                 acceptErrorBtnInstance.interactable = true;
                 
                 await UnityAsyncExtensions.OnClickAsync(acceptErrorBtnInstance);
@@ -281,13 +278,11 @@ public class Model : MonoBehaviour
             case 402:
 
                 BubbleShooterGameToolkit.Scripts.CommonUI.MenuManager.instance.ShowPopup<BubbleShooterGameToolkit.Scripts.CommonUI.Popups.InfoPopup>().SetText(textsInfo: BubbleShooterGameToolkit.Scripts.CommonUI.Popups.TextsInfo.NotPayment);
-                Debug.Log("Error: " + request.responseCode + " Message: " + request.downloadHandler.error + "Detail: " + request.downloadHandler.text);
                 return false;
             case 403:
             case 504:
             case 408:
                 BubbleShooterGameToolkit.Scripts.CommonUI.MenuManager.instance.ShowPopup<BubbleShooterGameToolkit.Scripts.CommonUI.Popups.InfoPopup>().SetText(textsInfo: BubbleShooterGameToolkit.Scripts.CommonUI.Popups.TextsInfo.Timeout);
-                Debug.Log("Error: " + request.responseCode + " Message: " + request.downloadHandler.error + "Detail: " + request.downloadHandler.text);
                 return false;
 
             default:
@@ -377,7 +372,6 @@ public class PlayerSendData
     public int counterLevel = 0;
     public int score = 0;
     public string endGameMapObjects;
-    public string upgradeData;
 
     public PlayerSendData(PlayerData data)
     {
@@ -404,8 +398,8 @@ public class PlayerSendData
         boosters += "]";
         score = Model.GetScore();
         endGameMapObjects = JsonConvert.SerializeObject(data.endGameMapObjects);
-        upgradeData = JsonConvert.SerializeObject(data.upgrdadeData);
-        Debug.Log(JsonConvert.SerializeObject(data.upgrdadeData));
+        
+        Debug.Log(JsonConvert.SerializeObject(data.endGameMapObjects));
     }
 }
 
@@ -416,8 +410,6 @@ public class SaveData
     public string endGameMapObjects;
     public string endGameFirstMapObjectsOpen;
     public string endGameSecondMapObjectsOpen;
-    
-    public string upgradeData;
 }
 
 [Serializable]
@@ -432,7 +424,6 @@ public class PlayerData
     public int[] boosters = new int[4];
     public int counterLevel = 0;
     public Dictionary<int, List<bool>> endGameMapObjects = new Dictionary<int, List<bool>>();
-    public Dictionary<string, int> upgrdadeData = new Dictionary<string, int>();
     public int score = 0;
 
     public PlayerData(bool toserver)
@@ -460,7 +451,6 @@ public class PlayerData
         hearts = GameManager.instance.life.GetResource();
         endGameMapObjects = Model.playerData.endGameMapObjects;
         score = Model.GetScore();
-        upgrdadeData = Model.playerData.upgrdadeData;
     }
     public PlayerData()
     {

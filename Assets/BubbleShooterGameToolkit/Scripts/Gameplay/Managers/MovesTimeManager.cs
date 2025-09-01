@@ -30,25 +30,13 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
         public void Init(int initialMoves, ELevelMode levelLevelMode)
         {
             moves = initialMoves;
+            GameUIManager.instance.UpdateMoves(moves);
             this.levelLevelMode = levelLevelMode;
             if (levelLevelMode == ELevelMode.Time)
             {
                 BallContainerBase.OnBallLaunched -= SpendMove;
                 EventManager.GetEvent<EStatus>(EGameEvent.Play).Subscribe((x) => StartTimer());
-
-                var bonus = UpgradeDataController.GetUpgradeLevel("BonusTime") * 5;
-                moves += bonus;
-                Debug.Log("Bonus time :" + bonus);
-            }else if (levelLevelMode == ELevelMode.Moves)
-            {
-                var bonus = UpgradeDataController.GetUpgradeLevel("BonusMoves");
-                moves += bonus;
-                
-                Debug.Log("Bonus moves :" + bonus);
             }
-            
-            
-            GameUIManager.instance.UpdateMoves(moves);
         }
 
         private void StartTimer()

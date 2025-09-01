@@ -29,10 +29,6 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
 		[SerializeField] private Button restart;
 		[SerializeField] private TextMeshProUGUI scoreText;	
 		
-		[Space,SerializeField] private TextMeshProUGUI coinValue;
-		[SerializeField] private GameObject coinObject;
-		private const string UPGRADE_ID = "EndLevelGoldBonus";
-		
 		public void OnEnable () {
 			play.onClick.AddListener(GoMap);
 			closeButton.onClick.AddListener(GoMap);
@@ -41,7 +37,6 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
 				stars [i].SetActive (false);
 			}
 			scoreText.text = ScoreManager.instance.GetScore().ToString();
-			ShowCoinBonus();
 		}
 
 		private void RestartLevel()
@@ -122,46 +117,6 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
 					yield return new WaitForSeconds(0.2f);
 				}
 			}
-		}
-
-		private void ShowCoinBonus()
-		{
-			int currentUpgradeLevel = UpgradeDataController.GetUpgradeLevel(UPGRADE_ID);
-			int chance = Random.Range(0, 100);
-
-			int currentCoinBonus = 0;
-
-			switch (currentUpgradeLevel)
-			{
-				case 0:
-					currentCoinBonus = 0;
-					break;
-				case 1:
-					currentCoinBonus = chance > 20 ? 0 : 1;
-					break;
-				case 2:
-					currentCoinBonus = chance > 50 ? 0 : 1;
-					break;
-				case 3:
-					currentCoinBonus = 1;
-					break;
-				case 4:
-					currentCoinBonus = chance > 20 ? 1 : 2;
-					break;
-				case 5:
-					currentCoinBonus = chance > 50 ? 1 : 2;
-					break;
-				case 6:
-					currentCoinBonus = 2;
-					break;
-				case 7:
-					currentCoinBonus = 3;
-					break;
-			}
-
-			coinValue.text ="+" + currentCoinBonus;
-			coinObject.SetActive(currentCoinBonus > 0);
-			GameManager.instance.coins.Add(currentCoinBonus);
 		}
 	}
 }

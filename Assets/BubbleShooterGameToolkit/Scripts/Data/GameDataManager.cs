@@ -59,7 +59,7 @@ namespace BubbleShooterGameToolkit.Scripts.Data
             //{
             //    PlayerPrefs.SetInt("LevelScore" + levelNumber, score);
             //}
-            //GameManager.instance.coins.Add(1);
+            GameManager.instance.coins.Add(1);
             PlayerPrefs.Save();
 
         }
