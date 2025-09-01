@@ -23,9 +23,8 @@ namespace BubbleShooterGameToolkit.Scripts.Settings
         public int gem;
         [Header("Life settings")] 
         public int refillLifeCost;
-        public int TotalTimeForRestLifeHours;
-        public int TotalTimeForRestLifeMin;
         public int TotalTimeForRestLifeSec;
+        public int RefilTimeBonusPerLevel;
         [Header("Pay to continue game after fail")]
         public int continuePrice; 
         [Header("Add Moves to continue game after fail")]

@@ -10,6 +10,8 @@
 // // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // // THE SOFTWARE.
 
+using System;
+using System.Collections;
 using BubbleShooterGameToolkit.Scripts.CommonUI.Popups;
 using UnityEngine;
 using UnityEngine.UI;
@@ -23,6 +25,9 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Reward
 
         [SerializeField]
         private GameObject freeSpinLabel;
+
+        private UpgradeData _upgradeFreeSpin =>
+            UpgradeDataController.GetDataContainer()["FreeDailySpin"];
         
         private void OnEnable()
         {
@@ -30,14 +35,38 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Reward
             CheckFree();
         }
 
+        public bool IsEnableByUpgrade()
+        {
+            if (UpgradeDataController.GetUpgradeLevel(_upgradeFreeSpin) <= 0) return false;
+            DateTime lastTime = DateTime.Parse(PlayerPrefs.GetString("LastSpin", DateTime.MinValue.ToString()));
+
+            return (DateTime.Now - lastTime).TotalDays >= 1;
+        } 
+        
         private void CheckFree()
         {
-            freeSpinLabel.SetActive(PlayerPrefs.GetInt("FreeSpin", 0) == 0);
+            if (Model.playerData == null)
+            {
+                StartCoroutine(WaitPlayerData());
+                return;
+            }  
+            bool freeSpin = PlayerPrefs.GetInt("FreeSpin", 0) == 0 || IsEnableByUpgrade();
+            freeSpinLabel.SetActive(freeSpin);
         }
 
         private void OpenSpin()
         {
             MenuManager.instance.ShowPopup<LuckySpin>(null, (x) => CheckFree());
+        }
+
+        private IEnumerator WaitPlayerData()
+        {
+            while (Model.playerData == null)
+            {
+                yield return null;
+            }
+            
+            CheckFree();
         }
     }
 }

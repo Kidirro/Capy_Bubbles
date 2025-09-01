@@ -10,6 +10,7 @@
 // // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // // THE SOFTWARE.
 
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using BubbleShooterGameToolkit.Scripts.Audio;
@@ -18,6 +19,7 @@ using BubbleShooterGameToolkit.Scripts.Settings;
 using BubbleShooterGameToolkit.Scripts.System;
 using UnityEngine;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
 {
@@ -40,13 +42,16 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
         private Rigidbody2D rb;
         private bool isSpinning = false;
         private int previousRotationMarker;
+        
+        private UpgradeData _upgradeFreeSpin => 
+            UpgradeDataController.GetDataContainer()["FreeDailySpin"];
 
         private void OnEnable()
         {
             rb = spin.GetComponent<Rigidbody2D>();
             freeSpinButton.onClick.AddListener(FreeSpin);
             buySpinButton.onClick.AddListener(BuySpin);
-            var isFirstSpin = PlayerPrefs.GetInt("FreeSpin", 0) == 0;
+            var isFirstSpin = PlayerPrefs.GetInt("FreeSpin", 0) == 0 || IsEnableByUpgrade();
             freeSpinButton.gameObject.SetActive(isFirstSpin);
             buySpinButton.gameObject.SetActive(!isFirstSpin);
             rewardedAdButton.gameObject.SetActive(!isFirstSpin);
@@ -102,7 +107,15 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
 
         private void FreeSpin()
         {
-            PlayerPrefs.SetInt("FreeSpin", 1);
+            if (PlayerPrefs.GetInt("FreeSpin", 0) == 0)
+            {
+                PlayerPrefs.SetInt("FreeSpin", 1);
+            }
+            else
+            {
+                PlayerPrefs.SetString("LastSpin", DateTime.Now.ToString());
+            }
+
             Spin();
         }
 
@@ -177,5 +190,13 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
             rewardPopup.SetReward(spinRewards[rewardIndex]);
 
         }
+
+        private bool IsEnableByUpgrade()
+        {
+            if (UpgradeDataController.GetUpgradeLevel(_upgradeFreeSpin) <= 0) return false;
+            DateTime lastTime = DateTime.Parse(PlayerPrefs.GetString("LastSpin", DateTime.MinValue.ToString()));
+
+            return (DateTime.Now - lastTime).TotalDays >= 1;
+        } 
     }
 }

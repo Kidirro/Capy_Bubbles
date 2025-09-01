@@ -22,6 +22,7 @@ namespace BubbleShooterGameToolkit.Scripts.Settings
     {
         public List<PowerSetting> powerColorSettings;
         public float powerStep = .1f;
+        public List<int> upgradePowerStep = new List<int>(){0};
 
         [Serializable]
         public class PowerSetting

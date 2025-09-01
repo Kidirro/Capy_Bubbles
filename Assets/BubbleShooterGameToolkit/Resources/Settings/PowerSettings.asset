@@ -16,3 +16,4 @@ MonoBehaviour:
   - power: 1
     powerBallPrefab: {fileID: -3274945027063158125, guid: c0f5670e2fb75a74ca88e705c8b13609, type: 3}
   powerStep: 0.05
+  upgradePowerStep: 00000000050000000a000000140000001e0000002800000032000000

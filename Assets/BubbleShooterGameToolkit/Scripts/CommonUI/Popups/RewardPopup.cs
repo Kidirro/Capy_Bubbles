@@ -57,14 +57,18 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
 		public override void Close()
 		{
 			rewardVisual?.resource.Add(rewardVisual.count);
-			foreach (var rewardVisual in rewardVisuals)
+			if (rewardVisuals != null && rewardVisuals.Length > 0)
 			{
-				rewardVisual.resource.Add(rewardVisual.count);
-				if (_resource.name == "Coins")
-					topPanel.AnimateCoins(iconPos.position, "+" + _count, () => base.Close());
-				else if (_resource.name == "Life")
-					topPanel.AnimateLife(iconPos.position, "", () => base.Close());
+				foreach (var rewardVisual in rewardVisuals)
+				{
+					rewardVisual.resource.Add(rewardVisual.count);
+					if (_resource.name == "Coins")
+						topPanel.AnimateCoins(iconPos.position, "+" + _count, () => base.Close());
+					else if (_resource.name == "Life")
+						topPanel.AnimateLife(iconPos.position, "", () => base.Close());
+				}
 			}
+
 			if (_resource.name == "Coins")
 				topPanel.AnimateCoins(iconPos.position, "+" + _count, () => base.Close());
 			else if (_resource.name == "Life")
