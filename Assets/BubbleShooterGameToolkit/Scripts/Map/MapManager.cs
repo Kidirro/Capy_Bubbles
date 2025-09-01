@@ -34,6 +34,9 @@ namespace BubbleShooterGameToolkit.Scripts.Map
         [SerializeField]
         private Transform levelsGrid;
         
+        [SerializeField]
+        private Canvas mainCanvas;
+        
         public static Action<Vector2> OnLastLevelPosition;
        
 
@@ -55,6 +58,7 @@ namespace BubbleShooterGameToolkit.Scripts.Map
             OnLastLevelPosition?.Invoke(openedLevels[^1].transform.position);
             Instantiate(circlePrefab,openedLevels[^1].transform.position, Quaternion.identity, levelsGrid);
             MoveAvatar();
+            mainCanvas.worldCamera = Camera.main;
         }
 
         private void MoveAvatar()

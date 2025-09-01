@@ -24,6 +24,8 @@ public class EndGameMap : MonoBehaviour
     [SerializeField] private Transform mapContainer;
     
     [SerializeField] private MapLoading mapLoadingPrefab;
+    
+    [SerializeField] private Canvas mainCanvas;
 
     private Map currentMap;
     private static int map =0;
@@ -63,6 +65,8 @@ public class EndGameMap : MonoBehaviour
         prevMap.onClick.RemoveAllListeners();
         nextMap.onClick.AddListener(NextMap);
         prevMap.onClick.AddListener(PrevMap);
+        
+        mainCanvas.worldCamera = Camera.main;        
     }
 
 

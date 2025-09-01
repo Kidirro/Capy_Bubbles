@@ -1759,6 +1759,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 4d0f4a4cbfdbb4383875ce27b47b973a, type: 3}
   mapContainer: {fileID: 6871926051427116475}
   mapLoadingPrefab: {fileID: 43781387207866936, guid: bc54942cc7f1126489c8c013a6b41364, type: 3}
+  mainCanvas: {fileID: 1547239844023414297}
   elems:
   - {fileID: 6059588282158730219}
   - {fileID: 8998746336159099266}

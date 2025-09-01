@@ -11,14 +11,18 @@ public class EventChecker : MonoBehaviour
    [SerializeField]
    private EventUI eventUIprefab;
 
+   
+   [SerializeField]
+   private RectTransform eventBtnUIParent;
 
    async private void Start()
    {
       await SpecialEventManager.GetCurrentEventData();
 
-      if (SpecialEventManager.CurrentEventDataList == null) return;
+      if (SpecialEventManager.CurrentEventDataList == null || SpecialEventManager.CurrentEventDataList.Count == 0) return;
       
-      Instantiate(eventUIprefab, parent);
+      var eventUI = Instantiate<EventUI>(eventUIprefab, parent);
+      eventUI.EventUIContainer = eventBtnUIParent;
 
    }
 }

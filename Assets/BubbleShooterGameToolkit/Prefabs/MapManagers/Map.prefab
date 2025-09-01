@@ -1948,6 +1948,7 @@ MonoBehaviour:
   avatar: {fileID: 3962696768348231263}
   circlePrefab: {fileID: 1369190434540936, guid: a5d235b79a30449f3933c7de5650daed, type: 3}
   levelsGrid: {fileID: 4197436025314127822}
+  mainCanvas: {fileID: 0}
 --- !u!114 &4724894506815140033
 MonoBehaviour:
   m_ObjectHideFlags: 0

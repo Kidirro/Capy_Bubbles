@@ -12,9 +12,14 @@ using UnityEngine.UI;
 [Obsolete("Нужен рефакторинг")]
 public class EventUI : SingletonBehaviour<EventUI>
 {
-    [SerializeField]
     private Transform eventUIContainer;
     
+    public Transform EventUIContainer
+    {
+        get => eventUIContainer;
+        set => eventUIContainer = value;
+    }
+
     [SerializeField]
     private EventUiHandler eventUiHandler;
 

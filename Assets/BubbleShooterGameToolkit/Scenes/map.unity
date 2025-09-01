@@ -847,6 +847,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parent: {fileID: 1501894437}
   eventUIprefab: {fileID: 3775891994124000441, guid: de6c48987bd14d34cb3624880d1ee59a, type: 3}
+  eventBtnUIParent: {fileID: 339865465}
 --- !u!1 &1098432168
 GameObject:
   m_ObjectHideFlags: 0
