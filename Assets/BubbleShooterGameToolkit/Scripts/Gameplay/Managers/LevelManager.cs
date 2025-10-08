@@ -231,6 +231,7 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
         {
             EventManager.GetEvent<(Ball,Ball)>(EGameEvent.BallStopped).Unsubscribe(PostLaunchProcess);
             EventManager.GetEvent<EStatus>(EGameEvent.Win).Unsubscribe(WinAnimation);
+            _isEventTimePause = true;
             StartCoroutine(WinAnimationProcess());
         }
 
@@ -377,15 +378,27 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
             CheckMovesAndTargetsAfterDestroy();
         }
 
+        public void SetEventTimerPause(bool state)
+        {
+            _isEventTimePause = state;
+        }
+
+        private bool _isEventTimePause = false;
+
         private IEnumerator CalculateEventTime()
         {
             var key = $"EventTime{SpecialEventManager.ChosenEventData.id}";
             while (true)
             {
+
+                yield return new WaitForSecondsRealtime(0.1f);
+                if (_isEventTimePause) continue;
+                
                 _eventTime += 0.1f;
                 var currentScore = PlayerPrefs.GetFloat(key, 0) + 0.1f;
                 PlayerPrefs.SetFloat(key,currentScore);
-                yield return new WaitForSecondsRealtime(0.1f);
+
+                Debug.Log($"Print time {EventTime}");
                 //Раз в 5 сек отправлять на бэк время
                 
             }
