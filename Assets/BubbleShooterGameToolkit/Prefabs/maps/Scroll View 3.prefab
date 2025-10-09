@@ -456,6 +456,7 @@ MonoBehaviour:
   gameObjects: []
   allObjects: {fileID: 4796235795859228911}
   animAllObjects: 1
+  currencyImage: {fileID: 3912950027950058141}
 --- !u!1 &249971700657440821
 GameObject:
   m_ObjectHideFlags: 0
@@ -947,6 +948,7 @@ MonoBehaviour:
   gameObjects: []
   allObjects: {fileID: 6379503614478051369}
   animAllObjects: 1
+  currencyImage: {fileID: 819561094971760304}
 --- !u!1 &381992221069596646
 GameObject:
   m_ObjectHideFlags: 0
@@ -1002,6 +1004,7 @@ MonoBehaviour:
   gameObjects: []
   allObjects: {fileID: 3475563643335682530}
   animAllObjects: 1
+  currencyImage: {fileID: 8407235446116550892}
 --- !u!1 &392217515523830743
 GameObject:
   m_ObjectHideFlags: 0
@@ -1207,6 +1210,7 @@ MonoBehaviour:
   gameObjects: []
   allObjects: {fileID: 6315235711326738891}
   animAllObjects: 1
+  currencyImage: {fileID: 3461876421079777048}
 --- !u!1 &459813046162211908
 GameObject:
   m_ObjectHideFlags: 0
@@ -1262,6 +1266,7 @@ MonoBehaviour:
   gameObjects: []
   allObjects: {fileID: 8450344861451055772}
   animAllObjects: 1
+  currencyImage: {fileID: 3469124891031932175}
 --- !u!1 &505541552381334709
 GameObject:
   m_ObjectHideFlags: 0
@@ -3540,6 +3545,7 @@ MonoBehaviour:
   gameObjects: []
   allObjects: {fileID: 2508133951916868169}
   animAllObjects: 1
+  currencyImage: {fileID: 4812305159096818838}
 --- !u!1 &1512791444386006658
 GameObject:
   m_ObjectHideFlags: 0
@@ -3707,6 +3713,7 @@ MonoBehaviour:
   gameObjects: []
   allObjects: {fileID: 6466661385730795858}
   animAllObjects: 1
+  currencyImage: {fileID: 3896258606153198753}
 --- !u!1 &1628910972403746724
 GameObject:
   m_ObjectHideFlags: 0
@@ -5716,6 +5723,7 @@ MonoBehaviour:
   gameObjects: []
   allObjects: {fileID: 6428761345666600528}
   animAllObjects: 1
+  currencyImage: {fileID: 1650260433914004711}
 --- !u!1 &2292537506990675110
 GameObject:
   m_ObjectHideFlags: 0
@@ -6482,6 +6490,7 @@ MonoBehaviour:
   gameObjects: []
   allObjects: {fileID: 8119950436191357644}
   animAllObjects: 1
+  currencyImage: {fileID: 1657774087051637815}
 --- !u!1 &2425895365956170123
 GameObject:
   m_ObjectHideFlags: 0
@@ -8576,6 +8585,7 @@ MonoBehaviour:
   gameObjects: []
   allObjects: {fileID: 2497288088172381470}
   animAllObjects: 1
+  currencyImage: {fileID: 7832057177911013293}
 --- !u!1 &2934658409457393463
 GameObject:
   m_ObjectHideFlags: 0
@@ -9518,6 +9528,7 @@ MonoBehaviour:
   gameObjects: []
   allObjects: {fileID: 5466711566354101010}
   animAllObjects: 1
+  currencyImage: {fileID: 7584111735415315814}
 --- !u!1 &3294853866707867599
 GameObject:
   m_ObjectHideFlags: 0
@@ -10108,6 +10119,7 @@ MonoBehaviour:
   gameObjects: []
   allObjects: {fileID: 1089567575839305009}
   animAllObjects: 1
+  currencyImage: {fileID: 8667953115693883125}
 --- !u!1 &3516538342135668010
 GameObject:
   m_ObjectHideFlags: 0
@@ -10163,6 +10175,7 @@ MonoBehaviour:
   gameObjects: []
   allObjects: {fileID: 603231193219052586}
   animAllObjects: 1
+  currencyImage: {fileID: 6004451708314372357}
 --- !u!1 &3566125687649336197
 GameObject:
   m_ObjectHideFlags: 0
@@ -10254,6 +10267,7 @@ MonoBehaviour:
   gameObjects: []
   allObjects: {fileID: 5848734589657201495}
   animAllObjects: 1
+  currencyImage: {fileID: 2108098507788687842}
 --- !u!1 &3659608764501757576
 GameObject:
   m_ObjectHideFlags: 0
@@ -10805,6 +10819,7 @@ MonoBehaviour:
   gameObjects: []
   allObjects: {fileID: 7532269158493531845}
   animAllObjects: 1
+  currencyImage: {fileID: 6618610417292654531}
 --- !u!1 &4178469451786359552
 GameObject:
   m_ObjectHideFlags: 0
@@ -11148,6 +11163,7 @@ MonoBehaviour:
   gameObjects: []
   allObjects: {fileID: 6000431459885314102}
   animAllObjects: 1
+  currencyImage: {fileID: 2723692924651306224}
 --- !u!1 &4318331488736829109
 GameObject:
   m_ObjectHideFlags: 0
@@ -13034,6 +13050,7 @@ MonoBehaviour:
   gameObjects: []
   allObjects: {fileID: 5382681586354786426}
   animAllObjects: 1
+  currencyImage: {fileID: 6164211739180308949}
 --- !u!1 &5025450458531642223
 GameObject:
   m_ObjectHideFlags: 0
@@ -13089,6 +13106,7 @@ MonoBehaviour:
   gameObjects: []
   allObjects: {fileID: 1681325790877929778}
   animAllObjects: 1
+  currencyImage: {fileID: 5539268851027663963}
 --- !u!1 &5114986799719166937
 GameObject:
   m_ObjectHideFlags: 0
@@ -13369,6 +13387,7 @@ MonoBehaviour:
   gameObjects: []
   allObjects: {fileID: 1512791444386006658}
   animAllObjects: 1
+  currencyImage: {fileID: 5823100701935914049}
 --- !u!1 &5199906680070632325
 GameObject:
   m_ObjectHideFlags: 0
@@ -14043,6 +14062,7 @@ MonoBehaviour:
   gameObjects: []
   allObjects: {fileID: 193256456767277993}
   animAllObjects: 1
+  currencyImage: {fileID: 8648600273725950860}
 --- !u!1 &5471359661707823335
 GameObject:
   m_ObjectHideFlags: 0
@@ -16525,6 +16545,7 @@ MonoBehaviour:
   gameObjects: []
   allObjects: {fileID: 2748856839972829084}
   animAllObjects: 1
+  currencyImage: {fileID: 9176626094876651842}
 --- !u!1 &6611799569711121263
 GameObject:
   m_ObjectHideFlags: 0
@@ -17792,6 +17813,7 @@ MonoBehaviour:
   gameObjects: []
   allObjects: {fileID: 3057639929990087065}
   animAllObjects: 1
+  currencyImage: {fileID: 235910504546677588}
 --- !u!1 &7217222506162875588
 GameObject:
   m_ObjectHideFlags: 0
@@ -17997,6 +18019,7 @@ MonoBehaviour:
   gameObjects: []
   allObjects: {fileID: 6059379559354128206}
   animAllObjects: 1
+  currencyImage: {fileID: 5158010471108926203}
 --- !u!1 &7456971567620446885
 GameObject:
   m_ObjectHideFlags: 0
@@ -18573,6 +18596,7 @@ MonoBehaviour:
   gameObjects: []
   allObjects: {fileID: 3435000509288033543}
   animAllObjects: 1
+  currencyImage: {fileID: 1692297054117649057}
 --- !u!1 &7577854126321984168
 GameObject:
   m_ObjectHideFlags: 0
@@ -19889,6 +19913,7 @@ MonoBehaviour:
   gameObjects: []
   allObjects: {fileID: 2974087088951421827}
   animAllObjects: 1
+  currencyImage: {fileID: 3955176053937519966}
 --- !u!1 &8299444861028062092
 GameObject:
   m_ObjectHideFlags: 0
@@ -20813,6 +20838,7 @@ MonoBehaviour:
   gameObjects: []
   allObjects: {fileID: 3566125687649336197}
   animAllObjects: 1
+  currencyImage: {fileID: 5830058710237062007}
 --- !u!1 &8676383919842224861
 GameObject:
   m_ObjectHideFlags: 0
@@ -21141,6 +21167,7 @@ MonoBehaviour:
   gameObjects: []
   allObjects: {fileID: 3317396563854720304}
   animAllObjects: 1
+  currencyImage: {fileID: 2347454703467383340}
 --- !u!1 &8939524853437396253
 GameObject:
   m_ObjectHideFlags: 0
@@ -21957,6 +21984,7 @@ MonoBehaviour:
   gameObjects: []
   allObjects: {fileID: 9083330406638106682}
   animAllObjects: 1
+  currencyImage: {fileID: 7151615674276229191}
 --- !u!1 &9153404252229213391
 GameObject:
   m_ObjectHideFlags: 0

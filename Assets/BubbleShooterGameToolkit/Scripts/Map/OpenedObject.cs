@@ -1,3 +1,4 @@
+using System;
 using BubbleShooterGameToolkit.Scripts.Audio;
 using BubbleShooterGameToolkit.Scripts.CommonUI;
 using BubbleShooterGameToolkit.Scripts.CommonUI.Popups;
@@ -6,6 +7,7 @@ using DG.Tweening;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using Random = System.Random;
 
 public class OpenedObject : MonoBehaviour
 {
@@ -13,7 +15,10 @@ public class OpenedObject : MonoBehaviour
     [SerializeField] private TMP_Text cost;
     [SerializeField] private Transform[] gameObjects;
     [SerializeField] private GameObject allObjects;
-    [SerializeField] private bool animAllObjects = false; 
+    [SerializeField] private bool animAllObjects = false;
+
+    [Space] 
+    [SerializeField] private Image currencyImage; 
 
     private AudioClip[] clips;
     private int index = 0;
@@ -22,7 +27,7 @@ public class OpenedObject : MonoBehaviour
     public delegate void Anim(Vector3 position);
     private Anim anim;
 
-    public void Init(bool isOpened, int cost, int num, AudioClip[] clips, int mapID, Anim anim)
+    public void Init(bool isOpened, CostData cost, int num, AudioClip[] clips, int mapID, Anim anim)
     {
         number = num;
         this.mapID = mapID;
@@ -35,7 +40,19 @@ public class OpenedObject : MonoBehaviour
         {
             this.anim=anim;
             allObjects.SetActive(false);
-            this.cost.text = cost.ToString();
+            this.cost.text = cost.Value.ToString();
+
+            switch (cost.CurrencyType)
+            {
+                case CurrencyType.Coin:
+                    currencyImage.sprite= Resources.Load<Sprite>("CurrencySprites/coin");
+                    break;
+                case CurrencyType.Gem:
+                    Debug.LogError("GEM!!!", gameObject);
+                    currencyImage.sprite= Resources.Load<Sprite>("CurrencySprites/gem");
+                    break;
+            }
+            
             buy.gameObject.SetActive(true);
             buy.onClick.RemoveAllListeners();
             buy.onClick.AddListener(Buy);
@@ -44,9 +61,28 @@ public class OpenedObject : MonoBehaviour
 
         void Buy()
         {
-            if (cost > GameManager.instance.coins.GetResource())
+            var currentPrice = 0;
+            switch (cost.CurrencyType)
             {
-                MenuManager.instance.ShowPopup<CoinsShop>();
+                case CurrencyType.Coin:
+                    currentPrice = GameManager.instance.coins.GetResource();
+                    break;
+                case CurrencyType.Gem:
+                    currentPrice = GameManager.instance.gem.GetResource();
+                    break;
+            }
+            
+            if (cost.Value > currentPrice)
+            {
+                if (cost.CurrencyType == CurrencyType.Coin)
+                {
+                    MenuManager.instance.ShowPopup<CoinsShop>();
+                }
+                else
+                {
+                    MenuManager.instance.ShowPopup<GemsShop>();
+                }
+
                 return;
             }
             else
@@ -54,7 +90,15 @@ public class OpenedObject : MonoBehaviour
                 
                 //TIDI ДОБАВИТЬ ПРОВЕРКУ
                 Model.playerData.endGameMapObjects[mapID][number] = true;
-                GameManager.instance.coins.Consume(cost);
+                switch (cost.CurrencyType)
+                {
+                    case CurrencyType.Coin:
+                        GameManager.instance.coins.Consume(cost.Value);
+                        break;
+                    case CurrencyType.Gem:
+                        GameManager.instance.gem.Consume(cost.Value);
+                        break;
+                }
 
                 AnimObjs();
             }
@@ -104,4 +148,26 @@ public class OpenedObject : MonoBehaviour
 
 
     }
+
+    // private void OnValidate()
+    // {
+    //     var buyImage = buy.gameObject.GetComponentInChildrenExclusive<Image>();
+    //     currencyImage =buyImage.gameObject.GetComponentInChildrenExclusive<Image>();
+    // }
 }
+
+// public static class ComponentExtensions
+// {
+//     public static T GetComponentInChildrenExclusive<T>(this GameObject obj, bool includeInactive = false) where T : Component
+//     {
+//         // Берём всех детей, включая вложенных
+//         foreach (Transform child in obj.transform)
+//         {
+//             var component = child.GetComponentInChildren<T>(includeInactive);
+//             if (component != null)
+//                 return component;
+//         }
+//
+//         return null;
+//     }
+// }

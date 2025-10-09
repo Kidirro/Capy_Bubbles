@@ -149,10 +149,10 @@ public class Model : MonoBehaviour
         if (playerData.endGameMapObjects == null || playerData.endGameMapObjects.Count == 0)
         {
             playerData.endGameMapObjects = new Dictionary<int, List<bool>>();
-            for (int i = 0; i < GameManager.instance.endGameSetting.mapObjectCost.Length; i++)
+            for (int i = 0; i < GameManager.instance.endGameSetting.mapCost.Count; i++)
             {
                 playerData.endGameMapObjects.Add(i, new bool [
-                    GameManager.instance.endGameSetting.mapObjectCost[i].mapObjectCost.Length].ToList());
+                    GameManager.instance.endGameSetting.mapCost[i].Data.Count].ToList());
             }
         }
         
@@ -303,7 +303,15 @@ public class Model : MonoBehaviour
             {
                 if (playerData.endGameMapObjects[i][j])
                 {
-                    result += Mathf.RoundToInt(GameManager.instance.endGameSetting.mapObjectCost[i].mapObjectCost[j] / 10f); 
+                    var cost = GameManager.instance.endGameSetting.mapCost[i].Data[j];
+                    if (cost.CurrencyType == CurrencyType.Coin)
+                    {
+                        result += Mathf.RoundToInt(cost.Value / 10f);
+                    }
+                    else
+                    {
+                        result += Mathf.RoundToInt(cost.Value * 4f);
+                    }
                 }
             }
         }

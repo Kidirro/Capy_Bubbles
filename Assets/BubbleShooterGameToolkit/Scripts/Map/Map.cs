@@ -33,14 +33,14 @@ public class Map : MonoBehaviour
         if (Model.playerData.endGameMapObjects.ContainsKey(id) == false)
         {
             Model.playerData.endGameMapObjects.Add(id, new bool [
-                GameManager.instance.endGameSetting.mapObjectCost[id].mapObjectCost.Length].ToList());
+                GameManager.instance.endGameSetting.mapCost[id].Data.Count].ToList());
         }
         
         bools = Model.playerData.endGameMapObjects[id].ToArray();
         gameObject.SetActive(true);
         for (int i = 0; i < openedObjects.Length; i++)
         {
-            openedObjects[i].Init(bools[i], GameManager.instance.endGameSetting.mapObjectCost[id].mapObjectCost[i], i, clips, id, CreateAnim);
+            openedObjects[i].Init(bools[i], GameManager.instance.endGameSetting.mapCost[id].Data[i], i, clips, id, CreateAnim);
         }
     }
     Sequence flySequence;
