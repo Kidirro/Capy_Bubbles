@@ -10075,11 +10075,11 @@ MonoBehaviour:
   m_FontWeightTable:
   - regularTypeface: {fileID: 0}
     italicTypeface: {fileID: 0}
-  - regularTypeface: {fileID: 11400000, guid: 2947f66e274256e4c90c05af2b73288e, type: 2}
+  - regularTypeface: {fileID: 0}
     italicTypeface: {fileID: 0}
   - regularTypeface: {fileID: 0}
     italicTypeface: {fileID: 0}
-  - regularTypeface: {fileID: 11400000, guid: b2a21020b71944d4bbf8cddbf4e5eb58, type: 2}
+  - regularTypeface: {fileID: 11400000, guid: 4cf21a49badf00b4d9a7d3bbcfb3abb5, type: 2}
     italicTypeface: {fileID: 0}
   - regularTypeface: {fileID: 0}
     italicTypeface: {fileID: 0}
