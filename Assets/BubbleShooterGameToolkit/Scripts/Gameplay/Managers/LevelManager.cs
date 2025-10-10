@@ -391,15 +391,12 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
             while (true)
             {
 
-                yield return new WaitForSecondsRealtime(0.1f);
+                yield return new WaitForSecondsRealtime(0.25f);
                 if (_isEventTimePause) continue;
                 
-                _eventTime += 0.1f;
-                var currentScore = PlayerPrefs.GetFloat(key, 0) + 0.1f;
+                _eventTime += 0.25f;
+                var currentScore = PlayerPrefs.GetFloat(key, 0) + 0.25f;
                 PlayerPrefs.SetFloat(key,currentScore);
-
-                Debug.Log($"Print time {EventTime}");
-                //Раз в 5 сек отправлять на бэк время
                 
             }
         }

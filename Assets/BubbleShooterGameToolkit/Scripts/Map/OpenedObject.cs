@@ -48,7 +48,6 @@ public class OpenedObject : MonoBehaviour
                     currencyImage.sprite= Resources.Load<Sprite>("CurrencySprites/coin");
                     break;
                 case CurrencyType.Gem:
-                    Debug.LogError("GEM!!!", gameObject);
                     currencyImage.sprite= Resources.Load<Sprite>("CurrencySprites/gem");
                     break;
             }
