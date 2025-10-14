@@ -12,6 +12,7 @@
 
 using BubbleShooterGameToolkit.Scripts.Services;
 using BubbleShooterGameToolkit.Scripts.Settings;
+using BubbleShooterGameToolkit.Scripts.System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -40,7 +41,9 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
 
         private void BuyCoins()
         {
-#if MEGAFON
+#if UNITY_EDITOR            
+            GameManager.instance.gem.Add(9999);
+#elif MEGAFON
             GetComponentInParent<CoinsShop>().BuyCoins(id);
 #elif BEELINE
             MenuManager.instance.ShowPopup<BuyInfoPopup>().SetText(count.text, _price.ToString(), settingsShopItem.gems==0, () =>

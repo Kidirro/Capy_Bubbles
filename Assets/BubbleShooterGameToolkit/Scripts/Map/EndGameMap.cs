@@ -36,7 +36,8 @@ public class EndGameMap : MonoBehaviour
         "Map_1",
         "Map_2",
         "Map_3",
-        "Map_4"
+        "Map_4", 
+        "Map_5"
     };
     
     private static Dictionary<int, Map> mapPrefabs = new Dictionary<int, Map>();

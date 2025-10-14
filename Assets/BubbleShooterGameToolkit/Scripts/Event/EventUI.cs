@@ -101,7 +101,7 @@ public class EventUI : SingletonBehaviour<EventUI>
             gameObject.SetActive(false);
             return;
         }
-        if (GameManager.instance.gem.Consume(GameManager.instance.GameSettings.eventReplyCost))
+        if (GameManager.instance.coins.Consume(GameManager.instance.GameSettings.eventReplyCost))
         {
             PlayerPrefs.SetInt("EventLevel" + SpecialEventManager.ChosenEventData.id, 0);
             PlayerPrefs.SetFloat($"EventTime{SpecialEventManager.ChosenEventData.id}", 0);

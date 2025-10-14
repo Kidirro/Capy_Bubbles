@@ -114,8 +114,10 @@ public class OpenedObject : MonoBehaviour
                     allObjects.SetActive(true);
                     if (animAllObjects)
                     {
-                        allObjects.transform.DOScale(new Vector3(1.2f, 1.5f, 1f), 0.3f).OnComplete(() =>
-                            allObjects.transform.DOScale(new Vector3(1, 1, 1), 0.3f).OnComplete(PlaySound));
+                        
+                        var scale = allObjects.transform.localScale;
+                        allObjects.transform.DOScale(new Vector3(1.2f * scale.x, 1.5f*scale.y, 1f*scale.z), 0.3f).OnComplete(() =>
+                            allObjects.transform.DOScale(scale, 0.3f).OnComplete(PlaySound));
                     }
                     else
                     {
