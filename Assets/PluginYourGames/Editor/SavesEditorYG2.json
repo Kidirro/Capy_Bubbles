@@ -1,0 +1,24 @@
+{
+    "intExample": 0,
+    "boolExample": [
+        false,
+        true,
+        false
+    ],
+    "strExample": "",
+    "language": -1,
+    "sound": 1,
+    "music": 1,
+    "isFreeSpin": true,
+    "levelData": "",
+    "laslLevel": 1,
+    "playerDataJson": "{\"id\":0,\"phone\":\"\",\"gold\":16,\"hearts\":5,\"levels\":[],\"gems\":0,\"boosters\":[1,1,1,1],\"counterLevel\":0,\"score\":0}",
+    "dailyBonusDay": "17.10.2025 0:00:00",
+    "rewardStreak": 0,
+    "lastDisabledTime": "2025-10-17T19:29:18.2747208+03:00",
+    "scoreLevelLeaderboard": 0,
+    "scoreObjectLeaderboard": 0,
+    "chestLevels": 1,
+    "rewardClaimed": false,
+    "idSave": 9
+}

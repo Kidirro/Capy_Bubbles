@@ -1,4 +1,5 @@
-﻿// // ©2015 - 2024 Candy Smith
+#if UNITY_EDITOR
+// // ©2015 - 2024 Candy Smith
 // // All rights reserved
 // // Redistribution of this software is strictly not allowed.
 // // Copy of this software can be obtained from unity asset store only.
@@ -134,3 +135,4 @@ namespace BubbleShooterGameToolkit.Scripts.System
         public string define;
     }
 }
+#endif

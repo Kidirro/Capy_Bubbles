@@ -1,4 +1,5 @@
-﻿#if YandexGamesPlatform_yg
+#if UNITY_EDITOR
+#if YandexGamesPlatform_yg
 namespace YG.EditorScr.BuildModify
 {
     public partial class ModifyBuild
@@ -54,4 +55,5 @@ namespace YG.EditorScr.BuildModify
         }
     }
 }
+#endif
 #endif

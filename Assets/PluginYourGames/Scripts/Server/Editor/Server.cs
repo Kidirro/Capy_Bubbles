@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+#if UNITY_EDITOR
+using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -138,3 +139,4 @@ namespace YG.EditorScr
         }
     }
 }
+#endif

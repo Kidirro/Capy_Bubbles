@@ -192,7 +192,11 @@ public class EventUI : SingletonBehaviour<EventUI>
     private async void UpdateUICard()
     {
         var leaderboard = await SpecialEventManager.GetLeaderBoard(SpecialEventManager.ChosenEventData.id,1);
+#if PLUGIN_YG_2
+        leaderboard.current_user.user_name = YG.YG2.player.name;  
+#else        
         leaderboard.current_user.user_name = Model.playerData.phone;
+#endif
         ratingPlayerCard.SetLeaderboardEntry(leaderboard.current_user);
     }
 

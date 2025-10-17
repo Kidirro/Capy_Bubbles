@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 // // ©2015 - 2024 Candy Smith
 // // All rights reserved
 // // Redistribution of this software is strictly not allowed.
@@ -154,3 +155,4 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.GUI.Editor
         }
     }
 }
+#endif

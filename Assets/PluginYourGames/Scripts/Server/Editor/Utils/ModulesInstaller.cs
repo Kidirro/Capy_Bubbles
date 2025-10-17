@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -48,7 +49,7 @@ namespace YG.EditorScr
                 string dialogText = Langs.dependenciesDialog + "\n";
 
                 foreach (Module dependency in dependencies)
-                    dialogText += "\n• " + dependency.nameModule;
+                    dialogText += "\nï¿½ " + dependency.nameModule;
 
                 if (!EditorUtility.DisplayDialog($"Dependencies found for {module.nameModule}", dialogText, "Ok", Langs.cancel))
                 {
@@ -190,3 +191,4 @@ namespace YG.EditorScr
         }
     }
 }
+#endif

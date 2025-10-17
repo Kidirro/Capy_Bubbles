@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using BubbleShooterGameToolkit.Scripts.LevelSystem;
 using UnityEditor;
 using UnityEditor.SceneManagement;
@@ -90,3 +91,4 @@ namespace BubbleShooterGameToolkit.Scripts.Editor.LevelSystem
         }
     }
 }
+#endif

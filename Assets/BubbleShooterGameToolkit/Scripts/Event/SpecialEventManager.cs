@@ -87,8 +87,9 @@ public class SpecialEventManager
 #if PLUGIN_YG_2
 
         var currentScore = EncryptScore(eventId, (int)result);
-        
-        YG2.SetLeaderboard(GetLBName(),EncryptScore(eventId,currentScore));
+
+        Debug.Log($"LB SEND current {currentScore}");
+        YG2.SetLeaderboard(GetLBName(),currentScore);
 
         YG2.saves.rewardClaimed = false;
         
@@ -138,12 +139,14 @@ public class SpecialEventManager
 
     private static void GetLBData(LBData lbData)
     {
+        if (lbData.technoName != GetLBName()) return;
         leaderBoardData = lbData;
+        Debug.Log($"LB:  {JsonUtility.ToJson(lbData)}");
     }
 
     private static string GetLBName()
     {
-        return "mandarin";
+        return "mandarin1";
     }
 
     private static EventDayData GetDayData(DateTime date)
@@ -239,7 +242,7 @@ public class SpecialEventManager
                 {
                     result = score.Score,
                     place = player.rank,
-                    rewards = currentEvent.prizes[player.rank].rewards,
+                    rewards = currentEvent.prizes[player.rank-1].rewards,
                     user_id = 12,
                     user_name = player.name
                     

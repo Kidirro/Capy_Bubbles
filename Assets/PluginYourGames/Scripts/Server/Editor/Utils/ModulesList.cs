@@ -1,3 +1,5 @@
+#if UNITY_EDITOR
+
 using System.Collections.Generic;
 using System.IO;
 
@@ -149,3 +151,4 @@ namespace YG.EditorScr
         }
     }
 }
+#endif

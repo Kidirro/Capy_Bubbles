@@ -1,4 +1,5 @@
-﻿/*
+#if UNITY_EDITOR
+/*
  * This file is a part of the Yandex Advertising Network
  *
  * Version for Unity (C) 2023 YANDEX
@@ -91,4 +92,6 @@ public class PostprocessBuildPlayerYandexMobileAds
         }
     }
 }
+#endif
+
 #endif

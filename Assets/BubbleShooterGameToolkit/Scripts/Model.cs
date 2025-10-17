@@ -275,7 +275,8 @@ public class Model : MonoBehaviour
     public static int GetScore()
     {
         int result = 0;
-
+        if (playerData == null) return 0;
+        
         for (int i = 0; i < playerData.endGameMapObjects.Count; i++)
         {
             for (int j = 0; j < playerData.endGameMapObjects[i].Count; j++)
@@ -309,7 +310,7 @@ public class Model : MonoBehaviour
         YG2.saves.playerDataJson = JsonUtility.ToJson(playerData);
         PlayerPrefs.SetString("CurrentPlayer", YG2.player.id);
         YG2.SaveProgress();
-#else
+#else 
         Debug.Log(JsonUtility.ToJson(new PlayerSendData(playerData)));
         var request = UnityWebRequest.Put(backend + "user", JsonUtility.ToJson(new PlayerSendData(playerData)));
         request.SetRequestHeader("accessToken", token);
@@ -405,7 +406,7 @@ public class PlayerData
     public string phone;
     public int gold = 0;
     public int hearts = 0;
-    public List<int> levels = new ();
+    public List<int> levels = new();
     public int gems = 0;
     public int[] boosters = new int[4];
     public int counterLevel = 0;
@@ -416,8 +417,9 @@ public class PlayerData
     {
         levels = new List<int>();
 #if PLUGIN_YG_2
-        levels = JsonConvert.DeserializeObject(YG2.saves.levelData, typeof(List<int>)) as List<int> ?? new List<int>(){};
-#else        
+        levels = JsonConvert.DeserializeObject(YG2.saves.levelData, typeof(List<int>)) as List<int> ??
+                 new List<int>() { };
+#else
         for (int i = 0; i < PlayerPrefs.GetInt("Level", 1); i++)
         {
             int value = PlayerPrefs.GetInt("LevelScore" + (i + 1), 0);
@@ -425,7 +427,7 @@ public class PlayerData
                 levels.Add(value);
         }
 #endif
-        
+
         boosters = new int[4];
         GameManager.instance.coins.LoadPrefs();
         GameManager.instance.life.LoadPrefs();
@@ -435,13 +437,22 @@ public class PlayerData
             boosters[i] = GameManager.instance.boosters[i].GetResource();
         }
 
+#if !PLUGIN_YG_2
         phone = Model.playerData.phone;
+#endif
         gold = GameManager.instance.coins.GetResource();
         gems = GameManager.instance.gem.GetResource();
         hearts = GameManager.instance.life.GetResource();
-        endGameMapObjects = Model.playerData.endGameMapObjects;
+        if (toserver)
+            endGameMapObjects = Model.playerData.endGameMapObjects;
+        else
+        {
+            endGameMapObjects = new Dictionary<int, List<bool>>();
+        }
+
         score = Model.GetScore();
     }
+
     public PlayerData()
     {
         GameManager.instance.life.LoadPrefs();

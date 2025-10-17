@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using UnityEditor;
 using TMPro;
 using UnityEngine;
@@ -21,3 +22,4 @@ public static class TMPFixer
         Debug.Log("TMP Materials restored");
     }
 }
+#endif

@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+#if UNITY_EDITOR
+using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Linq;
@@ -754,3 +755,5 @@ namespace YG.EditorScr
         }
     }
 }
+
+#endif

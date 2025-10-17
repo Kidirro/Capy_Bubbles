@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 // Assets/Editor/TMPFontAssetFixer.cs
 using UnityEngine;
 using UnityEditor;
@@ -171,3 +172,5 @@ public class TMPFontAssetFixer
         return null;
     }
 }
+
+#endif

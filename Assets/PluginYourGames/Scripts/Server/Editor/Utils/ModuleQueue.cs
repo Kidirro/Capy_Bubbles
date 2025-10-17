@@ -1,12 +1,11 @@
-﻿using System;
+﻿#if UNITY_EDITOR
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-#if UNITY_EDITOR
 using UnityEditor;           // SessionState
 using UnityEditor.Callbacks; // DidReloadScripts
 using UnityEngine;           // JsonUtility
-#endif
 
 namespace YG.EditorScr
 {
@@ -198,3 +197,5 @@ namespace YG.EditorScr
         }
     }
 }
+
+#endif

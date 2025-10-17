@@ -1,0 +1,3 @@
+Build path: C:/Unity/build
+Build number: 3
+PluginYG version: 2.005

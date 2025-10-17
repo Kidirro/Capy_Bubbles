@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 #if YandexGamesPlatform_yg
 namespace YG.EditorScr.BuildModify
 {
@@ -10,4 +11,5 @@ namespace YG.EditorScr.BuildModify
         }
     }
 }
+#endif
 #endif
