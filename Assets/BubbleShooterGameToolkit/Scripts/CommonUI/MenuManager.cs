@@ -26,11 +26,15 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI
         private List<Popup> popupStack = new();
         [SerializeField]
         private Canvas canvas;
+        
+        
+        [SerializeField]
+        private EventWinPopup eventWinPopup;
 
         public override void Awake()
         {
             base.Awake();
-            DontDestroyOnLoad(this);
+            //DontDestroyOnLoad(this);
         }
 
         private void OnEnable()
@@ -59,15 +63,19 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI
         }
 
         public T ShowPopup<T>(Action onShow = null, Action<EPopupResult> onClose = null) where T : Popup
-        {
-            T popupPrefab = Resources.Load<T>("Popups/" + typeof(T).Name);
-            
-            var popup = Instantiate<T>(popupPrefab, transform);
-
-            if (popup == null)
+        {  
+            Popup popup = eventWinPopup;
+            if (typeof(T) != typeof(EventWinPopup))
             {
-                Debug.LogError("Popup prefab not found in Resources folder: " + typeof(T).Name);
-                return null;
+                T popupPrefab = Resources.Load<T>("Popups/" + typeof(T).Name);
+
+                popup = Instantiate<T>(popupPrefab, transform);
+
+                if (popup == null)
+                {
+                    Debug.LogError("Popup prefab not found in Resources folder: " + typeof(T).Name);
+                    return null;
+                }
             }
 
             if (popupStack.Count > 0 )
@@ -79,9 +87,10 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI
             var rectTransform = popup.GetComponent<RectTransform>();
             rectTransform.anchoredPosition = Vector2.zero;
             rectTransform.sizeDelta = Vector2.zero;
+            popup.gameObject.SetActive(true);
             if(fader != null && popupStack.Count > 0 && popup.fade)
                 fader.FadeIn();
-            return popup;
+            return (T)popup;
         }
 
         private void ClosePopup(Popup popupClose)

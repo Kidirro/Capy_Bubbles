@@ -51,7 +51,7 @@ namespace YG
 
         public static void SetDefaultSaves()
         {
-            Message("Reset Save Progress");
+            Message("Set Default Saves");
             int idSave = saves.idSave;
             saves = new SavesYG { idSave = idSave };
 
@@ -68,6 +68,16 @@ namespace YG
 
         public static void SaveProgress()
         {
+            if (!_SDKEnabled)
+            {
+#if RU_YG2
+                Debug.LogError("Не используйте методы сохранения прогресса до полной инициализации PluginYG2.");
+#else
+                Debug.LogError("Do not use methods to save progress until PluginYG2 is fully initialized.");
+#endif
+                return;
+            }
+
             saves.idSave++;
 #if !UNITY_EDITOR
             if (infoYG.Storage.saveLocal)
@@ -88,7 +98,6 @@ namespace YG.Insides
     {
         private enum DataState { Exist, NotExist, Broken };
         private const string STORAGE_KEY = "YG2_SavesData";
-        private static float timerSaveCloud;
 
         public static void LoadProgress()
         {
@@ -107,12 +116,12 @@ namespace YG.Insides
 #if UNITY_EDITOR
         private static string PATH_SAVES_EDITOR
         {
-            get { return InfoYG.PATCH_PC_EDITOR + "/SavesEditorYG2.json"; }
+            get { return Path.Combine(InfoYG.PATCH_PC_EDITOR, "SavesEditorYG2.json"); }
         }
 
         public static void SaveEditor()
         {
-            Message("Save Editor");
+            Message("Save Progress (in Editor)");
 
             bool fileExits = false;
 
@@ -179,12 +188,8 @@ namespace YG.Insides
 
         public static void SaveCloud(bool ignoreTimer = false)
         {
-            if (Time.realtimeSinceStartup >= timerSaveCloud + infoYG.Storage.saveCloudInterval)
-            {
-                Message("Save Cloud");
-                timerSaveCloud = Time.realtimeSinceStartup;
-                iPlatform.SaveCloud();
-            }
+            Message("Save Cloud");
+            iPlatform.SaveCloud();
         }
 
         public static void LoadCloud()
@@ -206,11 +211,13 @@ namespace YG.Insides
 
             if (data != InfoYG.NO_DATA && !string.IsNullOrEmpty(data))
             {
+#if YandexGamesPlatform_yg
                 data = data.Remove(0, 2);
                 data = data.Remove(data.Length - 2, 2);
                 data = data.Replace(@"\\\", '\u0002'.ToString());
                 data = data.Replace(@"\", "");
                 data = data.Replace('\u0002'.ToString(), @"\");
+#endif
                 try
                 {
 #if NJSON_STORAGE_YG2

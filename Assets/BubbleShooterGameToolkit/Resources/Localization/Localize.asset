@@ -312,7 +312,7 @@ MonoBehaviour:
   - key: RUB
     RussiaValue: "\u0440\u0443\u0431\u043B\u0435\u0439"
     EnglishValue: rubles
-    TjsValue: "\u0440\u0443\u0431\u043B\u0435\u0439"
+    TjsValue: "\u0441\u043E\u043C\u043E\u043D\u0438"
   - key: ErrorPayment
     RussiaValue: 
     EnglishValue: 
@@ -359,6 +359,14 @@ MonoBehaviour:
     RussiaValue: "\u041E\u0447\u043A\u0438"
     EnglishValue: Score
     TjsValue: "\u04B2\u0438\u0441\u043E\u0431"
+  - key: Gems Shop
+    RussiaValue: "\u041C\u0430\u0433\u0430\u0437\u0438\u043D \u0413\u0435\u043C\u043E\u0432"
+    EnglishValue: Gems Shop
+    TjsValue: "\u041C\u0430\u0493\u043E\u0437\u0430\u0438 \u0413\u0435\u043C\u043E\u0432"
+  - key: GEMS
+    RussiaValue: "\u0433\u0435\u043C\u043E\u0432"
+    EnglishValue: gems
+    TjsValue: "\u0433\u0435\u043C\u043E\u0432"
   localizeImageObjs:
   - key: Fantastic
     RussiaValue: {fileID: 21300000, guid: fcf2b6b367b6edf72a3c66a4f748e2c4, type: 3}
@@ -377,6 +385,6 @@ MonoBehaviour:
     EnglishValue: {fileID: 21300000, guid: 2d3b9d481f97d78e19626f8972658e3a, type: 3}
     TjsValue: {fileID: 21300000, guid: ae5e536d66282e055820f9dc1d888024, type: 3}
   - key: Main
-    RussiaValue: {fileID: 21300000, guid: 46c727956fd0e5342919a67ce26aab74, type: 3}
-    EnglishValue: {fileID: 21300000, guid: a49a70e5385b1434291172086b622aff, type: 3}
-    TjsValue: {fileID: 21300000, guid: a49a70e5385b1434291172086b622aff, type: 3}
+    RussiaValue: {fileID: 21300000, guid: 7a194f60d9e8865b9ab66ac8e378eaf6, type: 3}
+    EnglishValue: {fileID: 21300000, guid: a2c40ec7396498f4bb43463be4d52a1c, type: 3}
+    TjsValue: {fileID: 21300000, guid: a2c40ec7396498f4bb43463be4d52a1c, type: 3}

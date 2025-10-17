@@ -35,6 +35,8 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
         public static event PopupEvents OnOpenPopup;
         public static event PopupEvents OnClosePopup;
 
+        public bool IsNeedDestroy = true;
+
 
         protected virtual void Awake()
         {
@@ -87,7 +89,8 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
         {
             OnClosePopup?.Invoke(this);
             OnCloseAction?.Invoke(result);
-            Destroy(gameObject, 2f);
+            if (IsNeedDestroy)
+                Destroy(gameObject, 2f);
         }
 
         protected virtual void OnDisable()

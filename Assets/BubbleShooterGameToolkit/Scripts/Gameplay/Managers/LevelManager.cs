@@ -88,6 +88,10 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
         private SeparatingBallManager separatingBallManager;
         private int matchCount;
 
+        private bool _isStartEvent = false;
+        private float _eventTime = 0f;
+        public float EventTime => _eventTime;
+
         private void OnEnable()
         {
             destroyManager = new DestroyManager();
@@ -173,6 +177,13 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
             // Check for any separated balls which soar alone.
             separatingBallManager.Init(balls, Level);
             separatingBallManager.CheckSeparatedBalls();
+            _isStartEvent = false;
+            if (PlayerPrefs.GetInt("OpenEvent", 0) == 1)
+            {
+                _isStartEvent = true;
+                _eventTime = 0f;
+                StartCoroutine(CalculateEventTime());
+            }
         }
 
         private void OnDisable()
@@ -223,6 +234,7 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
         {
             EventManager.GetEvent<(Ball,Ball)>(EGameEvent.BallStopped).Unsubscribe(PostLaunchProcess);
             EventManager.GetEvent<EStatus>(EGameEvent.Win).Unsubscribe(WinAnimation);
+            _isEventTimePause = true;
             StartCoroutine(WinAnimationProcess());
         }
 
@@ -273,9 +285,16 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
                 ball != null && ball.gameObject.activeSelf && ball.transform.position.y > bottom.y && ball.GetComponent<Rigidbody2D>().velocity.magnitude > 0.001f));
                 
 
-            GameDataManager.instance.SaveLevel(CurrentLevel, ScoreManager.instance.GetScore());
 
-            MenuManager.instance.ShowPopup<MenuWin>();
+            if (_isStartEvent)
+            {
+                MenuManager.instance.ShowPopup<EventWinPopup>();
+            }
+            else
+            {
+                GameDataManager.instance.SaveLevel(CurrentLevel, ScoreManager.instance.GetScore());
+                MenuManager.instance.ShowPopup<MenuWin>();
+            }
             GameManager.instance.coins.Add(1);
 
             
@@ -387,6 +406,29 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
             
             // check win and lose conditions
             CheckMovesAndTargetsAfterDestroy();
+        }
+
+        public void SetEventTimerPause(bool state)
+        {
+            _isEventTimePause = state;
+        }
+
+        private bool _isEventTimePause = false;
+
+        private IEnumerator CalculateEventTime()
+        {
+            var key = $"EventTime{SpecialEventManager.ChosenEventData.id}";
+            while (true)
+            {
+
+                yield return new WaitForSecondsRealtime(0.25f);
+                if (_isEventTimePause) continue;
+                
+                _eventTime += 0.25f;
+                var currentScore = PlayerPrefs.GetFloat(key, 0) + 0.25f;
+                PlayerPrefs.SetFloat(key,currentScore);
+                
+            }
         }
     }
 }

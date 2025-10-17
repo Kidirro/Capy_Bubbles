@@ -13,5 +13,289 @@ MonoBehaviour:
   m_Name: EndGameMap
   m_EditorClassIdentifier: 
   mapObjectCost:
-  - mapObjectCost: 3200000096000000960000001400000096000000c8000000aa0000000f0000009600000009000000c800000005000000320000003200000096000000060000000300000006000000030000000300000003000000aa000000aa000000aa000000aa000000
-  - mapObjectCost: 28000000b4000000fa0000000c000000b4000000320000005a0000002800000018000000120000004800000028000000220000000a00000038000000780000001e00000046000000320000001e000000460000000c000000fa000000ff000000140000005000000020000000
+  - rawMapObjectCost: 3200000096000000960000001400000096000000c8000000aa0000000f0000009600000009000000c800000005000000320000003200000096000000060000000300000006000000030000000300000003000000aa000000aa000000aa000000aa000000
+  - rawMapObjectCost: 28000000b4000000fa0000000c000000b4000000320000005a0000002800000018000000120000004800000028000000220000000a00000038000000780000001e00000046000000320000001e000000460000000c000000fa000000ff000000140000005000000020000000
+  - rawMapObjectCost: 960000001e0000002c0100001e0000002c0100002c010000580200001e000000c20100004b0000004b0000001e00000058020000960000001e0000001e0000004b00000096000000960000004b000000960000001e000000960000004b0000004b0000004b000000
+  - rawMapObjectCost: 6801000068010000a0000000a0000000a0000000a0000000a0000000f0000000a0000000a0000000f0000000f0000000f000000068010000f0000000f0000000a0000000a0000000a0000000f0000000a0000000f4010000a0000000f00000006801000068010000a0000000a0000000
+  mapCost:
+  - Data:
+    - CurrencyType: 1
+      Value: 1
+    - CurrencyType: 0
+      Value: 150
+    - CurrencyType: 0
+      Value: 150
+    - CurrencyType: 1
+      Value: 1
+    - CurrencyType: 0
+      Value: 150
+    - CurrencyType: 0
+      Value: 200
+    - CurrencyType: 0
+      Value: 170
+    - CurrencyType: 1
+      Value: 1
+    - CurrencyType: 0
+      Value: 150
+    - CurrencyType: 1
+      Value: 1
+    - CurrencyType: 0
+      Value: 200
+    - CurrencyType: 1
+      Value: 1
+    - CurrencyType: 1
+      Value: 1
+    - CurrencyType: 1
+      Value: 1
+    - CurrencyType: 0
+      Value: 150
+    - CurrencyType: 1
+      Value: 1
+    - CurrencyType: 1
+      Value: 1
+    - CurrencyType: 1
+      Value: 1
+    - CurrencyType: 1
+      Value: 1
+    - CurrencyType: 1
+      Value: 1
+    - CurrencyType: 1
+      Value: 1
+    - CurrencyType: 0
+      Value: 170
+    - CurrencyType: 0
+      Value: 170
+    - CurrencyType: 0
+      Value: 170
+    - CurrencyType: 0
+      Value: 170
+  - Data:
+    - CurrencyType: 1
+      Value: 1
+    - CurrencyType: 0
+      Value: 180
+    - CurrencyType: 0
+      Value: 250
+    - CurrencyType: 1
+      Value: 1
+    - CurrencyType: 0
+      Value: 180
+    - CurrencyType: 1
+      Value: 1
+    - CurrencyType: 0
+      Value: 90
+    - CurrencyType: 1
+      Value: 1
+    - CurrencyType: 1
+      Value: 1
+    - CurrencyType: 1
+      Value: 1
+    - CurrencyType: 0
+      Value: 72
+    - CurrencyType: 1
+      Value: 1
+    - CurrencyType: 1
+      Value: 1
+    - CurrencyType: 1
+      Value: 1
+    - CurrencyType: 0
+      Value: 56
+    - CurrencyType: 0
+      Value: 120
+    - CurrencyType: 1
+      Value: 1
+    - CurrencyType: 0
+      Value: 70
+    - CurrencyType: 1
+      Value: 1
+    - CurrencyType: 1
+      Value: 1
+    - CurrencyType: 0
+      Value: 70
+    - CurrencyType: 1
+      Value: 1
+    - CurrencyType: 0
+      Value: 250
+    - CurrencyType: 0
+      Value: 255
+    - CurrencyType: 1
+      Value: 1
+    - CurrencyType: 0
+      Value: 80
+    - CurrencyType: 1
+      Value: 1
+  - Data:
+    - CurrencyType: 1
+      Value: 5
+    - CurrencyType: 0
+      Value: 30
+    - CurrencyType: 1
+      Value: 10
+    - CurrencyType: 0
+      Value: 30
+    - CurrencyType: 1
+      Value: 10
+    - CurrencyType: 1
+      Value: 10
+    - CurrencyType: 1
+      Value: 20
+    - CurrencyType: 0
+      Value: 30
+    - CurrencyType: 1
+      Value: 15
+    - CurrencyType: 0
+      Value: 75
+    - CurrencyType: 0
+      Value: 75
+    - CurrencyType: 0
+      Value: 30
+    - CurrencyType: 1
+      Value: 20
+    - CurrencyType: 1
+      Value: 5
+    - CurrencyType: 0
+      Value: 30
+    - CurrencyType: 0
+      Value: 30
+    - CurrencyType: 0
+      Value: 75
+    - CurrencyType: 1
+      Value: 5
+    - CurrencyType: 1
+      Value: 5
+    - CurrencyType: 0
+      Value: 75
+    - CurrencyType: 1
+      Value: 5
+    - CurrencyType: 0
+      Value: 30
+    - CurrencyType: 1
+      Value: 5
+    - CurrencyType: 0
+      Value: 75
+    - CurrencyType: 0
+      Value: 75
+    - CurrencyType: 0
+      Value: 75
+  - Data:
+    - CurrencyType: 1
+      Value: 12
+    - CurrencyType: 1
+      Value: 12
+    - CurrencyType: 1
+      Value: 5
+    - CurrencyType: 1
+      Value: 5
+    - CurrencyType: 1
+      Value: 5
+    - CurrencyType: 1
+      Value: 5
+    - CurrencyType: 1
+      Value: 5
+    - CurrencyType: 1
+      Value: 8
+    - CurrencyType: 1
+      Value: 5
+    - CurrencyType: 1
+      Value: 5
+    - CurrencyType: 1
+      Value: 8
+    - CurrencyType: 1
+      Value: 8
+    - CurrencyType: 1
+      Value: 8
+    - CurrencyType: 1
+      Value: 12
+    - CurrencyType: 1
+      Value: 8
+    - CurrencyType: 1
+      Value: 8
+    - CurrencyType: 1
+      Value: 5
+    - CurrencyType: 1
+      Value: 5
+    - CurrencyType: 1
+      Value: 5
+    - CurrencyType: 1
+      Value: 8
+    - CurrencyType: 1
+      Value: 5
+    - CurrencyType: 1
+      Value: 16
+    - CurrencyType: 1
+      Value: 5
+    - CurrencyType: 1
+      Value: 8
+    - CurrencyType: 1
+      Value: 12
+    - CurrencyType: 1
+      Value: 12
+    - CurrencyType: 1
+      Value: 5
+    - CurrencyType: 1
+      Value: 5
+  - Data:
+    - CurrencyType: 1
+      Value: 12
+    - CurrencyType: 1
+      Value: 8
+    - CurrencyType: 1
+      Value: 5
+    - CurrencyType: 1
+      Value: 8
+    - CurrencyType: 1
+      Value: 8
+    - CurrencyType: 1
+      Value: 5
+    - CurrencyType: 1
+      Value: 8
+    - CurrencyType: 1
+      Value: 12
+    - CurrencyType: 1
+      Value: 5
+    - CurrencyType: 1
+      Value: 12
+    - CurrencyType: 1
+      Value: 8
+    - CurrencyType: 1
+      Value: 8
+    - CurrencyType: 1
+      Value: 5
+    - CurrencyType: 1
+      Value: 5
+    - CurrencyType: 1
+      Value: 5
+    - CurrencyType: 1
+      Value: 8
+    - CurrencyType: 1
+      Value: 5
+    - CurrencyType: 1
+      Value: 5
+    - CurrencyType: 1
+      Value: 8
+    - CurrencyType: 1
+      Value: 8
+    - CurrencyType: 1
+      Value: 12
+    - CurrencyType: 1
+      Value: 8
+    - CurrencyType: 1
+      Value: 12
+    - CurrencyType: 1
+      Value: 12
+    - CurrencyType: 1
+      Value: 8
+    - CurrencyType: 1
+      Value: 5
+    - CurrencyType: 1
+      Value: 5
+    - CurrencyType: 1
+      Value: 5
+    - CurrencyType: 1
+      Value: 8
+    - CurrencyType: 1
+      Value: 5
+    - CurrencyType: 1
+      Value: 5
+    - CurrencyType: 1
+      Value: 5

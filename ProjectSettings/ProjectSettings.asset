@@ -48,7 +48,7 @@ PlayerSettings:
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 600
   defaultScreenHeight: 800
-  defaultScreenWidthWeb: 1080
+  defaultScreenWidthWeb: 1440
   defaultScreenHeightWeb: 1920
   m_StereoRenderingPath: 0
   m_ActiveColorSpace: 0
@@ -81,6 +81,7 @@ PlayerSettings:
   androidMinimumWindowHeight: 300
   androidFullscreenMode: 1
   androidAutoRotationBehavior: 1
+  androidPredictiveBackSupport: 1
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
   runInBackground: 0
@@ -781,11 +782,17 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: PLUGIN_YG_2;Authorization_yg;InterstitialAdv_yg;Payments_yg;RewardedAdv_yg;Storage_yg;TMP_YG2;NJSON_YG2;Localization_yg;YandexGamesPlatform_yg;BEELINE
-    Standalone: BEELINE;PLUGIN_YG_2;Authorization_yg;InterstitialAdv_yg;Payments_yg;RewardedAdv_yg;Storage_yg;TMP_YG2;NJSON_YG2;beelinePlatform_yg
-    WebGL: BEELINE;PLUGIN_YG_2;NJSON_YG2;RewardedAdv_yg;InterstitialAdv_yg;Payments_yg;Authorization_yg;Storage_yg;TMP_YG2;Localization_yg;Flags_yg;Leaderboards_yg;YandexGamesPlatform_yg
-    Windows Store Apps: 
-    iPhone: 
+    Android: PLUGIN_YG_2;Storage_yg;TMP_YG2;NJSON_YG2;YandexGamesPlatform_yg;BEELINE;Flags_yg;Authorization_yg;InterstitialAdv_yg;Leaderboards_yg;Localization_yg;Payments_yg;RewardedAdv_yg
+    LinuxHeadlessSimulation: PLUGIN_YG_2;YandexGamesPlatform_yg;Flags_yg;Storage_yg;TMP_YG2;NJSON_YG2;Authorization_yg;InterstitialAdv_yg;Leaderboards_yg;Localization_yg;Payments_yg;RewardedAdv_yg
+    Nintendo Switch: PLUGIN_YG_2;YandexGamesPlatform_yg;Flags_yg;Storage_yg;TMP_YG2;NJSON_YG2;Authorization_yg;InterstitialAdv_yg;Leaderboards_yg;Localization_yg;Payments_yg;RewardedAdv_yg
+    PS4: PLUGIN_YG_2;YandexGamesPlatform_yg;Flags_yg;Storage_yg;TMP_YG2;NJSON_YG2;Authorization_yg;InterstitialAdv_yg;Leaderboards_yg;Localization_yg;Payments_yg;RewardedAdv_yg
+    PS5: PLUGIN_YG_2;YandexGamesPlatform_yg;Flags_yg;Storage_yg;TMP_YG2;NJSON_YG2;Authorization_yg;InterstitialAdv_yg;Leaderboards_yg;Localization_yg;Payments_yg;RewardedAdv_yg
+    Standalone: BEELINE;PLUGIN_YG_2;Storage_yg;TMP_YG2;NJSON_YG2;beelinePlatform_yg;YandexGamesPlatform_yg;Flags_yg;Authorization_yg;InterstitialAdv_yg;Leaderboards_yg;Localization_yg;Payments_yg;RewardedAdv_yg
+    WebGL: PLUGIN_YG_2;NJSON_YG2;Storage_yg;TMP_YG2;Flags_yg;YandexGamesPlatform_yg;Authorization_yg;InterstitialAdv_yg;Leaderboards_yg;Localization_yg;Payments_yg;RewardedAdv_yg
+    Windows Store Apps: PLUGIN_YG_2;YandexGamesPlatform_yg;Flags_yg;Storage_yg;TMP_YG2;NJSON_YG2;Authorization_yg;InterstitialAdv_yg;Leaderboards_yg;Localization_yg;Payments_yg;RewardedAdv_yg
+    XboxOne: PLUGIN_YG_2;YandexGamesPlatform_yg;Flags_yg;Storage_yg;TMP_YG2;NJSON_YG2;Authorization_yg;InterstitialAdv_yg;Leaderboards_yg;Localization_yg;Payments_yg;RewardedAdv_yg
+    iPhone: PLUGIN_YG_2;YandexGamesPlatform_yg;Flags_yg;Storage_yg;TMP_YG2;NJSON_YG2;Authorization_yg;InterstitialAdv_yg;Leaderboards_yg;Localization_yg;Payments_yg;RewardedAdv_yg
+    tvOS: PLUGIN_YG_2;YandexGamesPlatform_yg;Flags_yg;Storage_yg;TMP_YG2;NJSON_YG2;Authorization_yg;InterstitialAdv_yg;Leaderboards_yg;Localization_yg;Payments_yg;RewardedAdv_yg
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:

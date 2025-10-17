@@ -21,6 +21,8 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
         [SerializeField]
         private GameObject topPanelPrefab;
         protected TopPanel topPanel;
+        
+        public TopPanel TopPanel => topPanel;
 
         protected override void Awake()
         {

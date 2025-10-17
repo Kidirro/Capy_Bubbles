@@ -61,12 +61,12 @@ MonoBehaviour:
   m_Name: MPLUSRounded1c-Medium SDF
   m_EditorClassIdentifier: 
   hashCode: -1685520761
-  material: {fileID: 6212156885025153943}
+  material: {fileID: 2100000, guid: afcfd5060a491b4439aa11c5412c5282, type: 2}
   materialHashCode: 1161873095
   m_Version: 1.1.0
   m_SourceFontFileGUID: 673424b9ab8c5ef49a1672c4239aaf3b
-  m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 673424b9ab8c5ef49a1672c4239aaf3b, type: 3}
-  m_SourceFontFile: {fileID: 12800000, guid: 673424b9ab8c5ef49a1672c4239aaf3b, type: 3}
+  m_SourceFontFile_EditorRef: {fileID: 0}
+  m_SourceFontFile: {fileID: 0}
   m_AtlasPopulationMode: 1
   m_FaceInfo:
     m_FaceIndex: 0
@@ -10192,9 +10192,9 @@ Material:
     - _OutlineWidth: 0
     - _PerspectiveFilter: 0.875
     - _Reflectivity: 10
-    - _ScaleRatioA: 1
-    - _ScaleRatioB: 1
-    - _ScaleRatioC: 1
+    - _ScaleRatioA: 0.9
+    - _ScaleRatioB: 0.73125
+    - _ScaleRatioC: 0.73125
     - _ScaleX: 1
     - _ScaleY: 1
     - _ShaderFlags: 0

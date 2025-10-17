@@ -1,6 +1,4 @@
-﻿#if UNITY_EDITOR
-using System.Linq;
-using System.IO;
+﻿using System.IO;
 using System.IO.Compression;
 using YG.Insides;
 
@@ -11,42 +9,28 @@ namespace YG.EditorScr.BuildModify
         public static void Archiving(string pathToBuiltProject)
         {
 #if PLATFORM_WEBGL
-            InfoYG infoYG = YG2.infoYG;
+            var buildName = pathToBuiltProject;
 
-            if (infoYG.Basic.archivingBuild)
+            buildName += $"_{PlatformSettings.currentPlatformBaseName}";
+
+            if (int.TryParse(BuildLog.ReadProperty("Build number"), out int buildNumber))
             {
-                string sign = string.Empty;
-
-                int.TryParse(BuildLog.ReadProperty("Build number"), out int buildNumInt);
-                buildNumInt += 1;
-                string buildName = buildNumInt.ToString();
-
-                if (buildName != null || buildName != "0")
-                {
-                    sign = "_b" + buildName;
-                }
-
-                string platform = PlatformSettings.currentPlatformBaseName;
-
-                if (platform != "YandexGames")
-                {
-                    platform = new string(platform.Where(char.IsUpper).ToArray());
-                    platform = "_" + platform.ToLower();
-                    sign += platform;
-                }
-
-                sign += ".zip";
-                string directory = pathToBuiltProject + sign;
-
-                if (File.Exists(directory))
-                {
-                    File.Delete(directory);
-                }
-
-                ZipFile.CreateFromDirectory(pathToBuiltProject, directory);
+                buildNumber++;
+                buildName += $"_Build({buildNumber})";
             }
+
+            buildName += ".zip";
+
+            if (File.Exists(buildName))
+                File.Delete(buildName);
+
+            ZipFile.CreateFromDirectory(
+                pathToBuiltProject,
+                buildName,
+                CompressionLevel.Optimal,
+                false
+            );
 #endif
         }
     }
 }
-#endif

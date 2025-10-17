@@ -1,25 +1,19 @@
-﻿#if UNITY_EDITOR
-using UnityEditor;
+﻿using UnityEditor;
 
 namespace YG.EditorScr
 {
     [CustomEditor(typeof(TimerBeforeAdsYG))]
     public class TimerBeforeAdsYGEditor : Editor
     {
-        TimerBeforeAdsYG scr;
-
-        private void OnEnable()
-        {
-            scr = (TimerBeforeAdsYG)target;
-        }
-
         public override void OnInspectorGUI()
         {
             base.OnInspectorGUI();
 
-            if (WarningPostponeCall.Draw())
+            if (WarningPostponeCall.Draw()
+                && EditorUtils.IsMouseOverWindow(serializedObject.targetObject.name))
+            {
                 Repaint();
+            }
         }
     }
 }
-#endif

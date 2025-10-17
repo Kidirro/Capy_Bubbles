@@ -32,12 +32,12 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI
         {
             playButton.onClick.AddListener(StartGame);
      
-            versionText.text = "";       
+            //versionText.text = "";       
 #if PLUGIN_YG_2
                 YG2.GameReadyAPI();
                 YG2.ConsumePurchases();
                 
-                versionText.text = $"v{Application.version}";
+                //versionText.text = $"v{Application.version}";
 #endif
         }
 

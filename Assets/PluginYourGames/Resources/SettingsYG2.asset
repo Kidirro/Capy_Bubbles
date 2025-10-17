@@ -32,7 +32,7 @@ MonoBehaviour:
     labelAdvSimLabel: 0
   Leaderboards:
     enable: 1
-    saveScoreAnonymousPlayers: 1
+    saveScoreAnonymousPlayers: 0
     listLBSim:
     - technoName: test
       entries: '1. Max: 10
@@ -184,6 +184,65 @@ MonoBehaviour:
       currentPlayer:
         rank: 5
         score: 127000
+        extraData: 
+    - technoName: mandarin
+      entries: '1. Max: 7123
+
+        2. Maria: 15321
+
+        3. anonymous: 62000
+
+        4.
+        Player 4: 122000
+
+        5. Player current: 127000
+
+        6. Player 6:
+        340000'
+      isDefault: 1
+      isInvertSortOrder: 0
+      decimalOffset: 0
+      type: numeric
+      players:
+      - rank: 0
+        name: Max
+        score: 1000899
+        photo: demo image
+        uniqueID: 789
+        extraData: 
+      - rank: 1
+        name: Maria
+        score: 1000895
+        photo: demo image
+        uniqueID: 987
+        extraData: 
+      - rank: 2
+        name: anonymous
+        score: 1000891
+        photo: anonymous
+        uniqueID: 891
+        extraData: 
+      - rank: 3
+        name: Player 4
+        score: 1000889
+        photo: demo image
+        uniqueID: 321
+        extraData: 
+      - rank: 4
+        name: Player current
+        score: 1000859
+        photo: demo image
+        uniqueID: 000
+        extraData: 
+      - rank: 5
+        name: Player 6
+        score: 1000799
+        photo: demo image
+        uniqueID: 321
+        extraData: 
+      currentPlayer:
+        rank: 6
+        score: 1000997
         extraData: 
   Localization:
     setLanguageMod: 1

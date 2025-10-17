@@ -1,13 +1,10 @@
-#if UNITY_EDITOR
 using UnityEngine;
 using UnityEditor;
 using System.IO;
 
 namespace YG.EditorScr
 {
-    #if UNITY_EDITOR
     [InitializeOnLoad]
-    #endif
     public static class IconEditorSaveFile
     {
         private const string PATH_FILE = "Editor/SavesEditorYG2.json";
@@ -50,4 +47,3 @@ namespace YG.EditorScr
         }
     }
 }
-#endif

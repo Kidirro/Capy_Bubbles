@@ -54,3 +54,7 @@ MonoBehaviour:
     - resource: {fileID: 11400000, guid: dba5017dba75c414abbab5cc5d6742b6, type: 2}
       rewardVisualPrefab: {fileID: 8201739410225097326, guid: 866319e1fabef4f0e881e5ca7c55c470, type: 3}
       count: 5
+  - rewardVisuals:
+    - resource: {fileID: 11400000, guid: 3431c5e4877f0c496bbc7098fa83846d, type: 2}
+      rewardVisualPrefab: {fileID: 8201739410225097326, guid: 512c8fe731e2589d3af5e9fa75150923, type: 3}
+      count: 1

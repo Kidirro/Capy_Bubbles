@@ -1,5 +1,4 @@
-﻿#if UNITY_EDITOR
-#if YandexGamesPlatform_yg
+﻿#if YandexGamesPlatform_yg
 namespace YG.EditorScr.BuildModify
 {
     public partial class ModifyBuild
@@ -11,14 +10,13 @@ namespace YG.EditorScr.BuildModify
                 string value = infoYG.Templates.pixelRatioValue.ToString();
                 value = value.Replace(",", ".");
 
-                indexFile = indexFile.Replace("config.devicePixelRatio = 1", "config.devicePixelRatio = " + value);
+                indexFile = indexFile.Replace("//config.devicePixelRatio = 1", "config.devicePixelRatio = " + value);
             }
             else
             {
-                indexFile = indexFile.Replace("config.devicePixelRatio = 1;", string.Empty);
+                indexFile = indexFile.Replace("//config.devicePixelRatio = 1;", string.Empty);
             }
         }
     }
 }
-#endif
 #endif

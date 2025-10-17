@@ -70,12 +70,12 @@ Material:
     - _OutlineSoftness: 0
     - _OutlineUVSpeedX: 0
     - _OutlineUVSpeedY: 0
-    - _OutlineWidth: 0
+    - _OutlineWidth: 0.375
     - _PerspectiveFilter: 0.875
     - _Reflectivity: 10
     - _ScaleRatioA: 0.9
     - _ScaleRatioB: 0.73125
-    - _ScaleRatioC: 0.73125
+    - _ScaleRatioC: 0.365625
     - _ScaleX: 1
     - _ScaleY: 1
     - _ShaderFlags: 0
@@ -88,10 +88,10 @@ Material:
     - _StencilWriteMask: 255
     - _TextureHeight: 1024
     - _TextureWidth: 1024
-    - _UnderlayDilate: 0
+    - _UnderlayDilate: 1
     - _UnderlayOffsetX: 0
     - _UnderlayOffsetY: 0
-    - _UnderlaySoftness: 0
+    - _UnderlaySoftness: 1
     - _VertexOffsetX: 0
     - _VertexOffsetY: 0
     - _WeightBold: 0.75
@@ -102,11 +102,11 @@ Material:
     - _FaceColor: {r: 1, g: 1, b: 1, a: 1}
     - _GlowColor: {r: 0, g: 1, b: 0, a: 0.5}
     - _MaskCoord: {r: 0, g: 0, b: 32767, a: 32767}
-    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _OutlineColor: {r: 0.19, g: 0.64, b: 0, a: 1}
     - _ReflectFaceColor: {r: 0, g: 0, b: 0, a: 1}
     - _ReflectOutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
-    - _UnderlayColor: {r: 0, g: 0, b: 0, a: 0.5}
+    - _UnderlayColor: {r: 748.97894, g: 748.97894, b: 748.97894, a: 1}
   m_BuildTextureStacks: []
 --- !u!28 &-7516784576466157211
 Texture2D:
@@ -169,12 +169,12 @@ MonoBehaviour:
   m_Name: arcocyrillic SDF
   m_EditorClassIdentifier: 
   hashCode: -2082107291
-  material: {fileID: -7712117969339655954}
+  material: {fileID: 2100000, guid: eb89eb987e3a5cb4a8637a3b2774d6ad, type: 2}
   materialHashCode: 1073531301
   m_Version: 1.1.0
   m_SourceFontFileGUID: 7136486733007b94585a8c27f306aada
-  m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 7136486733007b94585a8c27f306aada, type: 3}
-  m_SourceFontFile: {fileID: 12800000, guid: 7136486733007b94585a8c27f306aada, type: 3}
+  m_SourceFontFile_EditorRef: {fileID: 0}
+  m_SourceFontFile: {fileID: 0}
   m_AtlasPopulationMode: 1
   m_FaceInfo:
     m_FaceIndex: 0

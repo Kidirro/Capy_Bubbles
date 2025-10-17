@@ -11,6 +11,7 @@
 // // THE SOFTWARE.
 
 using System.Collections;
+using BubbleShooterGameToolkit.Scripts.Gameplay.Targets;
 using BubbleShooterGameToolkit.Scripts.Utils;
 using UnityEngine;
 using UnityEngine.Rendering;
@@ -28,15 +29,16 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.PlayObjects.Types
         {
             base.OnDirectlyTouched(touchedByBall);
             touchedByBall.Flags &= ~EBallFlags.Pinned;
-            StartCoroutine(AnimateAbsorbingBall(touchedByBall));
+            TargetManager.instance.StartCoroutine(AnimateAbsorbingBall(touchedByBall));
         }
 
+        
         private IEnumerator AnimateAbsorbingBall(Ball touchedByBall)
         {
             var sortingGroup = touchedByBall.gameObject.AddComponentIfNotExists<SortingGroup>();
             sortingGroup.sortingOrder = 5;
             touchedByBall.BallColliderHandler.DisableCollider();
-
+            
             Vector3 center = this.transform.position;
             float initialRadius = Vector3.Distance(center, touchedByBall.transform.position);
 

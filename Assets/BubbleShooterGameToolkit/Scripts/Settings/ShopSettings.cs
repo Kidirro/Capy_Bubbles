@@ -28,6 +28,7 @@ namespace BubbleShooterGameToolkit.Scripts.Settings
         public string productID;
 
         public int coins;
+        public int gems;
 
         public int discountPercent;
     }

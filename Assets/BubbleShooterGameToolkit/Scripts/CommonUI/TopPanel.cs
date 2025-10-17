@@ -29,6 +29,9 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI
         private CoinsLabel coinsLabel;
 
         [SerializeField]
+        private GemLabel gemsLabel;
+
+        [SerializeField]
         private LifeLabel lifeLabel;
         
         [SerializeField]
@@ -53,6 +56,10 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI
         public void AnimateLife(Vector3 startPosition, string rewardDataCount, Action callBack)
         {
             Animate(fxPrefab, SoundBase.instance.heats, lifeLabel, startPosition, rewardDataCount, callBack);
+        }
+        public void AnimateGem(Vector3 startPosition, string rewardDataCount, Action callBack)
+        {
+            Animate(fxPrefab, SoundBase.instance.coins, gemsLabel, startPosition, rewardDataCount, callBack);
         }
 
         private void Animate(GameObject fxPrefab, AudioClip sound,

@@ -23,28 +23,15 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
     {
         public GameObject awaitPanel;
         public ItemPurchase[] packs;
-        private ShopSettings shopSettings;
-
+        protected ShopSettings shopSettings;
         private async void OnEnable()
         {
             shopSettings = Resources.Load<ShopSettings>("Settings/ShopSettings");
             
 #if BEELINE
             Shop data = await Model.GetShopProduts();
-            var prod = data.products;
-            for (int i = 0; i < packs.Length; i++)
-            {
-                packs[i].settingsShopItem = shopSettings.shopItems[i];
-                packs[i].count.text = prod[i].gold.ToString();
-                packs[i].id = prod[i].id;
-                packs[i]._price = prod[i].price;
-                packs[i].price.text = prod[i].price + "p.";
-                var discountPercent = packs[i].discountPercent;
-                if (discountPercent != null)
-                {
-                    discountPercent.text = packs[i].settingsShopItem.discountPercent + "%";
-                }
-            }
+            SetProducts(data);
+
 #else
             for (int i = 0; i < packs.Length; i++)
             {
@@ -62,12 +49,39 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
 
         private void OnDisable()
         {
-            GameManager.instance.purchaseSucceded -= PurchaseSucceded;
+            var manager = GameManager.instance;
+            if (manager != null) manager.purchaseSucceded -= PurchaseSucceded;
         }
 
-        private void PurchaseSucceded(int count)
+        protected virtual void SetProducts(Shop data)
         {
-            topPanel.AnimateCoins(packs.First(i => i.settingsShopItem.coins == count).BuyItemButton.transform.position, "+" + count, null);
+            var prod = data.products.Where(x => x.gold > 0).ToArray();
+            for (int i = 0; i < packs.Length; i++)
+            {
+                packs[i].settingsShopItem = shopSettings.shopItems.First(x => x.coins == prod[i].gold);
+                packs[i].count.text = prod[i].gold.ToString();
+                packs[i].id = prod[i].id;
+                packs[i]._price = prod[i].price;
+                packs[i].price.text = prod[i].price + "p.";
+#if MEGAFON
+                packs[i].price.text = prod[i].price + "с.";
+#endif
+                var discountPercent = packs[i].discountPercent;
+                if (discountPercent != null)
+                {
+                    discountPercent.text = packs[i].settingsShopItem.discountPercent + "%";
+                }
+            }
+        }
+
+        private void PurchaseSucceded(ShopItemEditor item)
+        {
+            var packButtonPos = packs.First(i => i.settingsShopItem == item).BuyItemButton.transform.position;
+            if (item.coins > 0)
+                topPanel.AnimateCoins(packButtonPos, "+" + item.coins, null);
+
+            if (item.gems > 0)
+                topPanel.AnimateGem(packButtonPos, "+" + item.gems, null);
         }
         public async void BuyCoins(string id)
         {

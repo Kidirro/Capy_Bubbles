@@ -34,6 +34,7 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
             continueButton.GetComponentInChildren<TextMeshProUGUI>().text = GameManager.instance.GameSettings.continuePrice.ToString();
             continueButton.onClick.AddListener(KeepPlaying);
             closeButton.onClick.AddListener(RefuseToContinue);
+            LevelManager.instance.SetEventTimerPause(true);
         }
 
         void KeepPlaying()
@@ -49,6 +50,7 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
             ShowCoinsSpendFX(continueButton.transform.position);
             result = EPopupResult.Continue;
             Close();
+            LevelManager.instance.SetEventTimerPause(false);
         }
 
         void RefuseToContinue()

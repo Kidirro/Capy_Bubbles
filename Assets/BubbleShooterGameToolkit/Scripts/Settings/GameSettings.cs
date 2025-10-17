@@ -20,6 +20,7 @@ namespace BubbleShooterGameToolkit.Scripts.Settings
         [Header("Default settings")] 
         public int MaxLife;
         public int coins;
+        public int gem;
         [Header("Life settings")] 
         public int refillLifeCost;
         public int TotalTimeForRestLifeHours;
@@ -40,6 +41,9 @@ namespace BubbleShooterGameToolkit.Scripts.Settings
 
         [Header("GDPR settings")]
         public string privacyPolicyUrl;
+        
+        [Header("Reply event cost")]
+        public int eventReplyCost = 1;
     }
 
     [Serializable]

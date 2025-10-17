@@ -12,7 +12,15 @@
         "CandySmith.Ads",
         "CandySmith.IAP",
         "YG_Defenition",
-        "RuStoreSDK"
+        "RuStoreSDK",
+        "Yandex_ref",
+        "Unity.Addressables",
+        "Unity.Addressables.Editor",
+        "Unity.Addressables.Editor.Tests",
+        "Unity.Addressables.Tests",
+        "Unity.ResourceManager",
+        "UniTask",
+        "Unity.Services.Core.Threading"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

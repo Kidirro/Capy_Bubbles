@@ -15,16 +15,33 @@ MonoBehaviour:
   shopItems:
   - productID: Coins_10
     coins: 10
+    gems: 0
     discountPercent: 0
   - productID: Coins_20
     coins: 20
+    gems: 0
     discountPercent: 5
   - productID: Coins_40
     coins: 40
+    gems: 0
     discountPercent: 10
   - productID: Coins_80
     coins: 80
+    gems: 0
     discountPercent: 15
   - productID: Coins_160
     coins: 160
+    gems: 0
+    discountPercent: 20
+  - productID: product_gem_1
+    coins: 0
+    gems: 1
+    discountPercent: 0
+  - productID: product_gem_2
+    coins: 0
+    gems: 5
+    discountPercent: 10
+  - productID: product_gem_3
+    coins: 0
+    gems: 10
     discountPercent: 20

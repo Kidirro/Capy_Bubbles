@@ -1398,9 +1398,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fade: 1
   closeButton: {fileID: 7652827091312021395}
+  IsNeedDestroy: 1
   _info: {fileID: 602338844411373922}
   _price: {fileID: 3602171863309790500}
   _confirm: {fileID: 3450714724836197452}
+  infoLabel: {fileID: 2541925169207073192}
 --- !u!1 &8312658123028275113
 GameObject:
   m_ObjectHideFlags: 0

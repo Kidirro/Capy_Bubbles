@@ -1,4 +1,6 @@
  mergeInto(LibraryManager.library, {
+ 
+
   Quit: function () {
     console.log("Quit pressed  (JS)");
 
@@ -15,7 +17,59 @@
     console.log("Quit sended  (JS)");
   },
 
-  GetTokenFromParameters: function() {
+    GetTokenFromParametersOrCookies: function () {
+        console.log("Unity вызвал GetTokenFromParameters");
+
+        function getCookie(name) {
+            const matches = document.cookie.match(new RegExp(
+                "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+            ));
+            return matches ? decodeURIComponent(matches[1]) : undefined;
+        }
+
+        const token = getCookie('authToken');
+        console.log('Token from cookie:', token);
+        
+        
+            const lengthBytes = lengthBytesUTF8(token) + 1;
+
+
+    	const stringOnWasmHeap = unityInstance.Module.asm.malloc(lengthBytes);
+
+
+    	stringToUTF8(token, stringOnWasmHeap, lengthBytes);
+
+
+    	return stringOnWasmHeap;
+    },
+
+    GetTokenFromParametersOrCookies: function () {
+        console.log("Unity вызвал GetTokenFromParameters");
+
+        function getCookie(name) {
+            const matches = document.cookie.match(new RegExp(
+                "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+            ));
+            return matches ? decodeURIComponent(matches[1]) : undefined;
+        }
+
+        const token = getCookie('authToken');
+        console.log('Token from cookie:', token);
+        
+        
+            const lengthBytes = lengthBytesUTF8(token) + 1;
+
+
+      const stringOnWasmHeap = unityInstance.Module.asm.malloc(lengthBytes);
+
+
+      stringToUTF8(token, stringOnWasmHeap, lengthBytes);
+
+
+      return stringOnWasmHeap;
+    },
+    
+    GetTokenFromParameters: function() {
     console.log("Try get token from params");
 
     const queryString = window.location.search;
@@ -24,6 +78,17 @@
 
     SendToken(token);
 },
+    
+    GetTokenFromParameters: function() {
+    console.log("Try get token from params");
+
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    var token = urlParams.get('game_token');
+
+    SendToken(token);
+},
+    
   GetToken: function () {
     console.log("GetToken called  (JS)");
 
