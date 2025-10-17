@@ -107,7 +107,7 @@ public class SpecialEventManager
         {
             place = leaderBoardData.currentPlayer.rank,
             result = DecryptScore(leaderBoardData.currentPlayer.score).Score,
-            updated = currentScore > leaderBoardData.currentPlayer.score  
+            updated = currentScore == leaderBoardData.currentPlayer.score  
         };
 #else
         var request =

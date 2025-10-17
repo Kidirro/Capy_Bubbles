@@ -12,13 +12,13 @@
     "isFreeSpin": true,
     "levelData": "",
     "laslLevel": 1,
-    "playerDataJson": "{\"id\":0,\"phone\":\"\",\"gold\":16,\"hearts\":5,\"levels\":[],\"gems\":0,\"boosters\":[1,1,1,1],\"counterLevel\":0,\"score\":0}",
+    "playerDataJson": "{\"id\":0,\"phone\":\"\",\"gold\":21,\"hearts\":5,\"levels\":[],\"gems\":0,\"boosters\":[1,1,1,1],\"counterLevel\":0,\"score\":0}",
     "dailyBonusDay": "17.10.2025 0:00:00",
     "rewardStreak": 0,
-    "lastDisabledTime": "2025-10-17T19:29:18.2747208+03:00",
+    "lastDisabledTime": "2025-10-17T20:43:52.7499752+03:00",
     "scoreLevelLeaderboard": 0,
     "scoreObjectLeaderboard": 0,
-    "chestLevels": 1,
+    "chestLevels": 6,
     "rewardClaimed": false,
-    "idSave": 9
+    "idSave": 32
 }

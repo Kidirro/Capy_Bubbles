@@ -12,14 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bbf2092f0c64d23bbeec2d2fa9dfad2, type: 3}
   m_Name: DebugSettings
   m_EditorClassIdentifier: 
-  TimeScaleUI: 1
-  TimeScaleItems: 1
-  enableShortcuts: 1
+  enableShortcuts: 0
   Win: 119
   Lose: 108
   OneMove: 109
   fillPowerUp: 102
   Restart: 114
-  Back: 27
-  Regen: 0
-  SaveMousePositions: 0
