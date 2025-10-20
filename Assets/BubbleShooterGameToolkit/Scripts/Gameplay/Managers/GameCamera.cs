@@ -64,7 +64,7 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
         [HideInInspector]
         public Ball bottomBall;
 
-        private Vector2 _screenSizeConst =  new Vector2(1340, 1820 );
+        private Vector2 _screenSizeConst =  new Vector2(1440, 1920 );
         
         public Camera Camera
         {
@@ -107,7 +107,7 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
 
         private void AdjustCameraSize(float levelWidth, float levelHeight)
         {
-            float sizeRatio = Math.Max(levelWidth, levelHeight) / 10f;
+            float sizeRatio = Math.Max(levelWidth, levelHeight) / 8;
             float aspectRatioManagement = Mathf.Pow(Camera.aspect, 0.5f);
             Camera.orthographicSize = sizeRatio * aspectRatioManagement * (GameManager.instance.GameplaySettings.cameraSize / _screenSizeConst.x * _screenSizeConst.y / 2f);
         }

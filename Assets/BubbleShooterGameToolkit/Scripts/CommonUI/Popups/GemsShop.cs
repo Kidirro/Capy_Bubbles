@@ -16,30 +16,10 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
 {
     public class GemsShop : CoinsShop
     {
-
-        protected override void SetProducts(Shop data)
+        protected override void FilterData(Shop data)
         {
             var prod = data.products.Where(x => x.gems > 0).ToArray();
-            for (int i = 0; i < prod.Length; i++)
-            {
-                packs[i].settingsShopItem = shopSettings.shopItems.First(x => x.gems == prod[i].gems);
-                packs[i].count.text = prod[i].gems.ToString();
-                packs[i].id = prod[i].id;
-                packs[i]._price = prod[i].price;
-                packs[i].price.text = prod[i].price + "p.";
-#if MEGAFON
-                packs[i].price.text = prod[i].price + "с.";
-#endif
-                var discountPercent = packs[i].discountPercent;
-                if (discountPercent != null)
-                {
-                    discountPercent.text = packs[i].settingsShopItem.discountPercent + "%";
-                }
-            }
-            for (int i = prod.Length; i < packs.Length; i++)
-            {
-                packs[i].gameObject.SetActive(false);
-            }
+            SetProducts(prod);
         }
     }
 }

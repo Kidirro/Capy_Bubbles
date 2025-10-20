@@ -16,6 +16,7 @@ using BubbleShooterGameToolkit.Scripts.Services;
 using BubbleShooterGameToolkit.Scripts.Settings;
 using BubbleShooterGameToolkit.Scripts.System;
 using UnityEngine;
+using YG;
 
 namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
 {
@@ -28,22 +29,8 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
         {
             shopSettings = Resources.Load<ShopSettings>("Settings/ShopSettings");
             
-#if BEELINE
             Shop data = await Model.GetShopProduts();
-            SetProducts(data);
-
-#else
-            for (int i = 0; i < packs.Length; i++)
-            {
-                packs[i].settingsShopItem = shopSettings.shopItems[i];
-                packs[i].count.text = packs[i].settingsShopItem.coins.ToString();
-                var discountPercent = packs[i].discountPercent;
-                if (discountPercent != null)
-                {
-                    discountPercent.text = packs[i].settingsShopItem.discountPercent + "%";
-                }
-            }
-#endif
+            FilterData(data);     
             GameManager.instance.purchaseSucceded += PurchaseSucceded;
         }
 
@@ -53,19 +40,37 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
             if (manager != null) manager.purchaseSucceded -= PurchaseSucceded;
         }
 
-        protected virtual void SetProducts(Shop data)
+        protected virtual void FilterData(Shop data)
         {
             var prod = data.products.Where(x => x.gold > 0).ToArray();
+            SetProducts(prod);
+        } 
+        
+        protected void SetProducts(ProductShop[] data)
+        {
+            var prod = data;
             for (int i = 0; i < packs.Length; i++)
             {
-                packs[i].settingsShopItem = shopSettings.shopItems.First(x => x.coins == prod[i].gold);
-                packs[i].count.text = prod[i].gold.ToString();
+                if (i >= prod.Length)
+                {
+                    packs[i].gameObject.SetActive(false);
+                    continue;
+                }
+                packs[i].gameObject.SetActive(true);
+                var yg_purchase = YG2.PurchaseByID(prod[i].id);
+                
+                //packs[i].settingsShopItem = ;
+                if (prod[i].gems > 0)
+                {
+                    packs[i].count.text = prod[i].gems.ToString();
+                }
+                else
+                {
+                    packs[i].count.text = prod[i].gold.ToString();
+                }
                 packs[i].id = prod[i].id;
-                packs[i]._price = prod[i].price;
-                packs[i].price.text = prod[i].price + "p.";
-#if MEGAFON
-                packs[i].price.text = prod[i].price + "с.";
-#endif
+                packs[i]._price = yg_purchase.price;
+                packs[i].price.text = IAPManager.instance.GetProductLocalizedPriceString(prod[i].id);
                 var discountPercent = packs[i].discountPercent;
                 if (discountPercent != null)
                 {
@@ -76,7 +81,8 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
 
         private void PurchaseSucceded(ShopItemEditor item)
         {
-            var packButtonPos = packs.First(i => i.settingsShopItem == item).BuyItemButton.transform.position;
+            var packButtonPos = packs.First(i => i.id == item.productID).BuyItemButton.transform.position;
+            
             if (item.coins > 0)
                 topPanel.AnimateCoins(packButtonPos, "+" + item.coins, null);
 

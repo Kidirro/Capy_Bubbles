@@ -32,6 +32,7 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
         private void OnEnable()
         {
             BuyItemButton.onClick.AddListener(BuyCoins);
+            return;
 #if PLUGIN_YG_2
             price.text = _price;
 #else
@@ -47,7 +48,7 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
         {
             
 #if PLUGIN_YG_2
-            GetComponentInParent<CoinsShop>().BuyCoins(settingsShopItem.productID);
+            GetComponentInParent<CoinsShop>().BuyCoins(id);
 #elif BEELINE
             BubbleShooterGameToolkit.Scripts.CommonUI.MenuManager.instance.ShowPopup<BubbleShooterGameToolkit.Scripts.CommonUI.Popups.BuyInfoPopup>().SetText(count.text, _price.ToString(), () =>
             GetComponentInParent<CoinsShop>().BuyCoins(id));

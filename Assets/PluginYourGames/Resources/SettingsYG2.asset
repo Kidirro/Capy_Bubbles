@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: SettingsYG2
   m_EditorClassIdentifier: 
   Authorization:
-    scopes: 1
     playerPhotoSize: 1
     authorized: 0
     playerName: Player current
@@ -247,6 +246,7 @@ MonoBehaviour:
   Localization:
     setLanguageMod: 1
   Payments:
+    durationPayPanel: 1
     testBuyFail: 0
     purshases:
     - id: Coins_10
@@ -294,14 +294,39 @@ MonoBehaviour:
       priceCurrencyCode: 
       currencyImageURL: 
       consumed: 0
+    - id: Gempack_1
+      title: 
+      description: 
+      imageURI: 
+      price: 99
+      priceValue: 
+      priceCurrencyCode: 
+      currencyImageURL: 
+      consumed: 0
+    - id: Gempack_5
+      title: 
+      description: 
+      imageURI: 
+      price: 445
+      priceValue: 
+      priceCurrencyCode: 
+      currencyImageURL: 
+      consumed: 0
+    - id: Gempack_10
+      title: 
+      description: 
+      imageURI: 
+      price: 792
+      priceValue: 
+      priceCurrencyCode: 
+      currencyImageURL: 
+      consumed: 0
   RewardedAdv:
-    rewardedAfterClosing: 1
     skipInterAdvAfterReward: 0
     labelAdvSimLabel: 0
   Storage:
     saveLocal: 0
     saveCloud: 1
-    saveCloudInterval: 0
     flush: 0
   Basic:
     platform: {fileID: 11400000, guid: c2a303d33a9fd394bae4c4b88b9a1c44, type: 2}
@@ -340,7 +365,10 @@ MonoBehaviour:
       color2: {r: 1, g: 0.831, b: 0.149, a: 0.7}
     fixedAspectRatio: 1
     aspectRatio: 3/4
+    disableForMobile: 1
     fillBackground: 1
+    imageBackground: 0
+    imageName: background.jpg
     gradientBackgroundByAspectRatio:
       radial: 0
       angleInclination: 140
@@ -356,13 +384,16 @@ MonoBehaviour:
     interAdvInterval: 0
     postponeCallByFail: 0
     skipInterAdvAfterReward: 0
+    saveLocal: 0
+    saveCloud: 0
+    autoPauseGame: 0
     selectWebGLTemplate: 1
     runInBackground: 1
     enableExceptions: 1
     compressionFormat: 1
     decompressionFallback: 1
     autoGraphicsAPI: 1
-    minimalCodeCompression: 1
+    managedStrippingLevel: 1
     dataCaching: 0
     colorSpace: 0
     archivingBuild: 0

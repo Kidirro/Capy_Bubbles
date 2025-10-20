@@ -14,6 +14,7 @@ using System;
 using System.Collections.Generic;
 using RuStore.BillingClient;
 using UnityEngine;
+using YG;
 
 
 namespace BubbleShooterGameToolkit.Scripts.Services
@@ -29,9 +30,12 @@ namespace BubbleShooterGameToolkit.Scripts.Services
             #if UNITY_PURCHASING
             iapController = new IAPController();
             iapController.InitializePurchasing(products);
-            #else
+            #elif PLUGIN_YG_2
+            iapController = new YGIAPService();
+#else
+
             iapController = new DummyIAPService();
-            #endif
+#endif
         }
         private void Awake()
         {
@@ -49,14 +53,19 @@ namespace BubbleShooterGameToolkit.Scripts.Services
         {
             #if UNITY_PURCHASING
             IAPController.OnSuccessfulPurchase += purchaseHandler;
-            #endif
+            #elif PLUGIN_YG_2
+            YG2.onPurchaseSuccess += purchaseHandler;
+#endif
+
         }
         
         public static void UnsubscribeFromPurchaseEvent(Action<string> purchaseHandler)
         {
             #if UNITY_PURCHASING
             IAPController.OnSuccessfulPurchase -= purchaseHandler;
-            #endif
+#elif PLUGIN_YG_2
+            YG2.onPurchaseSuccess += purchaseHandler;
+#endif
         }
 
         public void BuyProduct(string productId)
@@ -95,6 +104,33 @@ namespace BubbleShooterGameToolkit.Scripts.Services
         public string GetProductLocalizedPriceString(string productId)
         {
             return string.Empty;
+        }
+    }
+    
+    public class YGIAPService : IIAPService
+    {
+        public void InitializePurchasing(IEnumerable<string> products)
+        {
+            YG2.ConsumePurchases();
+        }
+
+        public void BuyProduct(string productId)
+        {
+            YG2.BuyPayments(productId);
+        }
+
+        public decimal GetProductLocalizedPrice(string productId)
+        {
+            var product = YG2.PurchaseByID(productId);
+
+            return decimal.Parse(product.price);
+        }
+
+        public string GetProductLocalizedPriceString(string productId)
+        {
+            var product = YG2.PurchaseByID(productId);
+
+            return product.price;
         }
     }
 }

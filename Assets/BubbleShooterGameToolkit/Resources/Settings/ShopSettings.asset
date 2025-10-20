@@ -33,15 +33,15 @@ MonoBehaviour:
     coins: 160
     gems: 0
     discountPercent: 20
-  - productID: product_gem_1
+  - productID: Gempack_1
     coins: 0
     gems: 1
     discountPercent: 0
-  - productID: product_gem_2
+  - productID: Gempack_5
     coins: 0
     gems: 5
     discountPercent: 10
-  - productID: product_gem_3
+  - productID: Gempack_10
     coins: 0
     gems: 10
     discountPercent: 20

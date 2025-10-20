@@ -205,8 +205,13 @@ public class Model : MonoBehaviour
            var productShop = new ProductShop();
            productShop.id = YG2.purchases[i].id;
            productShop.price = YG2.purchases[i].price;
-           productShop.gold =int.Parse(YG2.purchases[i].id.Split("_")[^1]);
            
+           string id = YG2.purchases[i].id;
+           int value = int.Parse(id.Split("_")[^1]);
+           if (id.StartsWith("Coins_"))
+               productShop.gold = value;
+           else if (id.StartsWith("Gempack_"))
+               productShop.gems = value;
            listProducts.Add(productShop);
        }
     
