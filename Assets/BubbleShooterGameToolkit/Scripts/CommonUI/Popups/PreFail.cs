@@ -10,6 +10,8 @@
 // // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // // THE SOFTWARE.
 
+using BubbleShooterGameToolkit.Scripts.Ads;
+using BubbleShooterGameToolkit.Scripts.Ads.AdUnits;
 using BubbleShooterGameToolkit.Scripts.Enums;
 using BubbleShooterGameToolkit.Scripts.Gameplay.Managers;
 using BubbleShooterGameToolkit.Scripts.System;
@@ -56,6 +58,7 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
         void RefuseToContinue()
         {
             result = EPopupResult.Cancel;
+            AdsManager.instance.ShowAdByType(new AdReference(){adType = EAdType.Interstitial}, _ => { });
             Close();
         }
     }

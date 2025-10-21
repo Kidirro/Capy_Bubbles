@@ -65,13 +65,13 @@ namespace BubbleShooterGameToolkit.Scripts.Gameplay.Managers
         private void OnEnable()
         {
             Popup.OnOpenPopup += OnOpenPopup;
-            Popup.OnClosePopup += OnClosePopup;
+            Popup.OnPreClosePopup += OnClosePopup;
         }
 
         private void OnDisable()
         {
             Popup.OnOpenPopup -= OnOpenPopup;
-            Popup.OnClosePopup -= OnClosePopup;
+            Popup.OnPreClosePopup -= OnClosePopup;
         }
 
         private EPlatforms GetPlatform()

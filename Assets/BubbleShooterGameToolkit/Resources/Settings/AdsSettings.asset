@@ -24,8 +24,8 @@ MonoBehaviour:
       adReference: {fileID: 11400000, guid: f9303f4b583464bc08f45f673b581f90, type: 2}
       popup:
         popup: {fileID: 1190428232776846613, guid: f44d611e5b0d4404ca962caa3c75695a, type: 3}
-        showOnOpen: 1
-        showOnClose: 0
+        showOnOpen: 0
+        showOnClose: 1
     - placementId: R-M-12287987-1
       adReference: {fileID: 11400000, guid: c831bd9c00a134b8db57a0d96d34a238, type: 2}
       popup:

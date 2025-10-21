@@ -29,9 +29,6 @@ public class LocalizationChanger : MonoBehaviour
          case "ru":
              language = Language.Russia;
              break;
-         case "tr":
-             language = Language.Tajikistan;
-             break;
          default:
              language = Language.English;
              break;
@@ -84,8 +81,6 @@ public class LocalizationChanger : MonoBehaviour
             case Language.Russia:
                 return Language.English;
             case Language.English:
-                return Language.Tajikistan;
-            case Language.Tajikistan:
                 return Language.Russia;
             default:
                 return Language.Russia;

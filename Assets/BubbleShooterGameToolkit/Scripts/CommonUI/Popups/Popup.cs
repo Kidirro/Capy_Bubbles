@@ -34,6 +34,7 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
         public delegate void PopupEvents(Popup popup);
         public static event PopupEvents OnOpenPopup;
         public static event PopupEvents OnClosePopup;
+        public static event PopupEvents OnPreClosePopup;
 
         public bool IsNeedDestroy = true;
 
@@ -80,6 +81,7 @@ namespace BubbleShooterGameToolkit.Scripts.CommonUI.Popups
         
         public virtual void Close()
         {
+            OnPreClosePopup?.Invoke(this);;
             CloseAnimationSound();
             if (animator != null)
                 animator.Play("popup_hide");

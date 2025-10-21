@@ -367,6 +367,80 @@ MonoBehaviour:
     RussiaValue: "\u0433\u0435\u043C\u043E\u0432"
     EnglishValue: gems
     TjsValue: "\u0433\u0435\u043C\u043E\u0432"
+  - key: Tangerine Event
+    RussiaValue: "\u041C\u0430\u043D\u0434\u0430\u0440\u0438\u043D\u043E\u0432\u044B\u0439
+      \u0438\u0432\u0435\u043D\u0442"
+    EnglishValue: Tangerine Event
+    TjsValue: "\u041C\u0430\u043D\u0434\u0430\u0440\u0438\u043D \u0427\u043E\u0440\u0430\u0431\u0438\u043D\u04E3"
+  - key: Play
+    RussiaValue: "\u0418\u0433\u0440\u0430\u0442\u044C"
+    EnglishValue: Play
+    TjsValue: "\u0411\u043E\u0437\u04E3"
+  - key: Reply
+    RussiaValue: "\u041F\u0435\u0440\u0435\u0438\u0433\u0440\u0430\u0442\u044C"
+    EnglishValue: Reply
+    TjsValue: "\u0422\u0430\u043A\u0440\u043E\u0440 \u043A\u0430\u0440\u0434\u0430\u043D"
+  - key: Congratulations
+    RussiaValue: "\u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u044F\u0435\u043C"
+    EnglishValue: Congratulations
+    TjsValue: "\u0422\u0430\u0431\u0440\u0438\u043A \u043C\u0435\u043A\u0443\u043D\u0435\u043C"
+  - key: Time
+    RussiaValue: "\u0412\u0440\u0435\u043C\u044F"
+    EnglishValue: Time
+    TjsValue: "\u0412\u0430\u049B\u0442"
+  - key: Prizes
+    RussiaValue: "\u041F\u0440\u0438\u0437\u044B"
+    EnglishValue: Prizes
+    TjsValue: "\u041C\u0443\u043A\u043E\u0444\u043E\u0442\u0445\u043E"
+  - key: The event will start in
+    RussiaValue: "\u0418\u0432\u0435\u043D\u0442 \u043D\u0430\u0447\u043D\u0451\u0442\u0441\u044F
+      \u0447\u0435\u0440\u0435\u0437"
+    EnglishValue: The event will start in
+    TjsValue: "\u0427\u043E\u0440\u0430\u0431\u0438\u043D\u04E3 \u0434\u0430\u0440
+      \u0448"
+  - key: Prizes for the event
+    RussiaValue: "\u041F\u0440\u0438\u0437\u044B \u0437\u0430 \u0438\u0432\u0435\u043D\u0442"
+    EnglishValue: Prizes for the event
+    TjsValue: "\u041C\u0443\u043A\u043E\u0444\u043E\u0442\u04B3\u043E \u0431\u0430\u0440\u043E\u0438
+      \u0447\u043E\u0440\u0430\u0431\u0438\u043D\u04E3"
+  - key: Prize
+    RussiaValue: "\u0417\u0430\u0431\u0440\u0430\u0442\u044C"
+    EnglishValue: Prize
+    TjsValue: "\u041C\u0443\u043A\u043E\u0444\u043E\u0442\u04B3\u043E \u0431\u0430\u0440\u043E\u0438
+      \u0447\u043E\u0440\u0430\u0431\u0438\u043D\u04E3"
+  - key: Take
+    RussiaValue: "\u041F\u0440\u0438\u0437"
+    EnglishValue: Take
+    TjsValue: "\u041C\u0443\u043A\u043E\u0444\u043E\u0442\u04B3\u043E \u0431\u0430\u0440\u043E\u0438
+      \u0447\u043E\u0440\u0430\u0431\u0438\u043D\u04E3"
+  - key: The ranking is currently empty. Be the first to reach the top spot.
+    RussiaValue: "\u0420\u0435\u0439\u0442\u0438\u043D\u0433 \u043F\u043E\u043A\u0430
+      \u043F\u0443\u0441\u0442. \u0421\u0442\u0430\u043D\u044C\u0442\u0435 \u043F\u0435\u0440\u0432\u044B\u043C,
+      \u043A\u0442\u043E \u0437\u0430\u0439\u043C\u0435\u0442 \u043C\u0435\u0441\u0442\u043E
+      \u043B\u0438\u0434\u0435\u0440\u0430"
+    EnglishValue: The ranking is currently empty. Be the first to reach the top spot.
+    TjsValue: "\u041C\u0443\u043A\u043E\u0444\u043E\u0442\u04B3\u043E \u0431\u0430\u0440\u043E\u0438
+      \u0447\u043E\u0440\u0430\u0431\u0438\u043D\u04E3"
+  - key: To the main screen
+    RussiaValue: "\u041D\u0430 \u0433\u043B\u0430\u0432\u043D\u044B\u0439 \u044D\u043A\u0440\u0430\u043D"
+    EnglishValue: To the main screen
+    TjsValue: "\u041C\u0443\u043A\u043E\u0444\u043E\u0442\u04B3\u043E \u0431\u0430\u0440\u043E\u0438
+      \u0447\u043E\u0440\u0430\u0431\u0438\u043D\u04E3"
+  - key: Next
+    RussiaValue: "\u0414\u0430\u043B\u0435\u0435"
+    EnglishValue: Next
+    TjsValue: "\u041C\u0443\u043A\u043E\u0444\u043E\u0442\u04B3\u043E \u0431\u0430\u0440\u043E\u0438
+      \u0447\u043E\u0440\u0430\u0431\u0438\u043D\u04E3"
+  - key: Total time
+    RussiaValue: "\u041E\u0431\u0449\u0435\u0435 \u0432\u0440\u0435\u043C\u044F"
+    EnglishValue: Total time
+    TjsValue: "\u041C\u0443\u043A\u043E\u0444\u043E\u0442\u04B3\u043E \u0431\u0430\u0440\u043E\u0438
+      \u0447\u043E\u0440\u0430\u0431\u0438\u043D\u04E3"
+  - key: Time on level
+    RussiaValue: "\u0412\u0440\u0435\u043C\u044F \u043D\u0430 \u0443\u0440\u043E\u0432\u043D\u0435"
+    EnglishValue: Time on level
+    TjsValue: "\u041C\u0443\u043A\u043E\u0444\u043E\u0442\u04B3\u043E \u0431\u0430\u0440\u043E\u0438
+      \u0447\u043E\u0440\u0430\u0431\u0438\u043D\u04E3"
   localizeImageObjs:
   - key: Fantastic
     RussiaValue: {fileID: 21300000, guid: fcf2b6b367b6edf72a3c66a4f748e2c4, type: 3}
@@ -385,6 +459,6 @@ MonoBehaviour:
     EnglishValue: {fileID: 21300000, guid: 2d3b9d481f97d78e19626f8972658e3a, type: 3}
     TjsValue: {fileID: 21300000, guid: ae5e536d66282e055820f9dc1d888024, type: 3}
   - key: Main
-    RussiaValue: {fileID: 21300000, guid: 7a194f60d9e8865b9ab66ac8e378eaf6, type: 3}
-    EnglishValue: {fileID: 21300000, guid: a2c40ec7396498f4bb43463be4d52a1c, type: 3}
-    TjsValue: {fileID: 21300000, guid: a2c40ec7396498f4bb43463be4d52a1c, type: 3}
+    RussiaValue: {fileID: 21300000, guid: 46c727956fd0e5342919a67ce26aab74, type: 3}
+    EnglishValue: {fileID: 21300000, guid: a49a70e5385b1434291172086b622aff, type: 3}
+    TjsValue: {fileID: 21300000, guid: a49a70e5385b1434291172086b622aff, type: 3}
