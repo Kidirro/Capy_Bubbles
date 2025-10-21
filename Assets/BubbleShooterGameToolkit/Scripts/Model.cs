@@ -192,6 +192,7 @@ public class Model : MonoBehaviour
         switch (request.responseCode)
         { 
             case 200:
+                
                 Debug.Log("Save: " + request.downloadHandler.text);
                 
                 var rawData = JsonUtility.FromJson<SaveData>(request.downloadHandler.text);
@@ -327,6 +328,7 @@ public class Model : MonoBehaviour
         }*/
         Debug.Log("SetSave");
 
+        
 #if YandexGamesPlatfom_yg
         YG2.saves.jsonSave = JsonUtility.ToJson(new PlayerSendData(playerData));
         YG2.SaveProgress();
@@ -448,6 +450,7 @@ public class PlayerData
         counterLevel = Model.playerData.counterLevel;
         GameManager.instance.coins.LoadPrefs();
         GameManager.instance.life.LoadPrefs();
+        GameManager.instance.gem.LoadPrefs();
         for (int i = 0; i < GameManager.instance.boosters.Length; i++)
         {
             GameManager.instance.boosters[i].LoadPrefs();

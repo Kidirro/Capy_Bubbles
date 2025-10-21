@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxLife: 5
   coins: 5
-  gem: 0
+  gem: 5
   refillLifeCost: 10
   TotalTimeForRestLifeHours: 0
   TotalTimeForRestLifeMin: 15
