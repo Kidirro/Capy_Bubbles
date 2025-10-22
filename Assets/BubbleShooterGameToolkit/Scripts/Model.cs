@@ -448,6 +448,7 @@ public class PlayerData
         gold = GameManager.instance.coins.GetResource();
         gems = GameManager.instance.gem.GetResource();
         hearts = GameManager.instance.life.GetResource();
+        counterLevel = Model.playerData.counterLevel;
         if (toserver)
             endGameMapObjects = Model.playerData.endGameMapObjects;
         else

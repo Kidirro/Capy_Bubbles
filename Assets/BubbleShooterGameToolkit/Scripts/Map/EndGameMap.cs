@@ -60,12 +60,12 @@ public class EndGameMap : MonoBehaviour
         gameObject.SetActive(true);
         if (Model.playerData.counterLevel == 0)
         {
-            Model.playerData.counterLevel = LAST_LEVEL;
+            //Model.playerData.counterLevel = LAST_LEVEL;
+            Model.playerData.counterLevel = 1;
         }
-        levels.text = Model.playerData.counterLevel + " уровень";
+        levels.text = Model.playerData.counterLevel +" " + LocalizeStorage.GetText("Level",LocalizationChanger.language);
         rating.onClick.RemoveAllListeners();
         rating.onClick.AddListener(() => MenuManager.instance.ShowPopup<Rating>());
-        levels.text = Model.playerData.counterLevel + " уровень";
         play.onClick.RemoveAllListeners();
         play.onClick.AddListener(PlayRandomLevel);
         ShowMap(map);

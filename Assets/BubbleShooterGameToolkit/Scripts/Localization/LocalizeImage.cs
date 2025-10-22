@@ -7,7 +7,6 @@ public class LocalizeImage : LocalizeObject
    
     protected override void ChangeValue(Language value)
     {
-
         image.sprite = LocalizeStorage.GetImage(_localizeKey, value);
     }
 }
