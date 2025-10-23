@@ -461,6 +461,7 @@ public class PlayerData
         gold = GameManager.instance.coins.GetResource();
         gems = GameManager.instance.gem.GetResource();
         hearts = GameManager.instance.life.GetResource();
+        counterLevel = Model.playerData.counterLevel;
         endGameMapObjects = Model.playerData.endGameMapObjects;
         score = Model.GetScore();
     }

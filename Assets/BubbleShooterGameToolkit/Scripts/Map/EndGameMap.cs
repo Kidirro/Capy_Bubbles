@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System;
 using BubbleShooterGameToolkit.Scripts.CommonUI;
 using BubbleShooterGameToolkit.Scripts.CommonUI.Popups;
 using BubbleShooterGameToolkit.Scripts.System;
@@ -44,7 +45,12 @@ public class EndGameMap : MonoBehaviour
     
     private int MaxMap => mapPrefabNames.Count;
     public const int MAX_LEVEL = 198;
-    public const int LAST_LEVEL = 198;
+    //198
+#if PLUGIN_YG_2
+    public static int LAST_LEVEL => int.Parse(YG2.GetFlag("LastLevel"));
+#else
+    public const int LAST_LEVEL = 0;
+#endif
 
     [SerializeField]
     private Image[] elems;
@@ -53,11 +59,12 @@ public class EndGameMap : MonoBehaviour
         gameObject.SetActive(true);
         if (Model.playerData.counterLevel == 0)
         {
-            Model.playerData.counterLevel = LAST_LEVEL;
+            //Model.playerData.counterLevel = LAST_LEVEL;
+            Model.playerData.counterLevel = 1;
         }
+        levels.text = Model.playerData.counterLevel +" " + LocalizeStorage.GetText("Level",LocalizationChanger.language);
         rating.onClick.RemoveAllListeners();
         rating.onClick.AddListener(() => MenuManager.instance.ShowPopup<Rating>());
-        levels.text = Model.playerData.counterLevel + " уровень";
         play.onClick.RemoveAllListeners();
         play.onClick.AddListener(PlayRandomLevel);
         ShowMap(map);
